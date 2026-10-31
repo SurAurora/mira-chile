@@ -21,6 +21,8 @@ import pandas as pd
 import rasterio
 from PIL import Image
 from rasterio.enums import Resampling
+from rasterio.transform import from_bounds
+from rasterio.warp import reproject, transform_bounds
 from shapely.geometry import mapping
 
 
@@ -142,33 +144,50 @@ def build_roads(geospatial: Path, output: Path) -> None:
 
 def sample_relief(dem_path: Path, width: int = 1100):
     with rasterio.open(dem_path) as src:
-        height = max(1, round(width * src.height / src.width))
-        raw = src.read(
-            1,
-            out_shape=(height, width),
+        # Leaflet representa el mapa en Web Mercator. Una imagen con filas
+        # equidistantes en latitud (EPSG:4326) se desplaza respecto de los
+        # vectores al estirarla sobre una extensión norte-sur grande. Por eso
+        # el relieve se remuestrea primero en el mismo CRS del mapa.
+        mercator_bounds = transform_bounds(
+            src.crs, "EPSG:3857", *src.bounds, densify_pts=41
+        )
+        left, bottom, right, top = mercator_bounds
+        height = max(1, round(width * (top - bottom) / (right - left)))
+        dst_transform = from_bounds(left, bottom, right, top, width, height)
+        values = np.full((height, width), np.nan, dtype="float32")
+        reproject(
+            source=rasterio.band(src, 1),
+            destination=values,
+            src_transform=src.transform,
+            src_crs=src.crs,
+            src_nodata=src.nodata,
+            dst_transform=dst_transform,
+            dst_crs="EPSG:3857",
+            dst_nodata=np.nan,
             resampling=Resampling.bilinear,
-            masked=True,
-        ).astype("float32")
-        bounds = src.bounds
-    values = raw.filled(np.nan)
+        )
+        geographic_bounds = transform_bounds(
+            "EPSG:3857", "EPSG:4326", *mercator_bounds, densify_pts=41
+        )
+        pixel_size = (abs(dst_transform.e), abs(dst_transform.a))
     valid = np.isfinite(values) & (values > -500)
     values[~valid] = np.nan
-    return values, valid, bounds
+    return values, valid, geographic_bounds, pixel_size
 
 
 def build_relief(dem_path: Path, output: Path) -> dict:
-    elevation, valid, bounds = sample_relief(dem_path)
+    elevation, valid, bounds, pixel_size = sample_relief(dem_path)
     filled = np.nan_to_num(elevation, nan=0.0)
 
     # Sombreado direccional simple, suficiente para visualización cartográfica.
-    dy, dx = np.gradient(filled)
-    slope = np.pi / 2 - np.arctan(np.hypot(dx, dy) / 80.0)
+    dy, dx = np.gradient(filled, *pixel_size)
+    slope = np.arctan(np.hypot(dx, dy))
     aspect = np.arctan2(-dx, dy)
     azimuth = np.deg2rad(315)
     altitude = np.deg2rad(45)
     shade = (
-        np.sin(altitude) * np.sin(slope)
-        + np.cos(altitude) * np.cos(slope) * np.cos(azimuth - aspect)
+        np.sin(altitude) * np.cos(slope)
+        + np.cos(altitude) * np.sin(slope) * np.cos(azimuth - aspect)
     )
     shade = np.clip((shade + 1) / 2, 0.25, 1.0)
 
@@ -192,10 +211,12 @@ def build_relief(dem_path: Path, output: Path) -> dict:
     alpha = np.where(valid, 230, 0).astype("uint8")
     rgba = np.dstack([rgb, alpha])
     Image.fromarray(rgba, "RGBA").save(output / "aster_relief.webp", "WEBP", quality=84, method=6)
+    left, bottom, right, top = bounds
     metadata = {
-        "bounds": [[bounds.bottom, bounds.left], [bounds.top, bounds.right]],
+        "bounds": [[bottom, left], [top, right]],
         "source": dem_path.name,
-        "description": "Relieve derivado de ASTER GDEM; sólo para contexto visual.",
+        "projection": "EPSG:3857",
+        "description": "Relieve derivado de ASTER GDEM y reproyectado a Web Mercator; sólo para contexto visual.",
     }
     write_js(output / "relief.js", "CATALOG_RELIEF", metadata)
     return metadata

@@ -1,1 +1,1 @@
-window.CATALOG_RELIEF = {"bounds":[[-29.472916666666666,-71.76569444444445],[-17.41402777777777,-66.84347222222222]],"source":"ASTGTM_NC.003_ASTER_GDEM_DEM_doy2000061000000_aid0001.tif","description":"Relieve derivado de ASTER GDEM; sólo para contexto visual."};
+window.CATALOG_RELIEF = {"bounds":[[-29.47291666666668,-71.76569444444445],[-17.414027777777772,-66.84347222222222]],"source":"ASTGTM_NC.003_ASTER_GDEM_DEM_doy2000061000000_aid0001.tif","projection":"EPSG:3857","description":"Relieve derivado de ASTER GDEM y reproyectado a Web Mercator; sólo para contexto visual."};

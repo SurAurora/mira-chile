@@ -44,8 +44,9 @@ tipo `https://usuario.github.io/repositorio/`.
 - descarga CSV de las series filtradas;
 - capas opcionales de regiones, comunas, red vial y relieve ASTER.
 
-El relieve es una representación visual reducida de ASTER GDEM. No sustituye el
-valor de `altitud_snm_m` informado para cada estación.
+El relieve es una representación visual reducida de ASTER GDEM, reproyectada a
+Web Mercator para coincidir con las capas vectoriales de Leaflet. No sustituye
+el valor de `altitud_snm_m` informado para cada estación.
 
 El TIFF ASTER original y los shapefiles no se publican: el artefacto contiene
 únicamente un relieve WebP reducido y geometrías GeoJSON simplificadas. Esto
