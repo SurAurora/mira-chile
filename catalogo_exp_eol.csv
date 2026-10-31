@@ -1,0 +1,629 @@
+nombre_estacion,id,fuente_institucion,latitud,longitud,altitud_snm_m,variable,tipo_variable,altura_sensor_suelo_m,frecuencia_muestreo,primera_fecha_disponible,datos_disponibles_actualmente,readme_descarga
+Visviri Tenencia,170001,MINENERGIA,-17.59500,-69.47750,4084.0,Dirección del viento,Meteorológica,10,60 min,2013-05-15T12:00+00:00,No,fuentes/exp_eol/README.md
+Visviri Tenencia,170001,MINENERGIA,-17.59500,-69.47750,4084.0,Dirección del viento,Meteorológica,No informado,60 min,2013-05-07T20:00+00:00,No,fuentes/exp_eol/README.md
+Visviri Tenencia,170001,MINENERGIA,-17.59500,-69.47750,4084.0,Humedad,Meteorológica,No informado,60 min,2013-05-15T12:00,No,fuentes/exp_eol/README.md
+Visviri Tenencia,170001,MINENERGIA,-17.59500,-69.47750,4084.0,Intensidad del viento,Meteorológica,10,60 min,2013-05-15T12:00+00:00,No,fuentes/exp_eol/README.md
+Visviri Tenencia,170001,MINENERGIA,-17.59500,-69.47750,4084.0,Intensidad del viento,Meteorológica,No informado,60 min,2013-05-07T20:00+00:00,No,fuentes/exp_eol/README.md
+Visviri Tenencia,170001,MINENERGIA,-17.59500,-69.47750,4084.0,Radiación solar,Meteorológica,No informado,10 min,2013-05-07T19:30,No,fuentes/exp_eol/README.md
+Visviri Tenencia,170001,MINENERGIA,-17.59500,-69.47750,4084.0,Temperatura,Meteorológica,No informado,60 min,2013-05-15T12:00,No,fuentes/exp_eol/README.md
+"Chacalluta, Arica Ap.",180005,MINENERGIA,-18.35555,-70.34028,51.0,Dirección del viento,Meteorológica,10,Variable,1955-01-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Chacalluta, Arica Ap.",180005,MINENERGIA,-18.35555,-70.34028,51.0,Dirección del viento,Meteorológica,No informado,60 min,2020-12-10T00:00+00:00,No,fuentes/exp_eol/README.md
+"Chacalluta, Arica Ap.",180005,MINENERGIA,-18.35555,-70.34028,51.0,Humedad,Meteorológica,No informado,60 min,1957-01-08T15:00,No,fuentes/exp_eol/README.md
+"Chacalluta, Arica Ap.",180005,MINENERGIA,-18.35555,-70.34028,51.0,Intensidad del viento,Meteorológica,10,Variable,1955-01-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Chacalluta, Arica Ap.",180005,MINENERGIA,-18.35555,-70.34028,51.0,Intensidad del viento,Meteorológica,No informado,60 min,2020-12-10T00:00+00:00,No,fuentes/exp_eol/README.md
+"Chacalluta, Arica Ap.",180005,MINENERGIA,-18.35555,-70.34028,51.0,Radiación solar,Meteorológica,No informado,10 min,2011-01-01T10:10,No,fuentes/exp_eol/README.md
+"Chacalluta, Arica Ap.",180005,MINENERGIA,-18.35555,-70.34028,51.0,Temperatura,Meteorológica,No informado,60 min,1955-01-01T12:00,No,fuentes/exp_eol/README.md
+El Buitre Arica Ad.,180013,MINENERGIA,-18.50861,-70.28722,107.0,Humedad,Meteorológica,No informado,Variable,1954-01-01T10:00,No,fuentes/exp_eol/README.md
+El Buitre Arica Ad.,180013,MINENERGIA,-18.50861,-70.28722,107.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+Putre,180017,MINENERGIA,-18.20000,-69.56250,3532.0,Dirección del viento,Meteorológica,10,60 min,2017-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Putre,180017,MINENERGIA,-18.20000,-69.56250,3532.0,Dirección del viento,Meteorológica,No informado,60 min,2016-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Putre,180017,MINENERGIA,-18.20000,-69.56250,3532.0,Humedad,Meteorológica,No informado,60 min,2017-01-01T00:00,No,fuentes/exp_eol/README.md
+Putre,180017,MINENERGIA,-18.20000,-69.56250,3532.0,Intensidad del viento,Meteorológica,10,60 min,2017-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Putre,180017,MINENERGIA,-18.20000,-69.56250,3532.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Putre,180017,MINENERGIA,-18.20000,-69.56250,3532.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T23:00,No,fuentes/exp_eol/README.md
+Putre,180017,MINENERGIA,-18.20000,-69.56250,3532.0,Temperatura,Meteorológica,No informado,60 min,2017-01-01T00:00,No,fuentes/exp_eol/README.md
+"Defensa Civil, Arica",180018,MINENERGIA,-18.49111,-70.30139,71.0,Dirección del viento,Meteorológica,10,60 min,2017-01-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"Defensa Civil, Arica",180018,MINENERGIA,-18.49111,-70.30139,71.0,Dirección del viento,Meteorológica,No informado,60 min,2017-03-31T23:00+00:00,No,fuentes/exp_eol/README.md
+"Defensa Civil, Arica",180018,MINENERGIA,-18.49111,-70.30139,71.0,Humedad,Meteorológica,No informado,60 min,2017-01-04T17:00,No,fuentes/exp_eol/README.md
+"Defensa Civil, Arica",180018,MINENERGIA,-18.49111,-70.30139,71.0,Intensidad del viento,Meteorológica,10,60 min,2017-01-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"Defensa Civil, Arica",180018,MINENERGIA,-18.49111,-70.30139,71.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-03-31T23:00+00:00,No,fuentes/exp_eol/README.md
+"Defensa Civil, Arica",180018,MINENERGIA,-18.49111,-70.30139,71.0,Radiación solar,Meteorológica,No informado,10 min,2017-03-31T23:00,No,fuentes/exp_eol/README.md
+"Defensa Civil, Arica",180018,MINENERGIA,-18.49111,-70.30139,71.0,Temperatura,Meteorológica,No informado,60 min,2017-04-01T00:00,No,fuentes/exp_eol/README.md
+"Cerro Sombrero, Arica",180042,MINENERGIA,-18.51250,-70.26556,122.0,Dirección del viento,Meteorológica,10,60 min,2017-11-08T14:00+00:00,No,fuentes/exp_eol/README.md
+"Cerro Sombrero, Arica",180042,MINENERGIA,-18.51250,-70.26556,122.0,Dirección del viento,Meteorológica,No informado,60 min,2017-11-07T23:00+00:00,No,fuentes/exp_eol/README.md
+"Cerro Sombrero, Arica",180042,MINENERGIA,-18.51250,-70.26556,122.0,Humedad,Meteorológica,No informado,60 min,2017-12-31T21:00,No,fuentes/exp_eol/README.md
+"Cerro Sombrero, Arica",180042,MINENERGIA,-18.51250,-70.26556,122.0,Intensidad del viento,Meteorológica,10,60 min,2017-11-08T14:00+00:00,No,fuentes/exp_eol/README.md
+"Cerro Sombrero, Arica",180042,MINENERGIA,-18.51250,-70.26556,122.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-11-07T23:00+00:00,No,fuentes/exp_eol/README.md
+"Cerro Sombrero, Arica",180042,MINENERGIA,-18.51250,-70.26556,122.0,Radiación solar,Meteorológica,No informado,10 min,2017-12-31T21:00,No,fuentes/exp_eol/README.md
+"Cerro Sombrero, Arica",180042,MINENERGIA,-18.51250,-70.26556,122.0,Temperatura,Meteorológica,No informado,60 min,2017-12-31T21:00,No,fuentes/exp_eol/README.md
+Colchane,190010,MINENERGIA,-19.27694,-68.63972,3700.0,Dirección del viento,Meteorológica,10,Variable,2023-10-02T00:00+00:00,No,fuentes/exp_eol/README.md
+Colchane,190010,MINENERGIA,-19.27694,-68.63972,3700.0,Intensidad del viento,Meteorológica,10,Variable,2023-10-02T00:00+00:00,No,fuentes/exp_eol/README.md
+"Iquique, Cavancha Ap.",200003,MINENERGIA,-20.23361,-70.14389,9.0,Humedad,Meteorológica,No informado,Variable,1954-12-31T21:00,No,fuentes/exp_eol/README.md
+"Iquique, Cavancha Ap.",200003,MINENERGIA,-20.23361,-70.14389,9.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+"Iquique, Los Condores Ad.",200005,MINENERGIA,-20.25389,-70.08500,529.0,Humedad,Meteorológica,No informado,Variable,1952-07-17T10:00,No,fuentes/exp_eol/README.md
+"Iquique, Los Condores Ad.",200005,MINENERGIA,-20.25389,-70.08500,529.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+Diego Aracena Iquique Ap.,200006,MINENERGIA,-20.54917,-70.18111,48.0,Dirección del viento,Meteorológica,10,60 min,1981-04-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Diego Aracena Iquique Ap.,200006,MINENERGIA,-20.54917,-70.18111,48.0,Dirección del viento,Meteorológica,No informado,60 min,2019-05-23T00:00+00:00,No,fuentes/exp_eol/README.md
+Diego Aracena Iquique Ap.,200006,MINENERGIA,-20.54917,-70.18111,48.0,Humedad,Meteorológica,No informado,60 min,1981-04-01T00:00,No,fuentes/exp_eol/README.md
+Diego Aracena Iquique Ap.,200006,MINENERGIA,-20.54917,-70.18111,48.0,Intensidad del viento,Meteorológica,10,60 min,1981-04-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Diego Aracena Iquique Ap.,200006,MINENERGIA,-20.54917,-70.18111,48.0,Intensidad del viento,Meteorológica,No informado,60 min,2019-05-23T00:00+00:00,No,fuentes/exp_eol/README.md
+Diego Aracena Iquique Ap.,200006,MINENERGIA,-20.54917,-70.18111,48.0,Radiación solar,Meteorológica,No informado,10 min,2019-05-22T23:10,No,fuentes/exp_eol/README.md
+Diego Aracena Iquique Ap.,200006,MINENERGIA,-20.54917,-70.18111,48.0,Temperatura,Meteorológica,No informado,60 min,1981-04-01T00:00,No,fuentes/exp_eol/README.md
+"La Huayca, Pozo Almonte",200007,MINENERGIA,-20.42167,-69.62750,992.0,Humedad,Meteorológica,No informado,60 min,2017-01-01T00:00,No,fuentes/exp_eol/README.md
+"La Huayca, Pozo Almonte",200007,MINENERGIA,-20.42167,-69.62750,992.0,Radiación solar,Meteorológica,No informado,10 min,2017-03-31T23:00,No,fuentes/exp_eol/README.md
+"La Huayca, Pozo Almonte",200007,MINENERGIA,-20.42167,-69.62750,992.0,Temperatura,Meteorológica,No informado,60 min,2017-04-01T00:00,No,fuentes/exp_eol/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,MINENERGIA,-20.27083,-70.13083,30.0,Dirección del viento,Meteorológica,10,60 min,2017-01-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,MINENERGIA,-20.27083,-70.13083,30.0,Dirección del viento,Meteorológica,No informado,60 min,2017-01-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,MINENERGIA,-20.27083,-70.13083,30.0,Humedad,Meteorológica,No informado,60 min,2017-01-04T17:00,No,fuentes/exp_eol/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,MINENERGIA,-20.27083,-70.13083,30.0,Intensidad del viento,Meteorológica,10,60 min,2017-01-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,MINENERGIA,-20.27083,-70.13083,30.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-01-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,MINENERGIA,-20.27083,-70.13083,30.0,Radiación solar,Meteorológica,No informado,10 min,2017-01-04T16:10,No,fuentes/exp_eol/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,MINENERGIA,-20.27083,-70.13083,30.0,Temperatura,Meteorológica,No informado,60 min,2017-01-04T17:00,No,fuentes/exp_eol/README.md
+Ollagüe,210901,MINENERGIA,-21.22417,-68.25583,3708.0,Dirección del viento,Meteorológica,10,60 min,2016-10-26T00:00+00:00,No,fuentes/exp_eol/README.md
+Ollagüe,210901,MINENERGIA,-21.22417,-68.25583,3708.0,Dirección del viento,Meteorológica,No informado,60 min,2016-10-26T00:00+00:00,No,fuentes/exp_eol/README.md
+Ollagüe,210901,MINENERGIA,-21.22417,-68.25583,3708.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Ollagüe,210901,MINENERGIA,-21.22417,-68.25583,3708.0,Intensidad del viento,Meteorológica,10,60 min,2016-10-26T00:00+00:00,No,fuentes/exp_eol/README.md
+Ollagüe,210901,MINENERGIA,-21.22417,-68.25583,3708.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-10-26T00:00+00:00,No,fuentes/exp_eol/README.md
+Ollagüe,210901,MINENERGIA,-21.22417,-68.25583,3708.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Ollagüe,210901,MINENERGIA,-21.22417,-68.25583,3708.0,Temperatura,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+"El Loa, Calama Ad.",220002,MINENERGIA,-22.49806,-68.89250,2326.0,Dirección del viento,Meteorológica,10,60 min,1965-02-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"El Loa, Calama Ad.",220002,MINENERGIA,-22.49806,-68.89250,2326.0,Dirección del viento,Meteorológica,No informado,60 min,2020-04-15T00:00+00:00,No,fuentes/exp_eol/README.md
+"El Loa, Calama Ad.",220002,MINENERGIA,-22.49806,-68.89250,2326.0,Humedad,Meteorológica,No informado,60 min,1965-02-01T12:00,No,fuentes/exp_eol/README.md
+"El Loa, Calama Ad.",220002,MINENERGIA,-22.49806,-68.89250,2326.0,Intensidad del viento,Meteorológica,10,60 min,1965-02-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"El Loa, Calama Ad.",220002,MINENERGIA,-22.49806,-68.89250,2326.0,Intensidad del viento,Meteorológica,No informado,60 min,2020-04-15T00:00+00:00,No,fuentes/exp_eol/README.md
+"El Loa, Calama Ad.",220002,MINENERGIA,-22.49806,-68.89250,2326.0,Radiación solar,Meteorológica,No informado,10 min,2011-01-01T08:00,No,fuentes/exp_eol/README.md
+"El Loa, Calama Ad.",220002,MINENERGIA,-22.49806,-68.89250,2326.0,Temperatura,Meteorológica,No informado,60 min,1965-02-01T12:00,No,fuentes/exp_eol/README.md
+"Chorrillos, Calama",220026,MINENERGIA,-22.45000,-68.91028,2298.0,Dirección del viento,Meteorológica,10,60 min,2024-05-04T13:00+00:00,No,fuentes/exp_eol/README.md
+"Chorrillos, Calama",220026,MINENERGIA,-22.45000,-68.91028,2298.0,Dirección del viento,Meteorológica,No informado,60 min,2024-05-04T13:00+00:00,No,fuentes/exp_eol/README.md
+"Chorrillos, Calama",220026,MINENERGIA,-22.45000,-68.91028,2298.0,Intensidad del viento,Meteorológica,10,60 min,2024-05-04T13:00+00:00,No,fuentes/exp_eol/README.md
+"Chorrillos, Calama",220026,MINENERGIA,-22.45000,-68.91028,2298.0,Intensidad del viento,Meteorológica,No informado,60 min,2024-05-04T13:00+00:00,No,fuentes/exp_eol/README.md
+Cerro Moreno Antofagasta Ap.,230001,MINENERGIA,-23.45361,-70.44528,139.0,Humedad,Meteorológica,No informado,60 min,1950-01-01T12:00,No,fuentes/exp_eol/README.md
+Cerro Moreno Antofagasta Ap.,230001,MINENERGIA,-23.45361,-70.44528,139.0,Radiación solar,Meteorológica,No informado,10 min,2009-01-01T10:10,No,fuentes/exp_eol/README.md
+Cerro Moreno Antofagasta Ap.,230001,MINENERGIA,-23.45361,-70.44528,139.0,Temperatura,Meteorológica,No informado,60 min,1950-01-01T12:00,No,fuentes/exp_eol/README.md
+"Universidad Católica del Norte, Antofagasta",230002,MINENERGIA,-23.68083,-70.41111,31.0,Dirección del viento,Meteorológica,10,60 min,2016-09-06T00:00+00:00,No,fuentes/exp_eol/README.md
+"Universidad Católica del Norte, Antofagasta",230002,MINENERGIA,-23.68083,-70.41111,31.0,Dirección del viento,Meteorológica,No informado,60 min,2016-09-05T23:00+00:00,No,fuentes/exp_eol/README.md
+"Universidad Católica del Norte, Antofagasta",230002,MINENERGIA,-23.68083,-70.41111,31.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+"Universidad Católica del Norte, Antofagasta",230002,MINENERGIA,-23.68083,-70.41111,31.0,Intensidad del viento,Meteorológica,10,60 min,2016-09-06T00:00+00:00,No,fuentes/exp_eol/README.md
+"Universidad Católica del Norte, Antofagasta",230002,MINENERGIA,-23.68083,-70.41111,31.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-09-05T23:00+00:00,No,fuentes/exp_eol/README.md
+"Universidad Católica del Norte, Antofagasta",230002,MINENERGIA,-23.68083,-70.41111,31.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+"Universidad Católica del Norte, Antofagasta",230002,MINENERGIA,-23.68083,-70.41111,31.0,Temperatura,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Toconao,230004,MINENERGIA,-23.18611,-68.00556,2495.0,Dirección del viento,Meteorológica,10,60 min,2013-05-22T16:00+00:00,No,fuentes/exp_eol/README.md
+Toconao,230004,MINENERGIA,-23.18611,-68.00556,2495.0,Dirección del viento,Meteorológica,No informado,60 min,2013-05-22T16:00+00:00,No,fuentes/exp_eol/README.md
+Toconao,230004,MINENERGIA,-23.18611,-68.00556,2495.0,Humedad,Meteorológica,No informado,60 min,2013-05-22T16:00,No,fuentes/exp_eol/README.md
+Toconao,230004,MINENERGIA,-23.18611,-68.00556,2495.0,Intensidad del viento,Meteorológica,10,60 min,2013-05-22T16:00+00:00,No,fuentes/exp_eol/README.md
+Toconao,230004,MINENERGIA,-23.18611,-68.00556,2495.0,Intensidad del viento,Meteorológica,No informado,60 min,2013-05-22T16:00+00:00,No,fuentes/exp_eol/README.md
+Toconao,230004,MINENERGIA,-23.18611,-68.00556,2495.0,Radiación solar,Meteorológica,No informado,10 min,2013-05-22T15:40,No,fuentes/exp_eol/README.md
+Toconao,230004,MINENERGIA,-23.18611,-68.00556,2495.0,Temperatura,Meteorológica,No informado,60 min,2013-05-22T16:00,No,fuentes/exp_eol/README.md
+Mejillones,230022,MINENERGIA,-23.10917,-70.44333,31.0,Dirección del viento,Meteorológica,10,60 min,2019-03-07T13:00+00:00,No,fuentes/exp_eol/README.md
+Mejillones,230022,MINENERGIA,-23.10917,-70.44333,31.0,Dirección del viento,Meteorológica,No informado,60 min,2019-03-07T13:00+00:00,No,fuentes/exp_eol/README.md
+Mejillones,230022,MINENERGIA,-23.10917,-70.44333,31.0,Intensidad del viento,Meteorológica,10,60 min,2019-03-07T13:00+00:00,No,fuentes/exp_eol/README.md
+Mejillones,230022,MINENERGIA,-23.10917,-70.44333,31.0,Intensidad del viento,Meteorológica,No informado,60 min,2019-03-07T13:00+00:00,No,fuentes/exp_eol/README.md
+Taltal,250005,MINENERGIA,-25.41111,-70.48417,37.0,Dirección del viento,Meteorológica,10,60 min,2014-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Taltal,250005,MINENERGIA,-25.41111,-70.48417,37.0,Dirección del viento,Meteorológica,No informado,60 min,2013-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Taltal,250005,MINENERGIA,-25.41111,-70.48417,37.0,Humedad,Meteorológica,No informado,60 min,2014-01-01T00:00,No,fuentes/exp_eol/README.md
+Taltal,250005,MINENERGIA,-25.41111,-70.48417,37.0,Intensidad del viento,Meteorológica,10,60 min,2014-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Taltal,250005,MINENERGIA,-25.41111,-70.48417,37.0,Intensidad del viento,Meteorológica,No informado,60 min,2013-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Taltal,250005,MINENERGIA,-25.41111,-70.48417,37.0,Radiación solar,Meteorológica,No informado,10 min,2013-12-31T23:00,No,fuentes/exp_eol/README.md
+Taltal,250005,MINENERGIA,-25.41111,-70.48417,37.0,Temperatura,Meteorológica,No informado,60 min,2014-01-01T00:00,No,fuentes/exp_eol/README.md
+Chañaral Ad.,260002,MINENERGIA,-26.33222,-70.61083,23.0,Humedad,Meteorológica,No informado,Variable,1954-12-31T21:00,No,fuentes/exp_eol/README.md
+Chañaral Ad.,260002,MINENERGIA,-26.33222,-70.61083,23.0,Temperatura,Meteorológica,No informado,Variable,1954-03-01T12:00,No,fuentes/exp_eol/README.md
+"Ad. Ricardo García Posada, El Salvador",260010,MINENERGIA,-26.31305,-69.75139,1597.0,Dirección del viento,Meteorológica,10,Variable,2023-08-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"Ad. Ricardo García Posada, El Salvador",260010,MINENERGIA,-26.31305,-69.75139,1597.0,Intensidad del viento,Meteorológica,10,Variable,2023-08-04T17:00+00:00,No,fuentes/exp_eol/README.md
+"Copiapó, Chamonate Ad.",270002,MINENERGIA,-27.29944,-70.41417,305.0,Humedad,Meteorológica,No informado,60 min,1951-12-31T23:00,No,fuentes/exp_eol/README.md
+"Copiapó, Chamonate Ad.",270002,MINENERGIA,-27.29944,-70.41417,305.0,Temperatura,Meteorológica,No informado,Variable,1951-01-01T12:00,No,fuentes/exp_eol/README.md
+"Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Dirección del viento,Meteorológica,10,60 min,2005-02-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Dirección del viento,Meteorológica,No informado,60 min,2020-12-10T00:00+00:00,No,fuentes/exp_eol/README.md
+"Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Humedad,Meteorológica,No informado,60 min,2005-02-01T12:00,No,fuentes/exp_eol/README.md
+"Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Intensidad del viento,Meteorológica,10,60 min,2005-02-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Intensidad del viento,Meteorológica,No informado,60 min,2020-12-10T00:00+00:00,No,fuentes/exp_eol/README.md
+"Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Radiación solar,Meteorológica,No informado,10 min,2011-01-01T09:50,No,fuentes/exp_eol/README.md
+"Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Temperatura,Meteorológica,No informado,60 min,2005-02-01T12:00,No,fuentes/exp_eol/README.md
+Copiapó Universidad de Atacama,270009,MINENERGIA,-27.35889,-70.35333,362.0,Dirección del viento,Meteorológica,10,60 min,2016-12-21T21:00+00:00,No,fuentes/exp_eol/README.md
+Copiapó Universidad de Atacama,270009,MINENERGIA,-27.35889,-70.35333,362.0,Dirección del viento,Meteorológica,No informado,60 min,2016-12-21T21:00+00:00,No,fuentes/exp_eol/README.md
+Copiapó Universidad de Atacama,270009,MINENERGIA,-27.35889,-70.35333,362.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Copiapó Universidad de Atacama,270009,MINENERGIA,-27.35889,-70.35333,362.0,Intensidad del viento,Meteorológica,10,60 min,2016-12-21T21:00+00:00,No,fuentes/exp_eol/README.md
+Copiapó Universidad de Atacama,270009,MINENERGIA,-27.35889,-70.35333,362.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-12-21T21:00+00:00,No,fuentes/exp_eol/README.md
+Copiapó Universidad de Atacama,270009,MINENERGIA,-27.35889,-70.35333,362.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Copiapó Universidad de Atacama,270009,MINENERGIA,-27.35889,-70.35333,362.0,Temperatura,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+"Vallenar, Ad.",280003,MINENERGIA,-28.59333,-70.75694,535.0,Humedad,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+"Vallenar, Ad.",280003,MINENERGIA,-28.59333,-70.75694,535.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Dirección del viento,Meteorológica,10,60 min,2017-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Dirección del viento,Meteorológica,No informado,60 min,2016-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Humedad,Meteorológica,No informado,60 min,2017-01-01T00:00,No,fuentes/exp_eol/README.md
+Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Intensidad del viento,Meteorológica,10,60 min,2017-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T23:00,No,fuentes/exp_eol/README.md
+Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Temperatura,Meteorológica,No informado,60 min,2017-01-01T00:00,No,fuentes/exp_eol/README.md
+Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Humedad,Meteorológica,2,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
+Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Intensidad del viento,Meteorológica,4,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
+Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Radiación solar,Meteorológica,2.5,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
+Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Ráfaga del viento,Meteorológica,4,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
+Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Temperatura,Meteorológica,2,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
+Armazones,ARMA,MINENERGIA,-24.6346,-70.2426,2581,Humedad,Meteorológica,1.75,10 min,2010-10-30T13:30-04:00,No,fuentes/exp_eol/README.md
+Armazones,ARMA,MINENERGIA,-24.6346,-70.2426,2581,Intensidad del viento,Meteorológica,4,10 min,2010-10-30T13:30-04:00,No,fuentes/exp_eol/README.md
+Armazones,ARMA,MINENERGIA,-24.6346,-70.2426,2581,Radiación solar,Meteorológica,3.05,10 min,2010-10-30T13:30-04:00,No,fuentes/exp_eol/README.md
+Armazones,ARMA,MINENERGIA,-24.6346,-70.2426,2581,Ráfaga del viento,Meteorológica,4,10 min,2010-10-30T13:30-04:00,No,fuentes/exp_eol/README.md
+Armazones,ARMA,MINENERGIA,-24.6346,-70.2426,2581,Temperatura,Meteorológica,1.75,10 min,2010-10-30T13:30-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Dirección del viento,Meteorológica,18,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Dirección del viento,Meteorológica,58,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Intensidad del viento,Meteorológica,10,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Intensidad del viento,Meteorológica,20,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Intensidad del viento,Meteorológica,40,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Intensidad del viento,Meteorológica,50,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Presión,Meteorológica,2,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Ráfaga del viento,Meteorológica,10,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Ráfaga del viento,Meteorológica,20,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Ráfaga del viento,Meteorológica,40,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Ráfaga del viento,Meteorológica,50,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Armazones 60m,ARMAZ,MINENERGIA,-24.653056,-70.241944,2588,Temperatura,Meteorológica,3,10 min,2010-10-07T16:10-04:00,No,fuentes/exp_eol/README.md
+Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Humedad,Meteorológica,2.5,10 min,2010-01-26T13:40-04:00,No,fuentes/exp_eol/README.md
+Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Intensidad del viento,Meteorológica,4,10 min,2010-01-27T15:40-04:00,No,fuentes/exp_eol/README.md
+Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Intensidad del viento,Meteorológica,5,10 min,2012-06-05T11:20-04:00,No,fuentes/exp_eol/README.md
+Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Radiación solar,Meteorológica,No informado,10 min,2010-01-26T13:40-04:00,No,fuentes/exp_eol/README.md
+Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Ráfaga del viento,Meteorológica,4,10 min,2011-01-01T00:00-04:00,No,fuentes/exp_eol/README.md
+Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Temperatura,Meteorológica,2.5,10 min,2010-01-26T13:40-04:00,No,fuentes/exp_eol/README.md
+Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Humedad,Meteorológica,1.2,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
+Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Intensidad del viento,Meteorológica,4,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
+Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Radiación solar,Meteorológica,2.05,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
+Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Ráfaga del viento,Meteorológica,4,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
+Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Temperatura,Meteorológica,1.2,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
+Estación de Medición Solar CRUCERO II con sistema de seguimiento Solys2,Crucero2,MINENERGIA,-22.2745,-69.566295,1183,Dirección del viento,Meteorológica,12,10 min,2012-08-17T00:20-04:00,No,fuentes/exp_eol/README.md
+Estación de Medición Solar CRUCERO II con sistema de seguimiento Solys2,Crucero2,MINENERGIA,-22.2745,-69.566295,1183,Humedad,Meteorológica,2,10 min,2012-08-17T00:20-04:00,No,fuentes/exp_eol/README.md
+Estación de Medición Solar CRUCERO II con sistema de seguimiento Solys2,Crucero2,MINENERGIA,-22.2745,-69.566295,1183,Intensidad del viento,Meteorológica,12,10 min,2012-08-17T00:20-04:00,No,fuentes/exp_eol/README.md
+Estación de Medición Solar CRUCERO II con sistema de seguimiento Solys2,Crucero2,MINENERGIA,-22.2745,-69.566295,1183,Intensidad del viento,Meteorológica,6,10 min,2012-08-17T00:20-04:00,No,fuentes/exp_eol/README.md
+Estación de Medición Solar CRUCERO II con sistema de seguimiento Solys2,Crucero2,MINENERGIA,-22.2745,-69.566295,1183,Radiación solar,Meteorológica,1.78,10 min,2012-08-17T00:20-04:00,No,fuentes/exp_eol/README.md
+Estación de Medición Solar CRUCERO II con sistema de seguimiento Solys2,Crucero2,MINENERGIA,-22.2745,-69.566295,1183,Temperatura,Meteorológica,2,10 min,2012-08-17T00:20-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Dirección del viento,Meteorológica,108,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Dirección del viento,Meteorológica,20,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Humedad,Meteorológica,108,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Humedad,Meteorológica,5,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Intensidad del viento,Meteorológica,108,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Intensidad del viento,Meteorológica,110,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Intensidad del viento,Meteorológica,20,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Intensidad del viento,Meteorológica,50,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Intensidad del viento,Meteorológica,80,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Presión,Meteorológica,6,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Radiación solar,Meteorológica,10.4,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Temperatura,Meteorológica,108,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Temperatura,Meteorológica,40,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D02-T2,D02T2,MINENERGIA,-25.0859,-69.9572,1902,Temperatura,Meteorológica,5,10 min,2019-01-01T00:10-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Dirección del viento,Meteorológica,108,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Dirección del viento,Meteorológica,20,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Humedad,Meteorológica,108,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Humedad,Meteorológica,5,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Intensidad del viento,Meteorológica,108,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Intensidad del viento,Meteorológica,110,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Intensidad del viento,Meteorológica,20,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Intensidad del viento,Meteorológica,50,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Intensidad del viento,Meteorológica,80,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Presión,Meteorológica,6,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Radiación solar,Meteorológica,10.4,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Temperatura,Meteorológica,108,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Temperatura,Meteorológica,40,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D04-T3,D04T3,MINENERGIA,-25.0802,-69.6549,2542,Temperatura,Meteorológica,5,10 min,2018-12-18T15:40-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Dirección del viento,Meteorológica,108,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Dirección del viento,Meteorológica,20,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Humedad,Meteorológica,108,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Humedad,Meteorológica,5,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Intensidad del viento,Meteorológica,108,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Intensidad del viento,Meteorológica,110,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Intensidad del viento,Meteorológica,20,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Intensidad del viento,Meteorológica,50,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Intensidad del viento,Meteorológica,80,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Presión,Meteorológica,6,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Radiación solar,Meteorológica,10.6,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Temperatura,Meteorológica,108,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Temperatura,Meteorológica,40,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+D09-T1,D09T1,MINENERGIA,-24.9702,-69.9932,2075,Temperatura,Meteorológica,5,10 min,2018-12-31T13:00-04:00,No,fuentes/exp_eol/README.md
+Inca de Oro,IDEO,MINENERGIA,-26.7532,-69.906,1541,Humedad,Meteorológica,2,10 min,2010-03-25T17:10-04:00,No,fuentes/exp_eol/README.md
+Inca de Oro,IDEO,MINENERGIA,-26.7532,-69.906,1541,Intensidad del viento,Meteorológica,4,10 min,2010-03-25T17:10-04:00,No,fuentes/exp_eol/README.md
+Inca de Oro,IDEO,MINENERGIA,-26.7532,-69.906,1541,Radiación solar,Meteorológica,No informado,10 min,2010-03-25T17:10-04:00,No,fuentes/exp_eol/README.md
+Inca de Oro,IDEO,MINENERGIA,-26.7532,-69.906,1541,Ráfaga del viento,Meteorológica,4,10 min,2010-03-25T17:10-04:00,No,fuentes/exp_eol/README.md
+Inca de Oro,IDEO,MINENERGIA,-26.7532,-69.906,1541,Temperatura,Meteorológica,2,10 min,2010-03-25T17:10-04:00,No,fuentes/exp_eol/README.md
+Loma del Hueso,Loma_Hueso,MINENERGIA,-28.9079,-71.4504,187,Dirección del viento,Meteorológica,20,10 min,2006-09-28T16:20-04:00,No,fuentes/exp_eol/README.md
+Loma del Hueso,Loma_Hueso,MINENERGIA,-28.9079,-71.4504,187,Intensidad del viento,Meteorológica,10,10 min,2006-09-28T16:20-04:00,No,fuentes/exp_eol/README.md
+Loma del Hueso,Loma_Hueso,MINENERGIA,-28.9079,-71.4504,187,Intensidad del viento,Meteorológica,20,10 min,2006-09-28T16:20-04:00,No,fuentes/exp_eol/README.md
+Loma del Hueso,Loma_Hueso,MINENERGIA,-28.9079,-71.4504,187,Ráfaga del viento,Meteorológica,10,10 min,2006-09-28T16:20-04:00,No,fuentes/exp_eol/README.md
+Loma del Hueso,Loma_Hueso,MINENERGIA,-28.9079,-71.4504,187,Ráfaga del viento,Meteorológica,20,10 min,2006-09-28T16:20-04:00,No,fuentes/exp_eol/README.md
+Pozo Almonte,PALM,MINENERGIA,-20.2568,-69.775,1024,Humedad,Meteorológica,2,10 min,2008-08-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Pozo Almonte,PALM,MINENERGIA,-20.2568,-69.775,1024,Intensidad del viento,Meteorológica,2,10 min,2012-06-21T22:00-04:00,No,fuentes/exp_eol/README.md
+Pozo Almonte,PALM,MINENERGIA,-20.2568,-69.775,1024,Intensidad del viento,Meteorológica,4,10 min,2008-08-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Pozo Almonte,PALM,MINENERGIA,-20.2568,-69.775,1024,Radiación solar,Meteorológica,2,10 min,2008-08-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Pozo Almonte,PALM,MINENERGIA,-20.2568,-69.775,1024,Ráfaga del viento,Meteorológica,4,10 min,2011-01-01T00:00-04:00,No,fuentes/exp_eol/README.md
+Pozo Almonte,PALM,MINENERGIA,-20.2568,-69.775,1024,Temperatura,Meteorológica,2,10 min,2008-08-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Puerto Angamos,PANG,MINENERGIA,-23.0736,-70.3856,10,Humedad,Meteorológica,2,10 min,2010-05-16T11:50-04:00,No,fuentes/exp_eol/README.md
+Puerto Angamos,PANG,MINENERGIA,-23.0736,-70.3856,10,Intensidad del viento,Meteorológica,4,10 min,2010-05-16T11:20-04:00,No,fuentes/exp_eol/README.md
+Puerto Angamos,PANG,MINENERGIA,-23.0736,-70.3856,10,Radiación solar,Meteorológica,No informado,10 min,2010-05-16T11:40-04:00,No,fuentes/exp_eol/README.md
+Puerto Angamos,PANG,MINENERGIA,-23.0736,-70.3856,10,Ráfaga del viento,Meteorológica,4,10 min,2010-05-16T11:20-04:00,No,fuentes/exp_eol/README.md
+Puerto Angamos,PANG,MINENERGIA,-23.0736,-70.3856,10,Temperatura,Meteorológica,2,10 min,2010-05-16T11:20-04:00,No,fuentes/exp_eol/README.md
+Aerodromo Salvador,SALV,MINENERGIA,-26.3127,-69.7504,1617,Humedad,Meteorológica,1.7,10 min,2010-08-09T18:40-04:00,No,fuentes/exp_eol/README.md
+Aerodromo Salvador,SALV,MINENERGIA,-26.3127,-69.7504,1617,Intensidad del viento,Meteorológica,4,10 min,2010-08-09T18:40-04:00,No,fuentes/exp_eol/README.md
+Aerodromo Salvador,SALV,MINENERGIA,-26.3127,-69.7504,1617,Radiación solar,Meteorológica,2.9,10 min,2010-08-09T18:40-04:00,No,fuentes/exp_eol/README.md
+Aerodromo Salvador,SALV,MINENERGIA,-26.3127,-69.7504,1617,Ráfaga del viento,Meteorológica,4,10 min,2010-08-09T18:40-04:00,No,fuentes/exp_eol/README.md
+Aerodromo Salvador,SALV,MINENERGIA,-26.3127,-69.7504,1617,Temperatura,Meteorológica,1.7,10 min,2010-08-09T18:40-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Dirección del viento,Meteorológica,60,10 min,2010-02-24T16:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Humedad,Meteorológica,2,10 min,2010-02-20T14:20-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Intensidad del viento,Meteorológica,20,10 min,2010-02-20T16:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Intensidad del viento,Meteorológica,40,10 min,2010-02-20T16:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Intensidad del viento,Meteorológica,60,10 min,2010-02-20T16:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Intensidad del viento,Meteorológica,80,10 min,2010-02-20T16:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Presión,Meteorológica,2,10 min,2010-02-20T16:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Ráfaga del viento,Meteorológica,20,10 min,2011-01-06T11:10-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Ráfaga del viento,Meteorológica,40,10 min,2011-01-06T11:10-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Ráfaga del viento,Meteorológica,60,10 min,2011-01-06T11:10-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Ráfaga del viento,Meteorológica,80,10 min,2011-01-06T11:10-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Temperatura,Meteorológica,10,10 min,2010-02-20T14:20-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Temperatura,Meteorológica,2,10 min,2010-02-20T14:20-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda 80m (SGORD),SGORD,MINENERGIA,-22.9334,-69.1328,2069,Temperatura,Meteorológica,40,10 min,2010-02-20T14:20-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Dirección del viento,Meteorológica,10,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Dirección del viento,Meteorológica,40,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Dirección del viento,Meteorológica,80,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Humedad,Meteorológica,2,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Intensidad del viento,Meteorológica,10,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Intensidad del viento,Meteorológica,20,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Intensidad del viento,Meteorológica,40,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Intensidad del viento,Meteorológica,60,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Intensidad del viento,Meteorológica,80,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Presión,Meteorológica,2,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Radiación solar,Meteorológica,2,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Ráfaga del viento,Meteorológica,10,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Ráfaga del viento,Meteorológica,20,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Ráfaga del viento,Meteorológica,40,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Ráfaga del viento,Meteorológica,60,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Ráfaga del viento,Meteorológica,80,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Temperatura,Meteorológica,2,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Temperatura,Meteorológica,40,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Sierra Gorda Este 80m (SGORE o T80SGE),SGORE,MINENERGIA,-22.914167,-69.030278,2299,Temperatura,Meteorológica,80,10 min,2011-02-21T14:50-04:00,No,fuentes/exp_eol/README.md
+Salar (Chuquicamata),SLAR,MINENERGIA,-22.3409,-68.8766,2407,Humedad,Meteorológica,1.7,10 min,2010-05-20T11:50-04:00,No,fuentes/exp_eol/README.md
+Salar (Chuquicamata),SLAR,MINENERGIA,-22.3409,-68.8766,2407,Intensidad del viento,Meteorológica,4,10 min,2010-05-20T11:50-04:00,No,fuentes/exp_eol/README.md
+Salar (Chuquicamata),SLAR,MINENERGIA,-22.3409,-68.8766,2407,Radiación solar,Meteorológica,2.5,10 min,2010-05-20T17:10-04:00,No,fuentes/exp_eol/README.md
+Salar (Chuquicamata),SLAR,MINENERGIA,-22.3409,-68.8766,2407,Ráfaga del viento,Meteorológica,4,10 min,2010-05-20T11:50-04:00,No,fuentes/exp_eol/README.md
+Salar (Chuquicamata),SLAR,MINENERGIA,-22.3409,-68.8766,2407,Temperatura,Meteorológica,1.7,10 min,2010-05-20T11:50-04:00,No,fuentes/exp_eol/README.md
+San Pedro de Atacama,SPED,MINENERGIA,-22.9767,-68.1601,2390,Humedad,Meteorológica,2,10 min,2009-05-15T00:20-04:00,No,fuentes/exp_eol/README.md
+San Pedro de Atacama,SPED,MINENERGIA,-22.9767,-68.1601,2390,Intensidad del viento,Meteorológica,2.5,10 min,2012-06-10T18:30-04:00,No,fuentes/exp_eol/README.md
+San Pedro de Atacama,SPED,MINENERGIA,-22.9767,-68.1601,2390,Intensidad del viento,Meteorológica,4,10 min,2009-05-15T00:20-04:00,No,fuentes/exp_eol/README.md
+San Pedro de Atacama,SPED,MINENERGIA,-22.9767,-68.1601,2390,Radiación solar,Meteorológica,2,10 min,2009-05-15T00:20-04:00,No,fuentes/exp_eol/README.md
+San Pedro de Atacama,SPED,MINENERGIA,-22.9767,-68.1601,2390,Ráfaga del viento,Meteorológica,4,10 min,2011-01-01T00:00-04:00,No,fuentes/exp_eol/README.md
+San Pedro de Atacama,SPED,MINENERGIA,-22.9767,-68.1601,2390,Temperatura,Meteorológica,2,10 min,2009-05-15T00:20-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Dirección del viento,Meteorológica,10,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Dirección del viento,Meteorológica,40,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Dirección del viento,Meteorológica,80,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Humedad,Meteorológica,2,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Intensidad del viento,Meteorológica,10,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Intensidad del viento,Meteorológica,20,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Intensidad del viento,Meteorológica,40,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Intensidad del viento,Meteorológica,60,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Intensidad del viento,Meteorológica,80,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Presión,Meteorológica,2,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Radiación solar,Meteorológica,2,10 min,2011-02-21T09:20-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Ráfaga del viento,Meteorológica,10,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Ráfaga del viento,Meteorológica,20,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Ráfaga del viento,Meteorológica,40,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Ráfaga del viento,Meteorológica,60,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Ráfaga del viento,Meteorológica,80,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Temperatura,Meteorológica,2,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Temperatura,Meteorológica,40,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Norte 80m (T80CN),T80CN,MINENERGIA,-22.246944,-68.644444,2698,Temperatura,Meteorológica,80,10 min,2011-02-21T09:10-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Dirección del viento,Meteorológica,10,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Dirección del viento,Meteorológica,40,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Dirección del viento,Meteorológica,80,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Humedad,Meteorológica,2,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Intensidad del viento,Meteorológica,10,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Intensidad del viento,Meteorológica,20,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Intensidad del viento,Meteorológica,40,10 min,2011-04-19T11:20-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Intensidad del viento,Meteorológica,60,10 min,2011-04-19T11:20-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Intensidad del viento,Meteorológica,80,10 min,2011-04-19T11:20-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Presión,Meteorológica,2,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Radiación solar,Meteorológica,2,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Ráfaga del viento,Meteorológica,10,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Ráfaga del viento,Meteorológica,20,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Ráfaga del viento,Meteorológica,40,10 min,2011-04-19T11:20-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Ráfaga del viento,Meteorológica,60,10 min,2011-04-19T11:20-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Ráfaga del viento,Meteorológica,80,10 min,2011-04-19T11:20-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Temperatura,Meteorológica,2,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Temperatura,Meteorológica,40,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Calama Oeste 80m (T80CO),T80CO,MINENERGIA,-22.501944,-69.0375,2113,Temperatura,Meteorológica,80,10 min,2011-02-21T17:50-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Dirección del viento,Meteorológica,60,10 min,2010-02-23T13:00-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Humedad,Meteorológica,2,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Intensidad del viento,Meteorológica,20,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Intensidad del viento,Meteorológica,40,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Intensidad del viento,Meteorológica,60,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Intensidad del viento,Meteorológica,80,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Presión,Meteorológica,2,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Ráfaga del viento,Meteorológica,20,10 min,2011-01-06T17:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Ráfaga del viento,Meteorológica,40,10 min,2011-01-06T17:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Ráfaga del viento,Meteorológica,60,10 min,2011-01-06T17:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Ráfaga del viento,Meteorológica,80,10 min,2011-01-06T17:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Temperatura,Meteorológica,10,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Temperatura,Meteorológica,2,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Taltal Torre 80m (TT o T80TT),T80TT,MINENERGIA,-25.0666,-69.852,2113,Temperatura,Meteorológica,40,10 min,2010-02-21T20:10-04:00,No,fuentes/exp_eol/README.md
+Loa 2 (a02),a02,MINENERGIA,-21.479896,-69.72795,888,Dirección del viento,Meteorológica,10,10 min,2009-07-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 2 (a02),a02,MINENERGIA,-21.479896,-69.72795,888,Humedad,Meteorológica,5,10 min,2009-07-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 2 (a02),a02,MINENERGIA,-21.479896,-69.72795,888,Intensidad del viento,Meteorológica,10,10 min,2009-07-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 2 (a02),a02,MINENERGIA,-21.479896,-69.72795,888,Intensidad del viento,Meteorológica,20,10 min,2009-07-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 2 (a02),a02,MINENERGIA,-21.479896,-69.72795,888,Ráfaga del viento,Meteorológica,10,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 2 (a02),a02,MINENERGIA,-21.479896,-69.72795,888,Ráfaga del viento,Meteorológica,20,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 2 (a02),a02,MINENERGIA,-21.479896,-69.72795,888,Temperatura,Meteorológica,5,10 min,2009-07-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Dirección del viento,Meteorológica,10,10 min,2009-07-29T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Humedad,Meteorológica,5,10 min,2009-07-29T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Intensidad del viento,Meteorológica,10,10 min,2009-07-29T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Intensidad del viento,Meteorológica,20,10 min,2009-07-29T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Presión,Meteorológica,5,10 min,2009-12-10T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Ráfaga del viento,Meteorológica,10,10 min,2009-12-10T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Ráfaga del viento,Meteorológica,20,10 min,2009-12-10T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 6 (a06),a06,MINENERGIA,-21.159119,-70.027177,749.6,Temperatura,Meteorológica,5,10 min,2009-07-29T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 1.1 (a11),a11,MINENERGIA,-21.433625,-69.695027,797,Dirección del viento,Meteorológica,10,10 min,2009-07-28T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 1.1 (a11),a11,MINENERGIA,-21.433625,-69.695027,797,Humedad,Meteorológica,5,10 min,2009-07-28T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 1.1 (a11),a11,MINENERGIA,-21.433625,-69.695027,797,Intensidad del viento,Meteorológica,10,10 min,2009-07-28T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 1.1 (a11),a11,MINENERGIA,-21.433625,-69.695027,797,Intensidad del viento,Meteorológica,20,10 min,2009-07-28T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 1.1 (a11),a11,MINENERGIA,-21.433625,-69.695027,797,Ráfaga del viento,Meteorológica,10,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 1.1 (a11),a11,MINENERGIA,-21.433625,-69.695027,797,Ráfaga del viento,Meteorológica,20,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 1.1 (a11),a11,MINENERGIA,-21.433625,-69.695027,797,Temperatura,Meteorológica,5,10 min,2009-07-28T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 3.1 (a31),a31,MINENERGIA,-21.433885,-69.938232,718.9,Dirección del viento,Meteorológica,10,10 min,2009-07-27T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 3.1 (a31),a31,MINENERGIA,-21.433885,-69.938232,718.9,Humedad,Meteorológica,5,10 min,2009-07-27T02:20-04:00,No,fuentes/exp_eol/README.md
+Loa 3.1 (a31),a31,MINENERGIA,-21.433885,-69.938232,718.9,Intensidad del viento,Meteorológica,10,10 min,2009-07-27T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 3.1 (a31),a31,MINENERGIA,-21.433885,-69.938232,718.9,Intensidad del viento,Meteorológica,20,10 min,2009-07-27T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 3.1 (a31),a31,MINENERGIA,-21.433885,-69.938232,718.9,Ráfaga del viento,Meteorológica,10,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 3.1 (a31),a31,MINENERGIA,-21.433885,-69.938232,718.9,Ráfaga del viento,Meteorológica,20,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 3.1 (a31),a31,MINENERGIA,-21.433885,-69.938232,718.9,Temperatura,Meteorológica,5,10 min,2009-07-27T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Dirección del viento,Meteorológica,10,10 min,2009-07-25T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Humedad,Meteorológica,5,10 min,2009-07-25T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Intensidad del viento,Meteorológica,10,10 min,2009-07-25T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Intensidad del viento,Meteorológica,20,10 min,2009-07-25T00:10-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Presión,Meteorológica,5,10 min,2009-12-09T08:20-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Radiación solar,Meteorológica,5,10 min,2011-08-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Ráfaga del viento,Meteorológica,10,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Ráfaga del viento,Meteorológica,20,10 min,2009-12-09T00:00-04:00,No,fuentes/exp_eol/README.md
+Loa 7 (a7),a7,MINENERGIA,-21.44884,-69.778963,826,Temperatura,Meteorológica,5,10 min,2009-07-25T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Oriente (b04),b04,MINENERGIA,-22.059356,-68.58535,3039,Dirección del viento,Meteorológica,10,10 min,2009-06-30T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Oriente (b04),b04,MINENERGIA,-22.059356,-68.58535,3039,Humedad,Meteorológica,5,10 min,2009-06-30T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Oriente (b04),b04,MINENERGIA,-22.059356,-68.58535,3039,Intensidad del viento,Meteorológica,10,10 min,2009-06-30T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Oriente (b04),b04,MINENERGIA,-22.059356,-68.58535,3039,Intensidad del viento,Meteorológica,20,10 min,2009-06-30T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Oriente (b04),b04,MINENERGIA,-22.059356,-68.58535,3039,Ráfaga del viento,Meteorológica,10,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+El Abra Oriente (b04),b04,MINENERGIA,-22.059356,-68.58535,3039,Ráfaga del viento,Meteorológica,20,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+El Abra Oriente (b04),b04,MINENERGIA,-22.059356,-68.58535,3039,Temperatura,Meteorológica,5,10 min,2009-06-30T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Dirección del viento,Meteorológica,10,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Humedad,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Intensidad del viento,Meteorológica,10,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Intensidad del viento,Meteorológica,20,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Presión,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Radiación solar,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Ráfaga del viento,Meteorológica,10,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Ráfaga del viento,Meteorológica,20,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+b08,b08,MINENERGIA,-22.5388,-69.0808,2149,Temperatura,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Oriente (b21),b21,MINENERGIA,-22.915517,-69.036043,2282,Dirección del viento,Meteorológica,10,10 min,2009-07-04T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Oriente (b21),b21,MINENERGIA,-22.915517,-69.036043,2282,Humedad,Meteorológica,5,10 min,2009-07-04T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Oriente (b21),b21,MINENERGIA,-22.915517,-69.036043,2282,Intensidad del viento,Meteorológica,10,10 min,2009-07-04T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Oriente (b21),b21,MINENERGIA,-22.915517,-69.036043,2282,Intensidad del viento,Meteorológica,20,10 min,2009-07-04T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Oriente (b21),b21,MINENERGIA,-22.915517,-69.036043,2282,Ráfaga del viento,Meteorológica,10,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Tesoro Oriente (b21),b21,MINENERGIA,-22.915517,-69.036043,2282,Ráfaga del viento,Meteorológica,20,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Tesoro Oriente (b21),b21,MINENERGIA,-22.915517,-69.036043,2282,Temperatura,Meteorológica,5,10 min,2009-07-04T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Dirección del viento,Meteorológica,10,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Humedad,Meteorológica,5,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Intensidad del viento,Meteorológica,10,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Intensidad del viento,Meteorológica,20,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Presión,Meteorológica,5,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Radiación solar,Meteorológica,5,10 min,2011-09-02T00:00-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Ráfaga del viento,Meteorológica,10,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Ráfaga del viento,Meteorológica,20,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1a (Reubicación de la estación Loa 6 (a06)),b21a,MINENERGIA,-22.919649,-69.013633,2341.3,Temperatura,Meteorológica,5,10 min,2010-06-13T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1b (Reubicación de la estación Loa 1.1 (a11)),b21b,MINENERGIA,-22.891103,-69.011066,2350,Dirección del viento,Meteorológica,10,10 min,2010-06-12T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1b (Reubicación de la estación Loa 1.1 (a11)),b21b,MINENERGIA,-22.891103,-69.011066,2350,Humedad,Meteorológica,5,10 min,2010-06-12T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1b (Reubicación de la estación Loa 1.1 (a11)),b21b,MINENERGIA,-22.891103,-69.011066,2350,Intensidad del viento,Meteorológica,10,10 min,2010-06-12T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1b (Reubicación de la estación Loa 1.1 (a11)),b21b,MINENERGIA,-22.891103,-69.011066,2350,Intensidad del viento,Meteorológica,20,10 min,2010-06-12T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1b (Reubicación de la estación Loa 1.1 (a11)),b21b,MINENERGIA,-22.891103,-69.011066,2350,Ráfaga del viento,Meteorológica,10,10 min,2010-06-12T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1b (Reubicación de la estación Loa 1.1 (a11)),b21b,MINENERGIA,-22.891103,-69.011066,2350,Ráfaga del viento,Meteorológica,20,10 min,2010-06-12T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B2.1b (Reubicación de la estación Loa 1.1 (a11)),b21b,MINENERGIA,-22.891103,-69.011066,2350,Temperatura,Meteorológica,5,10 min,2010-06-12T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Dirección del viento,Meteorológica,10,10 min,2009-07-03T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Humedad,Meteorológica,5,10 min,2009-07-03T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Intensidad del viento,Meteorológica,10,10 min,2009-07-03T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Intensidad del viento,Meteorológica,20,10 min,2009-07-03T00:10-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Presión,Meteorológica,5,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Radiación solar,Meteorológica,5,10 min,2011-09-02T00:00-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Ráfaga del viento,Meteorológica,10,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Ráfaga del viento,Meteorológica,20,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Tesoro Poniente (b31),b31,MINENERGIA,-22.932729,-69.132241,2080,Temperatura,Meteorológica,5,10 min,2009-07-03T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B3.1a (Reubicación de la estación Loa 3.1 (a31)),b31a,MINENERGIA,-22.938467,-69.16889,1825,Dirección del viento,Meteorológica,10,10 min,2010-06-14T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B3.1a (Reubicación de la estación Loa 3.1 (a31)),b31a,MINENERGIA,-22.938467,-69.16889,1825,Humedad,Meteorológica,5,10 min,2010-06-14T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B3.1a (Reubicación de la estación Loa 3.1 (a31)),b31a,MINENERGIA,-22.938467,-69.16889,1825,Intensidad del viento,Meteorológica,10,10 min,2010-06-14T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B3.1a (Reubicación de la estación Loa 3.1 (a31)),b31a,MINENERGIA,-22.938467,-69.16889,1825,Intensidad del viento,Meteorológica,20,10 min,2010-06-14T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B3.1a (Reubicación de la estación Loa 3.1 (a31)),b31a,MINENERGIA,-22.938467,-69.16889,1825,Ráfaga del viento,Meteorológica,10,10 min,2010-06-14T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B3.1a (Reubicación de la estación Loa 3.1 (a31)),b31a,MINENERGIA,-22.938467,-69.16889,1825,Ráfaga del viento,Meteorológica,20,10 min,2010-06-14T00:10-04:00,No,fuentes/exp_eol/README.md
+SG B3.1a (Reubicación de la estación Loa 3.1 (a31)),b31a,MINENERGIA,-22.938467,-69.16889,1825,Temperatura,Meteorológica,5,10 min,2010-06-14T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Dirección del viento,Meteorológica,10,10 min,2009-06-27T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Humedad,Meteorológica,5,10 min,2009-06-27T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Intensidad del viento,Meteorológica,10,10 min,2009-06-27T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Intensidad del viento,Meteorológica,20,10 min,2009-06-27T00:10-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Presión,Meteorológica,5,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Radiación solar,Meteorológica,5,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Ráfaga del viento,Meteorológica,10,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Ráfaga del viento,Meteorológica,20,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+El Abra Sur (b41),b41,MINENERGIA,-22.147418,-68.640603,2847.9,Temperatura,Meteorológica,5,10 min,2009-06-27T00:10-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Dirección del viento,Meteorológica,10,10 min,2009-06-21T00:10-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Humedad,Meteorológica,5,10 min,2009-06-21T00:10-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Intensidad del viento,Meteorológica,10,10 min,2009-06-21T00:10-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Intensidad del viento,Meteorológica,20,10 min,2009-06-21T00:10-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Presión,Meteorológica,5,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Radiación solar,Meteorológica,5,10 min,2011-09-03T00:00-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Ráfaga del viento,Meteorológica,10,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Ráfaga del viento,Meteorológica,20,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Lasana (b42),b42,MINENERGIA,-22.248713,-68.642179,2694,Temperatura,Meteorológica,5,10 min,2009-06-21T00:10-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Dirección del viento,Meteorológica,10,10 min,2009-07-02T00:10-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Humedad,Meteorológica,5,10 min,2009-07-02T00:10-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Intensidad del viento,Meteorológica,10,10 min,2009-07-02T00:10-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Intensidad del viento,Meteorológica,20,10 min,2009-07-02T00:10-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Presión,Meteorológica,5,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Radiación solar,Meteorológica,5,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Ráfaga del viento,Meteorológica,10,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Ráfaga del viento,Meteorológica,20,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Estanque de Agua (b51),b51,MINENERGIA,-22.503658,-69.035556,2104,Temperatura,Meteorológica,5,10 min,2009-07-02T00:10-04:00,No,fuentes/exp_eol/README.md
+Calama Poniente (b61),b61,MINENERGIA,-22.503856,-69.205625,1716,Dirección del viento,Meteorológica,10,10 min,2009-07-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Calama Poniente (b61),b61,MINENERGIA,-22.503856,-69.205625,1716,Humedad,Meteorológica,5,10 min,2009-07-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Calama Poniente (b61),b61,MINENERGIA,-22.503856,-69.205625,1716,Intensidad del viento,Meteorológica,10,10 min,2009-07-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Calama Poniente (b61),b61,MINENERGIA,-22.503856,-69.205625,1716,Intensidad del viento,Meteorológica,20,10 min,2009-07-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Calama Poniente (b61),b61,MINENERGIA,-22.503856,-69.205625,1716,Ráfaga del viento,Meteorológica,10,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Calama Poniente (b61),b61,MINENERGIA,-22.503856,-69.205625,1716,Ráfaga del viento,Meteorológica,20,10 min,2009-12-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Calama Poniente (b61),b61,MINENERGIA,-22.503856,-69.205625,1716,Temperatura,Meteorológica,5,10 min,2009-07-01T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Dirección del viento,Meteorológica,10,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Humedad,Meteorológica,5,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Intensidad del viento,Meteorológica,10,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Intensidad del viento,Meteorológica,20,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Presión,Meteorológica,5,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Radiación solar,Meteorológica,5,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Ráfaga del viento,Meteorológica,10,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Ráfaga del viento,Meteorológica,20,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (C11) (Reubicación de la estación Capricornio (C08)),c11,MINENERGIA,-23.716659,-70.16864,617,Temperatura,Meteorológica,5,10 min,2010-06-24T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Dirección del viento,Meteorológica,10,10 min,2009-07-30T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Humedad,Meteorológica,5,10 min,2009-07-30T10:40-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Intensidad del viento,Meteorológica,10,10 min,2009-07-30T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Intensidad del viento,Meteorológica,20,10 min,2009-07-30T00:10-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Presión,Meteorológica,5,10 min,2009-12-08T00:00-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Radiación solar,Meteorológica,5,10 min,2011-09-04T00:00-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Ráfaga del viento,Meteorológica,10,10 min,2009-12-08T00:00-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Ráfaga del viento,Meteorológica,20,10 min,2009-12-08T00:00-04:00,No,fuentes/exp_eol/README.md
+Escondida (c71),c71,MINENERGIA,-23.764912,-69.933953,647,Temperatura,Meteorológica,5,10 min,2009-07-30T00:10-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Dirección del viento,Meteorológica,10,10 min,2009-07-05T00:10-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Humedad,Meteorológica,5,10 min,2009-07-05T00:10-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Intensidad del viento,Meteorológica,10,10 min,2009-07-05T00:10-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Intensidad del viento,Meteorológica,20,10 min,2009-07-05T00:10-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Presión,Meteorológica,5,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Radiación solar,Meteorológica,5,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Ráfaga del viento,Meteorológica,10,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Ráfaga del viento,Meteorológica,20,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
+Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Temperatura,Meteorológica,5,10 min,2009-07-05T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Valle Chaca (20m),chaca,MINENERGIA,-18.803983,-70.152828,48,Dirección del viento,Meteorológica,No informado,10 min,2003-01-23T08:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Valle Chaca (20m),chaca,MINENERGIA,-18.803983,-70.152828,48,Intensidad del viento,Meteorológica,20,10 min,2003-01-23T08:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Valle Chaca (20m),chaca,MINENERGIA,-18.803983,-70.152828,48,Radiación solar,Meteorológica,35,10 min,2003-01-23T08:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Valle Chaca (20m),chaca,MINENERGIA,-18.803983,-70.152828,48,Ráfaga del viento,Meteorológica,20,10 min,2003-01-29T03:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Colchane (30m),colchane,MINENERGIA,-19.266686,-68.65,4200,Dirección del viento,Meteorológica,30,10 min,2005-03-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Colchane (30m),colchane,MINENERGIA,-19.266686,-68.65,4200,Intensidad del viento,Meteorológica,10,10 min,2005-03-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Colchane (30m),colchane,MINENERGIA,-19.266686,-68.65,4200,Intensidad del viento,Meteorológica,20,10 min,2005-03-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Colchane (30m),colchane,MINENERGIA,-19.266686,-68.65,4200,Intensidad del viento,Meteorológica,30,10 min,2005-03-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Colchane (30m),colchane,MINENERGIA,-19.266686,-68.65,4200,Ráfaga del viento,Meteorológica,10,10 min,2005-03-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Colchane (30m),colchane,MINENERGIA,-19.266686,-68.65,4200,Ráfaga del viento,Meteorológica,20,10 min,2005-03-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Colchane (30m),colchane,MINENERGIA,-19.266686,-68.65,4200,Ráfaga del viento,Meteorológica,30,10 min,2005-03-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Cupo (20m),cupo,MINENERGIA,-22.117467,-68.317153,3393,Dirección del viento,Meteorológica,20,10 min,2003-12-05T15:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Cupo (20m),cupo,MINENERGIA,-22.117467,-68.317153,3393,Intensidad del viento,Meteorológica,20,10 min,2003-12-05T15:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Cupo (20m),cupo,MINENERGIA,-22.117467,-68.317153,3393,Radiación solar,Meteorológica,3,10 min,2003-12-05T15:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Cupo (20m),cupo,MINENERGIA,-22.117467,-68.317153,3393,Ráfaga del viento,Meteorológica,20,10 min,2004-02-05T17:30-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Dirección del viento,Meteorológica,10,10 min,2009-07-12T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Humedad,Meteorológica,5,10 min,2009-07-12T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Intensidad del viento,Meteorológica,10,10 min,2009-07-12T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Intensidad del viento,Meteorológica,20,10 min,2009-07-12T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Presión,Meteorológica,5,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Radiación solar,Meteorológica,5,10 min,2011-09-05T00:00-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Ráfaga del viento,Meteorológica,10,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Ráfaga del viento,Meteorológica,20,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+TalTal 1 (d01),d01,MINENERGIA,-24.995121,-69.805562,2269,Temperatura,Meteorológica,5,10 min,2009-07-12T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Dirección del viento,Meteorológica,10,10 min,2009-07-09T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Humedad,Meteorológica,5,10 min,2009-07-09T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Intensidad del viento,Meteorológica,10,10 min,2009-07-09T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Intensidad del viento,Meteorológica,20,10 min,2009-07-09T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Presión,Meteorológica,5,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Radiación solar,Meteorológica,5,10 min,2011-09-05T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Ráfaga del viento,Meteorológica,10,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Ráfaga del viento,Meteorológica,20,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 2 (d02),d02,MINENERGIA,-25.095928,-69.956134,1963,Temperatura,Meteorológica,5,10 min,2009-07-09T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Dirección del viento,Meteorológica,10,10 min,2009-07-14T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Humedad,Meteorológica,5,10 min,2009-07-14T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Intensidad del viento,Meteorológica,10,10 min,2009-07-14T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Intensidad del viento,Meteorológica,20,10 min,2009-07-14T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Radiación solar,Meteorológica,5,10 min,2019-05-15T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Ráfaga del viento,Meteorológica,10,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Ráfaga del viento,Meteorológica,20,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 4 (d04),d04,MINENERGIA,-25.090442,-69.654134,2550,Temperatura,Meteorológica,5,10 min,2009-07-14T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Dirección del viento,Meteorológica,10,10 min,2009-07-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Humedad,Meteorológica,5,10 min,2009-07-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Intensidad del viento,Meteorológica,10,10 min,2009-07-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Intensidad del viento,Meteorológica,20,10 min,2009-07-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Presión,Meteorológica,5,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Radiación solar,Meteorológica,5,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Ráfaga del viento,Meteorológica,10,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Ráfaga del viento,Meteorológica,20,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 5 (d05),d05,MINENERGIA,-25.072288,-69.838003,2176,Temperatura,Meteorológica,5,10 min,2009-07-10T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Dirección del viento,Meteorológica,10,10 min,2010-06-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Humedad,Meteorológica,5,10 min,2010-06-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Intensidad del viento,Meteorológica,10,10 min,2010-06-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Intensidad del viento,Meteorológica,20,10 min,2010-06-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Radiación solar,Meteorológica,5,10 min,2019-05-15T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Ráfaga del viento,Meteorológica,10,10 min,2010-06-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Ráfaga del viento,Meteorológica,20,10 min,2010-06-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 7 (d05a) (Reubicación de la estación El Abra Oriente (B04)),d05a,MINENERGIA,-25.019471,-69.876821,1975,Temperatura,Meteorológica,5,10 min,2010-06-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 8 (d05b) (Reubicación de la estación Taltal 6 (D06)),d05b,MINENERGIA,-24.984738,-69.864813,2113,Dirección del viento,Meteorológica,10,10 min,2010-06-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 8 (d05b) (Reubicación de la estación Taltal 6 (D06)),d05b,MINENERGIA,-24.984738,-69.864813,2113,Humedad,Meteorológica,5,10 min,2010-06-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 8 (d05b) (Reubicación de la estación Taltal 6 (D06)),d05b,MINENERGIA,-24.984738,-69.864813,2113,Intensidad del viento,Meteorológica,10,10 min,2010-06-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 8 (d05b) (Reubicación de la estación Taltal 6 (D06)),d05b,MINENERGIA,-24.984738,-69.864813,2113,Intensidad del viento,Meteorológica,20,10 min,2010-06-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 8 (d05b) (Reubicación de la estación Taltal 6 (D06)),d05b,MINENERGIA,-24.984738,-69.864813,2113,Ráfaga del viento,Meteorológica,10,10 min,2010-06-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 8 (d05b) (Reubicación de la estación Taltal 6 (D06)),d05b,MINENERGIA,-24.984738,-69.864813,2113,Ráfaga del viento,Meteorológica,20,10 min,2010-06-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 8 (d05b) (Reubicación de la estación Taltal 6 (D06)),d05b,MINENERGIA,-24.984738,-69.864813,2113,Temperatura,Meteorológica,5,10 min,2010-06-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 6 (d06),d06,MINENERGIA,-25.175369,-69.570256,2484,Dirección del viento,Meteorológica,10,10 min,2009-07-16T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 6 (d06),d06,MINENERGIA,-25.175369,-69.570256,2484,Humedad,Meteorológica,5,10 min,2009-07-16T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 6 (d06),d06,MINENERGIA,-25.175369,-69.570256,2484,Intensidad del viento,Meteorológica,10,10 min,2009-07-16T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 6 (d06),d06,MINENERGIA,-25.175369,-69.570256,2484,Intensidad del viento,Meteorológica,20,10 min,2009-07-16T00:10-04:00,No,fuentes/exp_eol/README.md
+Taltal 6 (d06),d06,MINENERGIA,-25.175369,-69.570256,2484,Ráfaga del viento,Meteorológica,10,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 6 (d06),d06,MINENERGIA,-25.175369,-69.570256,2484,Ráfaga del viento,Meteorológica,20,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+Taltal 6 (d06),d06,MINENERGIA,-25.175369,-69.570256,2484,Temperatura,Meteorológica,5,10 min,2009-07-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Dirección del viento,Meteorológica,10,10 min,2013-01-20T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Humedad,Meteorológica,5,10 min,2013-01-20T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Intensidad del viento,Meteorológica,10,10 min,2013-01-20T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Intensidad del viento,Meteorológica,20,10 min,2013-01-20T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Radiación solar,Meteorológica,5,10 min,2013-01-20T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Ráfaga del viento,Meteorológica,10,10 min,2013-01-20T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Ráfaga del viento,Meteorológica,20,10 min,2013-01-20T00:10-04:00,No,fuentes/exp_eol/README.md
+d08,d08,MINENERGIA,-24.9834,-70.1264,2187,Temperatura,Meteorológica,5,10 min,2016-07-14T00:00-04:00,No,fuentes/exp_eol/README.md
+TalTal 9 (d09),d09,MINENERGIA,-24.975534,-69.996433,2103,Dirección del viento,Meteorológica,10,10 min,2009-07-11T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 9 (d09),d09,MINENERGIA,-24.975534,-69.996433,2103,Humedad,Meteorológica,5,10 min,2009-07-11T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 9 (d09),d09,MINENERGIA,-24.975534,-69.996433,2103,Intensidad del viento,Meteorológica,10,10 min,2009-07-11T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 9 (d09),d09,MINENERGIA,-24.975534,-69.996433,2103,Intensidad del viento,Meteorológica,20,10 min,2009-07-11T00:10-04:00,No,fuentes/exp_eol/README.md
+TalTal 9 (d09),d09,MINENERGIA,-24.975534,-69.996433,2103,Ráfaga del viento,Meteorológica,10,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+TalTal 9 (d09),d09,MINENERGIA,-24.975534,-69.996433,2103,Ráfaga del viento,Meteorológica,20,10 min,2009-12-07T00:00-04:00,No,fuentes/exp_eol/README.md
+TalTal 9 (d09),d09,MINENERGIA,-24.975534,-69.996433,2103,Temperatura,Meteorológica,5,10 min,2009-07-11T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Dirección del viento,Meteorológica,10,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Humedad,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Intensidad del viento,Meteorológica,10,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Intensidad del viento,Meteorológica,20,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Presión,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Radiación solar,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Ráfaga del viento,Meteorológica,10,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Ráfaga del viento,Meteorológica,20,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+d10,d10,MINENERGIA,-24.9308,-69.8969,2085,Temperatura,Meteorológica,5,10 min,2013-01-16T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 01 (e01) (Reubicación de la estación a02 o a7 o c11),e01,MINENERGIA,-23.8935,-67.4264,4320,Dirección del viento,Meteorológica,10,10 min,2012-12-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 01 (e01) (Reubicación de la estación a02 o a7 o c11),e01,MINENERGIA,-23.8935,-67.4264,4320,Humedad,Meteorológica,2,10 min,2012-12-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 01 (e01) (Reubicación de la estación a02 o a7 o c11),e01,MINENERGIA,-23.8935,-67.4264,4320,Intensidad del viento,Meteorológica,10,10 min,2012-12-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 01 (e01) (Reubicación de la estación a02 o a7 o c11),e01,MINENERGIA,-23.8935,-67.4264,4320,Intensidad del viento,Meteorológica,20,10 min,2012-12-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 01 (e01) (Reubicación de la estación a02 o a7 o c11),e01,MINENERGIA,-23.8935,-67.4264,4320,Ráfaga del viento,Meteorológica,10,10 min,2012-12-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 01 (e01) (Reubicación de la estación a02 o a7 o c11),e01,MINENERGIA,-23.8935,-67.4264,4320,Ráfaga del viento,Meteorológica,20,10 min,2012-12-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 01 (e01) (Reubicación de la estación a02 o a7 o c11),e01,MINENERGIA,-23.8935,-67.4264,4320,Temperatura,Meteorológica,2,10 min,2012-12-19T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Dirección del viento,Meteorológica,10,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Humedad,Meteorológica,3.7,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Intensidad del viento,Meteorológica,10,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Intensidad del viento,Meteorológica,20,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Presión,Meteorológica,2.5,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Radiación solar,Meteorológica,3.5,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Ráfaga del viento,Meteorológica,10,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Ráfaga del viento,Meteorológica,20,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Laco 02 (e02) (Reubicación de la estación a02 o a7 o c11),e02,MINENERGIA,-23.6618,-67.3604,4463,Temperatura,Meteorológica,3.7,10 min,2012-12-20T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Llanos de Chocolate (10m),llano_chocolate,MINENERGIA,-28.964083,-71.2428,365,Dirección del viento,Meteorológica,No informado,10 min,2006-06-02T13:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Llanos de Chocolate (10m),llano_chocolate,MINENERGIA,-28.964083,-71.2428,365,Intensidad del viento,Meteorológica,10,10 min,2006-06-02T13:00-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Llanos de Chocolate (10m),llano_chocolate,MINENERGIA,-28.964083,-71.2428,365,Ráfaga del viento,Meteorológica,10,10 min,2006-07-25T08:40-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Nama (20m),nama,MINENERGIA,-19.188203,-69.411236,3000,Dirección del viento,Meteorológica,20,10 min,2003-09-09T12:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Nama (20m),nama,MINENERGIA,-19.188203,-69.411236,3000,Intensidad del viento,Meteorológica,20,10 min,2003-09-09T12:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Nama (20m),nama,MINENERGIA,-19.188203,-69.411236,3000,Radiación solar,Meteorológica,3,10 min,2003-09-09T12:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Ollague (20m),ollague,MINENERGIA,-21.231028,-68.255739,3720,Dirección del viento,Meteorológica,10,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Ollague (20m),ollague,MINENERGIA,-21.231028,-68.255739,3720,Dirección del viento,Meteorológica,20,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Ollague (20m),ollague,MINENERGIA,-21.231028,-68.255739,3720,Intensidad del viento,Meteorológica,10,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Ollague (20m),ollague,MINENERGIA,-21.231028,-68.255739,3720,Intensidad del viento,Meteorológica,20,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Ollague (20m),ollague,MINENERGIA,-21.231028,-68.255739,3720,Ráfaga del viento,Meteorológica,10,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Ollague (20m),ollague,MINENERGIA,-21.231028,-68.255739,3720,Ráfaga del viento,Meteorológica,20,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Pan de Azúcar (20m),pan_azucar,MINENERGIA,-26.146492,-70.659694,22,Dirección del viento,Meteorológica,20,10 min,2003-10-25T19:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Pan de Azúcar (20m),pan_azucar,MINENERGIA,-26.146492,-70.659694,22,Intensidad del viento,Meteorológica,20,10 min,2003-10-25T19:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Pan de Azúcar (20m),pan_azucar,MINENERGIA,-26.146492,-70.659694,22,Radiación solar,Meteorológica,3,10 min,2003-10-25T19:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica San Marcos (20m),san_marcos,MINENERGIA,-21.1122,-70.117892,18,Dirección del viento,Meteorológica,20,10 min,2004-01-07T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica San Marcos (20m),san_marcos,MINENERGIA,-21.1122,-70.117892,18,Dirección del viento,Meteorológica,No informado,10 min,2004-01-07T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica San Marcos (20m),san_marcos,MINENERGIA,-21.1122,-70.117892,18,Intensidad del viento,Meteorológica,10,10 min,2004-01-07T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica San Marcos (20m),san_marcos,MINENERGIA,-21.1122,-70.117892,18,Intensidad del viento,Meteorológica,20,10 min,2004-01-07T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica San Marcos (20m),san_marcos,MINENERGIA,-21.1122,-70.117892,18,Ráfaga del viento,Meteorológica,10,10 min,2004-01-07T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica San Marcos (20m),san_marcos,MINENERGIA,-21.1122,-70.117892,18,Ráfaga del viento,Meteorológica,20,10 min,2004-01-07T00:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica San Marcos (20m),san_marcos,MINENERGIA,-21.1122,-70.117892,18,Temperatura,Meteorológica,3,10 min,2004-01-07T10:30-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Sibaya (20m),sibaya,MINENERGIA,-19.777569,-69.174872,2778,Dirección del viento,Meteorológica,20,10 min,2003-12-17T17:10-04:00,No,fuentes/exp_eol/README.md
+Estación eólica Sibaya (20m),sibaya,MINENERGIA,-19.777569,-69.174872,2778,Intensidad del viento,Meteorológica,20,10 min,2003-12-17T17:10-04:00,No,fuentes/exp_eol/README.md

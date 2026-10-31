@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.tmp
+
+# Evidencia y descargas originales: se conservan localmente, no se publican.
+datos_originales/
+
+# El dashboard compilado sí se versiona porque es el artefacto de GitHub Pages.
+!dashboard/dist/

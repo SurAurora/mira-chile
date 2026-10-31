@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MIRA Chile — Mapa de Instrumentos y Redes Atmosféricas</title>
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Mapa de Instrumentos y Redes Atmosféricas</p>
+        <h1>MIRA Chile</h1>
+        <p class="subtitle">
+          Explora qué se mide, dónde se observa y qué redes atmosféricas operan en Chile. Primera etapa: Arica y Parinacota a Atacama.
+        </p>
+      </div>
+      <div class="hero-actions">
+        <button id="exportCsv" class="button button-primary">Descargar selección CSV</button>
+        <button id="resetFilters" class="button button-ghost">Limpiar filtros</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="metrics" aria-label="Resumen">
+        <article><span id="metricStations">—</span><small>estaciones visibles</small></article>
+        <article><span id="metricSeries">—</span><small>series visibles</small></article>
+        <article><span id="metricNetworks">—</span><small>redes</small></article>
+        <article><span id="metricCurrent">—</span><small>series actuales</small></article>
+      </section>
+
+      <section class="workspace">
+        <aside class="filters panel">
+          <div class="panel-heading">
+            <div><p class="eyebrow">Explorar</p><h2>Filtros</h2></div>
+            <span id="filterCount" class="pill">0 activos</span>
+          </div>
+          <label class="field field-wide">
+            <span>Nombre o ID</span>
+            <input id="searchFilter" type="search" placeholder="Ej. Calama o 220002" />
+          </label>
+          <div class="filter-grid">
+            <label class="field"><span>Región</span><select id="regionFilter"></select></label>
+            <label class="field"><span>Comuna</span><select id="communeFilter"></select></label>
+            <label class="field"><span>Red</span><select id="networkFilter"></select></label>
+            <label class="field"><span>Institución</span><select id="institutionFilter"></select></label>
+            <label class="field"><span>Variable</span><select id="variableFilter"></select></label>
+            <label class="field"><span>Tipo</span><select id="typeFilter"></select></label>
+            <label class="field"><span>Altura del sensor</span><select id="heightFilter"></select></label>
+            <label class="field"><span>Frecuencia</span><select id="frequencyFilter"></select></label>
+            <label class="field"><span>Datos actuales</span><select id="currentFilter"></select></label>
+          </div>
+          <div class="layer-box">
+            <h3>Capas opcionales</h3>
+            <label><input id="layerRelief" type="checkbox" checked /> Relieve ASTER</label>
+            <label><input id="layerRegions" type="checkbox" checked /> Regiones</label>
+            <label><input id="layerCommunes" type="checkbox" /> Comunas</label>
+            <label><input id="layerRoads" type="checkbox" /> Red vial</label>
+            <p>ASTER es sólo contexto visual; no representa la altitud de cada estación.</p>
+          </div>
+        </aside>
+
+        <section class="map-card panel">
+          <div class="panel-heading map-heading">
+            <div><p class="eyebrow">Distribución espacial</p><h2>Mapa de estaciones</h2></div>
+            <div id="legend" class="legend"></div>
+          </div>
+          <div id="map" aria-label="Mapa interactivo"></div>
+          <div class="map-note">Haga clic en una estación para ver todas sus variables, alturas y frecuencias.</div>
+        </section>
+      </section>
+
+      <section class="panel section-card">
+        <div class="panel-heading">
+          <div><p class="eyebrow">Resultado filtrado</p><h2>Estaciones</h2></div>
+          <span id="tableSummary" class="muted"></span>
+        </div>
+        <div class="table-wrap">
+          <table id="stationTable">
+            <thead><tr><th>Estación</th><th>ID</th><th>Red</th><th>Región / comuna</th><th>Variables</th><th>Series</th><th>Actual</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel section-card">
+        <div class="panel-heading">
+          <div><p class="eyebrow">Cobertura</p><h2>Red × variable</h2></div>
+          <span class="muted">Número de estaciones del resultado actual</span>
+        </div>
+        <div id="coverageMatrix" class="matrix-wrap"></div>
+      </section>
+    </main>
+
+    <div id="detailBackdrop" class="backdrop" hidden></div>
+    <aside id="stationDetail" class="detail" aria-hidden="true">
+      <button id="closeDetail" class="detail-close" aria-label="Cerrar">×</button>
+      <div id="detailContent"></div>
+    </aside>
+
+    <footer>
+      Catálogo de disponibilidad. Las fechas y la condición de datos actuales provienen de verificaciones documentadas en cada README.
+    </footer>
+
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script src="data/catalog.js"></script>
+    <script src="data/regions.js"></script>
+    <script src="data/communes.js"></script>
+    <script src="data/relief.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

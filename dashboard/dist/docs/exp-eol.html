@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guía de descarga: EXP_EOL</title><style>
+body{max-width:980px;margin:0 auto;padding:32px 22px;background:#f6f3eb;color:#18302d;font:16px/1.55 system-ui,sans-serif}
+a{color:#18736f}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#fffdf8;border:1px solid #d9ddd4;border-radius:12px;padding:22px}
+</style></head><body><p><a href="../index.html">← Volver al dashboard</a></p><h1>Guía de descarga: EXP_EOL</h1>
+<pre># Red de mediciones del Explorador Eólico (EXP_EOL)
+
+## Identidad de la fuente
+
+- **Fuente/institución usada en el catálogo:** `MINENERGIA`.
+- **Red:** Explorador Eólico (`EXP_EOL`).
+- **Publicación de torres eólicas y solares:**
+  &lt;http://walker.dgf.uchile.cl/Mediciones/&gt;.
+- **Directorio complementario del Explorador Eólico:**
+  &lt;https://eolico.minenergia.cl/mediciones_dmc/&gt;.
+- **Fecha de consulta y revalidación numérica:** 2026-10-31.
+
+La cadena `mediciones_dmc` es el nombre de una ruta del servidor de
+MINENERGIA. En este proyecto **no se interpreta como la institución fuente** y
+ninguna de estas filas se atribuye a DMC. La DMC sólo se usó como catálogo
+auxiliar para traducir los códigos numéricos del segundo directorio a nombre,
+coordenadas y altitud, porque los CSV de MINENERGIA contienen únicamente el
+código de estación. Esto no cambia la atribución de las series a MINENERGIA.
+
+## Qué contienen las dos publicaciones
+
+Walker publica el catastro estructurado `siteinfo.json`, metadatos de sensores
+y un CSV por sitio. El portal principal de MINENERGIA devuelve 74 estaciones
+en `pideDatosEstacionesGiz`; sus 74 códigos también aparecen en el catastro de
+Walker. Por ello no se creó una segunda copia de esas mismas torres.
+
+El directorio `mediciones_dmc`, en cambio, ofrece productos separados con
+códigos numéricos:
+
+- humedad relativa (`HR`);
+- radiación global instantánea (`RadGInst`);
+- temperatura de aire seco (`Ts`);
+- viento a 10 m;
+- viento a 2 m;
+- viento promedio de 2 minutos.
+
+El último nombre describe el período de promedio del viento, no una fila cada
+dos minutos. En los archivos examinados dentro del área, las marcas temporales
+de ese producto están separadas predominantemente por 60 minutos. El catálogo
+registra la separación comprobada entre observaciones; el período de promedio se
+conserva en `datos_originales/exp_eol/sondeo_series.csv`.
+
+## Alcance y resultado
+
+Se incluyeron estaciones ubicadas en Arica y Parinacota, Tarapacá,
+Antofagasta y Atacama. El sondeo encontró:
+
+- 93 sitios en el catastro Walker completo;
+- 64 ubicaciones Walker en el área del proyecto;
+- 61 de ellas con al menos una variable solicitada y valores comprobados;
+- 99 archivos del directorio complementario dentro del área;
+- 88 IDs y 628 filas finales, antes de integrar esta fuente con los otros
+  catálogos del proyecto.
+
+Tres ubicaciones Walker del área (`CHAJNANTOR`, `CALAMA` y `CANCHONES`) no
+generaron filas: sus códigos de variables publicados no corresponden a la lista
+normalizada solicitada o no presentaron valores para ella. Esto no significa
+que los sitios carezcan de toda medición.
+
+## Variables y alturas
+
+En Walker se incorporaron estas combinaciones de código y estadístico:
+
+| Código original | Estadístico | Variable del catálogo |
+|---|---|---|
+| `vels` | `mean` | Intensidad del viento |
+| `vels` | `max` | Ráfaga del viento |
+| `dirv` | `mean` | Dirección del viento |
+| `temp` | `mean` | Temperatura |
+| `hrel` | `mean` | Humedad |
+| `pres` | `mean` | Presión |
+| `rglb` | `mean` | Radiación solar |
+
+La ráfaga corresponde al máximo publicado para el intervalo de salida; no se
+afirma que sea una ráfaga WMO de tres segundos. La altura se asigna primero
+desde el encabezado de la columna del CSV consolidado, porque ese texto está
+ligado directamente a la serie. Si el encabezado no informa una altura, se usa
+el catastro de instrumentos de `siteinfo.json` sólo cuando la correspondencia
+entre variable y altura es unívoca; como último respaldo se usa `sites[].vars`
+bajo el mismo criterio. Si sigue existiendo ambigüedad, se escribe
+`No informado`. Las mediciones solares
+especializadas (`rdni`, `rdif`, `rnet`, variables de seguimiento, referencias y
+sensores internos) no se equipararon automáticamente con radiación solar global.
+
+El catastro visual de instrumentos y el CSV no siempre coinciden. Por ejemplo,
+para `ARMAZ` el catastro enumera anemómetros nominales a 60, 40, 20 y 10 m,
+mientras que el CSV consolidado etiqueta las series a 50, 40, 20 y 10 m;
+además, etiqueta las direcciones a 58 y 18 m, la temperatura a 3 m y la presión
+a 2 m. El catálogo conserva las alturas del CSV y registra la discrepancia en
+`datos_originales/exp_eol/conflictos_alturas_walker.csv`. No se crean filas para
+instrumentos que aparecen en el catastro pero no tienen una columna con valores
+en el producto consolidado.
+
+En los archivos de código numérico, la altura se marca `No informado` para
+temperatura, humedad y radiación porque el directorio no publica ese dato. El
+producto de viento a 10 m se registra a 10 m y el de viento a 2 m a 2 m. Para
+`viento promedio 2 minutos` no se infiere una altura.
+
+## Cómo se obtuvo la primera fecha
+
+La fecha inicial **no** proviene de `info.initial_date`, de una fecha solicitada
+ni de un supuesto como 2009-01-01. El script abre cada CSV oficial en flujo,
+identifica las columnas de interés y avanza cronológicamente hasta encontrar el
+primer valor numérico real de cada columna. Los vacíos, `NaN` y valores centinela
+menores o iguales a -9000 no cuentan como observación.
+
+La revalidación aplica además restricciones físicas inequívocas: dirección
+entre 0° y 360°, humedad entre 0 % y 100 %, presión positiva, velocidad y
+ráfaga no negativas, temperatura entre -80 °C y 80 °C, y radiación global
+entre -50 y 2000 W/m². Se permiten pequeños valores negativos nocturnos de
+radiación. `sondeo_series.csv` conserva ahora también
+`primer_valor_verificado` para cada fila.
+
+La revisión encontró tres inicios instrumentales falsos. En `SLAR` se descartó
+una radiación de 22437 W/m² y la primera observación admisible quedó en
+194 W/m² el 2010-05-20 17:10. En `san_marcos` se omitió la transición de
+puesta en marcha desde -123,5 °C; la temperatura comienza cuando aparece una
+secuencia estable, el 2004-01-07 10:30. La temperatura de `llano_chocolate` no
+se incorporó porque toda la columna repite el centinela -123,5 °C.
+
+En Walker, el orden de columnas del CSV se valida contra `sites[].vars` de
+`siteinfo.json`. En los productos numéricos se usan los encabezados originales
+del archivo. La evidencia por columna queda en:
+
+`datos_originales/exp_eol/sondeo_series.csv`
+
+Ese archivo incluye URL, archivo, encabezado original, primera fecha con valor,
+última fecha comprobada, altura y detalle de la frecuencia.
+
+## Disponibilidad actual
+
+La ventana usada en la revalidación fue la de los siete días completos
+anteriores a la consulta: **2026-10-24 a 2026-10-30**, inclusive.
+
+- En Walker se inspeccionó la cola de cada CSV mediante una solicitud HTTP
+  `Range`. Si una columna no tenía valor en la cola, también se comprobó que la
+  fecha final oficial del sitio fuera anterior a la ventana.
+- En el directorio complementario se recorrió cada archivo completo en memoria
+  de flujo y se guardó sólo la última fecha con valor.
+
+Ninguna serie tenía observaciones durante la ventana. Por eso
+`datos_disponibles_actualmente` es `No`. Este estado describe la consulta del
+2026-10-29 y no demuestra el cierre definitivo de una estación.
+
+## Frecuencia y hora
+
+Walker declara normalmente una salida cada 10 minutos y un huso `UTC-4`; ambos
+se conservaron. Cuando faltaba el intervalo del registrador, se infirió la
+cadencia a partir de las primeras 1.000 marcas temporales y se dejó la evidencia.
+
+En los archivos complementarios se contaron los intervalos entre marcas
+consecutivas. Se informa `Variable` cuando más de una cadencia representa al
+menos 5 % de los intervalos observados. Los archivos de viento indican
+explícitamente `Hora (UTC)`, por lo que sus fechas llevan `+00:00`. Los archivos
+`HR`, `Ts` y `RadGInst` no publican huso en el encabezado; no se les agregó uno.
+
+## Comparación y deduplicación
+
+Se compararon las ubicaciones de Walker y del directorio complementario. Cuatro
+pares están a menos de 5 km: Salvador, Ollagüe, aeropuerto de Copiapó/Desierto de
+Atacama y Colchane. Se conservaron por separado porque tienen IDs, plataformas,
+alturas o productos distintos. La proximidad geográfica no prueba igualdad de
+las observaciones. La tabla auditable está en:
+
+`datos_originales/exp_eol/comparacion_publicaciones.csv`
+
+## Reproducción
+
+Desde la raíz del proyecto:
+
+```bash
+python scripts/construir_catalogo_exp_eol.py --workers 4
+```
+
+Para volver a descargar además los metadatos originales:
+
+```bash
+python scripts/construir_catalogo_exp_eol.py --refresh-metadata --workers 4
+```
+
+El proceso requiere Python, `requests` y acceso de red. Es reejecutable y no
+guarda las observaciones completas. Sus productos son:
+
+- `catalogo_exp_eol.csv`;
+- `datos_originales/exp_eol/siteinfo_walker.json.gz`;
+- `datos_originales/exp_eol/estaciones_portal_minenergia.json.gz`;
+- `datos_originales/exp_eol/catastro_estaciones_nacional.html.gz`;
+- `datos_originales/exp_eol/inventario_archivos_minenergia.csv`;
+- `datos_originales/exp_eol/metadatos_estaciones_walker.csv`;
+- `datos_originales/exp_eol/sondeo_series.csv`;
+- `datos_originales/exp_eol/conflictos_alturas_walker.csv`;
+- `datos_originales/exp_eol/comparacion_publicaciones.csv`;
+- `datos_originales/exp_eol/fallos.csv`;
+- `datos_originales/exp_eol/resumen_ejecucion.json`.
+
+## Descarga manual
+
+Para Walker, el patrón de descarga es:
+
+```text
+http://walker.dgf.uchile.cl/Mediciones/datos/csv/{ID}.csv
+```
+
+Ejemplo:
+
+```bash
+curl -fL -o d01.csv \
+  http://walker.dgf.uchile.cl/Mediciones/datos/csv/d01.csv
+```
+
+Para el directorio complementario, primero se abre la carpeta de la variable y
+se descarga el archivo que contiene el código numérico. Por ejemplo:
+
+```bash
+curl -fL -o Ts_180005.csv \
+  &#x27;https://eolico.minenergia.cl/mediciones_dmc/Temperatura_aire_seco_Ts/Ts_180005.csv&#x27;
+```
+
+Los listados y nombres pueden cambiar; conviene regenerar el inventario antes
+de una descarga nueva.
+</pre></body></html>

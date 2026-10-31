@@ -1,0 +1,209 @@
+nombre_estacion,id,fuente_institucion,latitud,longitud,altitud_snm_m,variable,tipo_variable,altura_sensor_suelo_m,frecuencia_muestreo,primera_fecha_disponible,datos_disponibles_actualmente,readme_descarga
+Visviri Tenencia,170001,DMC,-17.59500,-69.47750,4084,Dirección del viento,Meteorológica,No informado,60 min,2013-05-15T12:00,No determinado,fuentes/dmc/README.md
+Visviri Tenencia,170001,DMC,-17.59500,-69.47750,4084,Humedad,Meteorológica,No informado,60 min,2013-05-15T12:00,No determinado,fuentes/dmc/README.md
+Visviri Tenencia,170001,DMC,-17.59500,-69.47750,4084,Intensidad del viento,Meteorológica,No informado,60 min,2013-05-15T12:00,No determinado,fuentes/dmc/README.md
+Visviri Tenencia,170001,DMC,-17.59500,-69.47750,4084,Presión,Meteorológica,No informado,60 min,2013-05-15T12:00,No determinado,fuentes/dmc/README.md
+Visviri Tenencia,170001,DMC,-17.59500,-69.47750,4084,Temperatura,Meteorológica,No informado,60 min,2013-05-15T12:00,No determinado,fuentes/dmc/README.md
+"Chacalluta, Arica Ap.",180005,DMC,-18.35555,-70.34028,51,Dirección del viento,Meteorológica,No informado,180 min,1958-01-01T06:00,No determinado,fuentes/dmc/README.md
+"Chacalluta, Arica Ap.",180005,DMC,-18.35555,-70.34028,51,Humedad,Meteorológica,No informado,180 min,1958-01-01T06:00,No determinado,fuentes/dmc/README.md
+"Chacalluta, Arica Ap.",180005,DMC,-18.35555,-70.34028,51,Intensidad del viento,Meteorológica,No informado,180 min,1958-01-01T06:00,No determinado,fuentes/dmc/README.md
+"Chacalluta, Arica Ap.",180005,DMC,-18.35555,-70.34028,51,Presión,Meteorológica,No informado,180 min,1958-01-01T06:00,No determinado,fuentes/dmc/README.md
+"Chacalluta, Arica Ap.",180005,DMC,-18.35555,-70.34028,51,Temperatura,Meteorológica,No informado,180 min,1958-01-01T06:00,No determinado,fuentes/dmc/README.md
+Putre,180017,DMC,-18.20000,-69.56250,3532,Dirección del viento,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Putre,180017,DMC,-18.20000,-69.56250,3532,Humedad,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Putre,180017,DMC,-18.20000,-69.56250,3532,Intensidad del viento,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Putre,180017,DMC,-18.20000,-69.56250,3532,Presión,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Putre,180017,DMC,-18.20000,-69.56250,3532,Temperatura,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+"Defensa Civil, Arica",180018,DMC,-18.49111,-70.30139,71,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Defensa Civil, Arica",180018,DMC,-18.49111,-70.30139,71,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Defensa Civil, Arica",180018,DMC,-18.49111,-70.30139,71,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Defensa Civil, Arica",180018,DMC,-18.49111,-70.30139,71,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Defensa Civil, Arica",180018,DMC,-18.49111,-70.30139,71,Radiación solar,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Defensa Civil, Arica",180018,DMC,-18.49111,-70.30139,71,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Sombrero, Arica",180042,DMC,-18.51250,-70.26556,122,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Sombrero, Arica",180042,DMC,-18.51250,-70.26556,122,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Sombrero, Arica",180042,DMC,-18.51250,-70.26556,122,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Sombrero, Arica",180042,DMC,-18.51250,-70.26556,122,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Sombrero, Arica",180042,DMC,-18.51250,-70.26556,122,Radiación solar,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Sombrero, Arica",180042,DMC,-18.51250,-70.26556,122,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Colchane,190010,DMC,-19.27694,-68.63972,3700,Humedad,Meteorológica,No informado,10 min,2023-10-01T23:50:00,Sí,fuentes/dmc/README.md
+Colchane,190010,DMC,-19.27694,-68.63972,3700,Ráfaga del viento,Meteorológica,No informado,10 min,2023-10-01T23:50:00,Sí,fuentes/dmc/README.md
+Colchane,190010,DMC,-19.27694,-68.63972,3700,Temperatura,Meteorológica,1.5,10 min,2023-10-01T23:50:00,Sí,fuentes/dmc/README.md
+Diego Aracena Iquique Ap.,200006,DMC,-20.54917,-70.18111,48,Dirección del viento,Meteorológica,No informado,60 min,1981-04-01T00:00,No determinado,fuentes/dmc/README.md
+Diego Aracena Iquique Ap.,200006,DMC,-20.54917,-70.18111,48,Humedad,Meteorológica,No informado,60 min,1981-04-01T00:00,No determinado,fuentes/dmc/README.md
+Diego Aracena Iquique Ap.,200006,DMC,-20.54917,-70.18111,48,Intensidad del viento,Meteorológica,No informado,60 min,1981-04-01T00:00,No determinado,fuentes/dmc/README.md
+Diego Aracena Iquique Ap.,200006,DMC,-20.54917,-70.18111,48,Presión,Meteorológica,No informado,60 min,1981-04-01T00:00,No determinado,fuentes/dmc/README.md
+Diego Aracena Iquique Ap.,200006,DMC,-20.54917,-70.18111,48,Temperatura,Meteorológica,No informado,60 min,1981-04-01T00:00,No determinado,fuentes/dmc/README.md
+"La Huayca, Pozo Almonte",200007,DMC,-20.42167,-69.62750,992,Dirección del viento,Meteorológica,No informado,1 min,2019-03-03T02:17:00,Sí,fuentes/dmc/README.md
+"La Huayca, Pozo Almonte",200007,DMC,-20.42167,-69.62750,992,Humedad,Meteorológica,No informado,1 min,2019-03-03T02:17:00,Sí,fuentes/dmc/README.md
+"La Huayca, Pozo Almonte",200007,DMC,-20.42167,-69.62750,992,Intensidad del viento,Meteorológica,No informado,1 min,2019-03-03T02:17:00,Sí,fuentes/dmc/README.md
+"La Huayca, Pozo Almonte",200007,DMC,-20.42167,-69.62750,992,Presión,Meteorológica,No informado,1 min,2019-03-03T02:17:00,Sí,fuentes/dmc/README.md
+"La Huayca, Pozo Almonte",200007,DMC,-20.42167,-69.62750,992,Radiación solar,Meteorológica,No informado,1 min,2019-03-03T02:17:00,Sí,fuentes/dmc/README.md
+"La Huayca, Pozo Almonte",200007,DMC,-20.42167,-69.62750,992,Temperatura,Meteorológica,1.5,1 min,2019-03-03T02:17:00,Sí,fuentes/dmc/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,DMC,-20.27083,-70.13083,30,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,DMC,-20.27083,-70.13083,30,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,DMC,-20.27083,-70.13083,30,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,DMC,-20.27083,-70.13083,30,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,DMC,-20.27083,-70.13083,30,Radiación solar,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"UNAP (Universidad Arturo Prat), Iquique",200010,DMC,-20.27083,-70.13083,30,Temperatura,Meteorológica,1.5,1 min,2019-03-01T11:46:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Dirección del viento,Meteorológica,No informado,15 min,2016-10-26T17:15:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Humedad,Meteorológica,No informado,15 min,2016-10-26T17:15:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Intensidad del viento,Meteorológica,No informado,15 min,2016-10-25T22:15:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Precipitación,Meteorológica,No informado,15 min,2016-10-25T22:15:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Presión,Meteorológica,No informado,15 min,2016-10-26T17:15:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Radiación solar,Meteorológica,No informado,1 min,2019-01-01T13:16:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Radiación solar,Meteorológica,No informado,15 min,2016-10-28T02:15:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Ráfaga del viento,Meteorológica,No informado,1 min,2021-10-06T19:36:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Ollague,210901,DMC,-21.22417,-68.25583,3708,Temperatura,Meteorológica,1.5,15 min,2016-10-26T17:15:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Dirección del viento,Meteorológica,No informado,15 min,2015-10-13T20:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Dirección del viento,Meteorológica,No informado,300 min,1965-02-01T12:00,No determinado,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Humedad,Meteorológica,No informado,15 min,2015-10-13T20:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Humedad,Meteorológica,No informado,300 min,1965-02-01T12:00,No determinado,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Intensidad del viento,Meteorológica,No informado,15 min,2016-09-27T12:15:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Intensidad del viento,Meteorológica,No informado,300 min,1965-02-01T12:00,No determinado,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Precipitación,Meteorológica,No informado,15 min,2015-10-13T20:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Presión,Meteorológica,No informado,15 min,2015-10-13T20:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Presión,Meteorológica,No informado,60 min,1970-10-22T16:00,No determinado,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Ráfaga del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Temperatura,Meteorológica,1.5,15 min,2015-10-13T20:00:00,Sí,fuentes/dmc/README.md
+"El Loa, Calama Ad.",220002,DMC,-22.49806,-68.89250,2326,Temperatura,Meteorológica,No informado,300 min,1965-02-01T12:00,No determinado,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Dirección del viento,Meteorológica,No informado,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Dirección del viento,Meteorológica,No informado,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Humedad,Meteorológica,No informado,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Humedad,Meteorológica,No informado,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Intensidad del viento,Meteorológica,No informado,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Intensidad del viento,Meteorológica,No informado,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Precipitación,Meteorológica,No informado,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Presión,Meteorológica,No informado,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Presión,Meteorológica,No informado,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,1.5,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,1.5,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,10,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,10,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,2,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,2,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,30,1 min,2024-03-01T00:00:00,Sí,fuentes/dmc/README.md
+"Chorrillos, Calama",220026,DMC,-22.45000,-68.91028,2298,Temperatura,Meteorológica,30,15 min,2024-02-20T21:00:00,Sí,fuentes/dmc/README.md
+Tocopilla (C.D.P),220027,DMC,-22.06389,-70.18611,81,Dirección del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,No determinado,fuentes/dmc/README.md
+Tocopilla (C.D.P),220027,DMC,-22.06389,-70.18611,81,Humedad,Meteorológica,No informado,1 min,2026-01-01T00:01:00,No determinado,fuentes/dmc/README.md
+Tocopilla (C.D.P),220027,DMC,-22.06389,-70.18611,81,Intensidad del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,No determinado,fuentes/dmc/README.md
+Tocopilla (C.D.P),220027,DMC,-22.06389,-70.18611,81,Presión,Meteorológica,No informado,1 min,2026-01-01T00:01:00,No determinado,fuentes/dmc/README.md
+Tocopilla (C.D.P),220027,DMC,-22.06389,-70.18611,81,Radiación solar,Meteorológica,No informado,1 min,2026-01-01T00:01:00,No determinado,fuentes/dmc/README.md
+Tocopilla (C.D.P),220027,DMC,-22.06389,-70.18611,81,Ráfaga del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,No determinado,fuentes/dmc/README.md
+Tocopilla (C.D.P),220027,DMC,-22.06389,-70.18611,81,Temperatura,Meteorológica,1.5,1 min,2026-01-01T00:01:00,No determinado,fuentes/dmc/README.md
+"Maria Elena, Salitrera",220028,DMC,-22.34333,-69.67167,1292,Dirección del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Maria Elena, Salitrera",220028,DMC,-22.34333,-69.67167,1292,Humedad,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Maria Elena, Salitrera",220028,DMC,-22.34333,-69.67167,1292,Intensidad del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Maria Elena, Salitrera",220028,DMC,-22.34333,-69.67167,1292,Presión,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Maria Elena, Salitrera",220028,DMC,-22.34333,-69.67167,1292,Radiación solar,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Maria Elena, Salitrera",220028,DMC,-22.34333,-69.67167,1292,Ráfaga del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Maria Elena, Salitrera",220028,DMC,-22.34333,-69.67167,1292,Temperatura,Meteorológica,1.5,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+Cerro Moreno Antofagasta Ap.,230001,DMC,-23.45361,-70.44528,139,Dirección del viento,Meteorológica,No informado,60 min,1950-01-01T12:00,No determinado,fuentes/dmc/README.md
+Cerro Moreno Antofagasta Ap.,230001,DMC,-23.45361,-70.44528,139,Humedad,Meteorológica,No informado,300 min,1950-01-01T12:00,No determinado,fuentes/dmc/README.md
+Cerro Moreno Antofagasta Ap.,230001,DMC,-23.45361,-70.44528,139,Intensidad del viento,Meteorológica,No informado,60 min,1950-01-01T12:00,No determinado,fuentes/dmc/README.md
+Cerro Moreno Antofagasta Ap.,230001,DMC,-23.45361,-70.44528,139,Presión,Meteorológica,No informado,180 min,1957-07-01T06:00,No determinado,fuentes/dmc/README.md
+Cerro Moreno Antofagasta Ap.,230001,DMC,-23.45361,-70.44528,139,Temperatura,Meteorológica,No informado,60 min,1950-01-01T12:00,No determinado,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Dirección del viento,Meteorológica,No informado,15 min,2016-05-11T16:15:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Humedad,Meteorológica,No informado,15 min,2016-05-11T16:15:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Intensidad del viento,Meteorológica,No informado,15 min,2016-05-11T16:15:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Precipitación,Meteorológica,No informado,15 min,2016-05-11T16:15:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Presión,Meteorológica,No informado,15 min,2016-05-11T16:15:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Radiación solar,Meteorológica,No informado,1 min,2019-01-01T13:30:00,No,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Radiación solar,Meteorológica,No informado,15 min,2016-05-11T23:00:00,No,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Ráfaga del viento,Meteorológica,No informado,1 min,2021-03-27T01:11:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+"Universidad Catolica del Norte, Antofagasta",230002,DMC,-23.68083,-70.41111,31,Temperatura,Meteorológica,1.5,15 min,2016-05-11T16:15:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Dirección del viento,Meteorológica,No informado,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Humedad,Meteorológica,No informado,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Intensidad del viento,Meteorológica,No informado,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Precipitación,Meteorológica,No informado,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Presión,Meteorológica,No informado,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Radiación solar,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Radiación solar,Meteorológica,No informado,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Ráfaga del viento,Meteorológica,No informado,1 min,2021-03-22T11:46:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Toconao,230004,DMC,-23.18611,-68.00556,2495,Temperatura,Meteorológica,1.5,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Dirección del viento,Meteorológica,No informado,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Dirección del viento,Meteorológica,No informado,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Humedad,Meteorológica,No informado,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Humedad,Meteorológica,No informado,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Intensidad del viento,Meteorológica,No informado,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Intensidad del viento,Meteorológica,No informado,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Precipitación,Meteorológica,No informado,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Presión,Meteorológica,No informado,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Presión,Meteorológica,No informado,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Radiación solar,Meteorológica,No informado,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Radiación solar,Meteorológica,No informado,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Ráfaga del viento,Meteorológica,No informado,1 min,2021-03-22T11:46:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Temperatura,Meteorológica,1.5,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
+Mejillones,230022,DMC,-23.10917,-70.44333,31,Temperatura,Meteorológica,1.5,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Dirección del viento,Meteorológica,No informado,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Humedad,Meteorológica,No informado,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Intensidad del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Intensidad del viento,Meteorológica,No informado,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Precipitación,Meteorológica,No informado,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Presión,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Presión,Meteorológica,No informado,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Radiación solar,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Radiación solar,Meteorológica,No informado,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Ráfaga del viento,Meteorológica,No informado,1 min,2021-04-12T14:04:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
+Taltal,250005,DMC,-25.41111,-70.48417,37,Temperatura,Meteorológica,1.5,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
+"Ad. Ricardo Garcia Posada, El Salvador",260010,DMC,-26.31305,-69.75139,1597,Humedad,Meteorológica,No informado,10 min,2023-08-04T17:00:00,Sí,fuentes/dmc/README.md
+"Ad. Ricardo Garcia Posada, El Salvador",260010,DMC,-26.31305,-69.75139,1597,Ráfaga del viento,Meteorológica,No informado,10 min,2023-08-04T17:00:00,Sí,fuentes/dmc/README.md
+"Ad. Ricardo Garcia Posada, El Salvador",260010,DMC,-26.31305,-69.75139,1597,Temperatura,Meteorológica,1.5,10 min,2023-08-04T17:00:00,Sí,fuentes/dmc/README.md
+"Desierto de Atacama, Caldera Ad.",270008,DMC,-27.25444,-70.78111,204,Dirección del viento,Meteorológica,No informado,60 min,2005-02-01T12:00,No determinado,fuentes/dmc/README.md
+"Desierto de Atacama, Caldera Ad.",270008,DMC,-27.25444,-70.78111,204,Humedad,Meteorológica,No informado,60 min,2005-02-01T12:00,No determinado,fuentes/dmc/README.md
+"Desierto de Atacama, Caldera Ad.",270008,DMC,-27.25444,-70.78111,204,Intensidad del viento,Meteorológica,No informado,60 min,2005-02-01T12:00,No determinado,fuentes/dmc/README.md
+"Desierto de Atacama, Caldera Ad.",270008,DMC,-27.25444,-70.78111,204,Presión,Meteorológica,No informado,180 min,2005-02-01T12:00,No determinado,fuentes/dmc/README.md
+"Desierto de Atacama, Caldera Ad.",270008,DMC,-27.25444,-70.78111,204,Temperatura,Meteorológica,No informado,60 min,2005-02-01T12:00,No determinado,fuentes/dmc/README.md
+Copiapo Universidad de Atacama,270009,DMC,-27.35889,-70.35333,362,Dirección del viento,Meteorológica,No informado,60 min,2016-12-21T21:00,No determinado,fuentes/dmc/README.md
+Copiapo Universidad de Atacama,270009,DMC,-27.35889,-70.35333,362,Humedad,Meteorológica,No informado,60 min,2016-12-21T21:00,No determinado,fuentes/dmc/README.md
+Copiapo Universidad de Atacama,270009,DMC,-27.35889,-70.35333,362,Intensidad del viento,Meteorológica,No informado,60 min,2016-12-21T21:00,No determinado,fuentes/dmc/README.md
+Copiapo Universidad de Atacama,270009,DMC,-27.35889,-70.35333,362,Presión,Meteorológica,No informado,60 min,2016-12-21T21:00,No determinado,fuentes/dmc/README.md
+Copiapo Universidad de Atacama,270009,DMC,-27.35889,-70.35333,362,Temperatura,Meteorológica,No informado,60 min,2016-12-21T21:00,No determinado,fuentes/dmc/README.md
+Caldera R.B.,270015,DMC,-27.07583,-70.82111,50,Dirección del viento,Meteorológica,No informado,1 min,2019-03-05T11:16:00,No,fuentes/dmc/README.md
+Caldera R.B.,270015,DMC,-27.07583,-70.82111,50,Humedad,Meteorológica,No informado,1 min,2019-03-05T11:16:00,No,fuentes/dmc/README.md
+Caldera R.B.,270015,DMC,-27.07583,-70.82111,50,Intensidad del viento,Meteorológica,No informado,1 min,2019-03-05T11:16:00,No,fuentes/dmc/README.md
+Caldera R.B.,270015,DMC,-27.07583,-70.82111,50,Presión,Meteorológica,No informado,1 min,2019-03-05T11:16:00,No,fuentes/dmc/README.md
+Caldera R.B.,270015,DMC,-27.07583,-70.82111,50,Radiación solar,Meteorológica,No informado,1 min,2019-03-05T11:16:00,No,fuentes/dmc/README.md
+Caldera R.B.,270015,DMC,-27.07583,-70.82111,50,Temperatura,Meteorológica,1.5,1 min,2019-03-05T11:16:00,No,fuentes/dmc/README.md
+"Copiapo, Cerro Antenas",270022,DMC,-27.36278,-70.28305,946,Dirección del viento,Meteorológica,No informado,1 min,2025-10-01T00:00:00,Sí,fuentes/dmc/README.md
+"Copiapo, Cerro Antenas",270022,DMC,-27.36278,-70.28305,946,Humedad,Meteorológica,No informado,1 min,2025-10-01T00:00:00,Sí,fuentes/dmc/README.md
+"Copiapo, Cerro Antenas",270022,DMC,-27.36278,-70.28305,946,Intensidad del viento,Meteorológica,No informado,1 min,2025-10-01T00:00:00,Sí,fuentes/dmc/README.md
+"Copiapo, Cerro Antenas",270022,DMC,-27.36278,-70.28305,946,Presión,Meteorológica,No informado,1 min,2025-10-01T00:00:00,Sí,fuentes/dmc/README.md
+"Copiapo, Cerro Antenas",270022,DMC,-27.36278,-70.28305,946,Radiación solar,Meteorológica,No informado,1 min,2025-10-01T00:00:00,Sí,fuentes/dmc/README.md
+"Copiapo, Cerro Antenas",270022,DMC,-27.36278,-70.28305,946,Ráfaga del viento,Meteorológica,No informado,1 min,2025-10-01T00:00:00,Sí,fuentes/dmc/README.md
+"Copiapo, Cerro Antenas",270022,DMC,-27.36278,-70.28305,946,Temperatura,Meteorológica,1.5,1 min,2025-10-01T00:00:00,Sí,fuentes/dmc/README.md
+Freirina Nicolasa,280010,DMC,-28.51694,-71.01000,156,Dirección del viento,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Freirina Nicolasa,280010,DMC,-28.51694,-71.01000,156,Humedad,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Freirina Nicolasa,280010,DMC,-28.51694,-71.01000,156,Intensidad del viento,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Freirina Nicolasa,280010,DMC,-28.51694,-71.01000,156,Presión,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+Freirina Nicolasa,280010,DMC,-28.51694,-71.01000,156,Temperatura,Meteorológica,No informado,60 min,2017-01-01T00:00,No determinado,fuentes/dmc/README.md
+"Alto del Carmen, Los Sauces",280028,DMC,-28.77778,-70.47055,854,Dirección del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Alto del Carmen, Los Sauces",280028,DMC,-28.77778,-70.47055,854,Humedad,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Alto del Carmen, Los Sauces",280028,DMC,-28.77778,-70.47055,854,Intensidad del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Alto del Carmen, Los Sauces",280028,DMC,-28.77778,-70.47055,854,Presión,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Alto del Carmen, Los Sauces",280028,DMC,-28.77778,-70.47055,854,Radiación solar,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Alto del Carmen, Los Sauces",280028,DMC,-28.77778,-70.47055,854,Ráfaga del viento,Meteorológica,No informado,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md
+"Alto del Carmen, Los Sauces",280028,DMC,-28.77778,-70.47055,854,Temperatura,Meteorológica,1.5,1 min,2026-01-01T00:01:00,Sí,fuentes/dmc/README.md

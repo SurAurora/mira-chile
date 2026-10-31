@@ -1,0 +1,288 @@
+nombre_estacion,id,fuente_institucion,latitud,longitud,altitud_snm_m,variable,tipo_variable,altura_sensor_suelo_m,frecuencia_muestreo,primera_fecha_disponible,datos_disponibles_actualmente,readme_descarga
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,Dirección del viento,Meteorológica,10,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,Humedad,Meteorológica,3,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,Intensidad del viento,Meteorológica,10,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,NO,Calidad del aire,No informado,60 min,2007-12-31T23:00,Sí,fuentes/sinca/README.md
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,NO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,Sí,fuentes/sinca/README.md
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,NOX,Calidad del aire,No informado,60 min,2007-12-31T23:00,Sí,fuentes/sinca/README.md
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,Radiación solar,Meteorológica,3,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Jardín Infantil Integra,1,SINCA / MMA,-23.102451,-70.444524,No informado,Temperatura,Meteorológica,10,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Villa Caspana,3,SINCA / MMA,-22.474990,-68.927970,No informado,SO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Compañía de Bomberos,4,SINCA / MMA,-23.100167,-70.450318,No informado,CO,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Compañía de Bomberos,4,SINCA / MMA,-23.100167,-70.450318,No informado,NO,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Compañía de Bomberos,4,SINCA / MMA,-23.100167,-70.450318,No informado,NO2,Calidad del aire,No informado,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+Compañía de Bomberos,4,SINCA / MMA,-23.100167,-70.450318,No informado,NOX,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Compañía de Bomberos,4,SINCA / MMA,-23.100167,-70.450318,No informado,O3,Calidad del aire,No informado,60 min,2004-04-12T12:00,No,fuentes/sinca/README.md
+Servicio Médico Legal,12,SINCA / MMA,-22.460543,-68.947679,No informado,SO2,Calidad del aire,No informado,60 min,2008-04-10T23:00,No,fuentes/sinca/README.md
+Rendic,33,SINCA / MMA,-23.612492,-70.380728,No informado,Dirección del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Rendic,33,SINCA / MMA,-23.612492,-70.380728,No informado,Intensidad del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Pabellón,40,SINCA / MMA,-27.657612,-70.235341,No informado,SO2,Calidad del aire,No informado,60 min,1993-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,Dirección del viento,Meteorológica,10,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,Humedad,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,Intensidad del viento,Meteorológica,10,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,Precipitación,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,Presión,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,Radiación solar,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,SO2,Calidad del aire,No informado,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+CAP,45,SINCA / MMA,-26.423457,-69.507045,No informado,Temperatura,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Sur,46,SINCA / MMA,-23.833389,-70.308916,No informado,SO2,Calidad del aire,No informado,60 min,2008-02-23T23:00,No,fuentes/sinca/README.md
+Ferrocarriles,66,SINCA / MMA,-23.097760,-70.462623,No informado,NO2,Calidad del aire,No informado,60 min,2008-02-29T23:00,No,fuentes/sinca/README.md
+Ferrocarriles,66,SINCA / MMA,-23.097760,-70.462623,No informado,O3,Calidad del aire,No informado,60 min,2008-02-29T23:00,No,fuentes/sinca/README.md
+Ferrocarriles,66,SINCA / MMA,-23.097760,-70.462623,No informado,SO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+San José,69,SINCA / MMA,-22.315141,-68.929810,No informado,Dirección del viento,Meteorológica,10,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+San José,69,SINCA / MMA,-22.315141,-68.929810,No informado,Intensidad del viento,Meteorológica,10,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+San José,69,SINCA / MMA,-22.315141,-68.929810,No informado,Precipitación,Meteorológica,2,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+San José,69,SINCA / MMA,-22.315141,-68.929810,No informado,Presión,Meteorológica,2,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+San José,69,SINCA / MMA,-22.315141,-68.929810,No informado,SO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+San José,69,SINCA / MMA,-22.315141,-68.929810,No informado,Temperatura,Meteorológica,2,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+Playa Blanca,70,SINCA / MMA,-23.674214,-70.407262,No informado,Dirección del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Playa Blanca,70,SINCA / MMA,-23.674214,-70.407262,No informado,Intensidad del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Paposo,71,SINCA / MMA,-25.007263,-70.463153,No informado,CO,Calidad del aire,No informado,60 min,2007-10-01T00:00,No,fuentes/sinca/README.md
+Paposo,71,SINCA / MMA,-25.007263,-70.463153,No informado,NO,Calidad del aire,No informado,60 min,2007-10-01T00:00,No,fuentes/sinca/README.md
+Paposo,71,SINCA / MMA,-25.007263,-70.463153,No informado,NO2,Calidad del aire,No informado,60 min,2007-10-01T00:00,No,fuentes/sinca/README.md
+Paposo,71,SINCA / MMA,-25.007263,-70.463153,No informado,NOX,Calidad del aire,No informado,60 min,2007-10-01T00:00,No,fuentes/sinca/README.md
+Paposo,71,SINCA / MMA,-25.007263,-70.463153,No informado,O3,Calidad del aire,No informado,60 min,2007-10-01T00:00,No,fuentes/sinca/README.md
+Paposo,71,SINCA / MMA,-25.007263,-70.463153,No informado,SO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,CO,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,Dirección del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,Humedad,Meteorológica,2,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,Intensidad del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,NO,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,NO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,NOX,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,O3,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,Precipitación,Meteorológica,2,60 min,2009-04-01T00:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,Presión,Meteorológica,2,60 min,2009-04-01T00:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,Radiación solar,Meteorológica,2,60 min,2009-04-01T00:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,SO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Punto de Máximo Impacto,72,SINCA / MMA,-24.982949,-70.461161,No informado,Temperatura,Meteorológica,2,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Aukahuasi,108,SINCA / MMA,-22.320709,-68.937070,No informado,SO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,Dirección del viento,Meteorológica,10,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,Humedad,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,Intensidad del viento,Meteorológica,10,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,Precipitación,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,Presión,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,Radiación solar,Meteorológica,2,60 min,2009-10-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,SO2,Calidad del aire,No informado,60 min,2009-12-31T23:00,No,fuentes/sinca/README.md
+Doña Ines,114,SINCA / MMA,-26.432901,-69.481081,No informado,Temperatura,Meteorológica,2,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+SM5,121,SINCA / MMA,-28.484448,-71.146082,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Dirección del viento,Meteorológica,10,60 min,2002-12-31T23:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Humedad,Meteorológica,2,60 min,2011-12-27T09:00,No,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Humedad,Meteorológica,No informado,60 min,2015-06-01T00:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Intensidad del viento,Meteorológica,10,60 min,2003-02-02T11:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,MP10,Calidad del aire,No informado,60 min,2017-04-18T14:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,MP2.5,Calidad del aire,No informado,60 min,2015-01-06T15:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Precipitación,Meteorológica,2,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Precipitación,Meteorológica,No informado,60 min,2020-08-03T12:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Presión,Meteorológica,2,60 min,2002-12-31T23:00,No,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Presión,Meteorológica,3,60 min,2004-12-18T12:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Radiación solar,Meteorológica,3,60 min,2002-12-31T23:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,SO2,Calidad del aire,No informado,60 min,2002-04-30T23:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Temperatura,Meteorológica,10,60 min,2004-12-18T12:00,Sí,fuentes/sinca/README.md
+Hospital del Cobre,124,SINCA / MMA,-22.454013,-68.910175,No informado,Temperatura,Meteorológica,2,60 min,2002-12-31T23:00,Sí,fuentes/sinca/README.md
+Centro,128,SINCA / MMA,-22.093542,-70.197033,No informado,Dirección del viento,Meteorológica,10,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Centro,128,SINCA / MMA,-22.093542,-70.197033,No informado,Intensidad del viento,Meteorológica,10,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Oasis,134,SINCA / MMA,-22.464263,-68.920637,No informado,Dirección del viento,Meteorológica,10,60 min,2020-08-03T12:00,Sí,fuentes/sinca/README.md
+Oasis,134,SINCA / MMA,-22.464263,-68.920637,No informado,Humedad,Meteorológica,2,60 min,2020-08-03T12:00,Sí,fuentes/sinca/README.md
+Oasis,134,SINCA / MMA,-22.464263,-68.920637,No informado,Intensidad del viento,Meteorológica,10,60 min,2020-08-03T12:00,Sí,fuentes/sinca/README.md
+Oasis,134,SINCA / MMA,-22.464263,-68.920637,No informado,Radiación solar,Meteorológica,No informado,60 min,2020-08-03T08:00,Sí,fuentes/sinca/README.md
+Oasis,134,SINCA / MMA,-22.464263,-68.920637,No informado,SO2,Calidad del aire,No informado,60 min,2012-02-01T18:00,Sí,fuentes/sinca/README.md
+Oasis,134,SINCA / MMA,-22.464263,-68.920637,No informado,Temperatura,Meteorológica,2,60 min,2020-08-03T12:00,Sí,fuentes/sinca/README.md
+San Fernando,139,SINCA / MMA,-27.393285,-70.298722,No informado,Dirección del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+San Fernando,139,SINCA / MMA,-27.393285,-70.298722,No informado,Intensidad del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+San Fernando,139,SINCA / MMA,-27.393285,-70.298722,No informado,SO2,Calidad del aire,No informado,60 min,1992-12-31T23:00,No,fuentes/sinca/README.md
+Alto Hospicio,157,SINCA / MMA,-20.290499,-70.100224,No informado,Dirección del viento,Meteorológica,10,60 min,2004-12-09T07:00,No,fuentes/sinca/README.md
+Alto Hospicio,157,SINCA / MMA,-20.290499,-70.100224,No informado,Humedad,Meteorológica,3,60 min,2004-12-09T07:00,No,fuentes/sinca/README.md
+Alto Hospicio,157,SINCA / MMA,-20.290499,-70.100224,No informado,Intensidad del viento,Meteorológica,10,60 min,2004-12-09T07:00,No,fuentes/sinca/README.md
+Alto Hospicio,157,SINCA / MMA,-20.290499,-70.100224,No informado,MP2.5,Calidad del aire,No informado,60 min,2004-12-09T06:00,Sí,fuentes/sinca/README.md
+Alto Hospicio,157,SINCA / MMA,-20.290499,-70.100224,No informado,Radiación solar,Meteorológica,3,60 min,2016-02-16T11:00,Sí,fuentes/sinca/README.md
+Alto Hospicio,157,SINCA / MMA,-20.290499,-70.100224,No informado,Temperatura,Meteorológica,10,60 min,2004-12-09T07:00,Sí,fuentes/sinca/README.md
+Alto Hospicio,157,SINCA / MMA,-20.290499,-70.100224,No informado,Temperatura,Meteorológica,3,60 min,2016-02-16T11:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Dirección del viento,Meteorológica,10,60 min,2005-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Dirección del viento,Meteorológica,12,60 min,2018-08-25T08:00,Sí,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Dirección del viento,Meteorológica,No informado,60 min,2005-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Humedad,Meteorológica,12,60 min,2018-08-25T08:00,Sí,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Humedad,Meteorológica,2,60 min,2005-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Humedad,Meteorológica,No informado,60 min,2005-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Intensidad del viento,Meteorológica,10,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Intensidad del viento,Meteorológica,12,60 min,2018-08-25T08:00,Sí,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Intensidad del viento,Meteorológica,No informado,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Precipitación,Meteorológica,12,60 min,2018-08-26T00:00,Sí,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Precipitación,Meteorológica,2,60 min,2005-05-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Precipitación,Meteorológica,No informado,60 min,2005-05-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Presión,Meteorológica,12,60 min,2018-08-25T08:00,Sí,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Presión,Meteorológica,2,60 min,2000-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Presión,Meteorológica,No informado,60 min,2000-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Radiación solar,Meteorológica,12,60 min,2018-08-25T08:00,Sí,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Radiación solar,Meteorológica,2,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Radiación solar,Meteorológica,No informado,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,SO2,Calidad del aire,No informado,60 min,2002-02-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Temperatura,Meteorológica,12,60 min,2018-08-25T08:00,Sí,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Temperatura,Meteorológica,2,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+EME ME,163,SINCA / MMA,-28.465100,-71.257069,No informado,Temperatura,Meteorológica,No informado,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,Dirección del viento,Meteorológica,10,60 min,2011-07-20T10:00,Sí,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,Humedad,Meteorológica,4,60 min,2011-08-31T23:00,No,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,Intensidad del viento,Meteorológica,10,60 min,2011-07-20T15:00,Sí,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,MP10,Calidad del aire,No informado,60 min,2011-02-19T08:00,Sí,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,MP2.5,Calidad del aire,No informado,60 min,2011-02-19T08:00,Sí,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,Presión,Meteorológica,4,60 min,2011-07-20T10:00,No,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,Radiación solar,Meteorológica,4,60 min,2011-08-31T23:00,No,fuentes/sinca/README.md
+Tres Marias,169,SINCA / MMA,-22.060235,-70.187362,No informado,Temperatura,Meteorológica,4,60 min,2011-07-20T10:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,CO,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,Dirección del viento,Meteorológica,10,60 min,2019-08-13T14:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,Humedad,Meteorológica,2,60 min,2019-08-12T17:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,Intensidad del viento,Meteorológica,10,60 min,2019-08-12T17:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,MP10,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,MP2.5,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,NO,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,NO2,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,NOX,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,O3,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,Radiación solar,Meteorológica,3,60 min,2019-08-12T17:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,SO2,Calidad del aire,No informado,60 min,2019-07-17T15:00,Sí,fuentes/sinca/README.md
+Super Site,172,SINCA / MMA,-22.085846,-70.188361,No informado,Temperatura,Meteorológica,2,60 min,2019-08-12T17:00,Sí,fuentes/sinca/README.md
+EME M,175,SINCA / MMA,-28.470313,-71.218837,No informado,MP2.5,Calidad del aire,No informado,60 min,2018-08-27T00:00,Sí,fuentes/sinca/README.md
+EME M,175,SINCA / MMA,-28.470313,-71.218837,No informado,NO,Calidad del aire,No informado,60 min,2004-01-01T00:00,No,fuentes/sinca/README.md
+EME M,175,SINCA / MMA,-28.470313,-71.218837,No informado,NO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+EME M,175,SINCA / MMA,-28.470313,-71.218837,No informado,SO2,Calidad del aire,No informado,60 min,2000-03-07T15:00,Sí,fuentes/sinca/README.md
+Copiapo Sivica,176,SINCA / MMA,-27.370008,-70.323312,No informado,Dirección del viento,Meteorológica,10,60 min,2025-12-31T23:00,Sí,fuentes/sinca/README.md
+Copiapo Sivica,176,SINCA / MMA,-27.370008,-70.323312,No informado,Humedad,Meteorológica,10,60 min,2025-12-31T23:00,Sí,fuentes/sinca/README.md
+Copiapo Sivica,176,SINCA / MMA,-27.370008,-70.323312,No informado,Intensidad del viento,Meteorológica,10,60 min,2025-12-31T23:00,Sí,fuentes/sinca/README.md
+Copiapo Sivica,176,SINCA / MMA,-27.370008,-70.323312,No informado,MP10,Calidad del aire,No informado,60 min,2013-10-18T00:00,Sí,fuentes/sinca/README.md
+Copiapo Sivica,176,SINCA / MMA,-27.370008,-70.323312,No informado,MP2.5,Calidad del aire,No informado,60 min,2013-10-18T00:00,Sí,fuentes/sinca/README.md
+Copiapo Sivica,176,SINCA / MMA,-27.370008,-70.323312,No informado,SO2,Calidad del aire,No informado,60 min,2021-07-19T09:00,Sí,fuentes/sinca/README.md
+Copiapo Sivica,176,SINCA / MMA,-27.370008,-70.323312,No informado,Temperatura,Meteorológica,10,60 min,2025-12-31T23:00,Sí,fuentes/sinca/README.md
+Bomberos,178,SINCA / MMA,-22.107845,-70.208757,No informado,MP2.5,Calidad del aire,No informado,60 min,2009-02-28T23:00,Sí,fuentes/sinca/README.md
+Huasco II,179,SINCA / MMA,-28.466724,-71.230832,No informado,Dirección del viento,Meteorológica,10,60 min,2017-04-28T16:00,Sí,fuentes/sinca/README.md
+Huasco II,179,SINCA / MMA,-28.466724,-71.230832,No informado,Intensidad del viento,Meteorológica,10,60 min,2017-04-28T16:00,Sí,fuentes/sinca/README.md
+Huasco II,179,SINCA / MMA,-28.466724,-71.230832,No informado,NO,Calidad del aire,No informado,60 min,2017-04-28T16:00,Sí,fuentes/sinca/README.md
+Huasco II,179,SINCA / MMA,-28.466724,-71.230832,No informado,NO2,Calidad del aire,No informado,60 min,2017-04-28T16:00,Sí,fuentes/sinca/README.md
+Huasco II,179,SINCA / MMA,-28.466724,-71.230832,No informado,NOX,Calidad del aire,No informado,60 min,2021-10-01T00:00,Sí,fuentes/sinca/README.md
+Huasco II,179,SINCA / MMA,-28.466724,-71.230832,No informado,O3,Calidad del aire,No informado,60 min,2017-04-28T16:00,Sí,fuentes/sinca/README.md
+Huasco II,179,SINCA / MMA,-28.466724,-71.230832,No informado,SO2,Calidad del aire,No informado,60 min,2017-04-28T16:00,Sí,fuentes/sinca/README.md
+SM7,187,SINCA / MMA,-28.498005,-71.096103,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,No,fuentes/sinca/README.md
+SM2,192,SINCA / MMA,-28.461661,-71.181399,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Paipote,196,SINCA / MMA,-27.410636,-70.269117,No informado,Dirección del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Paipote,196,SINCA / MMA,-27.410636,-70.269117,No informado,Intensidad del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Paipote,196,SINCA / MMA,-27.410636,-70.269117,No informado,SO2,Calidad del aire,No informado,60 min,1992-12-31T23:00,No,fuentes/sinca/README.md
+21 de Mayo,201,SINCA / MMA,-28.467939,-71.227212,No informado,MP10,Calidad del aire,No informado,60 min,2012-09-27T21:00,Sí,fuentes/sinca/README.md
+21 de Mayo,201,SINCA / MMA,-28.467939,-71.227212,No informado,MP2.5,Calidad del aire,No informado,60 min,2018-08-26T23:00,Sí,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,CO,Calidad del aire,No informado,60 min,2018-08-25T08:00,Sí,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,Dirección del viento,Meteorológica,10,60 min,2018-08-25T00:00,Sí,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,Intensidad del viento,Meteorológica,10,60 min,2018-08-25T00:00,Sí,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,MP2.5,Calidad del aire,No informado,60 min,2012-10-31T12:00,Sí,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,NO,Calidad del aire,No informado,60 min,2004-01-01T00:00,No,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,NO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,O3,Calidad del aire,No informado,60 min,2018-08-24T12:00,Sí,fuentes/sinca/README.md
+EME F,205,SINCA / MMA,-28.466352,-71.221583,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,Dirección del viento,Meteorológica,10,60 min,2012-10-18T14:00,Sí,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,Humedad,Meteorológica,2,60 min,2012-10-18T14:00,Sí,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,Intensidad del viento,Meteorológica,10,60 min,2012-10-18T14:00,Sí,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,MP10,Calidad del aire,No informado,60 min,2012-10-25T08:00,Sí,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,MP2.5,Calidad del aire,No informado,60 min,2012-10-18T12:00,Sí,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,SO2,Calidad del aire,No informado,60 min,2018-10-24T08:00,Sí,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,Temperatura,Meteorológica,10,60 min,2012-10-30T16:00,No,fuentes/sinca/README.md
+Club Deportivo 23 de Marzo,207,SINCA / MMA,-22.460124,-68.937804,No informado,Temperatura,Meteorológica,2,60 min,2012-10-18T14:00,No,fuentes/sinca/README.md
+SM4,214,SINCA / MMA,-28.481333,-71.167210,No informado,Dirección del viento,Meteorológica,10,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+SM4,214,SINCA / MMA,-28.481333,-71.167210,No informado,Dirección del viento,Meteorológica,12,60 min,1995-07-12T03:00,Sí,fuentes/sinca/README.md
+SM4,214,SINCA / MMA,-28.481333,-71.167210,No informado,Intensidad del viento,Meteorológica,10,60 min,2002-01-01T00:00,No,fuentes/sinca/README.md
+SM4,214,SINCA / MMA,-28.481333,-71.167210,No informado,Intensidad del viento,Meteorológica,12,60 min,1995-07-12T03:00,Sí,fuentes/sinca/README.md
+SM4,214,SINCA / MMA,-28.481333,-71.167210,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Huasco Sivica,219,SINCA / MMA,-28.469975,-71.219658,No informado,Dirección del viento,Meteorológica,10,60 min,2016-04-06T11:00,Sí,fuentes/sinca/README.md
+Huasco Sivica,219,SINCA / MMA,-28.469975,-71.219658,No informado,Humedad,Meteorológica,3,60 min,2016-04-06T11:00,Sí,fuentes/sinca/README.md
+Huasco Sivica,219,SINCA / MMA,-28.469975,-71.219658,No informado,Intensidad del viento,Meteorológica,10,60 min,2016-04-06T11:00,Sí,fuentes/sinca/README.md
+Huasco Sivica,219,SINCA / MMA,-28.469975,-71.219658,No informado,MP2.5,Calidad del aire,No informado,60 min,2004-12-09T01:00,Sí,fuentes/sinca/README.md
+Huasco Sivica,219,SINCA / MMA,-28.469975,-71.219658,No informado,Radiación solar,Meteorológica,3,60 min,2016-04-06T11:00,Sí,fuentes/sinca/README.md
+Huasco Sivica,219,SINCA / MMA,-28.469975,-71.219658,No informado,Temperatura,Meteorológica,10,60 min,2004-12-09T09:00,No,fuentes/sinca/README.md
+Colegio Pedro Vergara Keller,222,SINCA / MMA,-22.442180,-68.933011,No informado,Dirección del viento,Meteorológica,10,60 min,2012-11-30T23:00,Sí,fuentes/sinca/README.md
+Colegio Pedro Vergara Keller,222,SINCA / MMA,-22.442180,-68.933011,No informado,Humedad,Meteorológica,2,60 min,2012-11-30T23:00,Sí,fuentes/sinca/README.md
+Colegio Pedro Vergara Keller,222,SINCA / MMA,-22.442180,-68.933011,No informado,Intensidad del viento,Meteorológica,10,60 min,2012-11-30T23:00,Sí,fuentes/sinca/README.md
+Colegio Pedro Vergara Keller,222,SINCA / MMA,-22.442180,-68.933011,No informado,MP10,Calidad del aire,No informado,60 min,2012-11-06T12:00,Sí,fuentes/sinca/README.md
+Colegio Pedro Vergara Keller,222,SINCA / MMA,-22.442180,-68.933011,No informado,MP2.5,Calidad del aire,No informado,60 min,2013-01-01T00:00,Sí,fuentes/sinca/README.md
+Colegio Pedro Vergara Keller,222,SINCA / MMA,-22.442180,-68.933011,No informado,Temperatura,Meteorológica,10,60 min,2012-11-30T23:00,No,fuentes/sinca/README.md
+Colegio Pedro Vergara Keller,222,SINCA / MMA,-22.442180,-68.933011,No informado,Temperatura,Meteorológica,2,60 min,2012-11-30T23:00,No,fuentes/sinca/README.md
+Copiapó,223,SINCA / MMA,-27.360070,-70.329897,No informado,Dirección del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Copiapó,223,SINCA / MMA,-27.360070,-70.329897,No informado,Intensidad del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Copiapó,223,SINCA / MMA,-27.360070,-70.329897,No informado,SO2,Calidad del aire,No informado,60 min,1992-12-31T23:00,No,fuentes/sinca/README.md
+Tierra Amarilla,224,SINCA / MMA,-27.472742,-70.263867,No informado,Dirección del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Tierra Amarilla,224,SINCA / MMA,-27.472742,-70.263867,No informado,Intensidad del viento,Meteorológica,10,60 min,2009-01-01T00:00,No,fuentes/sinca/README.md
+Tierra Amarilla,224,SINCA / MMA,-27.472742,-70.263867,No informado,SO2,Calidad del aire,No informado,60 min,1992-12-31T23:00,No,fuentes/sinca/README.md
+Arica,232,SINCA / MMA,-18.483527,-70.290549,No informado,MP2.5,Calidad del aire,No informado,60 min,2013-11-27T13:00,Sí,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,Dirección del viento,Meteorológica,10,60 min,2004-01-31T23:00,No,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,Humedad,Meteorológica,2,60 min,2004-02-21T13:00,No,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,Intensidad del viento,Meteorológica,10,60 min,2004-01-31T23:00,No,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,Presión,Meteorológica,2,60 min,2004-01-31T23:00,No,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,Presión,Meteorológica,3,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,Radiación solar,Meteorológica,3,60 min,2008-12-31T23:00,No,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,SO2,Calidad del aire,No informado,60 min,2008-04-28T14:00,No,fuentes/sinca/README.md
+Chiu Chiu,234,SINCA / MMA,-22.342416,-68.650846,No informado,Temperatura,Meteorológica,2,60 min,2004-02-21T13:00,No,fuentes/sinca/README.md
+SM1,243,SINCA / MMA,-28.500534,-71.254258,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Los Volcanes,248,SINCA / MMA,-27.370371,-70.303964,No informado,MP10,Calidad del aire,No informado,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+Los Volcanes,248,SINCA / MMA,-27.370371,-70.303964,No informado,SO2,Calidad del aire,No informado,60 min,1995-06-30T23:00,No,fuentes/sinca/README.md
+SM3,252,SINCA / MMA,-28.471864,-71.178157,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Sierra Gorda,255,SINCA / MMA,-22.890232,-69.318843,No informado,Dirección del viento,Meteorológica,18,60 min,2012-09-10T19:00,Sí,fuentes/sinca/README.md
+Sierra Gorda,255,SINCA / MMA,-22.890232,-69.318843,No informado,Intensidad del viento,Meteorológica,18,60 min,2012-09-10T19:00,Sí,fuentes/sinca/README.md
+Sierra Gorda,255,SINCA / MMA,-22.890232,-69.318843,No informado,MP10,Calidad del aire,No informado,60 min,2012-09-10T18:00,Sí,fuentes/sinca/README.md
+Sierra Gorda,255,SINCA / MMA,-22.890232,-69.318843,No informado,MP2.5,Calidad del aire,No informado,60 min,2012-09-10T18:00,Sí,fuentes/sinca/README.md
+Sierra Gorda,255,SINCA / MMA,-22.890232,-69.318843,No informado,Temperatura,Meteorológica,18,60 min,2012-09-10T19:00,Sí,fuentes/sinca/README.md
+SM6,258,SINCA / MMA,-28.503650,-71.126501,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Antofagasta,259,SINCA / MMA,-23.613552,-70.383327,No informado,MP10,Calidad del aire,No informado,60 min,2013-06-01T00:00,Sí,fuentes/sinca/README.md
+Antofagasta,259,SINCA / MMA,-23.613552,-70.383327,No informado,MP2.5,Calidad del aire,No informado,60 min,2013-04-27T01:00,Sí,fuentes/sinca/README.md
+Antofagasta,259,SINCA / MMA,-23.613552,-70.383327,No informado,SO2,Calidad del aire,No informado,60 min,2018-05-31T18:00,Sí,fuentes/sinca/README.md
+SM8,265,SINCA / MMA,-28.507505,-71.081489,No informado,Dirección del viento,Meteorológica,10,60 min,2003-01-01T00:00,No,fuentes/sinca/README.md
+SM8,265,SINCA / MMA,-28.507505,-71.081489,No informado,Dirección del viento,Meteorológica,12,60 min,2018-06-26T08:00,Sí,fuentes/sinca/README.md
+SM8,265,SINCA / MMA,-28.507505,-71.081489,No informado,Intensidad del viento,Meteorológica,10,60 min,2002-01-01T00:00,No,fuentes/sinca/README.md
+SM8,265,SINCA / MMA,-28.507505,-71.081489,No informado,Intensidad del viento,Meteorológica,12,60 min,2018-06-26T08:00,Sí,fuentes/sinca/README.md
+SM8,265,SINCA / MMA,-28.507505,-71.081489,No informado,SO2,Calidad del aire,No informado,60 min,2002-01-01T00:00,Sí,fuentes/sinca/README.md
+Gobernación,270,SINCA / MMA,-22.089994,-70.199251,No informado,Intensidad del viento,Meteorológica,10,60 min,2007-01-01T00:00,No,fuentes/sinca/README.md
+Gobernación,270,SINCA / MMA,-22.089994,-70.199251,No informado,MP10,Calidad del aire,No informado,60 min,2009-01-05T07:00,Sí,fuentes/sinca/README.md
+Gobernación,270,SINCA / MMA,-22.089994,-70.199251,No informado,SO2,Calidad del aire,No informado,60 min,2008-01-01T02:00,Sí,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,CO,Calidad del aire,No informado,60 min,2011-12-05T18:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,Dirección del viento,Meteorológica,10,60 min,2005-12-31T23:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,Humedad,Meteorológica,3,60 min,2011-12-15T00:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,Intensidad del viento,Meteorológica,10,60 min,2005-12-31T23:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,MP10,Calidad del aire,No informado,60 min,2011-12-15T00:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,MP2.5,Calidad del aire,No informado,60 min,2011-12-05T18:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,NO,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,NO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,NOX,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,O3,Calidad del aire,No informado,60 min,2011-12-15T00:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,Presión,Meteorológica,3,60 min,2011-12-15T00:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,Radiación solar,Meteorológica,3,60 min,2011-12-15T00:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,SO2,Calidad del aire,No informado,60 min,2007-12-31T23:00,No,fuentes/sinca/README.md
+Escuela E-10,274,SINCA / MMA,-22.085607,-70.188863,No informado,Temperatura,Meteorológica,10,60 min,2011-12-15T00:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,CO,Calidad del aire,No informado,60 min,2012-10-18T11:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Dirección del viento,Meteorológica,10,60 min,2012-10-19T08:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Dirección del viento,Meteorológica,4,60 min,2020-08-03T12:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Humedad,Meteorológica,2,60 min,2012-10-19T08:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Humedad,Meteorológica,4,60 min,2012-10-18T11:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Intensidad del viento,Meteorológica,10,60 min,2012-10-19T08:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Intensidad del viento,Meteorológica,4,60 min,2020-08-03T12:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,MP10,Calidad del aire,No informado,60 min,2012-10-19T08:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,MP2.5,Calidad del aire,No informado,60 min,2012-10-18T16:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,NO,Calidad del aire,No informado,60 min,2012-10-18T15:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,NO2,Calidad del aire,No informado,60 min,2013-03-22T17:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,NOX,Calidad del aire,No informado,60 min,2012-10-18T15:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,O3,Calidad del aire,No informado,60 min,2012-10-18T12:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,SO2,Calidad del aire,No informado,60 min,2012-10-19T08:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Temperatura,Meteorológica,10,60 min,2012-10-19T08:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Temperatura,Meteorológica,2,60 min,2012-10-19T08:00,No,fuentes/sinca/README.md
+Estación Centro,275,SINCA / MMA,-22.461818,-68.928181,No informado,Temperatura,Meteorológica,4,60 min,2013-01-05T11:00,No,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,Dirección del viento,Meteorológica,10,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,Humedad,Meteorológica,3,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,Intensidad del viento,Meteorológica,10,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,NO,Calidad del aire,No informado,60 min,2019-09-29T10:00,Sí,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,NO2,Calidad del aire,No informado,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,NOX,Calidad del aire,No informado,60 min,2019-09-29T10:00,Sí,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,Radiación solar,Meteorológica,3,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Juan Jose Latorre,279,SINCA / MMA,-23.105249,-70.441801,No informado,Temperatura,Meteorológica,10,60 min,2019-09-29T10:00,No,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,Dirección del viento,Meteorológica,10,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,Humedad,Meteorológica,2,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,Intensidad del viento,Meteorológica,10,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,MP10,Calidad del aire,No informado,60 min,2019-08-16T15:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,Precipitación,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,Presión,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,Radiación solar,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,SO2,Calidad del aire,No informado,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Nueva ChiuChiu,282,SINCA / MMA,-22.342917,-68.648689,No informado,Temperatura,Meteorológica,2,60 min,2019-08-01T00:00,Sí,fuentes/sinca/README.md
+Chañaral,305,SINCA / MMA,-26.335737,-70.612342,No informado,MP10,Calidad del aire,No informado,60 min,2024-03-31T23:00,Sí,fuentes/sinca/README.md
