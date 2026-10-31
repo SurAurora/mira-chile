@@ -47,7 +47,9 @@ main { max-width: 1480px; margin: 0 auto; padding: 24px 28px 48px; }
 .field input:focus, .field select:focus { outline: 3px solid rgba(24,115,111,.15); border-color: var(--teal); }
 .pill { padding: 5px 8px; border-radius: 999px; background: #e6f0ed; color: var(--teal); font-size: .72rem; font-weight: 800; white-space: nowrap; }
 .layer-box { margin: 0 18px 18px; padding: 14px; border-radius: 10px; background: #eef3ef; }
-.layer-box h3 { margin-bottom: 9px; }
+.layer-group { margin: 0; padding: 0; border: 0; }
+.layer-group + .layer-group { margin-top: 14px; padding-top: 12px; border-top: 1px solid #d3dcd5; }
+.layer-group legend { margin-bottom: 7px; padding: 0; font-size: .86rem; font-weight: 800; }
 .layer-box label { display: block; margin: 7px 0; font-size: .84rem; }
 .layer-box input { accent-color: var(--teal); }
 .layer-box p { margin: 10px 0 0; color: var(--muted); font-size: .7rem; line-height: 1.35; }

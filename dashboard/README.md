@@ -22,6 +22,9 @@ Luego abrir:
 
 No requiere base de datos ni un servidor de aplicación. La capa de red vial se
 carga sólo cuando se activa su casilla.
+Los mapas base satelital y OpenStreetMap se consultan en línea y mantienen la
+atribución exigida por sus proveedores; el relieve ASTER permanece alojado
+dentro del sitio.
 
 ## Publicación en GitHub Pages
 
@@ -37,6 +40,7 @@ tipo `https://usuario.github.io/repositorio/`.
 ## Contenido
 
 - mapa de estaciones por red;
+- mapas base seleccionables: imagen satelital de Esri, OpenStreetMap o ninguno;
 - filtros por región, comuna, red, institución, variable, tipo, altura,
   frecuencia y disponibilidad actual;
 - detalle de todas las series de cada estación;

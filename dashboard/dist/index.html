@@ -52,12 +52,20 @@
             <label class="field"><span>Datos actuales</span><select id="currentFilter"></select></label>
           </div>
           <div class="layer-box">
-            <h3>Capas opcionales</h3>
-            <label><input id="layerRelief" type="checkbox" checked /> Relieve ASTER</label>
-            <label><input id="layerRegions" type="checkbox" checked /> Regiones</label>
-            <label><input id="layerCommunes" type="checkbox" /> Comunas</label>
-            <label><input id="layerRoads" type="checkbox" /> Red vial</label>
-            <p>ASTER es sólo contexto visual; no representa la altitud de cada estación.</p>
+            <fieldset class="layer-group">
+              <legend>Mapa base</legend>
+              <label><input type="radio" name="baseMap" value="satellite" checked /> Satélite</label>
+              <label><input type="radio" name="baseMap" value="osm" /> OpenStreetMap</label>
+              <label><input type="radio" name="baseMap" value="none" /> Sin mapa base</label>
+            </fieldset>
+            <fieldset class="layer-group">
+              <legend>Capas opcionales</legend>
+              <label><input id="layerRelief" type="checkbox" /> Relieve ASTER</label>
+              <label><input id="layerRegions" type="checkbox" checked /> Regiones</label>
+              <label><input id="layerCommunes" type="checkbox" /> Comunas</label>
+              <label><input id="layerRoads" type="checkbox" /> Red vial</label>
+            </fieldset>
+            <p>Los mapas base requieren internet. ASTER es sólo contexto visual; no representa la altitud de cada estación.</p>
           </div>
         </aside>
 
