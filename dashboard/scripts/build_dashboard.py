@@ -33,6 +33,7 @@ NETWORK_BY_FILE = {
     "catalogo_dmc.csv": "DMC / SACLIM",
     "catalogo_exp_eol.csv": "Explorador Eólico",
     "catalogo_sinca.csv": "SINCA",
+    "catalogo_vismet.csv": "VISMET / CR2",
 }
 REGION_SHORT = {
     15: "Arica y Parinacota",

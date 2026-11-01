@@ -10,9 +10,11 @@
 
   const colors = {
     AGROMET: "#18736f",
+    "DGA / Red Hidrométrica Nacional": "#7357a6",
     "DMC / SACLIM": "#3c6ca8",
     "Explorador Eólico": "#d89a2b",
     SINCA: "#c65336",
+    "VISMET / CR2": "#288ea0",
   };
   const filterIds = ["region", "commune", "network", "institution", "variable", "type", "height", "frequency", "current"];
   const filters = Object.fromEntries(filterIds.map((name) => [name, document.getElementById(`${name}Filter`)]));
