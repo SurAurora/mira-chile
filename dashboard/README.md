@@ -63,7 +63,7 @@ mantiene el sitio liviano y conserva las comunas, regiones y red vial.
   /home/alagos/catalogo_estaciones/dashboard/scripts/build_dashboard.py
 ```
 
-El script lee los cuatro catálogos fuente, asigna región y comuna mediante los
+El script lee los cinco catálogos fuente, asigna región y comuna mediante los
 polígonos oficiales y regenera los archivos de `dist/data`. Las estaciones
 marítimas situadas apenas fuera de la línea de costa se asignan a la comuna más
 cercana únicamente cuando ésta se encuentra a menos de 20 km.

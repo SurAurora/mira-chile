@@ -29,6 +29,7 @@ from shapely.geometry import mapping
 REGION_CODES = {15, 1, 2, 3}
 NETWORK_BY_FILE = {
     "catalogo_agromet.csv": "AGROMET",
+    "catalogo_dga.csv": "DGA / Red Hidrométrica Nacional",
     "catalogo_dmc.csv": "DMC / SACLIM",
     "catalogo_exp_eol.csv": "Explorador Eólico",
     "catalogo_sinca.csv": "SINCA",
