@@ -180,3 +180,18 @@ Esa guía documenta procedimientos previos para AGROMET/INIA y DMC, incluido un 
 ## 12. Criterio de término
 
 El trabajo estará completo cuando se hayan investigado todas las fuentes mínimas, cada fila del CSV tenga respaldo verificable o una ausencia explícitamente documentada, los `README.md` permitan reproducir las consultas o descargas y las validaciones de estructura, duplicados, cobertura geográfica y rutas hayan sido superadas.
+
+## 13. Filtros del dashboard
+
+- Los filtros categóricos permiten elegir una, varias o todas las opciones.
+- Dentro de una lista se acepta cualquiera de las opciones elegidas; entre
+  listas se deben satisfacer todas las condiciones.
+- El filtro «Desde qué año» conserva las series cuya primera fecha comprobada
+  es del año elegido o de uno anterior. Este criterio fue confirmado por la
+  usuaria; no significa «series que empezaron después de ese año».
+- El criterio de año se evalúa por estación-variable-altura-frecuencia, usando
+  la fecha de esa misma fila. No se transmite la antigüedad de otra variable de
+  la estación. Las fechas desconocidas no cumplen un límite de año.
+- Todos los resultados y la exportación filtrada respetan los mismos criterios.
+- El filtro temporal no acredita continuidad de la serie ni reemplaza la
+  verificación de datos actuales.

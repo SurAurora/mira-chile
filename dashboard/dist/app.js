@@ -17,8 +17,9 @@
     "VISMET / CR2": "#288ea0",
   };
   const filterIds = ["region", "commune", "network", "institution", "variable", "type", "height", "frequency", "current"];
-  const filters = Object.fromEntries(filterIds.map((name) => [name, document.getElementById(`${name}Filter`)]));
+  const filters = {};
   const searchInput = document.getElementById("searchFilter");
+  const startYearInput = document.getElementById("startYearFilter");
 
   const map = L.map("map", { zoomControl: true, preferCanvas: true, minZoom: 4, maxZoom: 15 });
   map.attributionControl.setPrefix(false);
@@ -84,43 +85,136 @@
     return [...new Set(values.filter((value) => value !== null && value !== undefined && value !== ""))].sort((a, b) => String(a).localeCompare(String(b), "es", { numeric: true }));
   }
 
-  function fillSelect(select, values, label = "Todos") {
-    select.innerHTML = `<option value="">${label}</option>` + unique(values).map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`).join("");
-  }
-
   function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
   }
 
-  function populateFilters() {
-    fillSelect(filters.region, stations.map((s) => s.region));
-    fillSelect(filters.commune, stations.map((s) => s.comuna));
-    fillSelect(filters.network, metadata.networks);
-    fillSelect(filters.institution, metadata.institutions);
-    fillSelect(filters.variable, metadata.variables);
-    fillSelect(filters.type, unique(series.map((s) => s.tipo_variable)));
-    fillSelect(filters.height, metadata.heights);
-    fillSelect(filters.frequency, metadata.frequencies);
-    fillSelect(filters.current, unique(series.map((s) => s.datos_disponibles_actualmente)));
+  class MultiSelect {
+    constructor(name) {
+      this.name = name;
+      this.element = document.getElementById(`${name}Filter`);
+      this.selected = new Set();
+      this.values = [];
+      this.element.addEventListener("toggle", () => {
+        if (this.element.open) closeFilterMenus(this.element);
+      });
+    }
+
+    get active() { return this.selected.size > 0 && this.selected.size < this.values.length; }
+    matches(value) { return this.selected.size === 0 || this.selected.has(String(value)); }
+
+    setOptions(values) {
+      this.values = unique(values).map(String);
+      this.selected = new Set([...this.selected].filter((value) => this.values.includes(value)));
+      const id = this.element.id;
+      this.element.innerHTML = `<summary aria-labelledby="${id}Label ${id}Summary"><span id="${id}Summary" class="multi-select-value"></span></summary>
+        <div class="multi-select-menu">
+          <div class="multi-select-toolbar"><button type="button" class="multi-select-all">${escapeHtml(this.element.dataset.all)}</button><small>Una o varias opciones</small></div>
+          <input class="multi-select-search" type="search" placeholder="Buscar opciones…" aria-label="Buscar opciones de ${escapeHtml(document.getElementById(`${id}Label`).textContent)}" ${this.values.length < 8 ? "hidden" : ""} />
+          <div class="multi-select-options" role="group" aria-labelledby="${id}Label">
+            ${this.values.map((value) => `<label class="multi-select-option"><input type="checkbox" value="${escapeHtml(value)}" /><span>${escapeHtml(value)}</span></label>`).join("")}
+          </div><div class="multi-select-no-options" hidden>No hay opciones con ese nombre.</div>
+        </div>`;
+      this.element.querySelector(".multi-select-all").addEventListener("click", () => {
+        this.selected.clear();
+        this.sync();
+        onFilterChange(this.name);
+      });
+      this.element.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+        input.addEventListener("change", () => {
+          if (input.checked) this.selected.add(input.value); else this.selected.delete(input.value);
+          this.sync();
+          onFilterChange(this.name);
+        });
+      });
+      const search = this.element.querySelector(".multi-select-search");
+      search.addEventListener("input", () => {
+        const query = search.value.trim().toLocaleLowerCase("es");
+        let visible = 0;
+        this.element.querySelectorAll(".multi-select-option").forEach((option) => {
+          option.hidden = !option.textContent.toLocaleLowerCase("es").includes(query);
+          if (!option.hidden) visible += 1;
+        });
+        this.element.querySelector(".multi-select-no-options").hidden = visible > 0;
+      });
+      this.sync();
+    }
+
+    sync() {
+      const all = this.selected.size === 0 || this.selected.size === this.values.length;
+      const text = all ? this.element.dataset.all : (this.selected.size === 1 ? [...this.selected][0] : `${this.selected.size} opciones`);
+      const summary = this.element.querySelector("summary");
+      this.element.querySelector(".multi-select-value").textContent = text;
+      summary.title = all ? this.element.dataset.all : [...this.selected].join(", ");
+      this.element.classList.toggle("has-selection", !all);
+      this.element.querySelector(".multi-select-all").setAttribute("aria-pressed", String(all));
+      this.element.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+        input.checked = this.selected.has(input.value);
+        input.closest("label").classList.toggle("is-selected", input.checked);
+      });
+    }
+
+    reset() {
+      this.selected.clear();
+      this.setOptions(this.values);
+      this.element.open = false;
+    }
   }
 
-  function selected(name) { return filters[name].value; }
+  function closeFilterMenus(except = null) {
+    Object.values(filters).forEach((filter) => {
+      if (filter.element !== except) filter.element.open = false;
+    });
+  }
+
+  function firstYear(row) {
+    const match = /^(\d{4})-\d{2}-\d{2}(?:T|$)/.exec(String(row.primera_fecha_disponible || ""));
+    return match ? Number(match[1]) : null;
+  }
+
+  function populateFilters() {
+    filterIds.forEach((name) => { filters[name] = new MultiSelect(name); });
+    filters.region.setOptions(stations.map((s) => s.region));
+    filters.commune.setOptions(stations.map((s) => s.comuna));
+    filters.network.setOptions(metadata.networks);
+    filters.institution.setOptions(metadata.institutions);
+    filters.variable.setOptions(metadata.variables);
+    filters.type.setOptions(series.map((s) => s.tipo_variable));
+    filters.height.setOptions(metadata.heights);
+    filters.frequency.setOptions(metadata.frequencies);
+    filters.current.setOptions(series.map((s) => s.datos_disponibles_actualmente));
+    const years = series.map(firstYear).filter((year) => year !== null);
+    const lastYear = Math.max(new Date().getFullYear(), ...years);
+    const first = years.length ? Math.min(...years) : lastYear;
+    const options = Array.from({ length: lastYear - first + 1 }, (_, index) => lastYear - index);
+    startYearInput.innerHTML = `<option value="">Cualquier año</option>` + options.map((year) => `<option value="${year}">${year}</option>`).join("");
+  }
+
+  function onFilterChange(name) {
+    if (name === "region") {
+      filters.commune.setOptions(stations.filter((station) => filters.region.matches(station.region)).map((station) => station.comuna));
+    }
+    closeDetail();
+    render();
+  }
 
   function seriesMatches(row) {
-    return (!selected("variable") || row.variable === selected("variable")) &&
-      (!selected("type") || row.tipo_variable === selected("type")) &&
-      (!selected("height") || String(row.altura_sensor_suelo_m) === selected("height")) &&
-      (!selected("frequency") || row.frecuencia_muestreo === selected("frequency")) &&
-      (!selected("current") || row.datos_disponibles_actualmente === selected("current"));
+    const year = firstYear(row);
+    return filters.variable.matches(row.variable) &&
+      filters.type.matches(row.tipo_variable) &&
+      filters.height.matches(row.altura_sensor_suelo_m) &&
+      filters.frequency.matches(row.frecuencia_muestreo) &&
+      filters.current.matches(row.datos_disponibles_actualmente) &&
+      (!startYearInput.value || (year !== null && year <= Number(startYearInput.value)));
   }
 
   function getFiltered() {
     const query = searchInput.value.trim().toLocaleLowerCase("es");
     const filteredStations = stations.filter((station) => {
-      if (selected("region") && station.region !== selected("region")) return false;
-      if (selected("commune") && station.comuna !== selected("commune")) return false;
-      if (selected("network") && station.red !== selected("network")) return false;
-      if (selected("institution") && station.fuente_institucion !== selected("institution")) return false;
+      if (!filters.region.matches(station.region)) return false;
+      if (!filters.commune.matches(station.comuna)) return false;
+      if (!filters.network.matches(station.red)) return false;
+      if (!filters.institution.matches(station.fuente_institucion)) return false;
       if (query && !`${station.nombre_estacion} ${station.id}`.toLocaleLowerCase("es").includes(query)) return false;
       const stationSeries = seriesByStation.get(station.station_key) || [];
       return stationSeries.some(seriesMatches);
@@ -148,7 +242,7 @@
     document.getElementById("metricSeries").textContent = filteredSeries.length.toLocaleString("es-CL");
     document.getElementById("metricNetworks").textContent = unique(filteredStations.map((s) => s.red)).length;
     document.getElementById("metricCurrent").textContent = filteredSeries.filter((s) => s.datos_disponibles_actualmente === "Sí").length.toLocaleString("es-CL");
-    const active = filterIds.filter((name) => selected(name)).length + (searchInput.value.trim() ? 1 : 0);
+    const active = filterIds.filter((name) => filters[name].active).length + (startYearInput.value ? 1 : 0) + (searchInput.value.trim() ? 1 : 0);
     document.getElementById("filterCount").textContent = `${active} activo${active === 1 ? "" : "s"}`;
   }
 
@@ -229,8 +323,9 @@
 
   function openDetail(key) {
     const station = stations.find((item) => item.station_key === key);
-    const rows = (seriesByStation.get(key) || []).slice().sort((a, b) => `${a.variable}${a.altura_sensor_suelo_m}`.localeCompare(`${b.variable}${b.altura_sensor_suelo_m}`, "es", { numeric: true }));
+    const rows = (seriesByStation.get(key) || []).filter(seriesMatches).sort((a, b) => `${a.variable}${a.altura_sensor_suelo_m}`.localeCompare(`${b.variable}${b.altura_sensor_suelo_m}`, "es", { numeric: true }));
     if (!station) return;
+    closeFilterMenus();
     const content = document.getElementById("detailContent");
     content.innerHTML = `<p class="eyebrow">${escapeHtml(station.red)} · ${escapeHtml(station.fuente_institucion)}</p>
       <h2>${escapeHtml(station.nombre_estacion)}</h2>
@@ -243,7 +338,7 @@
         <div><b>Variables</b>${unique(rows.map((r) => r.variable)).length}</div>
         <div><b>Datos actuales</b>${escapeHtml(stationCurrent(station, rows))}</div>
       </div>
-      <h3>Series disponibles</h3>
+      <h3>Series de esta selección</h3>
       <div class="table-wrap"><table><thead><tr><th>Variable</th><th>Tipo</th><th>Altura</th><th>Frecuencia</th><th>Primera fecha</th><th>Actual</th><th>Guía</th></tr></thead>
       <tbody>${rows.map((row) => `<tr>
         <td>${escapeHtml(row.variable)}</td><td>${escapeHtml(row.tipo_variable)}</td><td>${escapeHtml(row.altura_sensor_suelo_m)}</td>
@@ -291,12 +386,31 @@
 
   populateFilters();
   document.getElementById("legend").innerHTML = Object.entries(colors).map(([name, color]) => `<span><i style="background:${color}"></i>${escapeHtml(name)}</span>`).join("");
-  [...Object.values(filters), searchInput].forEach((element) => element.addEventListener(element === searchInput ? "input" : "change", render));
-  document.getElementById("resetFilters").addEventListener("click", () => { Object.values(filters).forEach((f) => { f.value = ""; }); searchInput.value = ""; render(); });
+  searchInput.addEventListener("input", () => onFilterChange("search"));
+  startYearInput.addEventListener("change", () => onFilterChange("year"));
+  document.getElementById("resetFilters").addEventListener("click", () => {
+    filters.commune.setOptions(stations.map((s) => s.comuna));
+    Object.values(filters).forEach((filter) => filter.reset());
+    startYearInput.value = "";
+    searchInput.value = "";
+    closeDetail();
+    render();
+  });
   document.getElementById("exportCsv").addEventListener("click", exportCsv);
   document.getElementById("closeDetail").addEventListener("click", closeDetail);
   document.getElementById("detailBackdrop").addEventListener("click", closeDetail);
-  document.addEventListener("keydown", (event) => { if (event.key === "Escape") closeDetail(); });
+  document.addEventListener("click", (event) => {
+    Object.values(filters).forEach((filter) => {
+      if (!filter.element.contains(event.target)) filter.element.open = false;
+    });
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      const open = Object.values(filters).find((filter) => filter.element.open);
+      closeFilterMenus();
+      if (open) open.element.querySelector("summary").focus(); else closeDetail();
+    }
+  });
   document.querySelectorAll('input[name="baseMap"]').forEach((input) => {
     input.addEventListener("change", (event) => selectBaseLayer(event.target.value));
   });

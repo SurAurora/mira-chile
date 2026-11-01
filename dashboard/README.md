@@ -41,12 +41,27 @@ tipo `https://usuario.github.io/repositorio/`.
 
 - mapa de estaciones por red;
 - mapas base seleccionables: imagen satelital de Esri, OpenStreetMap o ninguno;
-- filtros por región, comuna, red, institución, variable, tipo, altura,
-  frecuencia y disponibilidad actual;
-- detalle de todas las series de cada estación;
+- filtros de selección múltiple por región, comuna, red, institución, variable,
+  tipo, altura, frecuencia y disponibilidad actual, con casillas y búsqueda de
+  opciones en las listas extensas;
+- filtro «Desde qué año»: muestra las series cuya primera observación
+  comprobada es de ese año o anterior;
+- detalle de las series seleccionadas de cada estación;
 - tabla de estaciones y matriz red × variable;
 - descarga CSV de las series filtradas;
 - capas opcionales de regiones, comunas, red vial y relieve ASTER.
+
+En cada filtro se puede elegir una opción, varias o «Todos/Todas». Las opciones
+de una misma lista se combinan como alternativas; los distintos filtros se
+aplican simultáneamente. Las comunas se ajustan a las regiones seleccionadas.
+«Limpiar filtros» restaura el catálogo completo, incluido el criterio de año.
+
+El año de inicio se evalúa por **serie**, no por la fecha más antigua de otra
+variable de la misma estación. Afecta al mapa, los contadores, la tabla, la
+matriz, el detalle y la selección descargada en CSV. Las series con fecha de
+inicio desconocida quedan fuera cuando se aplica ese criterio. El inicio
+verificado no garantiza que la serie sea continua ni que tenga datos en todos
+los años posteriores; el estado actual se filtra por separado.
 
 El relieve es una representación visual reducida de ASTER GDEM, reproyectada a
 Web Mercator para coincidir con las capas vectoriales de Leaflet. No sustituye
@@ -74,3 +89,19 @@ Fuentes cartográficas utilizadas:
 - `/home/alagos/fondef_polvo/data/geospatial/Comunas/comunas.shp`
 - `/home/alagos/fondef_polvo/data/geospatial/Red_Vial/redvial2019.shp`
 - `/home/alagos/fondef_polvo/data/observations/satellite/ASTER_GDEM/ASTGTM_NC.003_ASTER_GDEM_DEM_doy2000061000000_aid0001.tif`
+
+## Verificar los filtros
+
+Las pruebas de interfaz usan Chromium y Playwright en un entorno de pruebas:
+
+```bash
+python -m pip install -r dashboard/tests/requirements.txt
+python -m playwright install chromium --only-shell
+python -m unittest discover -s dashboard/tests -v
+```
+
+Comprueban selección simple y múltiple en los nueve filtros categóricos,
+combinaciones entre filtros, selección CSV, restablecimiento, comunas por
+región, controles de teclado y pantalla pequeña. Un caso de prueba específico
+verifica el año inclusivo, las fechas desconocidas y que una variable reciente
+no herede la antigüedad de otra variable de la misma estación.

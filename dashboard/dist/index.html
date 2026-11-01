@@ -40,16 +40,19 @@
             <span>Nombre o ID</span>
             <input id="searchFilter" type="search" placeholder="Ej. Calama o 220002" />
           </label>
+          <p class="filter-hint">Elige una o varias opciones en cada lista. «Todos» quita esa restricción.</p>
           <div class="filter-grid">
-            <label class="field"><span>Región</span><select id="regionFilter"></select></label>
-            <label class="field"><span>Comuna</span><select id="communeFilter"></select></label>
-            <label class="field"><span>Red</span><select id="networkFilter"></select></label>
-            <label class="field"><span>Institución</span><select id="institutionFilter"></select></label>
-            <label class="field"><span>Variable</span><select id="variableFilter"></select></label>
-            <label class="field"><span>Tipo</span><select id="typeFilter"></select></label>
-            <label class="field"><span>Altura del sensor</span><select id="heightFilter"></select></label>
-            <label class="field"><span>Frecuencia</span><select id="frequencyFilter"></select></label>
-            <label class="field"><span>Datos actuales</span><select id="currentFilter"></select></label>
+            <div class="field"><span id="regionFilterLabel">Región</span><details id="regionFilter" class="multi-select" data-all="Todas"></details></div>
+            <div class="field"><span id="communeFilterLabel">Comuna</span><details id="communeFilter" class="multi-select" data-all="Todas"></details></div>
+            <div class="field"><span id="networkFilterLabel">Red</span><details id="networkFilter" class="multi-select" data-all="Todas"></details></div>
+            <div class="field"><span id="institutionFilterLabel">Institución</span><details id="institutionFilter" class="multi-select" data-all="Todas"></details></div>
+            <div class="field"><span id="variableFilterLabel">Variable</span><details id="variableFilter" class="multi-select" data-all="Todas"></details></div>
+            <div class="field"><span id="typeFilterLabel">Tipo</span><details id="typeFilter" class="multi-select" data-all="Todos"></details></div>
+            <div class="field"><span id="heightFilterLabel">Altura del sensor</span><details id="heightFilter" class="multi-select" data-all="Todas"></details></div>
+            <div class="field"><span id="frequencyFilterLabel">Frecuencia</span><details id="frequencyFilter" class="multi-select" data-all="Todas"></details></div>
+            <div class="field"><span id="currentFilterLabel">Datos actuales</span><details id="currentFilter" class="multi-select" data-all="Todos"></details></div>
+            <label class="field"><span>Desde qué año</span><select id="startYearFilter" aria-describedby="startYearHelp"></select></label>
+            <p id="startYearHelp" class="filter-help">Muestra series que comenzaron en el año elegido o antes. La fecha de inicio no garantiza continuidad.</p>
           </div>
           <div class="layer-box">
             <fieldset class="layer-group">
@@ -75,7 +78,7 @@
             <div id="legend" class="legend"></div>
           </div>
           <div id="map" aria-label="Mapa interactivo"></div>
-          <div class="map-note">Haga clic en una estación para ver todas sus variables, alturas y frecuencias.</div>
+          <div class="map-note">Haga clic en una estación para ver las variables, alturas, frecuencias y fechas de la selección.</div>
         </section>
       </section>
 
