@@ -141,6 +141,17 @@ Toconao,230004,DMC,-23.18611,-68.00556,2495,Radiación solar,Meteorológica,No i
 Toconao,230004,DMC,-23.18611,-68.00556,2495,Ráfaga del viento,Meteorológica,No informado,1 min,2021-03-22T11:46:00,Sí,fuentes/dmc/README.md
 Toconao,230004,DMC,-23.18611,-68.00556,2495,Temperatura,Meteorológica,1.5,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
 Toconao,230004,DMC,-23.18611,-68.00556,2495,Temperatura,Meteorológica,1.5,15 min,2013-05-17T20:30:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Dirección del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Dirección del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Humedad,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Humedad,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Intensidad del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Intensidad del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Presión,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Presión,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Ráfaga del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Temperatura,Meteorológica,1.5,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Temperatura,Meteorológica,1.5,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
 Mejillones,230022,DMC,-23.10917,-70.44333,31,Dirección del viento,Meteorológica,No informado,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
 Mejillones,230022,DMC,-23.10917,-70.44333,31,Dirección del viento,Meteorológica,No informado,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
 Mejillones,230022,DMC,-23.10917,-70.44333,31,Humedad,Meteorológica,No informado,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
@@ -155,6 +166,18 @@ Mejillones,230022,DMC,-23.10917,-70.44333,31,Radiación solar,Meteorológica,No 
 Mejillones,230022,DMC,-23.10917,-70.44333,31,Ráfaga del viento,Meteorológica,No informado,1 min,2021-03-22T11:46:00,Sí,fuentes/dmc/README.md
 Mejillones,230022,DMC,-23.10917,-70.44333,31,Temperatura,Meteorológica,1.5,1 min,2019-03-07T12:01:00,Sí,fuentes/dmc/README.md
 Mejillones,230022,DMC,-23.10917,-70.44333,31,Temperatura,Meteorológica,1.5,15 min,2019-03-07T12:15:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Dirección del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Dirección del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Humedad,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Humedad,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Intensidad del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Intensidad del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Presión,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Presión,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Ráfaga del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Temperatura,Meteorológica,1.5,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Temperatura,Meteorológica,1.5,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Temperatura,Meteorológica,30,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
 Taltal,250005,DMC,-25.41111,-70.48417,37,Dirección del viento,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md
 Taltal,250005,DMC,-25.41111,-70.48417,37,Dirección del viento,Meteorológica,No informado,15 min,2013-12-19T19:30:00,Sí,fuentes/dmc/README.md
 Taltal,250005,DMC,-25.41111,-70.48417,37,Humedad,Meteorológica,No informado,1 min,2019-01-01T00:00:00,Sí,fuentes/dmc/README.md

@@ -155,6 +155,22 @@ class FilterTests(unittest.TestCase):
         self.assertEqual(self.page.locator("#startYearFilter").input_value(), "")
         expect(self.page.locator("#filterCount")).to_have_text("0 activos")
 
+    def test_saclim_includes_verified_eso_stations(self):
+        self.load()
+        self.choose("network", ["DMC / SACLIM"])
+        self.page.locator("#networkFilter summary").click()
+        for code in ["240005", "230021"]:
+            with self.subTest(station=code):
+                self.page.locator("#searchFilter").fill(code)
+                expect(self.page.locator("#stationTable tbody tr[data-key]")).to_have_count(1)
+                self.assertIn("ESO", self.page.locator("#stationTable tbody").inner_text())
+                self.page.locator("#stationTable tbody tr[data-key]").click()
+                detail = self.page.locator("#detailContent tbody").inner_text()
+                self.assertIn("1 min", detail)
+                self.assertIn("15 min", detail)
+                self.assertIn("2019-01-01", detail)
+                self.page.locator("#closeDetail").click()
+
     def test_year_is_inclusive_per_series_and_excludes_unknown_dates(self):
         fixture = copy.deepcopy(CATALOG)
         station = copy.deepcopy(CATALOG["stations"][0])

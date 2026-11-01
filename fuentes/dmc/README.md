@@ -2,16 +2,20 @@
 
 ## Alcance y fecha de consulta
 
-Fuente responsable: **Dirección Meteorológica de Chile (DMC)**. Portal:
+Portal distribuidor: **Dirección Meteorológica de Chile (DMC)**. Portal:
 <https://climatologia.meteochile.gob.cl/>. Consultas efectuadas el 31 de
-octubre de 2026.
+octubre de 2026; revisión de las estaciones ESO el **1 de noviembre de 2026**.
 
-Este catálogo incluye sólo estaciones cuyo `Propietario` es `DMC` en el
-catastro SACLIM. El archivo aportado para el inventario se conserva en
+Este catálogo incluye estaciones publicadas por DMC/SACLIM con valores
+comprobados, conservando su `Propietario` como `fuente_institucion`. La red del
+dashboard es **DMC / SACLIM**, incluso cuando la institución sea ESO. El
+archivo aportado para el inventario se conserva en
 `datos_originales/dmc/CatastrodeEstacionesdelSistemaSACLIM_2026-10-31_15_25.xls`.
 Aunque termina en `.xls`, su contenido es HTML UTF-8. En las cuatro regiones
-hay 143 estaciones SACLIM, pero sólo 29 tienen propietario DMC; las restantes
-pertenecen a DGA, INIA, FDF, ESO, DIRECTEMAR o USACH y no se reasignan a DMC.
+hay 143 estaciones SACLIM: 29 de propiedad DMC y otras de DGA, INIA, FDF, ESO,
+DIRECTEMAR o USACH. La primera revisión se limitó a las 29 de propiedad DMC;
+se corrigió esa exclusión para las dos estaciones ESO con datos verificados.
+Esto no acredita una revisión completa de las 143 estaciones por este portal.
 
 ## Productos oficiales revisados
 
@@ -119,6 +123,42 @@ series históricas. Aunque la variable siga midiéndose, los GeoJSON recientes n
 demuestran que aquel intervalo antiguo continúe vigente; sus filas conservan
 `No determinado` en vez de heredar el estado de otra frecuencia.
 
+## Estaciones ESO publicadas por DMC/SACLIM
+
+Las fichas oficiales de [Cerro Paranal, 240005](https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/240005)
+y [Llano de Chajnantor/APEX, 230021](https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/230021)
+declaran **ESO** como propietario y su pertenencia a las estaciones EMA
+publicadas por DMC. Ambas bitácoras registran el cambio de propietario DMC a
+ESO el 26 de noviembre de 2019. El catálogo usa la institución actual publicada.
+
+| Código | Frecuencia comprobada | Series | Primera fecha comprobada (UTC) | Estado actual |
+|---|---|---:|---|---|
+| 240005 | 1 min | 7 | 2019-07-01T00:00:00 | Sí en las siete series |
+| 240005 | 15 min | 5 | 2019-01-01T03:00:00 | No determinado para este producto |
+| 230021 | 1 min | 6 | 2019-07-01T00:00:00 | Sí en las seis series |
+| 230021 | 15 min | 5 | 2019-01-01T03:00:00 | No determinado para este producto |
+
+Las series minutarias de Paranal son temperatura a 1,5 y 30 m, humedad,
+presión, dirección, intensidad y ráfaga del viento. APEX tiene las mismas
+variables, con temperatura a 1,5 m. Las alturas restantes no se infieren.
+Las cinco series de 15 minutos de cada estación son temperatura a 1,5 m,
+humedad, presión, dirección e intensidad del viento.
+
+Se reabrieron los JSON locales de enero de 2019 para comprobar cada primer
+valor de 15 minutos. Para el producto minutario se consultaron 80 enlaces de
+los cuatro grupos desde octubre de 2018 (creación SACLIM) hasta julio de 2019:
+no se obtuvieron ZIP anteriores y los primeros valores verificados son de
+julio. Las respuestas anteriores se registran como `sin_zip`, que no demuestra
+ausencia de observaciones por otros servicios. Las fechas son las primeras
+comprobadas con este procedimiento, no las fechas de instalación del sensor.
+
+Para disponibilidad actual se descargaron los ZIP de octubre de 2026 y se
+verificaron valores de cada variable y altura dentro de **2026-10-25 a
+2026-10-31 UTC**, los siete días completos anteriores a la revisión. Ese
+resultado se aplica sólo a las filas de 1 minuto; no se transfiere al producto
+de 15 minutos. No se agregan radiación ni precipitación sin valores comprobados
+en los productos examinados de estas dos estaciones.
+
 ## Reproducción
 
 ```bash
@@ -128,6 +168,7 @@ python scripts/dmc_sondear_saclim.py --end-year 2025
 python scripts/dmc_analizar_archivos_existentes.py
 python scripts/dmc_sondear_ema_minuto_publico.py --end 2026-01
 python scripts/dmc_validar_actual_api.py --as-of 2026-10-31
+python scripts/dmc_verificar_eso.py --as-of 2026-11-01
 python scripts/construir_catalogo_dmc.py
 python scripts/construir_catalogo_general.py
 ```
@@ -143,6 +184,9 @@ Archivos de auditoría principales:
 - `datos_originales/dmc/sondeo_ema_minuto_existente.csv`
 - `datos_originales/dmc/sondeo_ema_minuto_publico_pendientes.csv`
 - `datos_originales/dmc/sondeo_ema_minuto_publico_intentos.csv`
+- `datos_originales/dmc/sondeo_ema_minuto_publico_eso.csv`
+- `datos_originales/dmc/disponibilidad_actual_eso_minuto.csv`
+- `datos_originales/dmc/revision_eso_2026-11-01/` (fichas, intentos y ZIP recientes)
 
 ## Limitaciones
 
@@ -159,8 +203,9 @@ Archivos de auditoría principales:
   examinados; `180016` y `220009` están clasificadas como radiométricas UV y no
   entregaron radiación solar global ni las demás variables solicitadas. Esto no
   equivale a afirmar que carezcan de cualquier observación.
-- Los códigos ESO `230021` y `240005` aparecen en descargas antiguas del portal
-  DMC, pero no se incluyen en `catalogo_dmc.csv` porque el catastro declara a
-  ESO como propietario. Su distribución por DMC no cambia la institución
-  responsable.
+- La revisión inicial excluía las estaciones ESO `230021` y `240005` por
+  propietario. Ahora ambas se incluyen en `catalogo_dmc.csv` y en DMC/SACLIM,
+  conservando ESO en la columna de institución. Su presencia por VISMET es
+  otro producto, con frecuencia, cobertura y procedencia propias; no se copia
+  su fecha inicial al producto DMC.
 

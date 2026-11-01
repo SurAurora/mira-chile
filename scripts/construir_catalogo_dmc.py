@@ -33,7 +33,10 @@ def altitude(value: str) -> str:
 
 
 def main() -> int:
-    stations = {row["codigo_nacional"]: row for row in read(RAW / "inventario_dmc.csv")}
+    # El portal SACLIM también publica estaciones de otras instituciones.
+    # El inventario permite atribuir cada serie a su propietario sin excluirla
+    # de la red/portal DMC. Sólo la evidencia con valores genera filas.
+    stations = {row["codigo_nacional"]: row for row in read(RAW / "inventario_saclim_regiones.csv")}
     availability = {
         (row["codigo_nacional"], row["variable"]): row["datos_disponibles_actualmente"]
         for row in read(RAW / "disponibilidad_actual.csv")
@@ -51,7 +54,18 @@ def main() -> int:
     public_pending = RAW / "sondeo_ema_minuto_publico_pendientes.csv"
     if public_pending.exists():
         evidence.extend(read(public_pending))
+    eso_public = RAW / "sondeo_ema_minuto_publico_eso.csv"
+    if eso_public.exists():
+        evidence.extend(read(eso_public))
     evidence.extend(read(RAW / "sondeo_ema_15min_existente.csv"))
+    eso_current_path = RAW / "disponibilidad_actual_eso_minuto.csv"
+    eso_current = {}
+    if eso_current_path.exists():
+        eso_current = {
+            (row["codigo_nacional"], row["variable"], row["altura_sensor_suelo_m"], row["frecuencia_muestreo"]):
+                row["datos_disponibles_actualmente"]
+            for row in read(eso_current_path)
+        }
     for row in read(RAW / "sondeo_saclim_horario.csv"):
         if row["estado"] != "con_datos" or not row["frecuencia_observada_min"].isdigit():
             continue
@@ -89,7 +103,7 @@ def main() -> int:
         row = {
             "nombre_estacion": station["nombre"],
             "id": code,
-            "fuente_institucion": "DMC",
+            "fuente_institucion": station["propietario"] or "No informado",
             "latitud": station["latitud"],
             "longitud": station["longitud"],
             "altitud_snm_m": altitude(station["altitud_m"]),
@@ -98,7 +112,7 @@ def main() -> int:
             "altura_sensor_suelo_m": item["altura_sensor_suelo_m"],
             "frecuencia_muestreo": item["frecuencia_muestreo"],
             "primera_fecha_disponible": item["primera_fecha_verificada"],
-            "datos_disponibles_actualmente": item.get("estado_actual_override") or current_state,
+            "datos_disponibles_actualmente": item.get("estado_actual_override") or eso_current.get(key, current_state),
             "readme_descarga": "fuentes/dmc/README.md",
         }
         previous = by_key.get(key)

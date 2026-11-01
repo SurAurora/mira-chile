@@ -1948,6 +1948,29 @@ Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Presión,Meteorológi
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Radiación solar,Meteorológica,No informado,60 min,2018-10-23T14:00,Sí,fuentes/agromet/README.md
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Ráfaga del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Temperatura,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Dirección del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Dirección del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Humedad,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Humedad,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Intensidad del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Intensidad del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Presión,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Presión,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Ráfaga del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Temperatura,Meteorológica,1.5,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Llano de Chajnantor, observatorio APEX",230021,ESO,-23.00583,-67.75917,5000,Temperatura,Meteorológica,1.5,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Dirección del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Dirección del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Humedad,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Humedad,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Intensidad del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Intensidad del viento,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Presión,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Presión,Meteorológica,No informado,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Ráfaga del viento,Meteorológica,No informado,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Temperatura,Meteorológica,1.5,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Temperatura,Meteorológica,1.5,15 min,2019-01-01T03:00:00,No determinado,fuentes/dmc/README.md
+"Cerro Paranal, observatorio astronomico",240005,ESO,-24.62750,-70.40472,2648,Temperatura,Meteorológica,30,1 min,2019-07-01T00:00:00,Sí,fuentes/dmc/README.md
 Pachica,INIA-350,INDAP-CONADI,-19.865293,-69.435462,1604,Dirección del viento,Meteorológica,No informado,60 min,2025-07-15T19:00,Sí,fuentes/agromet/README.md
 Pachica,INIA-350,INDAP-CONADI,-19.865293,-69.435462,1604,Humedad,Meteorológica,No informado,60 min,2025-07-15T19:00,Sí,fuentes/agromet/README.md
 Pachica,INIA-350,INDAP-CONADI,-19.865293,-69.435462,1604,Intensidad del viento,Meteorológica,No informado,60 min,2025-07-15T19:00,Sí,fuentes/agromet/README.md

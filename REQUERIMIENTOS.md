@@ -39,6 +39,11 @@ Para la red del Explorador Eólico (`EXP_EOL`), las publicaciones de `http://wal
 
 La ausencia de resultados en un portal no basta para concluir que una institución no tiene datos: debe quedar documentado qué se buscó, cuándo y con qué limitaciones de acceso.
 
+Las estaciones publicadas por DMC/SACLIM no se excluyen por tener otro
+propietario. Si tienen valores comprobados, se incorporan al grupo DMC/SACLIM
+del dashboard y se conserva la institución responsable publicada en sus
+metadatos. La pertenencia al portal y la propiedad son atributos distintos.
+
 ## 4. Variables de interés
 
 ### 4.1. Variables meteorológicas
