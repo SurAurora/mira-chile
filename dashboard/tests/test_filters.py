@@ -178,6 +178,20 @@ class FilterTests(unittest.TestCase):
                 self.assertIn("2019-01-01", detail)
                 self.page.locator("#closeDetail").click()
 
+    def test_cerro_moreno_includes_all_verified_precipitation_products(self):
+        self.load()
+        self.choose("network", ["DMC / SACLIM"])
+        self.page.locator("#networkFilter summary").click()
+        self.page.locator("#searchFilter").fill("230001")
+        expect(self.page.locator("#stationTable tbody tr[data-key]")).to_have_count(1)
+        self.page.locator("#stationTable tbody tr[data-key]").click()
+        rows = self.page.locator("#detailContent tbody tr").all_text_contents()
+        precipitation = [row for row in rows if "Precipitación" in row]
+        self.assertEqual(len(precipitation), 3)
+        combined = "\n".join(precipitation)
+        for expected in ["15 min", "360 min", "1440 min", "1950-04-01T06:00", "1975-12-30"]:
+            self.assertIn(expected, combined)
+
     def test_year_is_inclusive_per_series_and_excludes_unknown_dates(self):
         fixture = copy.deepcopy(CATALOG)
         station = copy.deepcopy(CATALOG["stations"][0])

@@ -25,13 +25,18 @@ OUTPUT = ROOT / "datos_originales" / "dmc"
 BASE = "https://climatologia.meteochile.gob.cl/application/datos/getDatosSaclim"
 _LOCAL = threading.local()
 
-SOURCES = {
-    "Temperatura": ("Temperatura", "Ts", -80.0, 80.0),
-    "Humedad": ("Humedad", "HR", 0.0, 100.0),
-    "Presión": ("PresionQFE", "QFE", 1.0, 1200.0),
-    "Intensidad del viento": ("Viento", "ff", 0.0, 300.0),
-    "Dirección del viento": ("Viento", "dd", 0.0, 360.0),
+PRODUCTS = {
+    # producto: (variable normalizada, campo, campo temporal, formatos, mínimo, máximo)
+    "Agua6Horas": ("Precipitación", "RRR6", "Instante", ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"), 0.0, 1000.0),
+    "Agua24Horas": ("Precipitación", "RRR24", "Fecha", ("%d-%m-%Y",), 0.0, 1000.0),
+    "Temperatura": ("Temperatura", "Ts", "Instante", ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"), -80.0, 80.0),
+    "Humedad": ("Humedad", "HR", "Instante", ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"), 0.0, 100.0),
+    "PresionQFE": ("Presión", "QFE", "Instante", ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"), 1.0, 1200.0),
+    "Viento_ff": ("Intensidad del viento", "ff", "Instante", ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"), 0.0, 300.0),
+    "Viento_dd": ("Dirección del viento", "dd", "Instante", ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"), 0.0, 360.0),
 }
+
+SOURCE_NAMES = {"Viento_ff": "Viento", "Viento_dd": "Viento"}
 
 
 def session() -> requests.Session:
@@ -41,8 +46,8 @@ def session() -> requests.Session:
     return _LOCAL.session
 
 
-def parse_date(text: str) -> datetime | None:
-    for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"):
+def parse_date(text: str, formats: tuple[str, ...]) -> datetime | None:
+    for fmt in formats:
         try:
             return datetime.strptime(text.strip(), fmt)
         except ValueError:
@@ -50,7 +55,10 @@ def parse_date(text: str) -> datetime | None:
     return None
 
 
-def inspect_zip(content: bytes, field: str, low: float, high: float) -> tuple[str, str, str, int] | None:
+def inspect_zip(
+    content: bytes, field: str, time_field: str, formats: tuple[str, ...],
+    low: float, high: float,
+) -> tuple[str, str, str, int] | None:
     try:
         with zipfile.ZipFile(io.BytesIO(content)) as archive:
             members = [item for item in archive.infolist() if not item.is_dir() and item.filename.endswith(".csv")]
@@ -61,11 +69,11 @@ def inspect_zip(content: bytes, field: str, low: float, high: float) -> tuple[st
         return None
     text = raw.decode("utf-8-sig", errors="replace")
     reader = csv.DictReader(io.StringIO(text), delimiter=";")
-    if not reader.fieldnames or field not in reader.fieldnames or "Instante" not in reader.fieldnames:
+    if not reader.fieldnames or field not in reader.fieldnames or time_field not in reader.fieldnames:
         return None
     valid: list[tuple[datetime, float]] = []
     for row in reader:
-        stamp = parse_date(row.get("Instante", ""))
+        stamp = parse_date(row.get(time_field, ""), formats)
         try:
             value = float((row.get(field) or "").replace(",", "."))
         except ValueError:
@@ -78,12 +86,17 @@ def inspect_zip(content: bytes, field: str, low: float, high: float) -> tuple[st
     deltas = [int((b[0] - a[0]).total_seconds() // 60) for a, b in zip(valid, valid[1:]) if b[0] > a[0]]
     positive = [delta for delta in deltas if delta > 0]
     nominal = min(positive) if positive else 0
-    return valid[0][0].isoformat(timespec="minutes"), str(valid[0][1]), members[0].filename, nominal
+    if all("%H" not in fmt for fmt in formats):
+        first_stamp = valid[0][0].date().isoformat()
+    else:
+        first_stamp = valid[0][0].isoformat(timespec="minutes")
+    return first_stamp, str(valid[0][1]), members[0].filename, nominal
 
 
 def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout: float) -> dict[str, object]:
-    station, variable = task
-    source, field, low, high = SOURCES[variable]
+    station, product = task
+    variable, field, time_field, formats, low, high = PRODUCTS[product]
+    source = SOURCE_NAMES.get(product, product)
     code = station["codigo_nacional"]
     try:
         start_year = datetime.strptime(station["fecha_creacion"], "%d-%m-%Y").year
@@ -105,7 +118,7 @@ def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout
                     continue
                 if response.status_code != 200 or not response.content.startswith(b"PK\x03\x04"):
                     break
-                result = inspect_zip(response.content, field, low, high)
+                result = inspect_zip(response.content, field, time_field, formats, low, high)
                 if result is None:
                     break
                 stamp, value, member, nominal = result
@@ -190,20 +203,46 @@ def main() -> int:
     parser.add_argument("--pause", type=float, default=0.08)
     parser.add_argument("--timeout", type=float, default=60)
     parser.add_argument("--station", action="append")
+    variables = tuple(sorted({spec[0] for spec in PRODUCTS.values()}))
+    parser.add_argument("--variable", action="append", choices=variables)
     args = parser.parse_args()
     with args.inventory.open(encoding="utf-8", newline="") as handle:
         stations = list(csv.DictReader(handle))
     if args.station:
         stations = [row for row in stations if row["codigo_nacional"] in set(args.station)]
-    tasks = [(station, variable) for station in stations for variable in SOURCES]
+    selected_variables = set(args.variable or variables)
+    products = [name for name, spec in PRODUCTS.items() if spec[0] in selected_variables]
+    tasks = [(station, product) for station in stations for product in products]
+    partial_run = bool(args.station or args.variable)
+    previous: list[dict[str, str]] = []
+    if partial_run and args.output.exists():
+        with args.output.open(encoding="utf-8", newline="") as handle:
+            previous = list(csv.DictReader(handle))
     rows: list[dict[str, object]] = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         futures = [pool.submit(probe, task, args.end_year, args.pause, args.timeout) for task in tasks]
         for future in as_completed(futures):
             rows.append(future.result())
-            if len(rows) % 10 == 0 or len(rows) == len(tasks):
+            if not partial_run and (len(rows) % 10 == 0 or len(rows) == len(tasks)):
                 write_results(args.output, rows)
                 print(f"{len(rows)}/{len(tasks)}", flush=True)
+            elif partial_run and (len(rows) % 10 == 0 or len(rows) == len(tasks)):
+                print(f"{len(rows)}/{len(tasks)}", flush=True)
+    if partial_run:
+        # Un sondeo dirigido actualiza sólo esas estaciones y variables sin
+        # borrar el inventario ya verificado para el resto de la red.
+        replacement = {
+            (row["codigo_nacional"], row["variable_saclim"], row["campo_saclim"])
+            for row in rows
+        }
+        rows.extend(
+            row for row in previous
+            if (row["codigo_nacional"], row["variable_saclim"], row["campo_saclim"])
+            not in replacement
+        )
+        write_results(args.output, rows)
+    elif rows:
+        write_results(args.output, rows)
     return 0
 
 

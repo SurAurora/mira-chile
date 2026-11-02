@@ -4,7 +4,8 @@
 
 Portal distribuidor: **Dirección Meteorológica de Chile (DMC)**. Portal:
 <https://climatologia.meteochile.gob.cl/>. Consultas efectuadas el 31 de
-octubre de 2026; revisión de las estaciones ESO el **1 de noviembre de 2026**.
+octubre de 2026; revisión de las estaciones ESO el **1 de noviembre de 2026**
+y revisión específica de `AguaCaida` el **2 de noviembre de 2026**.
 
 Este catálogo incluye estaciones publicadas por DMC/SACLIM con valores
 comprobados, conservando su `Propietario` como `fuente_institucion`. La red del
@@ -90,10 +91,40 @@ se usa `No informado`.
 https://climatologia.meteochile.gob.cl/application/datos/getDatosSaclim/{codigo}_{AAAA}_{variable}_
 ```
 
-Se comprobaron `Temperatura/Ts`, `Humedad/HR`, `PresionQFE/QFE` y
-`Viento/dd,ff`. Las series antiguas no tienen una frecuencia uniforme: hay
-intervalos horarios y también observaciones cada 3 o 5 horas. El catálogo
-conserva el intervalo observado y no lo llama minutario.
+Se comprobaron `Temperatura/Ts`, `Humedad/HR`, `PresionQFE/QFE`,
+`Viento/dd,ff`, `Agua6Horas/RRR6` y `Agua24Horas/RRR24`. Las series antiguas
+no tienen una frecuencia uniforme: hay intervalos horarios, observaciones cada
+3 o 5 horas, precipitación cada 6 horas y totales diarios. El catálogo conserva
+el intervalo observado y no lo llama minutario.
+
+### Revisión de AguaCaida
+
+`AguaCaida` no corresponde a un único producto ni a una única frecuencia:
+`aguaCaidaDelMinuto` pertenece a la API EMA de 15 minutos, mientras
+`Agua6Horas/RRR6` y `Agua24Horas/RRR24` son productos SACLIM. Se comprobó al
+menos un valor en 21, 9 y 6 estaciones, respectivamente. Después de deduplicar
+estación, altura y frecuencia, el catálogo contiene 36 filas de precipitación
+en 23 estaciones DMC. El cero se conserva como medición válida: significa que
+no precipitó y no equivale a un dato ausente.
+
+El nombre `aguaCaidaDelMinuto` no demuestra una frecuencia minutaria. Los
+archivos examinados tienen sellos consecutivos cada 15 minutos y se catalogan
+con esa frecuencia.
+
+Para **Cerro Moreno Antofagasta Ap. (230001)** se verificaron las tres series:
+
+| Producto | Frecuencia | Primera fecha con valor comprobado | Estado actual de esa frecuencia |
+|---|---:|---|---|
+| `aguaCaidaDelMinuto` | 15 min | 2026-10-26T12:00:00 | Sí |
+| `Agua6Horas/RRR6` | 360 min | 1950-04-01T06:00 | No determinado |
+| `Agua24Horas/RRR24` | 1440 min | 1975-12-30 | No determinado |
+
+La [ficha oficial de Cerro Moreno](https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/230001)
+también declara los elementos “Agua Caída, Acumulada 6 Horas” y “Agua Caída,
+Total Diario”. La bitácora asocia una altura de 1,5 m a un pluviómetro de serie
+`F44103`, mientras el inventario actual muestra otro pluviómetro, serie
+`Y1115404`. Por ello no se transfiere esa altura a toda la cobertura histórica
+ni a la serie API y se conserva `No informado`.
 
 ## Primera fecha y disponibilidad actual
 
@@ -164,7 +195,9 @@ en los productos examinados de estas dos estaciones.
 ```bash
 cd /home/alagos/catalogo_estaciones
 python scripts/dmc_descargar_metadatos.py --as-of 2026-10-31
-python scripts/dmc_sondear_saclim.py --end-year 2025
+python scripts/dmc_sondear_saclim.py --end-year 2026
+# Para repetir sólo la revisión de AguaCaida:
+python scripts/dmc_sondear_saclim.py --variable Precipitación --end-year 2026
 python scripts/dmc_analizar_archivos_existentes.py
 python scripts/dmc_sondear_ema_minuto_publico.py --end 2026-01
 python scripts/dmc_validar_actual_api.py --as-of 2026-10-31
@@ -199,8 +232,8 @@ Archivos de auditoría principales:
   estaciones; 3.805 respuestas fueron páginas HTML sin ZIP y 59 ZIP no
   contenían valores físicamente válidos de las variables buscadas.
 - Tres de las 29 estaciones DMC no generan filas: `170006` no entregó valores
-  verificables por EMA mensual ni por los cuatro productos horarios SACLIM
-  examinados; `180016` y `220009` están clasificadas como radiométricas UV y no
+  verificables por EMA mensual ni por los productos SACLIM examinados;
+  `180016` y `220009` están clasificadas como radiométricas UV y no
   entregaron radiación solar global ni las demás variables solicitadas. Esto no
   equivale a afirmar que carezcan de cualquier observación.
 - La revisión inicial excluía las estaciones ESO `230021` y `240005` por
