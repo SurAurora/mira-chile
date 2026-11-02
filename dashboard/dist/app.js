@@ -362,11 +362,15 @@
     const { filteredStations, filteredSeries } = getFiltered();
     const stationMap = new Map(filteredStations.map((s) => [s.station_key, s]));
     const columns = ["nombre_estacion", "id", "red", "fuente_institucion", "region", "comuna", "latitud", "longitud", "altitud_snm_m", "variable", "tipo_variable", "altura_sensor_suelo_m", "frecuencia_muestreo", "primera_fecha_disponible", "datos_disponibles_actualmente", "readme_descarga"];
-    const lines = [columns.map(csvValue).join(",")];
+    // Excel usa habitualmente punto y coma como separador en configuraciones
+    // regionales hispanohablantes. Las comillas conservan como una sola celda
+    // los nombres que contienen comas, punto y coma o saltos de línea.
+    const separator = ";";
+    const lines = [columns.map(csvValue).join(separator)];
     filteredSeries.forEach((row) => {
       const station = stationMap.get(row.station_key);
       const merged = { ...station, ...row };
-      lines.push(columns.map((column) => csvValue(merged[column])).join(","));
+      lines.push(columns.map((column) => csvValue(merged[column])).join(separator));
     });
     const blob = new Blob(["\ufeff" + lines.join("\n")], { type: "text/csv;charset=utf-8" });
     const link = document.createElement("a");

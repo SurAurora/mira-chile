@@ -144,12 +144,19 @@ class FilterTests(unittest.TestCase):
         with self.page.expect_download() as download:
             self.page.locator("#exportCsv").click()
         with Path(download.value.path()).open(encoding="utf-8-sig", newline="") as handle:
-            exported = list(csv.DictReader(handle))
+            exported = list(csv.DictReader(handle, delimiter=";"))
         self.assertEqual(len(exported), len(expected))
         fields = ["id", "red", "variable", "altura_sensor_suelo_m", "frecuencia_muestreo", "primera_fecha_disponible"]
         self.assertEqual(
             sorted(tuple(row[field] for field in fields) for row in exported),
             sorted(tuple(str(row[field]) for field in fields) for row in expected),
+        )
+        expected_names_with_comma = {
+            row["nombre_estacion"] for row in expected if "," in row["nombre_estacion"]
+        }
+        self.assertEqual(
+            {row["nombre_estacion"] for row in exported if "," in row["nombre_estacion"]},
+            expected_names_with_comma,
         )
         self.reset()
         self.assertEqual(self.page.locator("#startYearFilter").input_value(), "")

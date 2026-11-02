@@ -48,7 +48,9 @@ tipo `https://usuario.github.io/repositorio/`.
   comprobada es de ese año o anterior;
 - detalle de las series seleccionadas de cada estación;
 - tabla de estaciones y matriz red × variable;
-- descarga CSV de las series filtradas;
+- descarga CSV de las series filtradas, codificada en UTF-8 con BOM y separada
+  por punto y coma para abrirla directamente en Excel con configuración regional
+  chilena; las comas dentro de los nombres se conservan como texto;
 - capas opcionales de regiones, comunas, red vial y relieve ASTER.
 
 En cada filtro se puede elegir una opción, varias o «Todos/Todas». Las opciones
