@@ -19,7 +19,7 @@ from pathlib import Path
 import requests
 
 
-ROOT = Path("/home/alagos/catalogo_estaciones")
+ROOT = Path(__file__).resolve().parents[1]
 INVENTORY = ROOT / "datos_originales" / "dmc" / "inventario_dmc.csv"
 OUTPUT = ROOT / "datos_originales" / "dmc"
 BASE = "https://climatologia.meteochile.gob.cl/application/datos/getDatosSaclim"
@@ -132,16 +132,8 @@ def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout
                 if result is None:
                     break
                 stamp, value, member, nominal = result
-                raw_dir = OUTPUT / "saclim_primeros_zip" / code
-                raw_dir.mkdir(parents=True, exist_ok=True)
-                target = raw_dir / f"{stem}.csv.zip"
-                if not target.exists():
-                    with tempfile.NamedTemporaryFile(dir=raw_dir, prefix=".saclim_", suffix=".tmp", delete=False) as h:
-                        temporary = Path(h.name)
-                        h.write(response.content)
-                    os.replace(temporary, target)
                 if first_found is None:
-                    first_found = (stamp, value, member, str(target.relative_to(ROOT)), year)
+                    first_found = (stamp, value, member, "", year)
                 if not nominal:
                     # Un único valor al límite del año prueba la primera fecha,
                     # pero no el intervalo. Continuar hasta observar un delta.
@@ -150,7 +142,7 @@ def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout
                 return {
                     "codigo_nacional": code, "nombre_estacion": station["nombre"],
                     "variable": variable, "variable_saclim": source, "campo_saclim": field,
-                    "primera_fecha_verificada": first_stamp, "primer_valor_verificado": first_value,
+                    "primera_fecha_verificada": first_stamp,
                     "frecuencia_observada_min": nominal or "No determinado",
                     "anio_inicial_sondeo": start_year, "anio_hallazgo": first_year,
                     "solicitudes": attempts, "errores_red": errors, "estado": "con_datos",
@@ -168,7 +160,7 @@ def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout
         return {
             "codigo_nacional": code, "nombre_estacion": station["nombre"],
             "variable": variable, "variable_saclim": source, "campo_saclim": field,
-            "primera_fecha_verificada": first_stamp, "primer_valor_verificado": first_value,
+            "primera_fecha_verificada": first_stamp,
             "frecuencia_observada_min": "No determinado", "anio_inicial_sondeo": start_year,
             "anio_hallazgo": first_year, "solicitudes": attempts, "errores_red": errors,
             "estado": "con_datos", "url_evidencia": "", "archivo_evidencia": first_target,
@@ -177,7 +169,7 @@ def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout
     return {
         "codigo_nacional": code, "nombre_estacion": station["nombre"],
         "variable": variable, "variable_saclim": source, "campo_saclim": field,
-        "primera_fecha_verificada": "", "primer_valor_verificado": "",
+        "primera_fecha_verificada": "",
         "frecuencia_observada_min": "", "anio_inicial_sondeo": start_year,
         "anio_hallazgo": "", "solicitudes": attempts, "errores_red": errors,
         "estado": "sin_datos_verificados", "url_evidencia": "",
@@ -188,7 +180,7 @@ def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout
 def write_results(path: Path, rows: list[dict[str, object]]) -> None:
     fields = (
         "codigo_nacional", "nombre_estacion", "variable", "variable_saclim", "campo_saclim",
-        "primera_fecha_verificada", "primer_valor_verificado", "frecuencia_observada_min",
+        "primera_fecha_verificada", "frecuencia_observada_min",
         "anio_inicial_sondeo", "anio_hallazgo", "solicitudes", "errores_red", "estado",
         "url_evidencia", "archivo_evidencia", "miembro_csv",
     )

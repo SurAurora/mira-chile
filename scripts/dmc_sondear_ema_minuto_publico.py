@@ -20,7 +20,7 @@ from pathlib import Path
 import requests
 
 
-ROOT = Path("/home/alagos/catalogo_estaciones")
+ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "datos_originales" / "dmc"
 BASE = "https://climatologia.meteochile.gob.cl/application/datos/getDatosEma"
 _LOCAL = threading.local()
@@ -46,7 +46,24 @@ DEFINITIONS = {
         "ff02MinutosMax": ("Ráfaga del viento", "No informado", 0, 300),
         "ff10MinutosMax": ("Ráfaga del viento", "No informado", 0, 300),
     },
+    "AguaCaida": {
+        "rrInst": ("Precipitación", "No informado", 0, 1000),
+        "rr15m": ("Precipitación", "No informado", 0, 1000),
+        "rr1Hora": ("Precipitación", "No informado", 0, 1000),
+        "rr3Horas": ("Precipitación", "No informado", 0, 1000),
+        "rr6Horas": ("Precipitación", "No informado", 0, 1000),
+        "rr12Horas": ("Precipitación", "No informado", 0, 1000),
+        "rr24Horas": ("Precipitación", "No informado", 0, 1000),
+    },
 }
+
+
+def unpack_definition(spec: tuple) -> tuple[str, str, float, float, str | None]:
+    if len(spec) == 4:
+        variable, height, low, high = spec
+        return variable, height, low, high, None
+    variable, height, low, high, declared_frequency = spec
+    return variable, height, low, high, declared_frequency
 
 
 def session() -> requests.Session:
@@ -97,16 +114,18 @@ def inspect(content: bytes, group: str) -> tuple[list[dict[str, object]], str] |
             stamp = datetime.fromisoformat(row.get("momento", ""))
         except ValueError:
             continue
-        for field, (variable, height, low, high) in DEFINITIONS[group].items():
+        for field, spec in DEFINITIONS[group].items():
+            variable, height, low, high, declared_frequency = unpack_definition(spec)
             value = number(row.get(field))
             if value is None or not low <= value <= high:
                 continue
-            key = (variable, height)
+            series_frequency = declared_frequency or frequency
+            key = (variable, height, series_frequency)
             candidate = {
                 "variable": variable, "altura_sensor_suelo_m": height,
                 "primera_fecha_verificada": stamp.isoformat(timespec="seconds"),
-                "primer_valor_verificado": value, "campo_original": field,
-                "frecuencia_muestreo": frequency,
+                "campo_original": field,
+                "frecuencia_muestreo": series_frequency,
             }
             if key not in found or candidate["primera_fecha_verificada"] < found[key]["primera_fecha_verificada"]:
                 found[key] = candidate
@@ -128,6 +147,15 @@ def probe(
         size = 0
         try:
             time.sleep(pause + random.uniform(0, pause))
+            head = session().head(url, timeout=timeout, allow_redirects=True)
+            if "application/octet-stream" not in head.headers.get("content-type", ""):
+                status = "sin_zip"
+                attempts.append({
+                    "codigo_nacional": code, "grupo_ema": group, "mes": month,
+                    "estado": status, "http_status": head.status_code,
+                    "bytes": 0, "url": url,
+                })
+                continue
             response = session().get(url, timeout=timeout)
             size = len(response.content)
             if response.status_code != 200:
@@ -144,18 +172,11 @@ def probe(
                         status = "zip_sin_valores_validos"
                     else:
                         status = "con_datos"
-                        outdir = RAW / "ema_primeros_zip_publicos" / code
-                        outdir.mkdir(parents=True, exist_ok=True)
-                        target = outdir / filename
-                        with tempfile.NamedTemporaryFile(dir=outdir, prefix=".ema_", suffix=".tmp", delete=False) as h:
-                            temporary = Path(h.name)
-                            h.write(response.content)
-                        os.replace(temporary, target)
                         for row in series:
                             row.update({
                                 "codigo_nacional": code, "nombre_estacion": station["nombre"],
                                 "grupo_ema": group, "url_evidencia": url,
-                                "archivo_evidencia": str(target.relative_to(ROOT)), "miembro_csv": member,
+                                "archivo_evidencia": "", "miembro_csv": member,
                             })
                         attempts.append({
                             "codigo_nacional": code, "grupo_ema": group, "mes": month,
@@ -174,7 +195,7 @@ def probe(
 
 def write(path: Path, fields: tuple[str, ...], rows: list[dict]) -> None:
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -187,6 +208,7 @@ def main() -> int:
     parser.add_argument("--pause", type=float, default=0.12)
     parser.add_argument("--timeout", type=float, default=60)
     parser.add_argument("--station", action="append")
+    parser.add_argument("--group", action="append", choices=tuple(DEFINITIONS))
     parser.add_argument("--inventory", type=Path, default=RAW / "inventario_dmc.csv")
     parser.add_argument("--output", type=Path, default=RAW / "sondeo_ema_minuto_publico_pendientes.csv")
     parser.add_argument("--attempts-output", type=Path, default=RAW / "sondeo_ema_minuto_publico_intentos.csv")
@@ -211,7 +233,17 @@ def main() -> int:
         stations = [row for row in stations if row["codigo_nacional"] in active]
     if args.station:
         stations = [row for row in stations if row["codigo_nacional"] in set(args.station)]
-    tasks = [(station, group) for station in stations for group in DEFINITIONS]
+    groups = args.group or list(DEFINITIONS)
+    tasks = [(station, group) for station in stations for group in groups]
+    partial_run = bool(args.station or args.group)
+    previous_series: list[dict] = []
+    previous_attempts: list[dict] = []
+    if partial_run and args.output.exists():
+        with args.output.open(encoding="utf-8", newline="") as handle:
+            previous_series = list(csv.DictReader(handle))
+    if partial_run and args.attempts_output.exists():
+        with args.attempts_output.open(encoding="utf-8", newline="") as handle:
+            previous_attempts = list(csv.DictReader(handle))
     series_rows: list[dict] = []
     attempt_rows: list[dict] = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -223,10 +255,21 @@ def main() -> int:
             print(f"{len(series_rows)} series; {len(attempt_rows)} solicitudes", flush=True)
     series_fields = (
         "codigo_nacional", "nombre_estacion", "variable", "altura_sensor_suelo_m",
-        "frecuencia_muestreo", "primera_fecha_verificada", "primer_valor_verificado",
+        "frecuencia_muestreo", "primera_fecha_verificada",
         "campo_original", "grupo_ema", "url_evidencia", "archivo_evidencia", "miembro_csv",
     )
     attempt_fields = ("codigo_nacional", "grupo_ema", "mes", "estado", "http_status", "bytes", "url")
+    if partial_run:
+        target_codes = {row["codigo_nacional"] for row in stations}
+        target_groups = set(groups)
+        series_rows.extend(
+            row for row in previous_series
+            if not (row["codigo_nacional"] in target_codes and row["grupo_ema"] in target_groups)
+        )
+        attempt_rows.extend(
+            row for row in previous_attempts
+            if not (row["codigo_nacional"] in target_codes and row["grupo_ema"] in target_groups)
+        )
     write(args.output, series_fields,
           sorted(series_rows, key=lambda row: (row["codigo_nacional"], row["variable"], row["altura_sensor_suelo_m"])))
     write(args.attempts_output, attempt_fields,

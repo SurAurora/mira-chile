@@ -10,6 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "datos_originales" / "dmc"
 OUTPUT = ROOT / "catalogo_dmc.csv"
+API_ROOT = RAW / "api_15min"
+CURRENT_EVIDENCE_MONTH = "202610"
 COLUMNS = [
     "nombre_estacion", "id", "fuente_institucion", "latitud", "longitud",
     "altitud_snm_m", "variable", "tipo_variable", "altura_sensor_suelo_m",
@@ -44,39 +46,70 @@ def main() -> int:
     availability = {
         (row["codigo_nacional"], row["variable"]): row["datos_disponibles_actualmente"]
         for row in availability_rows
+        if row.get("ventana_desde", "").startswith("2026-10")
+        and row.get("ventana_hasta", "").startswith("2026-10")
     }
-    api_availability_path = RAW / "disponibilidad_actual_api_15min.csv"
-    api_availability = {}
-    if api_availability_path.exists():
-        api_availability = {
-            (row["codigo_nacional"], row["variable"], row["altura_sensor_suelo_m"]):
-                row["datos_disponibles_actualmente"]
-            for row in read(api_availability_path)
-        }
+    public_october_path = RAW / "disponibilidad_octubre_ema_publico.csv"
+    public_october_rows = read(public_october_path) if public_october_path.exists() else []
+    public_october: dict[tuple[str, str], str] = {}
+    for row in public_october_rows:
+        key = (row["codigo_nacional"], row["variable"])
+        state = row["datos_disponibles_actualmente"]
+        previous = public_october.get(key, "No determinado")
+        if state == "Sí" or previous == "Sí":
+            public_october[key] = "Sí"
+        elif state == "No" or previous == "No":
+            public_october[key] = "No"
+        else:
+            public_october[key] = "No determinado"
+    # La API se procesa en memoria. Estos CSV contienen únicamente metadatos
+    # derivados; no contienen la serie temporal ni las respuestas JSON.
+    api_summary_path = API_ROOT / "resumen_series_api_15min.csv"
+    api_monthly_path = API_ROOT / "resumen_mensual_api_15min.csv"
+    api_manifest_path = API_ROOT / "manifest_api_15min.csv"
+    api_summaries = read(api_summary_path) if api_summary_path.exists() else []
+    api_monthly = read(api_monthly_path) if api_monthly_path.exists() else []
+    api_manifest = read(api_manifest_path) if api_manifest_path.exists() else []
+    october_variables = {
+        (row["station_code"], row["variable"])
+        for row in api_monthly
+        if row["evidence_month"] == CURRENT_EVIDENCE_MONTH
+        and row.get("valid_values", "0").isdigit()
+        and int(row["valid_values"]) > 0
+    }
+    october_station_status = {
+        row["station_code"]: row["status"]
+        for row in api_manifest
+        if row["month"] == CURRENT_EVIDENCE_MONTH
+    }
     evidence: list[dict[str, str]] = []
-    evidence.extend(read(RAW / "sondeo_ema_minuto_existente.csv"))
-    public_pending = RAW / "sondeo_ema_minuto_publico_pendientes.csv"
-    if public_pending.exists():
-        evidence.extend(read(public_pending))
-    central_public = RAW / "sondeo_ema_minuto_publico_centro.csv"
-    if central_public.exists():
-        evidence.extend(read(central_public))
-    eso_public = RAW / "sondeo_ema_minuto_publico_eso.csv"
-    if eso_public.exists():
-        evidence.extend(read(eso_public))
-    evidence.extend(read(RAW / "sondeo_ema_15min_existente.csv"))
-    eso_current_path = RAW / "disponibilidad_actual_eso_minuto.csv"
-    eso_current = {}
-    if eso_current_path.exists():
-        eso_current = {
-            (row["codigo_nacional"], row["variable"], row["altura_sensor_suelo_m"], row["frecuencia_muestreo"]):
-                row["datos_disponibles_actualmente"]
-            for row in read(eso_current_path)
-        }
+    for row in api_summaries:
+        evidence.append({
+            "codigo_nacional": row["station_code"],
+            "variable": row["variable"],
+            "altura_sensor_suelo_m": row["height_m"],
+            "frecuencia_muestreo": row["frequency"],
+            "primera_fecha_verificada": row["first_timestamp"],
+        })
+    all_regions_public = RAW / "sondeo_ema_minuto_publico_todas_regiones.csv"
+    if all_regions_public.exists():
+        evidence.extend(read(all_regions_public))
+        # Estas dos estaciones son de ESO, pero sus productos EMA se publican
+        # en el portal DMC y por eso se conservan en esta red.
+        eso_public = RAW / "sondeo_ema_minuto_publico_eso.csv"
+        if eso_public.exists():
+            evidence.extend(read(eso_public))
+    else:
+        # Compatibilidad con las auditorías parciales anteriores.
+        for name in (
+            "sondeo_ema_minuto_publico_pendientes.csv",
+            "sondeo_ema_minuto_publico_centro.csv",
+            "sondeo_ema_minuto_publico_eso.csv",
+        ):
+            path = RAW / name
+            if path.exists():
+                evidence.extend(read(path))
     saclim_rows = read(RAW / "sondeo_saclim_horario.csv")
-    central_saclim = RAW / "sondeo_saclim_centro.csv"
-    if central_saclim.exists():
-        saclim_rows.extend(read(central_saclim))
     for row in saclim_rows:
         if row["estado"] != "con_datos" or not row["frecuencia_observada_min"].isdigit():
             continue
@@ -86,9 +119,6 @@ def main() -> int:
             "altura_sensor_suelo_m": "No informado",
             "frecuencia_muestreo": f"{row['frecuencia_observada_min']} min",
             "primera_fecha_verificada": row["primera_fecha_verificada"],
-            # El boletín reciente prueba la variable, pero no la permanencia
-            # del antiguo intervalo sinóptico de 1, 3 o 5 horas.
-            "estado_actual_override": "No determinado",
         })
 
     by_key: dict[tuple[str, ...], dict[str, str]] = {}
@@ -102,15 +132,20 @@ def main() -> int:
             item["frecuencia_muestreo"],
         )
         fallback_state = availability.get((code, item["variable"]), "No determinado")
-        api_state = api_availability.get(
-            (code, item["variable"], item["altura_sensor_suelo_m"]), "No determinado"
-        )
-        if "Sí" in {fallback_state, api_state}:
+        public_state = public_october.get((code, item["variable"]), fallback_state)
+        station_october_status = october_station_status.get(code)
+        if (code, item["variable"]) in october_variables:
             current_state = "Sí"
-        elif api_state == "No":
+        elif public_state == "Sí":
+            # Una observación válida en cualquier producto oficial de octubre
+            # basta; la ausencia del campo en la API no invalida el ZIP EMA.
+            current_state = "Sí"
+        elif station_october_status in {"verified", "no_data"}:
+            # El criterio acordado es al menos un valor físicamente válido
+            # de la variable durante octubre de 2026.
             current_state = "No"
         else:
-            current_state = fallback_state
+            current_state = public_state
         row = {
             "nombre_estacion": station["nombre"],
             "id": code,
@@ -123,7 +158,7 @@ def main() -> int:
             "altura_sensor_suelo_m": item["altura_sensor_suelo_m"],
             "frecuencia_muestreo": item["frecuencia_muestreo"],
             "primera_fecha_disponible": item["primera_fecha_verificada"],
-            "datos_disponibles_actualmente": item.get("estado_actual_override") or eso_current.get(key, current_state),
+            "datos_disponibles_actualmente": current_state,
             "readme_descarga": "fuentes/dmc/README.md",
         }
         previous = by_key.get(key)

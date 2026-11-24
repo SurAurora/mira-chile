@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import csv
-import json
 import tempfile
 from datetime import date, timedelta
 from pathlib import Path
@@ -34,14 +33,13 @@ def number(value: object) -> float | None:
 
 
 def main() -> int:
-    with (RAW / "inventario_dmc_centro.csv").open(encoding="utf-8", newline="") as handle:
+    with (RAW / "inventario_saclim_centro.csv").open(encoding="utf-8", newline="") as handle:
         inventory = list(csv.DictReader(handle))
     response = requests.get(URL, headers={"User-Agent": "catalogo-estaciones-DMC/1.0"}, timeout=60)
     response.raise_for_status()
     payload = response.json()
-    (RAW / "resumen_diario_ema_centro.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8",
-    )
+    # La respuesta se transforma en evidencia tabular y se descarta. No se
+    # conserva una copia de las observaciones del resumen diario.
     features = {
         str(item.get("properties", {}).get("codigoNacional")): item.get("properties", {})
         for item in payload.get("features", [])
@@ -60,7 +58,7 @@ def main() -> int:
                 "variable": variable, "ventana_desde": (today - timedelta(days=1)).isoformat(),
                 "ventana_hasta": today.isoformat(),
                 "datos_disponibles_actualmente": "Sí" if valid else "No determinado",
-                "fecha_evidencia": stamp, "valor_dia_consulta": value if valid else "",
+                "fecha_evidencia": stamp,
                 "detalle": f"{field} del resumen EMA público" if valid else "Sin valor verificable en el resumen EMA público",
             })
         rain = number(props.get("aguaCaidaAyer"))
@@ -71,7 +69,7 @@ def main() -> int:
             "variable": "Precipitación", "ventana_desde": (today - timedelta(days=1)).isoformat(),
             "ventana_hasta": today.isoformat(),
             "datos_disponibles_actualmente": "Sí" if valid_rain else "No determinado",
-            "fecha_evidencia": stamp, "valor_dia_consulta": rain if valid_rain else "",
+            "fecha_evidencia": stamp,
             "detalle": "aguaCaidaAyer con recuento de datos del resumen EMA público" if valid_rain else "Sin valor verificable en el resumen EMA público",
         })
     fields = tuple(rows[0])

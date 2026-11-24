@@ -2,8 +2,8 @@
 """Descarga inventarios y evidencia reciente pública del portal DMC.
 
 El catastro SACLIM es HTML aunque su nombre termine en ``.xls``. Este script
-conserva una copia comprimida, extrae las estaciones de las cuatro regiones de
-interés y consulta los servicios GeoJSON que no requieren credenciales.
+conserva una copia comprimida del catastro, extrae las estaciones de las cuatro
+regiones de interés y consulta los servicios GeoJSON sin guardar observaciones.
 """
 
 from __future__ import annotations
@@ -11,7 +11,6 @@ from __future__ import annotations
 import argparse
 import csv
 import gzip
-import json
 import os
 import tempfile
 from datetime import date, datetime, timedelta
@@ -21,7 +20,7 @@ from pathlib import Path
 import requests
 
 
-ROOT = Path("/home/alagos/catalogo_estaciones")
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CATALOG = ROOT / "datos_originales" / "dmc" / "CatastrodeEstacionesdelSistemaSACLIM_2026-10-31_15_25.xls"
 DEFAULT_OUTPUT = ROOT / "datos_originales" / "dmc"
 BASE = "https://climatologia.meteochile.gob.cl/application"
@@ -145,12 +144,7 @@ def main() -> int:
 
     session = requests.Session()
     session.headers["User-Agent"] = "catalogo-estaciones-DMC/1.0"
-    red = fetch_json(session, "servicios/getEstacionesRedEma", args.timeout)
     resumen = fetch_json(session, "geoservicios/getEmaResumenDiarioGeo", args.timeout)
-    informe = fetch_json(session, "geoservicios/getClimatDiarioRecienteEmas", args.timeout)
-    atomic_gzip(args.output / "red_ema.json.gz", json.dumps(red, ensure_ascii=False).encode())
-    atomic_gzip(args.output / "resumen_diario_ema.geojson.gz", json.dumps(resumen, ensure_ascii=False).encode())
-    atomic_gzip(args.output / "informe_diario_temp_precip.geojson.gz", json.dumps(informe, ensure_ascii=False).encode())
 
     end = args.as_of - timedelta(days=1)
     start = end - timedelta(days=6)
@@ -170,10 +164,8 @@ def main() -> int:
             boletines["precipitacion"][key] = fetch_json(
                 session, f"geoservicios/getBoletinPluviometricoDiarioRegional/{suffix}", args.timeout,
             )
-    atomic_gzip(
-        args.output / "boletines_regionales_7dias.geojson.gz",
-        json.dumps(boletines, ensure_ascii=False).encode(),
-    )
+    # Los GeoJSON se inspeccionan en memoria y se descartan después de crear
+    # disponibilidad_actual.csv, que contiene sólo metadatos de evidencia.
 
     codes = {record["codigo_nacional"] for record in dmc_records}
     evidence: dict[tuple[str, str], tuple[str, str, str]] = {}
@@ -238,12 +230,11 @@ def main() -> int:
                 "ventana_hasta": end.isoformat(),
                 "datos_disponibles_actualmente": state,
                 "fecha_evidencia": stamp,
-                "valor_dia_consulta": today_value,
                 "detalle": detail,
             })
     availability_fields = (
         "codigo_nacional", "nombre_estacion", "variable", "ventana_desde", "ventana_hasta",
-        "datos_disponibles_actualmente", "fecha_evidencia", "valor_dia_consulta", "detalle",
+        "datos_disponibles_actualmente", "fecha_evidencia", "detalle",
     )
     atomic_csv(args.output / "disponibilidad_actual.csv", availability_fields, out)
     print(

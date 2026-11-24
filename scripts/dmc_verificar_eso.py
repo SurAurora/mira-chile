@@ -18,10 +18,13 @@ from datetime import date, datetime, timedelta
 
 import requests
 
-from dmc_sondear_ema_minuto_publico import BASE, DEFINITIONS, RAW, ROOT, inspect, months, number, probe, write
+from dmc_sondear_ema_minuto_publico import (
+    BASE, DEFINITIONS, RAW, ROOT, inspect, months, number, probe,
+    unpack_definition, write,
+)
 
 
-def check_current(station, group, start, end, archive_dir, session, pause, timeout):
+def check_current(station, group, start, end, session, pause, timeout):
     code = station["codigo_nacional"]
     found = {}
     present = set()
@@ -29,37 +32,33 @@ def check_current(station, group, start, end, archive_dir, session, pause, timeo
     attempts = []
     for month in months(datetime.combine(start, datetime.min.time()), datetime.combine(end, datetime.min.time())):
         filename = f"{code}_{month}_{group}.csv.zip"
-        path = archive_dir / code / filename
         url = f"{BASE}/{code}/{filename}"
         state = "sin_zip"
         try:
-            if not path.exists():
-                time.sleep(pause)
-                response = session.get(url, timeout=timeout)
-                response.raise_for_status()
-                if response.content.startswith(b"PK\x03\x04") and inspect(response.content, group) is not None:
-                    path.parent.mkdir(parents=True, exist_ok=True)
-                    path.write_bytes(response.content)
-            if path.exists():
-                content = path.read_bytes()
+            time.sleep(pause)
+            response = session.get(url, timeout=timeout)
+            response.raise_for_status()
+            if response.content.startswith(b"PK\x03\x04"):
+                content = response.content
                 inspected = inspect(content, group)
                 if inspected is None:
-                    raise ValueError(f"ZIP no válido: {path}")
+                    raise ValueError(f"ZIP sin valores válidos: {url}")
                 with zipfile.ZipFile(io.BytesIO(content)) as archive:
                     member = next(name for name in archive.namelist() if name.endswith(".csv"))
                     rows = list(csv.DictReader(io.StringIO(archive.read(member).decode("utf-8-sig")), delimiter=";"))
                 frequency = next((row["frecuencia_muestreo"] for row in inspected[0]), "No determinado")
                 if frequency != "1 min":
-                    raise ValueError(f"Frecuencia no minutaria en {path}: {frequency}")
+                    raise ValueError(f"Frecuencia no minutaria en {url}: {frequency}")
                 if any(str(row.get("codigoNacional")) != code for row in rows):
-                    raise ValueError(f"Código de estación incompatible en {path}")
+                    raise ValueError(f"Código de estación incompatible en {url}")
                 state = "zip_verificado"
-                successful.append(str(path.relative_to(ROOT)))
+                successful.append(url)
                 for row in rows:
                     stamp = datetime.fromisoformat(row["momento"])
                     if not start <= stamp.date() <= end:
                         continue
-                    for field, (variable, height, low, high) in DEFINITIONS[group].items():
+                    for field, spec in DEFINITIONS[group].items():
+                        variable, height, low, high, _ = unpack_definition(spec)
                         key = (variable, height)
                         if field in row:
                             present.add(key)
@@ -82,7 +81,7 @@ def check_current(station, group, start, end, archive_dir, session, pause, timeo
             "frecuencia_muestreo": "1 min", "datos_disponibles_actualmente": state,
             "ventana_desde": start.isoformat(), "ventana_hasta": end.isoformat(),
             "primer_instante_ventana": value[0].isoformat() + "+00:00" if value else "",
-            "primer_valor_ventana": value[1] if value else "", "campo_original": value[2] if value else "",
+            "campo_original": value[2] if value else "",
             "archivo_evidencia": ";".join(successful),
         })
     return out, attempts
@@ -96,8 +95,6 @@ def main():
     args = parser.parse_args()
     with (RAW / "inventario_saclim_regiones.csv").open(encoding="utf-8", newline="") as handle:
         stations = [row for row in csv.DictReader(handle) if row["propietario"] == "ESO"]
-    with (RAW / "sondeo_ema_minuto_existente.csv").open(encoding="utf-8", newline="") as handle:
-        old = list(csv.DictReader(handle))
     first, attempts = [], []
     tasks = []
     session = requests.Session()
@@ -109,8 +106,7 @@ def main():
         response = session.get(f"https://climatologia.meteochile.gob.cl/application/informacion/fichaDeEstacion/{code}", timeout=args.timeout)
         response.raise_for_status()
         (audit_dir / f"ficha_{code}.html").write_bytes(response.content)
-        earliest = min(row["primera_fecha_verificada"] for row in old if row["codigo_nacional"] == code)
-        tasks.extend(((station, group), datetime.fromisoformat(earliest)) for group in DEFINITIONS)
+        tasks.extend((station, group) for group in DEFINITIONS)
     initial_cache = audit_dir / "sondeo_inicial_series.csv"
     attempts_cache = audit_dir / "sondeo_inicial_intentos.csv"
     if initial_cache.exists() and attempts_cache.exists():
@@ -121,7 +117,14 @@ def main():
     if not first or any(row["estado"].startswith("error_") for row in attempts):
         first, attempts = [], []
         with ThreadPoolExecutor(max_workers=2) as pool:
-            futures = [pool.submit(probe, task, end, args.pause, args.timeout) for task, end in tasks]
+            history_end = datetime.combine(args.as_of, datetime.min.time())
+            futures = [
+                pool.submit(
+                    probe, task, datetime(1900, 1, 1), history_end,
+                    args.pause, args.timeout,
+                )
+                for task in tasks
+            ]
             for future in as_completed(futures):
                 values, tried = future.result()
                 first.extend(values)
@@ -129,7 +132,7 @@ def main():
                 print(f"histórico: {len(first)} series, {len(attempts)} solicitudes", flush=True)
     else:
         print(f"histórico: {len(first)} series recuperadas de la caché", flush=True)
-    fields = ("codigo_nacional", "nombre_estacion", "variable", "altura_sensor_suelo_m", "frecuencia_muestreo", "primera_fecha_verificada", "primer_valor_verificado", "campo_original", "grupo_ema", "url_evidencia", "archivo_evidencia", "miembro_csv")
+    fields = ("codigo_nacional", "nombre_estacion", "variable", "altura_sensor_suelo_m", "frecuencia_muestreo", "primera_fecha_verificada", "campo_original", "grupo_ema", "url_evidencia", "archivo_evidencia", "miembro_csv")
     write(RAW / "sondeo_ema_minuto_publico_eso.csv", fields, first)
     write(initial_cache, fields, first)
     write(attempts_cache, ("codigo_nacional", "grupo_ema", "mes", "estado", "http_status", "bytes", "url"), attempts)
@@ -138,7 +141,7 @@ def main():
     current, attempts = [], []
     for station in stations:
         for group in DEFINITIONS:
-            values, tried = check_current(station, group, start, end, audit_dir / "actual", session, args.pause, args.timeout)
+            values, tried = check_current(station, group, start, end, session, args.pause, args.timeout)
             current.extend(values)
             attempts.extend(tried)
             print(f"actual: {station['codigo_nacional']} {group}: {len(values)} series revisadas", flush=True)
