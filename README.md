@@ -10,7 +10,7 @@ Libertador General Bernardo O'Higgins.
 
 El sitio estático se encuentra en [`dashboard/dist`](dashboard/dist). Permite
 filtrar estaciones, variables, alturas, frecuencias, redes e instituciones, y
-mostrar opcionalmente comunas, regiones, red vial y relieve derivado de ASTER.
+mostrar opcionalmente comunas, regiones y red vial.
 
 Para verlo localmente:
 
@@ -32,6 +32,6 @@ brutas. El catastro SACLIM original está en:
 
 `datos_originales/dmc/CatastrodeEstacionesdelSistemaSACLIM_2026-10-31_15_25.xls`
 
-Los insumos geoespaciales grandes y el TIFF ASTER permanecen fuera del
-repositorio, en el proyecto FONDEF. El constructor genera para el dashboard
-copias web simplificadas y livianas.
+Los insumos geoespaciales grandes permanecen fuera del repositorio, en el
+proyecto FONDEF. El constructor genera para el dashboard copias web
+simplificadas y livianas.

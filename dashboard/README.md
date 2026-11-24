@@ -24,8 +24,7 @@ Luego abrir:
 No requiere base de datos ni un servidor de aplicación. La capa de red vial se
 carga sólo cuando se activa su casilla.
 Los mapas base satelital y OpenStreetMap se consultan en línea y mantienen la
-atribución exigida por sus proveedores; el relieve ASTER permanece alojado
-dentro del sitio.
+atribución exigida por sus proveedores.
 
 ## Publicación en GitHub Pages
 
@@ -52,7 +51,7 @@ tipo `https://usuario.github.io/repositorio/`.
 - descarga CSV de las series filtradas, codificada en UTF-8 con BOM y separada
   por punto y coma para abrirla directamente en Excel con configuración regional
   chilena; las comas dentro de los nombres se conservan como texto;
-- capas opcionales de regiones, comunas, red vial y relieve ASTER.
+- capas opcionales de regiones, comunas y red vial.
 
 En cada filtro se puede elegir una opción, varias o «Todos/Todas». Las opciones
 de una misma lista se combinan como alternativas; los distintos filtros se
@@ -66,17 +65,9 @@ inicio desconocida quedan fuera cuando se aplica ese criterio. El inicio
 verificado no garantiza que la serie sea continua ni que tenga datos en todos
 los años posteriores; el estado actual se filtra por separado.
 
-El relieve es una representación visual reducida de ASTER GDEM, reproyectada a
-Web Mercator para coincidir con las capas vectoriales de Leaflet. No sustituye
-el valor de `altitud_snm_m` informado para cada estación.
-El TIFF disponible actualmente llega aproximadamente hasta 29,47° S; por ello
-la capa de relieve cubre las cuatro regiones del norte, pero todavía no
-Valparaíso, Metropolitana ni O'Higgins. Las capas de regiones, comunas y red
-vial sí se generan para las siete regiones.
-
-El TIFF ASTER original y los shapefiles no se publican: el artefacto contiene
-únicamente un relieve WebP reducido y geometrías GeoJSON simplificadas. Esto
-mantiene el sitio liviano y conserva las comunas, regiones y red vial.
+Los shapefiles originales no se publican: el artefacto contiene únicamente
+geometrías GeoJSON simplificadas. Esto mantiene el sitio liviano y conserva las
+comunas, regiones y red vial.
 
 ## Reconstruir los datos
 
@@ -95,7 +86,6 @@ Fuentes cartográficas utilizadas:
 - `/home/alagos/fondef_polvo/data/geospatial/Regiones/Regional.shp`
 - `/home/alagos/fondef_polvo/data/geospatial/Comunas/comunas.shp`
 - `/home/alagos/fondef_polvo/data/geospatial/Red_Vial/redvial2019.shp`
-- `/home/alagos/fondef_polvo/data/observations/satellite/ASTER_GDEM/ASTGTM_NC.003_ASTER_GDEM_DEM_doy2000061000000_aid0001.tif`
 
 ## Verificar los filtros
 

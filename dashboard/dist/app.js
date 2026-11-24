@@ -24,9 +24,6 @@
   const map = L.map("map", { zoomControl: true, preferCanvas: true, minZoom: 4, maxZoom: 15 });
   map.attributionControl.setPrefix(false);
   map.fitBounds([[-29.65, -72.1], [-17.2, -66.6]]);
-  map.createPane("reliefPane");
-  map.getPane("reliefPane").style.zIndex = 250;
-  map.getPane("reliefPane").style.pointerEvents = "none";
 
   const satelliteLayer = L.tileLayer(
     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
@@ -41,7 +38,6 @@
   });
   const baseLayers = { satellite: satelliteLayer, osm: osmLayer, none: null };
   let activeBaseLayer = satelliteLayer.addTo(map);
-  const reliefLayer = L.imageOverlay(window.CATALOG_RELIEF.bounds[0] ? "data/aster_relief.webp" : "", window.CATALOG_RELIEF.bounds, { opacity: 0.72, interactive: false, pane: "reliefPane" });
   const regionLayer = L.geoJSON(window.CATALOG_REGIONS, {
     style: { color: "#244c47", weight: 1.7, fill: false, opacity: 0.85 },
     onEachFeature: (feature, layer) => layer.bindTooltip(feature.properties.region, { sticky: true }),
@@ -418,7 +414,6 @@
   document.querySelectorAll('input[name="baseMap"]').forEach((input) => {
     input.addEventListener("change", (event) => selectBaseLayer(event.target.value));
   });
-  document.getElementById("layerRelief").addEventListener("change", (event) => event.target.checked ? reliefLayer.addTo(map) : reliefLayer.remove());
   document.getElementById("layerRegions").addEventListener("change", (event) => event.target.checked ? regionLayer.addTo(map) : regionLayer.remove());
   document.getElementById("layerCommunes").addEventListener("change", (event) => event.target.checked ? communeLayer.addTo(map) : communeLayer.remove());
   document.getElementById("layerRoads").addEventListener("change", async (event) => {
