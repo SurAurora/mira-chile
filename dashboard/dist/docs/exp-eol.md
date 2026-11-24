@@ -8,7 +8,7 @@
   <http://walker.dgf.uchile.cl/Mediciones/>.
 - **Directorio complementario del Explorador Eólico:**
   <https://eolico.minenergia.cl/mediciones_dmc/>.
-- **Fecha de consulta y revalidación numérica:** 2026-10-31.
+- **Fecha de consulta y revalidación numérica:** 2026-11-23.
 
 La cadena `mediciones_dmc` es el nombre de una ruta del servidor de
 MINENERGIA. En este proyecto **no se interpreta como la institución fuente** y
@@ -43,13 +43,14 @@ conserva en `datos_originales/exp_eol/sondeo_series.csv`.
 ## Alcance y resultado
 
 Se incluyeron estaciones ubicadas en Arica y Parinacota, Tarapacá,
-Antofagasta y Atacama. El sondeo encontró:
+Antofagasta, Atacama, Valparaíso, Metropolitana de Santiago y Libertador
+General Bernardo O'Higgins. El sondeo encontró:
 
 - 93 sitios en el catastro Walker completo;
-- 64 ubicaciones Walker en el área del proyecto;
-- 61 de ellas con al menos una variable solicitada y valores comprobados;
-- 99 archivos del directorio complementario dentro del área;
-- 88 IDs y 628 filas finales, antes de integrar esta fuente con los otros
+- 66 ubicaciones Walker en el área del proyecto;
+- 63 de ellas con al menos una variable solicitada y valores comprobados;
+- 286 archivos del directorio complementario dentro del área;
+- 143 IDs y 911 filas finales, antes de integrar esta fuente con los otros
   catálogos del proyecto.
 
 Tres ubicaciones Walker del área (`CHAJNANTOR`, `CALAMA` y `CANCHONES`) no
@@ -130,7 +131,7 @@ Ese archivo incluye URL, archivo, encabezado original, primera fecha con valor,
 ## Disponibilidad actual
 
 La ventana usada en la revalidación fue la de los siete días completos
-anteriores a la consulta: **2026-10-24 a 2026-10-30**, inclusive.
+anteriores a la consulta: **2026-11-16 a 2026-11-22**, inclusive.
 
 - En Walker se inspeccionó la cola de cada CSV mediante una solicitud HTTP
   `Range`. Si una columna no tenía valor en la cola, también se comprobó que la
@@ -140,7 +141,7 @@ anteriores a la consulta: **2026-10-24 a 2026-10-30**, inclusive.
 
 Ninguna serie tenía observaciones durante la ventana. Por eso
 `datos_disponibles_actualmente` es `No`. Este estado describe la consulta del
-2026-10-29 y no demuestra el cierre definitivo de una estación.
+2026-11-23 y no demuestra el cierre definitivo de una estación.
 
 ## Frecuencia y hora
 

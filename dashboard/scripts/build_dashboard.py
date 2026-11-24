@@ -26,7 +26,7 @@ from rasterio.warp import reproject, transform_bounds
 from shapely.geometry import mapping
 
 
-REGION_CODES = {15, 1, 2, 3}
+REGION_CODES = {15, 1, 2, 3, 5, 13, 6}
 NETWORK_BY_FILE = {
     "catalogo_agromet.csv": "AGROMET",
     "catalogo_dga.csv": "DGA / Red Hidrométrica Nacional",
@@ -40,6 +40,9 @@ REGION_SHORT = {
     1: "Tarapacá",
     2: "Antofagasta",
     3: "Atacama",
+    5: "Valparaíso",
+    13: "Metropolitana de Santiago",
+    6: "Libertador General Bernardo O'Higgins",
 }
 
 

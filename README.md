@@ -2,8 +2,9 @@
 
 **Mapa de Instrumentos y Redes Atmosféricas de Chile.** Catálogo para explorar
 qué mediciones atmosféricas existen, dónde se realizan y qué redes e
-instrumentos las sustentan. La primera etapa cubre Arica y Parinacota, Tarapacá,
-Antofagasta y Atacama.
+instrumentos las sustentan. La cobertura actual incluye Arica y Parinacota,
+Tarapacá, Antofagasta, Atacama, Valparaíso, Metropolitana de Santiago y
+Libertador General Bernardo O'Higgins.
 
 ## Dashboard
 

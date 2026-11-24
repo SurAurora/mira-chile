@@ -2,8 +2,9 @@
 
 **Mapa de Instrumentos y Redes Atmosféricas de Chile.** Dashboard estático e
 interactivo para explorar qué mediciones existen, dónde se realizan y qué redes
-e instrumentos las sustentan. La primera etapa cubre desde Arica y Parinacota
-hasta Atacama.
+e instrumentos las sustentan. La cobertura actual incluye Arica y Parinacota,
+Tarapacá, Antofagasta, Atacama, Valparaíso, Metropolitana de Santiago y
+Libertador General Bernardo O'Higgins.
 
 ## Abrir
 
@@ -68,6 +69,10 @@ los años posteriores; el estado actual se filtra por separado.
 El relieve es una representación visual reducida de ASTER GDEM, reproyectada a
 Web Mercator para coincidir con las capas vectoriales de Leaflet. No sustituye
 el valor de `altitud_snm_m` informado para cada estación.
+El TIFF disponible actualmente llega aproximadamente hasta 29,47° S; por ello
+la capa de relieve cubre las cuatro regiones del norte, pero todavía no
+Valparaíso, Metropolitana ni O'Higgins. Las capas de regiones, comunas y red
+vial sí se generan para las siete regiones.
 
 El TIFF ASTER original y los shapefiles no se publican: el artefacto contiene
 únicamente un relieve WebP reducido y geometrías GeoJSON simplificadas. Esto

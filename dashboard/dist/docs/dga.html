@@ -19,12 +19,22 @@ La institución responsable se registra como `DGA`.
 
 Se incluyen las series de VIPNET clasificadas como precipitación,
 temperatura, humedad e intensidad del viento para las regiones de Arica y
-Parinacota, Tarapacá, Antofagasta y Atacama. Nieve y volumen de embalses no se
-incorporan porque no forman parte de las variables solicitadas.
+Parinacota, Tarapacá, Antofagasta, Atacama, Valparaíso, Metropolitana de
+Santiago y Libertador General Bernardo O&#x27;Higgins. Nieve y volumen de embalses
+no se incorporan porque no forman parte de las variables solicitadas.
 
 VIPNET no separa dirección ni ráfaga dentro de su capa de viento, por lo que no
 se crean esas filas. Tampoco publica la altura del sensor sobre el suelo; se
 consigna `No informado` sin inferirla.
+
+## Resultado del sondeo
+
+La actualización del 2026-11-24 encontró 477 estaciones y 1.541 combinaciones
+estación-variable en las siete regiones. Se incorporaron 1.532 series con un
+primer valor físicamente admisible, pertenecientes a 475 estaciones; nueve
+combinaciones no devolvieron un valor válido y no generaron filas. En la
+ventana reciente, 1.459 series tenían datos y 73 no. El proceso terminó sin
+errores de consulta.
 
 ## Verificación de las series
 

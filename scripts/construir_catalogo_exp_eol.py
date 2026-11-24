@@ -50,7 +50,10 @@ STATION_CATALOG = (
     "application/requerimiento/producto/RE7001"
 )
 
-TARGET_REGION_WORDS = ("arica", "tarapac", "antofagasta", "atacama")
+TARGET_REGION_WORDS = (
+    "arica", "tarapac", "antofagasta", "atacama", "valpara",
+    "metropolitana", "bernardo o'higgins",
+)
 NOW_LOCAL = date.today()
 CURRENT_START = NOW_LOCAL - timedelta(days=7)
 CURRENT_END = NOW_LOCAL - timedelta(days=1)

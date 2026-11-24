@@ -31,64 +31,318 @@ Toconao,AG157 [VISMET-896],AGROMET,-23.1905,-68.007169,2476.0,Precipitación,Met
 Toconao,AG157 [VISMET-896],AGROMET,-23.1905,-68.007169,2476.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 CE Huasco Vallenar,AG159 [VISMET-831],AGROMET,-28.58113,-70.798289833,467.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 CE Huasco Vallenar,AG159 [VISMET-831],AGROMET,-28.58113,-70.798289833,467.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+La Platina,AG162 [VISMET-653],AGROMET,-33.56987,-70.627972833,620.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+La Platina,AG162 [VISMET-653],AGROMET,-33.56987,-70.627972833,620.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+El Tambo,AG163 [VISMET-706],AGROMET,-34.470992,-70.986951,249.0,Precipitación,Meteorológica,No informado,60 min,2010-05-20T04:00:00+00:00,Sí,fuentes/vismet/README.md
+El Tambo,AG163 [VISMET-706],AGROMET,-34.470992,-70.986951,249.0,Temperatura,Meteorológica,No informado,60 min,2010-05-20T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Azapa2,AG2 [VISMET-810],AGROMET,-18.520444444,-70.232666667,214.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
 Azapa2,AG2 [VISMET-810],AGROMET,-18.520444444,-70.232666667,214.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Cabildo,AG20 [VISMET-594],AGROMET,-32.362194444,-70.819722222,549.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Cabildo,AG20 [VISMET-594],AGROMET,-32.362194444,-70.819722222,549.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Petorca,AG21 [VISMET-593],AGROMET,-32.396666667,-71.029444444,253.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Petorca,AG21 [VISMET-593],AGROMET,-32.396666667,-71.029444444,253.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Errazuriz,AG213 [VISMET-620],AGROMET,-32.898611111,-71.351666667,116.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Errazuriz,AG213 [VISMET-620],AGROMET,-32.898611111,-71.351666667,116.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Luis Felipe Edwards-Leyda,AG214 [VISMET-580],AGROMET,-33.669,-71.536,135.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Luis Felipe Edwards-Leyda,AG214 [VISMET-580],AGROMET,-33.669,-71.536,135.0,Temperatura,Meteorológica,No informado,60 min,2013-01-30T20:00:00+00:00,No,fuentes/vismet/README.md
+Casa Marín,AG215 [VISMET-613],AGROMET,-33.524444444,-71.545555556,28.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Casa Marín,AG215 [VISMET-613],AGROMET,-33.524444444,-71.545555556,28.0,Temperatura,Meteorológica,No informado,60 min,2011-08-30T00:00:00+00:00,Sí,fuentes/vismet/README.md
+Emiliana,AG216 [VISMET-582],AGROMET,-33.361388889,-71.309166667,309.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Emiliana,AG216 [VISMET-582],AGROMET,-33.361388889,-71.309166667,309.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Ventisquero-Tapihue,AG217 [VISMET-583],AGROMET,-33.300555556,-71.283333333,334.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Ventisquero-Tapihue,AG217 [VISMET-583],AGROMET,-33.300555556,-71.283333333,334.0,Temperatura,Meteorológica,No informado,60 min,2012-10-10T13:00:00+00:00,No,fuentes/vismet/README.md
+Casa Rivas (N.C.),AG218 [VISMET-632],AGROMET,-33.506388889,-71.060833333,177.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Casa Rivas (N.C.),AG218 [VISMET-632],AGROMET,-33.506388889,-71.060833333,177.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+William Fevre,AG219 [VISMET-646],AGROMET,-33.671388889,-70.581666667,666.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+William Fevre,AG219 [VISMET-646],AGROMET,-33.671388889,-70.581666667,666.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+SAN ESTEBAN,AG22 [VISMET-597],AGROMET,-32.750444444,-70.557583333,952.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN ESTEBAN,AG22 [VISMET-597],AGROMET,-32.750444444,-70.557583333,952.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Morandé - Romeral,AG220 [VISMET-643],AGROMET,-33.706388889,-70.772777778,472.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Morandé - Romeral,AG220 [VISMET-643],AGROMET,-33.706388889,-70.772777778,472.0,Temperatura,Meteorológica,No informado,60 min,2013-01-24T19:00:00+00:00,No,fuentes/vismet/README.md
+Santa Rita,AG221 [VISMET-645],AGROMET,-33.718611111,-70.669166667,520.0,Precipitación,Meteorológica,No informado,60 min,2011-01-18T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Rita,AG221 [VISMET-645],AGROMET,-33.718611111,-70.669166667,520.0,Temperatura,Meteorológica,No informado,60 min,2011-01-18T17:00:00+00:00,Sí,fuentes/vismet/README.md
+De Martino,AG222 [VISMET-635],AGROMET,-33.581944444,-70.880555556,389.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+De Martino,AG222 [VISMET-635],AGROMET,-33.581944444,-70.880555556,389.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Chocalán ,AG223 [VISMET-652],AGROMET,-33.760555556,-71.225555556,185.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Chocalán ,AG223 [VISMET-652],AGROMET,-33.760555556,-71.225555556,185.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Pérez Cruz,AG224 [VISMET-644],AGROMET,-33.843055556,-70.619722222,465.0,Precipitación,Meteorológica,No informado,60 min,2011-01-05T01:00:00+00:00,No,fuentes/vismet/README.md
+Pérez Cruz,AG224 [VISMET-644],AGROMET,-33.843055556,-70.619722222,465.0,Temperatura,Meteorológica,No informado,60 min,2011-01-04T18:00:00+00:00,No,fuentes/vismet/README.md
+San Pedro,AG225 [VISMET-905],AGROMET,-33.768888889,-70.929722222,329.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+San Pedro,AG225 [VISMET-905],AGROMET,-33.768888889,-70.929722222,329.0,Temperatura,Meteorológica,No informado,60 min,2011-12-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Ventisquero,AG226 [VISMET-640],AGROMET,-34.0225,-71.344166667,178.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Ventisquero,AG226 [VISMET-640],AGROMET,-34.0225,-71.344166667,178.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Anakena,AG227 [VISMET-685],AGROMET,-34.304722222,-70.771666667,393.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Anakena,AG227 [VISMET-685],AGROMET,-34.304722222,-70.771666667,393.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+La Rosa – Oeste,AG228 [VISMET-693],AGROMET,-34.325,-71.239444444,154.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+La Rosa – Oeste,AG228 [VISMET-693],AGROMET,-34.325,-71.239444444,154.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Casa Silva-Los Lingues,AG229 [VISMET-691],AGROMET,-34.502222222,-70.894722222,320.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Casa Silva-Los Lingues,AG229 [VISMET-691],AGROMET,-34.502222222,-70.894722222,320.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Ventisquero-Peralillo,AG230 [VISMET-695],AGROMET,-34.394444444,-71.445555556,136.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Ventisquero-Peralillo,AG230 [VISMET-695],AGROMET,-34.394444444,-71.445555556,136.0,Temperatura,Meteorológica,No informado,60 min,2012-10-18T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Montes,AG231 [VISMET-715],AGROMET,-34.340555556,-71.652222222,175.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Montes,AG231 [VISMET-715],AGROMET,-34.340555556,-71.652222222,175.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Lapostolle-Apalta,AG232 [VISMET-709],AGROMET,-34.593611111,-71.302222222,237.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Lapostolle-Apalta,AG232 [VISMET-709],AGROMET,-34.593611111,-71.302222222,237.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Conosur,AG233 [VISMET-678],AGROMET,-34.715555556,-71.038611111,304.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Conosur,AG233 [VISMET-678],AGROMET,-34.715555556,-71.038611111,304.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Hacienda Araucano-Lolol,AG234 [VISMET-694],AGROMET,-34.727222222,-71.588888889,127.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Hacienda Araucano-Lolol,AG234 [VISMET-694],AGROMET,-34.727222222,-71.588888889,127.0,Temperatura,Meteorológica,No informado,60 min,2011-12-09T20:00:00+00:00,No,fuentes/vismet/README.md
+Ventisquero-Apalta,AG236 [VISMET-708],AGROMET,-34.608055556,-71.246944444,256.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Ventisquero-Apalta,AG236 [VISMET-708],AGROMET,-34.608055556,-71.246944444,256.0,Temperatura,Meteorológica,No informado,60 min,2011-08-31T20:00:00+00:00,No,fuentes/vismet/README.md
+Calle Larga,AG24 [VISMET-615],AGROMET,-32.870555556,-70.646111111,772.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Calle Larga,AG24 [VISMET-615],AGROMET,-32.870555556,-70.646111111,772.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Garcés Silva,AG246 [VISMET-577],AGROMET,-33.681388889,-71.495833333,193.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Garcés Silva,AG246 [VISMET-577],AGROMET,-33.681388889,-71.495833333,193.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Morandé,AG247 [VISMET-670],AGROMET,-33.581388889,-70.716666667,547.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Morandé,AG247 [VISMET-670],AGROMET,-33.581388889,-70.716666667,547.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+San Pedro-El Tránsito,AG248 [VISMET-667],AGROMET,-33.771111111,-70.685555556,448.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+San Pedro-El Tránsito,AG248 [VISMET-667],AGROMET,-33.771111111,-70.685555556,448.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Santa Carolina,AG249 [VISMET-666],AGROMET,-33.599722222,-70.649722222,618.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Santa Carolina,AG249 [VISMET-666],AGROMET,-33.599722222,-70.649722222,618.0,Temperatura,Meteorológica,No informado,60 min,2011-11-17T15:00:00+00:00,No,fuentes/vismet/README.md
+Rinconada,AG25 [VISMET-618],AGROMET,-32.837055556,-70.692527778,721.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Rinconada,AG25 [VISMET-618],AGROMET,-32.837055556,-70.692527778,721.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pedro-Totihue,AG250 [VISMET-702],AGROMET,-34.341111111,-70.727777778,412.0,Precipitación,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pedro-Totihue,AG250 [VISMET-702],AGROMET,-34.341111111,-70.727777778,412.0,Temperatura,Meteorológica,No informado,60 min,2013-02-25T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Luis Felipe Edwards,AG251 [VISMET-701],AGROMET,-34.693055556,-71.156944444,222.0,Precipitación,Meteorológica,No informado,60 min,2011-06-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Luis Felipe Edwards,AG251 [VISMET-701],AGROMET,-34.693055556,-71.156944444,222.0,Temperatura,Meteorológica,No informado,60 min,2011-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+San Felipe,AG26 [VISMET-607],AGROMET,-32.755333,-70.706917,670.0,Precipitación,Meteorológica,No informado,60 min,2014-10-16T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Felipe,AG26 [VISMET-607],AGROMET,-32.755333,-70.706917,670.0,Temperatura,Meteorológica,No informado,60 min,2014-10-16T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Hidango,AG260 [VISMET-699],AGROMET,-34.1,-71.8,303.0,Precipitación,Meteorológica,No informado,60 min,2010-06-01T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Hidango,AG260 [VISMET-699],AGROMET,-34.1,-71.8,303.0,Temperatura,Meteorológica,No informado,60 min,2010-06-01T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Caspana,AG261 [VISMET-753],AGROMET,-22.334515,-68.213597,3233.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Caspana,AG261 [VISMET-753],AGROMET,-22.334515,-68.213597,3233.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Chiu Chiu,AG262 [VISMET-752],AGROMET,-22.320236,-68.650542,2558.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
 Chiu Chiu,AG262 [VISMET-752],AGROMET,-22.320236,-68.650542,2558.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
 Codpa,AG263 [VISMET-821],AGROMET,-18.833055556,-69.744444444,1859.0,Precipitación,Meteorológica,No informado,60 min,2013-04-02T15:00:00+00:00,Sí,fuentes/vismet/README.md
 Codpa,AG263 [VISMET-821],AGROMET,-18.833055556,-69.744444444,1859.0,Temperatura,Meteorológica,No informado,60 min,2013-04-02T15:00:00+00:00,Sí,fuentes/vismet/README.md
+San Antonio de Naltahua,AG267 [VISMET-637],AGROMET,-33.725439,-71.042558,242.0,Precipitación,Meteorológica,No informado,60 min,2013-03-22T17:00:00+00:00,Sí,fuentes/vismet/README.md
+San Antonio de Naltahua,AG267 [VISMET-637],AGROMET,-33.725439,-71.042558,242.0,Temperatura,Meteorológica,No informado,60 min,2013-03-22T17:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pedro de Melipilla,AG268 [VISMET-663],AGROMET,-33.897935,-71.452881,143.0,Precipitación,Meteorológica,No informado,60 min,2013-03-21T20:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pedro de Melipilla,AG268 [VISMET-663],AGROMET,-33.897935,-71.452881,143.0,Temperatura,Meteorológica,No informado,60 min,2013-03-21T20:00:00+00:00,Sí,fuentes/vismet/README.md
+Putaendo,AG27 [VISMET-609],AGROMET,-32.593694444,-70.726111111,872.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Putaendo,AG27 [VISMET-609],AGROMET,-32.593694444,-70.726111111,872.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+La Higuera,AG272 [VISMET-603],AGROMET,-32.49269683,-71.15288083,133.0,Precipitación,Meteorológica,No informado,60 min,2014-09-29T04:00:00+00:00,No,fuentes/vismet/README.md
+La Higuera,AG272 [VISMET-603],AGROMET,-32.49269683,-71.15288083,133.0,Temperatura,Meteorológica,No informado,60 min,2014-09-29T04:00:00+00:00,No,fuentes/vismet/README.md
+San Lorenzo,AG273 [VISMET-592],AGROMET,-32.43941683,-71.00296083,244.0,Precipitación,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Lorenzo,AG273 [VISMET-592],AGROMET,-32.43941683,-71.00296083,244.0,Temperatura,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Pullancón,AG274 [VISMET-601],AGROMET,-32.30708283,-71.23075,92.0,Precipitación,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Pullancón,AG274 [VISMET-601],AGROMET,-32.30708283,-71.23075,92.0,Temperatura,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Palquico,AG275 [VISMET-587],AGROMET,-32.25702783,-71.14163883,473.0,Precipitación,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Palquico,AG275 [VISMET-587],AGROMET,-32.25702783,-71.14163883,473.0,Temperatura,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Manuel Montt,AG276 [VISMET-588],AGROMET,-32.322861,-71.06105583,322.0,Precipitación,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Manuel Montt,AG276 [VISMET-588],AGROMET,-32.322861,-71.06105583,322.0,Temperatura,Meteorológica,No informado,60 min,2014-09-29T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Puertas,AG277 [VISMET-1398],AGROMET,-32.362194,-70.81972183,549.0,Precipitación,Meteorológica,No informado,60 min,2022-03-02T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Puertas,AG277 [VISMET-1398],AGROMET,-32.362194,-70.81972183,549.0,Temperatura,Meteorológica,No informado,60 min,2022-03-02T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Paihuén,AG278 [VISMET-595],AGROMET,-32.37927783,-70.841622,503.0,Precipitación,Meteorológica,No informado,60 min,2014-09-29T10:00:00+00:00,Sí,fuentes/vismet/README.md
+Paihuén,AG278 [VISMET-595],AGROMET,-32.37927783,-70.841622,503.0,Temperatura,Meteorológica,No informado,60 min,2014-09-29T10:00:00+00:00,Sí,fuentes/vismet/README.md
+Catapilco,AG279 [VISMET-1400],AGROMET,-32.56033283,-71.311806,81.0,Precipitación,Meteorológica,No informado,60 min,2022-03-02T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Catapilco,AG279 [VISMET-1400],AGROMET,-32.56033283,-71.311806,81.0,Temperatura,Meteorológica,No informado,60 min,2022-03-02T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa María,AG28 [VISMET-617],AGROMET,-32.749166667,-70.660277778,708.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa María,AG28 [VISMET-617],AGROMET,-32.749166667,-70.660277778,708.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+El Guindo,AG280 [VISMET-1399],AGROMET,-32.35716683,-71.345472,21.0,Precipitación,Meteorológica,No informado,60 min,2022-03-02T03:00:00+00:00,No,fuentes/vismet/README.md
+El Guindo,AG280 [VISMET-1399],AGROMET,-32.35716683,-71.345472,21.0,Temperatura,Meteorológica,No informado,60 min,2022-03-02T03:00:00+00:00,No,fuentes/vismet/README.md
 Camarones,AG281 [VISMET-820],AGROMET,-19.0,-69.9,892.0,Precipitación,Meteorológica,No informado,60 min,2013-11-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Camarones,AG281 [VISMET-820],AGROMET,-19.0,-69.9,892.0,Temperatura,Meteorológica,No informado,60 min,2013-11-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Putre,AG282 [VISMET-825],AGROMET,-18.2,-69.6,3426.0,Precipitación,Meteorológica,No informado,60 min,2014-10-07T12:00:00+00:00,Sí,fuentes/vismet/README.md
 Putre,AG282 [VISMET-825],AGROMET,-18.2,-69.6,3426.0,Temperatura,Meteorológica,No informado,60 min,2014-10-07T12:00:00+00:00,Sí,fuentes/vismet/README.md
 Amolana Copiapo 2,AG283 [VISMET-832],AGROMET,-28.0,-70.0,1271.0,Precipitación,Meteorológica,No informado,60 min,2013-06-16T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Amolana Copiapo 2,AG283 [VISMET-832],AGROMET,-28.0,-70.0,1271.0,Temperatura,Meteorológica,No informado,60 min,2013-06-16T04:00:00+00:00,Sí,fuentes/vismet/README.md
+La Cruz,AG284 [VISMET-598],AGROMET,-32.822,-71.2304,180.0,Precipitación,Meteorológica,No informado,60 min,2013-10-14T07:00:00+00:00,Sí,fuentes/vismet/README.md
+La Cruz,AG284 [VISMET-598],AGROMET,-32.822,-71.2304,180.0,Temperatura,Meteorológica,No informado,60 min,2013-10-14T07:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Tilos,AG285 [VISMET-641],AGROMET,-33.7,-70.7,535.0,Precipitación,Meteorológica,No informado,60 min,2013-06-16T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Tilos,AG285 [VISMET-641],AGROMET,-33.7,-70.7,535.0,Temperatura,Meteorológica,No informado,60 min,2013-06-16T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Panquehue,AG29 [VISMET-599],AGROMET,-32.756638889,-70.808833333,553.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Panquehue,AG29 [VISMET-599],AGROMET,-32.756638889,-70.808833333,553.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Curimón,AG290 [VISMET-608],AGROMET,-32.799972,-70.700306,698.0,Precipitación,Meteorológica,No informado,60 min,2014-10-15T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Curimón,AG290 [VISMET-608],AGROMET,-32.799972,-70.700306,698.0,Temperatura,Meteorológica,No informado,60 min,2014-10-15T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Placilla Chacarilla,AG294 [VISMET-675],AGROMET,-34.641583,-71.135667,240.0,Precipitación,Meteorológica,No informado,60 min,2014-10-15T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Placilla Chacarilla,AG294 [VISMET-675],AGROMET,-34.641583,-71.135667,240.0,Temperatura,Meteorológica,No informado,60 min,2014-10-15T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Tranque Lautaro,AG3 [VISMET-834],AGROMET,-27.975583333,-70.0,1133.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Tranque Lautaro,AG3 [VISMET-834],AGROMET,-27.975583333,-70.0,1133.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Llayllay,AG30 [VISMET-600],AGROMET,-32.903333333,-70.950555556,439.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Llayllay,AG30 [VISMET-600],AGROMET,-32.903333333,-70.950555556,439.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Cerro Blanco,AG309 [VISMET-811],AGROMET,-18.575,-70.07,521.0,Precipitación,Meteorológica,No informado,60 min,2015-02-24T11:00:00+00:00,Sí,fuentes/vismet/README.md
 Cerro Blanco,AG309 [VISMET-811],AGROMET,-18.575,-70.07,521.0,Temperatura,Meteorológica,No informado,60 min,2015-02-24T11:00:00+00:00,Sí,fuentes/vismet/README.md
+Catemu,AG31 [VISMET-616],AGROMET,-32.757777778,-70.942777778,451.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Catemu,AG31 [VISMET-616],AGROMET,-32.757777778,-70.942777778,451.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Chaca,AG310 [VISMET-813],AGROMET,-18.81,-70.156,327.0,Precipitación,Meteorológica,No informado,60 min,2015-02-24T11:00:00+00:00,Sí,fuentes/vismet/README.md
 Chaca,AG310 [VISMET-813],AGROMET,-18.81,-70.156,327.0,Temperatura,Meteorológica,No informado,60 min,2015-02-24T11:00:00+00:00,Sí,fuentes/vismet/README.md
+Quillota,AG32 [VISMET-619],AGROMET,-32.892388889,-71.206722222,143.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Quillota,AG32 [VISMET-619],AGROMET,-32.892388889,-71.206722222,143.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+La Cruz,AG33 [VISMET-903],AGROMET,-32.8,-71.2,249.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+La Cruz,AG33 [VISMET-903],AGROMET,-32.8,-71.2,249.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Nogales,AG34 [VISMET-584],AGROMET,-32.736388889,-71.199166667,224.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Nogales,AG34 [VISMET-584],AGROMET,-32.736388889,-71.199166667,224.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Hijuelas,AG35 [VISMET-614],AGROMET,-32.847944444,-71.067083333,329.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Hijuelas,AG35 [VISMET-614],AGROMET,-32.847944444,-71.067083333,329.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Limache,AG36 [VISMET-591],AGROMET,-32.994444444,-71.260666667,96.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Limache,AG36 [VISMET-591],AGROMET,-32.994444444,-71.260666667,96.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Ventisquero - Leyda,AG367 [VISMET-579],AGROMET,-33.68548333,-71.54943056,221.0,Precipitación,Meteorológica,No informado,60 min,2016-06-28T04:00:00+00:00,No,fuentes/vismet/README.md
+Ventisquero - Leyda,AG367 [VISMET-579],AGROMET,-33.68548333,-71.54943056,221.0,Temperatura,Meteorológica,No informado,60 min,2016-06-28T04:00:00+00:00,No,fuentes/vismet/README.md
+Olmué,AG37 [VISMET-621],AGROMET,-33.021944444,-71.186388889,151.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Olmué,AG37 [VISMET-621],AGROMET,-33.021944444,-71.186388889,151.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Rinconada-U de Chile,AG373 [VISMET-657],AGROMET,-33.497093,-70.845436,458.0,Precipitación,Meteorológica,No informado,60 min,2016-08-02T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Rinconada-U de Chile,AG373 [VISMET-657],AGROMET,-33.497093,-70.845436,458.0,Temperatura,Meteorológica,No informado,60 min,2016-08-02T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Hacienda Lampa,AG374 [VISMET-633],AGROMET,-33.284227,-70.848776,489.0,Precipitación,Meteorológica,No informado,60 min,2016-08-02T19:00:00+00:00,No,fuentes/vismet/README.md
+Hacienda Lampa,AG374 [VISMET-633],AGROMET,-33.284227,-70.848776,489.0,Temperatura,Meteorológica,No informado,60 min,2016-08-02T19:00:00+00:00,No,fuentes/vismet/README.md
 Caleta Vitor,AG377 [VISMET-818],AGROMET,-18.781479,-70.283902,84.0,Precipitación,Meteorológica,No informado,60 min,2016-08-02T19:00:00+00:00,Sí,fuentes/vismet/README.md
 Caleta Vitor,AG377 [VISMET-818],AGROMET,-18.781479,-70.283902,84.0,Temperatura,Meteorológica,No informado,60 min,2016-08-02T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Salinas,AG378 [VISMET-585],AGROMET,-32.43623,-71.353172,16.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Las Salinas,AG378 [VISMET-585],AGROMET,-32.43623,-71.353172,16.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+El Sobrante,AG379 [VISMET-590],AGROMET,-32.228794,-70.799309,772.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+El Sobrante,AG379 [VISMET-590],AGROMET,-32.228794,-70.799309,772.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Casablanca,AG38 [VISMET-581],AGROMET,-33.320833333,-71.437222222,263.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Casablanca,AG38 [VISMET-581],AGROMET,-33.320833333,-71.437222222,263.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Peñablanca,AG380 [VISMET-902],AGROMET,-32.460159,-71.104546,154.0,Precipitación,Meteorológica,No informado,60 min,2017-11-16T22:00:00+00:00,No,fuentes/vismet/README.md
+Peñablanca,AG380 [VISMET-902],AGROMET,-32.460159,-71.104546,154.0,Temperatura,Meteorológica,No informado,60 min,2017-11-16T22:00:00+00:00,No,fuentes/vismet/README.md
+Valle Hermoso,AG381 [VISMET-606],AGROMET,-32.4265,-71.22765,84.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Valle Hermoso,AG381 [VISMET-606],AGROMET,-32.4265,-71.22765,84.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+La Petorca,AG382 [VISMET-586],AGROMET,-32.274509,-70.965538,455.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+La Petorca,AG382 [VISMET-586],AGROMET,-32.274509,-70.965538,455.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Huaquen,AG383 [VISMET-604],AGROMET,-32.34278,-71.40868,51.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Huaquen,AG383 [VISMET-604],AGROMET,-32.34278,-71.40868,51.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+El Chalaco,AG384 [VISMET-589],AGROMET,-32.181267,-70.78492,893.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+El Chalaco,AG384 [VISMET-589],AGROMET,-32.181267,-70.78492,893.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Los Perales,AG385 [VISMET-596],AGROMET,-32.333038,-70.744202,810.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Los Perales,AG385 [VISMET-596],AGROMET,-32.333038,-70.744202,810.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+La Canela,AG386 [VISMET-602],AGROMET,-32.364917,-71.153144,162.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+La Canela,AG386 [VISMET-602],AGROMET,-32.364917,-71.153144,162.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+La Patagua,AG387 [VISMET-605],AGROMET,-32.523449,-71.177979,183.0,Precipitación,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+La Patagua,AG387 [VISMET-605],AGROMET,-32.523449,-71.177979,183.0,Temperatura,Meteorológica,No informado,60 min,2016-09-07T03:00:00+00:00,No,fuentes/vismet/README.md
+Puchuncavi,AG388 [VISMET-904],AGROMET,-32.754967,-71.343432,178.0,Precipitación,Meteorológica,No informado,60 min,2017-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Puchuncavi,AG388 [VISMET-904],AGROMET,-32.754967,-71.343432,178.0,Temperatura,Meteorológica,No informado,60 min,2017-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+El Arenal,AG389 [VISMET-697],AGROMET,-34.35575,-70.991278,264.0,Precipitación,Meteorológica,No informado,60 min,2017-05-05T16:00:00+00:00,Sí,fuentes/vismet/README.md
+El Arenal,AG389 [VISMET-697],AGROMET,-34.35575,-70.991278,264.0,Temperatura,Meteorológica,No informado,60 min,2017-05-05T16:00:00+00:00,Sí,fuentes/vismet/README.md
+San Diego,AG39 [VISMET-650],AGROMET,-33.703027778,-71.371861111,102.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Diego,AG39 [VISMET-650],AGROMET,-33.703027778,-71.371861111,102.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Belén,AG390 [VISMET-824],AGROMET,-18.468208,-69.523279,3206.0,Precipitación,Meteorológica,No informado,60 min,2017-05-05T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Belén,AG390 [VISMET-824],AGROMET,-18.468208,-69.523279,3206.0,Temperatura,Meteorológica,No informado,60 min,2017-05-05T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Ticnamar,AG391 [VISMET-812],AGROMET,-18.58007,-69.495965,3210.0,Precipitación,Meteorológica,No informado,60 min,2017-05-05T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Ticnamar,AG391 [VISMET-812],AGROMET,-18.58007,-69.495965,3210.0,Temperatura,Meteorológica,No informado,60 min,2017-05-05T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Puchuncavi,AG398 [VISMET-610],AGROMET,-32.7310833,-71.4241389,21.0,Precipitación,Meteorológica,No informado,60 min,2017-08-07T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Puchuncavi,AG398 [VISMET-610],AGROMET,-32.7310833,-71.4241389,21.0,Temperatura,Meteorológica,No informado,60 min,2017-08-07T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Jotabeche,AG4 [VISMET-835],AGROMET,-27.588611111,-70.244722222,598.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
 Jotabeche,AG4 [VISMET-835],AGROMET,-27.588611111,-70.244722222,598.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+HUECHÚN EX Lampa,AG40 [VISMET-634],AGROMET,-33.021944444,-71.186388889,600.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+HUECHÚN EX Lampa,AG40 [VISMET-634],AGROMET,-33.021944444,-71.186388889,600.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Til til,AG41 [VISMET-638],AGROMET,-33.121333333,-70.834777778,550.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Til til,AG41 [VISMET-638],AGROMET,-33.121333333,-70.834777778,550.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Pirque,AG42 [VISMET-647],AGROMET,-33.673888889,-70.586944444,663.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Pirque,AG42 [VISMET-647],AGROMET,-33.673888889,-70.586944444,663.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Buin,AG43 [VISMET-642],AGROMET,-33.707361111,-70.701555556,526.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Buin,AG43 [VISMET-642],AGROMET,-33.707361111,-70.701555556,526.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Peldehue,AG438 [VISMET-662],AGROMET,-33.1471111,-70.6602222,713.0,Precipitación,Meteorológica,No informado,60 min,2017-07-14T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Peldehue,AG438 [VISMET-662],AGROMET,-33.1471111,-70.6602222,713.0,Temperatura,Meteorológica,No informado,60 min,2017-07-14T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Melipilla,AG44 [VISMET-655],AGROMET,-33.65,-71.1,250.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Melipilla,AG44 [VISMET-655],AGROMET,-33.65,-71.1,250.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Falda Verde,AG447 [VISMET-842],AGROMET,-26.299806,-70.624111,122.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Falda Verde,AG447 [VISMET-842],AGROMET,-26.299806,-70.624111,122.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+TALAGANTE,AG45 [VISMET-648],AGROMET,-33.67325,-70.921138889,344.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+TALAGANTE,AG45 [VISMET-648],AGROMET,-33.67325,-70.921138889,344.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+LO HERRERA,AG46 [VISMET-669],AGROMET,-33.662888889,-70.765916667,502.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+LO HERRERA,AG46 [VISMET-669],AGROMET,-33.662888889,-70.765916667,502.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+HUELQUEN,AG47 [VISMET-665],AGROMET,-33.862083333,-70.639194444,433.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+HUELQUEN,AG47 [VISMET-665],AGROMET,-33.862083333,-70.639194444,433.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Altos la Portada,AG479 [VISMET-749],AGROMET,-23.5040977,-70.4046663,112.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Altos la Portada,AG479 [VISMET-749],AGROMET,-23.5040977,-70.4046663,112.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+COLINA ,AG48 [VISMET-660],AGROMET,-33.218777778,-70.715833333,547.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+COLINA ,AG48 [VISMET-660],AGROMET,-33.218777778,-70.715833333,547.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Puente Negro,AG483 [VISMET-680],AGROMET,-34.386351,-71.98571,10.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Puente Negro,AG483 [VISMET-680],AGROMET,-34.386351,-71.98571,10.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Camar,AG487 [VISMET-755],AGROMET,-23.407102,-67.963735,2697.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Camar,AG487 [VISMET-755],AGROMET,-23.407102,-67.963735,2697.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Calera de Tango,AG49 [VISMET-668],AGROMET,-33.630555556,-70.799166667,469.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Calera de Tango,AG49 [VISMET-668],AGROMET,-33.630555556,-70.799166667,469.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Colliguay,AG499 [VISMET-611],AGROMET,-33.1686089,-71.1557171,508.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Colliguay,AG499 [VISMET-611],AGROMET,-33.1686089,-71.1557171,508.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Hornitos,AG5 [VISMET-836],AGROMET,-27.728888889,-70.196666667,769.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Hornitos,AG5 [VISMET-836],AGROMET,-27.728888889,-70.196666667,769.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Chocalan,AG50 [VISMET-651],AGROMET,-33.725555556,-71.209722222,155.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Chocalan,AG50 [VISMET-651],AGROMET,-33.725555556,-71.209722222,155.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Mallarauco,AG51 [VISMET-649],AGROMET,-33.586666667,-70.996111111,258.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Mallarauco,AG51 [VISMET-649],AGROMET,-33.586666667,-70.996111111,258.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+El Asiento,AG511 [VISMET-659],AGROMET,-34.029282,-70.995098,348.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+El Asiento,AG511 [VISMET-659],AGROMET,-34.029282,-70.995098,348.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Curacaví,AG52 [VISMET-631],AGROMET,-33.438611111,-71.025555556,195.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Curacaví,AG52 [VISMET-631],AGROMET,-33.438611111,-71.025555556,195.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Alhué,AG53 [VISMET-658],AGROMET,-34.065,-71.253888889,134.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Alhué,AG53 [VISMET-658],AGROMET,-34.065,-71.253888889,134.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pedro,AG54 [VISMET-664],AGROMET,-33.891388889,-71.394166667,214.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pedro,AG54 [VISMET-664],AGROMET,-33.891388889,-71.394166667,214.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Cuya,AG543 [VISMET-819],AGROMET,-19.161922,-70.180968,97.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,No,fuentes/vismet/README.md
 Cuya,AG543 [VISMET-819],AGROMET,-19.161922,-70.180968,97.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,No,fuentes/vismet/README.md
+Isla de Maipo,AG55 [VISMET-636],AGROMET,-33.763888889,-70.886666667,349.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Isla de Maipo,AG55 [VISMET-636],AGROMET,-33.763888889,-70.886666667,349.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Pica,AG551 [VISMET-758],AGROMET,-20.501476,-69.342572,1292.0,Precipitación,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Pica,AG551 [VISMET-758],AGROMET,-20.501476,-69.342572,1292.0,Temperatura,Meteorológica,No informado,60 min,2017-08-31T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Cuncumén,AG559 [VISMET-578],AGROMET,-33.736215,-71.421579,172.0,Precipitación,Meteorológica,No informado,60 min,2017-08-16T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Cuncumén,AG559 [VISMET-578],AGROMET,-33.736215,-71.421579,172.0,Temperatura,Meteorológica,No informado,60 min,2017-08-16T21:00:00+00:00,Sí,fuentes/vismet/README.md
+El Monte,AG56 [VISMET-654],AGROMET,-33.691944444,-71.100833333,213.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+El Monte,AG56 [VISMET-654],AGROMET,-33.691944444,-71.100833333,213.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+QUINTA TILCOCO,AG57 [VISMET-696],AGROMET,-34.362,-70.935277778,297.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+QUINTA TILCOCO,AG57 [VISMET-696],AGROMET,-34.362,-70.935277778,297.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN FERNANDO,AG58 [VISMET-689],AGROMET,-34.577833333,-70.975527778,339.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN FERNANDO,AG58 [VISMET-689],AGROMET,-34.577833333,-70.975527778,339.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 La Copa,AG582 [VISMET-841],AGROMET,-27.345439,-70.622009,188.0,Precipitación,Meteorológica,No informado,60 min,2017-09-27T12:00:00+00:00,Sí,fuentes/vismet/README.md
 La Copa,AG582 [VISMET-841],AGROMET,-27.345439,-70.622009,188.0,Temperatura,Meteorológica,No informado,60 min,2017-09-27T12:00:00+00:00,Sí,fuentes/vismet/README.md
+STA. BRISILA,AG59 [VISMET-710],AGROMET,-34.298080556,-71.3238,126.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+STA. BRISILA,AG59 [VISMET-710],AGROMET,-34.298080556,-71.3238,126.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Copiapo,AG6 [VISMET-838],AGROMET,-27.345833333,-70.407777778,345.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Copiapo,AG6 [VISMET-838],AGROMET,-27.345833333,-70.407777778,345.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Chimbarongo,AG60 [VISMET-679],AGROMET,-34.670833333,-71.031666667,330.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Chimbarongo,AG60 [VISMET-679],AGROMET,-34.670833333,-71.031666667,330.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Sierras de Bellavista,AG602 [VISMET-688],AGROMET,-34.815583,-70.751067,1054.0,Precipitación,Meteorológica,No informado,60 min,2017-08-17T18:00:00+00:00,No,fuentes/vismet/README.md
+Sierras de Bellavista,AG602 [VISMET-688],AGROMET,-34.815583,-70.751067,1054.0,Temperatura,Meteorológica,No informado,60 min,2017-08-17T18:00:00+00:00,No,fuentes/vismet/README.md
 Iglesia Colorada,AG608 [VISMET-833],AGROMET,-28.1489444,-69.89183333,1513.0,Precipitación,Meteorológica,No informado,60 min,2017-09-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Iglesia Colorada,AG608 [VISMET-833],AGROMET,-28.1489444,-69.89183333,1513.0,Temperatura,Meteorológica,No informado,60 min,2017-09-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Codegua Norte Ex Rancagua,AG61 [VISMET-704],AGROMET,-34.108888889,-70.639583333,524.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Codegua Norte Ex Rancagua,AG61 [VISMET-704],AGROMET,-34.108888889,-70.639583333,524.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Freirina,AG612 [VISMET-839],AGROMET,-28.5066389,-71.10372222,92.0,Precipitación,Meteorológica,No informado,60 min,2017-09-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Freirina,AG612 [VISMET-839],AGROMET,-28.5066389,-71.10372222,92.0,Temperatura,Meteorológica,No informado,60 min,2017-09-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 La Cachina,AG619 [VISMET-897],AGROMET,-25.433987,-70.453243,215.0,Precipitación,Meteorológica,No informado,60 min,2017-11-07T14:00:00+00:00,Sí,fuentes/vismet/README.md
 La Cachina,AG619 [VISMET-897],AGROMET,-25.433987,-70.453243,215.0,Temperatura,Meteorológica,No informado,60 min,2017-11-07T14:00:00+00:00,Sí,fuentes/vismet/README.md
+Graneros Norte,AG62 [VISMET-682],AGROMET,-34.061944444,-70.705,494.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Graneros Norte,AG62 [VISMET-682],AGROMET,-34.061944444,-70.705,494.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Espinos,AG623 [VISMET-951],AGROMET,-32.8901667,-70.3821388,1190.0,Precipitación,Meteorológica,No informado,60 min,2017-11-17T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Espinos,AG623 [VISMET-951],AGROMET,-32.8901667,-70.3821388,1190.0,Temperatura,Meteorológica,No informado,60 min,2017-11-17T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Mostazal,AG63 [VISMET-681],AGROMET,-34.001666667,-70.701666667,491.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Mostazal,AG63 [VISMET-681],AGROMET,-34.001666667,-70.701666667,491.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Liceo Jean Buchanan,AG630 [VISMET-952],AGROMET,-34.3972892,-71.1646719,181.0,Precipitación,Meteorológica,No informado,60 min,2018-03-07T12:00:00+00:00,Sí,fuentes/vismet/README.md
+Liceo Jean Buchanan,AG630 [VISMET-952],AGROMET,-34.3972892,-71.1646719,181.0,Temperatura,Meteorológica,No informado,60 min,2018-03-07T12:00:00+00:00,Sí,fuentes/vismet/README.md
+Codegua,AG64 [VISMET-703],AGROMET,-34.110277778,-70.653611111,510.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Codegua,AG64 [VISMET-703],AGROMET,-34.110277778,-70.653611111,510.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Punta Cortes,AG65 [VISMET-677],AGROMET,-34.16975,-70.791277778,476.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Punta Cortes,AG65 [VISMET-677],AGROMET,-34.16975,-70.791277778,476.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Viu Manent – Santa Cruz,AG650 [VISMET-1286],AGROMET,-34.646111111,-71.313611111,178.0,Precipitación,Meteorológica,No informado,60 min,2019-07-17T05:00:00+00:00,No,fuentes/vismet/README.md
+Viu Manent – Santa Cruz,AG650 [VISMET-1286],AGROMET,-34.646111111,-71.313611111,178.0,Temperatura,Meteorológica,No informado,60 min,2019-07-17T05:00:00+00:00,No,fuentes/vismet/README.md
+Viu Manent – Peralillo,AG651 [VISMET-1285],AGROMET,-34.495833333,-71.491666666,153.0,Precipitación,Meteorológica,No informado,60 min,2019-07-17T05:00:00+00:00,No,fuentes/vismet/README.md
+Viu Manent – Peralillo,AG651 [VISMET-1285],AGROMET,-34.495833333,-71.491666666,153.0,Temperatura,Meteorológica,No informado,60 min,2019-07-17T05:00:00+00:00,No,fuentes/vismet/README.md
+Licanchen,AG653 [VISMET-1299],AGROMET,-33.9297485,-71.8010025,23.0,Precipitación,Meteorológica,No informado,60 min,2020-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Licanchen,AG653 [VISMET-1299],AGROMET,-33.9297485,-71.8010025,23.0,Temperatura,Meteorológica,No informado,60 min,2020-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Pampa Concordia,AG655 [VISMET-1310],AGROMET,-18.362922,-70.302033,102.0,Precipitación,Meteorológica,No informado,60 min,2020-03-30T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Pampa Concordia,AG655 [VISMET-1310],AGROMET,-18.362922,-70.302033,102.0,Temperatura,Meteorológica,No informado,60 min,2020-03-30T16:00:00+00:00,Sí,fuentes/vismet/README.md
 Chapiquiña,AG658 [VISMET-1311],AGROMET,-18.389472,-69.539417,3319.0,Precipitación,Meteorológica,No informado,60 min,2020-12-06T13:00:00+00:00,Sí,fuentes/vismet/README.md
 Chapiquiña,AG658 [VISMET-1311],AGROMET,-18.389472,-69.539417,3319.0,Temperatura,Meteorológica,No informado,60 min,2020-12-06T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Olivar Alto,AG66 [VISMET-674],AGROMET,-34.203055556,-70.824166667,454.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Olivar Alto,AG66 [VISMET-674],AGROMET,-34.203055556,-70.824166667,454.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Rayentué,AG667 [VISMET-1315],AGROMET,-34.321704,-70.833901,371.0,Precipitación,Meteorológica,No informado,60 min,2020-03-30T17:00:00+00:00,Sí,fuentes/vismet/README.md
+Rayentué,AG667 [VISMET-1315],AGROMET,-34.321704,-70.833901,371.0,Temperatura,Meteorológica,No informado,60 min,2020-03-30T17:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Maquis,AG67 [VISMET-716],AGROMET,-34.499722222,-70.839722222,471.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Maquis,AG67 [VISMET-716],AGROMET,-34.499722222,-70.839722222,471.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Vicente TT,AG68 [VISMET-705],AGROMET,-34.457777778,-71.050555556,220.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+San Vicente TT,AG68 [VISMET-705],AGROMET,-34.457777778,-71.050555556,220.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+El Oasis,AG688 [VISMET-1367],AGROMET,-33.286268,-70.83606,487.0,Precipitación,Meteorológica,No informado,60 min,2020-11-09T21:00:00+00:00,Sí,fuentes/vismet/README.md
+El Oasis,AG688 [VISMET-1367],AGROMET,-33.286268,-70.83606,487.0,Temperatura,Meteorológica,No informado,60 min,2020-11-09T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Coltauco,AG69 [VISMET-713],AGROMET,-34.237777778,-71.005,305.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Coltauco,AG69 [VISMET-713],AGROMET,-34.237777778,-71.005,305.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Luis Felipe Edwards-Pumanque,AG691 [VISMET-1370],AGROMET,-34.640893,-71.776318,89.0,Precipitación,Meteorológica,No informado,60 min,2021-04-14T05:00:00+00:00,No,fuentes/vismet/README.md
+Luis Felipe Edwards-Pumanque,AG691 [VISMET-1370],AGROMET,-34.640893,-71.776318,89.0,Temperatura,Meteorológica,No informado,60 min,2021-04-14T05:00:00+00:00,No,fuentes/vismet/README.md
 Casa Rosada,AG698 [VISMET-1409],AGROMET,-27.84914,-70.0875,964.0,Precipitación,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Casa Rosada,AG698 [VISMET-1409],AGROMET,-27.84914,-70.0875,964.0,Temperatura,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Bodega,AG7 [VISMET-837],AGROMET,-27.343611111,-70.372777778,342.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Bodega,AG7 [VISMET-837],AGROMET,-27.343611111,-70.372777778,342.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Rapel ,AG70 [VISMET-711],AGROMET,-34.216666667,-71.3,122.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Rapel ,AG70 [VISMET-711],AGROMET,-34.216666667,-71.3,122.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Mayorquina,AG700 [VISMET-1407],AGROMET,-27.337762,-70.567188,214.0,Precipitación,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Mayorquina,AG700 [VISMET-1407],AGROMET,-27.337762,-70.567188,214.0,Temperatura,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Copayapu,AG702 [VISMET-1410],AGROMET,-27.456639,-70.264139,469.0,Precipitación,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
@@ -99,6 +353,8 @@ Amalfi,AG706 [VISMET-1406],AGROMET,-27.411203,-70.302629,421.0,Precipitación,Me
 Amalfi,AG706 [VISMET-1406],AGROMET,-27.411203,-70.302629,421.0,Temperatura,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Maria Isabel,AG708 [VISMET-1412],AGROMET,-27.335098,-70.780382,108.0,Precipitación,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Maria Isabel,AG708 [VISMET-1412],AGROMET,-27.335098,-70.780382,108.0,Temperatura,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Peumo Norte Ex Las Cabras ,AG71 [VISMET-692],AGROMET,-34.326944444,-71.258888889,144.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Peumo Norte Ex Las Cabras ,AG71 [VISMET-692],AGROMET,-34.326944444,-71.258888889,144.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Nantoco,AG710 [VISMET-1413],AGROMET,-27.55176,-70.26957,562.0,Precipitación,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Nantoco,AG710 [VISMET-1413],AGROMET,-27.55176,-70.26957,562.0,Temperatura,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Altar de la Virgen,AG712 [VISMET-1408],AGROMET,-27.99994,-69.98,1147.0,Precipitación,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
@@ -107,12 +363,72 @@ El Parral,AG714 [VISMET-1405],AGROMET,-28.981546,-70.195909,1370.0,Precipitació
 El Parral,AG714 [VISMET-1405],AGROMET,-28.981546,-70.195909,1370.0,Temperatura,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Imperial Alto,AG716 [VISMET-1414],AGROMET,-28.613677,-70.709382,483.0,Precipitación,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,No,fuentes/vismet/README.md
 Imperial Alto,AG716 [VISMET-1414],AGROMET,-28.613677,-70.709382,483.0,Temperatura,Meteorológica,No informado,60 min,2022-05-09T04:00:00+00:00,No,fuentes/vismet/README.md
+El Carmen,AG72 [VISMET-690],AGROMET,-34.608055556,-70.975,357.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+El Carmen,AG72 [VISMET-690],AGROMET,-34.608055556,-70.975,357.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Emiliana - Casablanca,AG721 [VISMET-1421],AGROMET,-33.3653188,-71.3067019,312.0,Precipitación,Meteorológica,No informado,60 min,2022-07-26T05:00:00+00:00,No,fuentes/vismet/README.md
+Emiliana - Casablanca,AG721 [VISMET-1421],AGROMET,-33.3653188,-71.3067019,312.0,Temperatura,Meteorológica,No informado,60 min,2022-07-26T05:00:00+00:00,No,fuentes/vismet/README.md
+Luis Felipe Edwards - Leyda,AG723 [VISMET-1422],AGROMET,-33.6711073,-71.5370882,172.0,Precipitación,Meteorológica,No informado,60 min,2022-07-26T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Luis Felipe Edwards - Leyda,AG723 [VISMET-1422],AGROMET,-33.6711073,-71.5370882,172.0,Temperatura,Meteorológica,No informado,60 min,2022-07-26T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Luis Felipe Edwards - Puquillay,AG725 [VISMET-1423],AGROMET,-34.6799266,-71.1307992,701.0,Precipitación,Meteorológica,No informado,60 min,2022-07-26T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Luis Felipe Edwards - Puquillay,AG725 [VISMET-1423],AGROMET,-34.6799266,-71.1307992,701.0,Temperatura,Meteorológica,No informado,60 min,2022-07-26T05:00:00+00:00,Sí,fuentes/vismet/README.md
+El Parrón,AG728 [VISMET-1430],AGROMET,-33.508555,-71.084029,167.0,Precipitación,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+El Parrón,AG728 [VISMET-1430],AGROMET,-33.508555,-71.084029,167.0,Temperatura,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+El Villorrio,AG730 [VISMET-1431],AGROMET,-33.562443,-70.875305,399.0,Precipitación,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+El Villorrio,AG730 [VISMET-1431],AGROMET,-33.562443,-70.875305,399.0,Temperatura,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+La Aurora,AG732 [VISMET-1428],AGROMET,-33.429661,-71.029152,206.0,Precipitación,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+La Aurora,AG732 [VISMET-1428],AGROMET,-33.429661,-71.029152,206.0,Temperatura,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Amelia,AG734 [VISMET-1432],AGROMET,-33.668744,-70.912195,354.0,Precipitación,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Amelia,AG734 [VISMET-1432],AGROMET,-33.668744,-70.912195,354.0,Temperatura,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Chacabuco,AG736 [VISMET-1427],AGROMET,-33.2488,-70.72322,523.0,Precipitación,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Chacabuco,AG736 [VISMET-1427],AGROMET,-33.2488,-70.72322,523.0,Temperatura,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Valdivia de Paine,AG738 [VISMET-1426],AGROMET,-33.7986592,-70.8413394,363.0,Precipitación,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Valdivia de Paine,AG738 [VISMET-1426],AGROMET,-33.7986592,-70.8413394,363.0,Temperatura,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Chépica,AG74 [VISMET-698],AGROMET,-34.738611111,-71.258055556,204.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Chépica,AG74 [VISMET-698],AGROMET,-34.738611111,-71.258055556,204.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Chorrillos,AG740 [VISMET-1429],AGROMET,-33.34368,-70.8185,477.0,Precipitación,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Chorrillos,AG740 [VISMET-1429],AGROMET,-33.34368,-70.8185,477.0,Temperatura,Meteorológica,No informado,60 min,2022-08-29T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Luis Felipe Edwards – Santo Domingo,AG742 [VISMET-1425],AGROMET,-33.737533,-71.639331,86.0,Precipitación,Meteorológica,No informado,60 min,2023-05-02T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Luis Felipe Edwards – Santo Domingo,AG742 [VISMET-1425],AGROMET,-33.737533,-71.639331,86.0,Temperatura,Meteorológica,No informado,60 min,2023-05-02T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Nancagua 2,AG75 [VISMET-712],AGROMET,-34.660833333,-71.283611111,188.0,Precipitación,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Nancagua 2,AG75 [VISMET-712],AGROMET,-34.660833333,-71.283611111,188.0,Temperatura,Meteorológica,No informado,60 min,2013-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+VP - Nancagua,AG751 [VISMET-1436],AGROMET,-34.651639,-71.216778,207.0,Precipitación,Meteorológica,No informado,60 min,2022-12-12T04:00:00+00:00,Sí,fuentes/vismet/README.md
+VP - Nancagua,AG751 [VISMET-1436],AGROMET,-34.651639,-71.216778,207.0,Temperatura,Meteorológica,No informado,60 min,2022-12-12T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Montes - Marchigue,AG752 [VISMET-1465],AGROMET,-34.34059,-71.65213,175.0,Precipitación,Meteorológica,No informado,60 min,2023-07-05T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Montes - Marchigue,AG752 [VISMET-1465],AGROMET,-34.34059,-71.65213,175.0,Temperatura,Meteorológica,No informado,60 min,2023-07-05T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Montes - Apalta,AG754 [VISMET-1467],AGROMET,-34.61104,-71.27045,190.0,Precipitación,Meteorológica,No informado,60 min,2023-07-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Montes - Apalta,AG754 [VISMET-1467],AGROMET,-34.61104,-71.27045,190.0,Temperatura,Meteorológica,No informado,60 min,2023-07-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Carolina - Totihue,AG758 [VISMET-1466],AGROMET,-34.33721,-70.80092,362.0,Precipitación,Meteorológica,No informado,60 min,2023-07-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Carolina - Totihue,AG758 [VISMET-1466],AGROMET,-34.33721,-70.80092,362.0,Temperatura,Meteorológica,No informado,60 min,2023-07-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Cruz,AG76 [VISMET-707],AGROMET,-34.690833333,-71.4,171.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Cruz,AG76 [VISMET-707],AGROMET,-34.690833333,-71.4,171.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Santa Carolina - Llallauquén,AG760 [VISMET-1464],AGROMET,-34.22344,-71.41124,132.0,Precipitación,Meteorológica,No informado,60 min,2023-07-03T04:00:00+00:00,No,fuentes/vismet/README.md
+Santa Carolina - Llallauquén,AG760 [VISMET-1464],AGROMET,-34.22344,-71.41124,132.0,Temperatura,Meteorológica,No informado,60 min,2023-07-03T04:00:00+00:00,No,fuentes/vismet/README.md
+Santa Rita - Alhué,AG765 [VISMET-1477],AGROMET,-34.028,-71.1429,154.0,Precipitación,Meteorológica,No informado,60 min,2023-09-28T04:00:00+00:00,No,fuentes/vismet/README.md
+Santa Rita - Alhué,AG765 [VISMET-1477],AGROMET,-34.028,-71.1429,154.0,Temperatura,Meteorológica,No informado,60 min,2023-09-28T04:00:00+00:00,No,fuentes/vismet/README.md
+Santa Rita - Apalta,AG767 [VISMET-1479],AGROMET,-34.6094,-71.2854,185.0,Precipitación,Meteorológica,No informado,60 min,2023-09-28T04:00:00+00:00,No,fuentes/vismet/README.md
+Santa Rita - Apalta,AG767 [VISMET-1479],AGROMET,-34.6094,-71.2854,185.0,Temperatura,Meteorológica,No informado,60 min,2023-09-28T04:00:00+00:00,No,fuentes/vismet/README.md
+Lolol,AG77 [VISMET-700],AGROMET,-34.713611111,-71.629722222,113.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Lolol,AG77 [VISMET-700],AGROMET,-34.713611111,-71.629722222,113.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Peor es Nada,AG774 [VISMET-1478],AGROMET,-34.783248,-71.043411,279.0,Precipitación,Meteorológica,No informado,60 min,2023-10-03T11:00:00+00:00,Sí,fuentes/vismet/README.md
+Peor es Nada,AG774 [VISMET-1478],AGROMET,-34.783248,-71.043411,279.0,Temperatura,Meteorológica,No informado,60 min,2023-10-03T11:00:00+00:00,Sí,fuentes/vismet/README.md
+La Estrella Sur Ex Pumanque,AG78 [VISMET-683],AGROMET,-34.213333333,-71.716111111,288.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+La Estrella Sur Ex Pumanque,AG78 [VISMET-683],AGROMET,-34.213333333,-71.716111111,288.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Palmilla,AG79 [VISMET-676],AGROMET,-34.546666667,-71.395,147.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Palmilla,AG79 [VISMET-676],AGROMET,-34.546666667,-71.395,147.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Vallenar,AG8 [VISMET-840],AGROMET,-28.526305556,-70.943083333,222.0,Precipitación,Meteorológica,No informado,60 min,2017-10-10T13:00:00+00:00,No,fuentes/vismet/README.md
 Vallenar,AG8 [VISMET-840],AGROMET,-28.526305556,-70.943083333,222.0,Temperatura,Meteorológica,No informado,60 min,2017-10-10T13:00:00+00:00,No,fuentes/vismet/README.md
+La Estrella Norte,AG80 [VISMET-684],AGROMET,-34.213333333,-71.716111111,288.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+La Estrella Norte,AG80 [VISMET-684],AGROMET,-34.213333333,-71.716111111,288.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Marchigue,AG81 [VISMET-714],AGROMET,-34.405555556,-71.607222222,137.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Marchigue,AG81 [VISMET-714],AGROMET,-34.405555556,-71.607222222,137.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Requinoa,AG82 [VISMET-686],AGROMET,-34.321667,-70.833694,373.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Requinoa,AG82 [VISMET-686],AGROMET,-34.321667,-70.833694,373.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Alto del Carmen,AG9 [VISMET-828],AGROMET,-28.768166667,-70.449222222,820.0,Precipitación,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Alto del Carmen,AG9 [VISMET-828],AGROMET,-28.768166667,-70.449222222,820.0,Temperatura,Meteorológica,No informado,60 min,2010-01-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
 Cachiyuyo,CEAZA_CACH_Cachiyuyo [VISMET-1131],CEAZA,-29.0572,-70.90517,950.0,Precipitación,Meteorológica,No informado,60 min,2026-10-03T05:00:00+00:00,Sí,fuentes/vismet/README.md
 Cachiyuyo,CEAZA_CACH_Cachiyuyo [VISMET-1131],CEAZA,-29.0572,-70.90517,950.0,Temperatura,Meteorológica,No informado,60 min,2013-09-05T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Cerro Tres Puntas (Refugio Andino),cr2_01 [VISMET-1463],CR2,-33.318,-70.233,3658.0,Precipitación,Meteorológica,No informado,60 min,2022-06-04T18:00:00+00:00,No,fuentes/vismet/README.md
+Cerro Tres Puntas (Refugio Andino),cr2_01 [VISMET-1463],CR2,-33.318,-70.233,3658.0,Temperatura,Meteorológica,No informado,60 min,2022-06-04T18:00:00+00:00,No,fuentes/vismet/README.md
 Visviri,01000005-K [VISMET-1],DGA,-17.595,-69.4831,4080.0,Precipitación,Meteorológica,No informado,60 min,2014-01-13T18:00:00+00:00,Sí,fuentes/vismet/README.md
 Visviri,01000005-K [VISMET-1],DGA,-17.595,-69.4831,4080.0,Temperatura,Meteorológica,No informado,60 min,2014-01-13T12:00:00+00:00,Sí,fuentes/vismet/README.md
 CAQUENA,01001005-5 [VISMET-1748],DGA,-18.05413964542311,-69.2016716432066,4400.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
@@ -614,6 +930,384 @@ HUASCO BAJO,03826003-0 [VISMET-1610],DGA,-28.469169315182434,-71.184167463677,50
 HUASCO BAJO,03826003-0 [VISMET-1610],DGA,-28.469169315182434,-71.184167463677,50.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
 DOMEYKO,03940001-4 [VISMET-1821],DGA,-28.954361273747395,-70.89433407406621,780.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
 DOMEYKO,03940001-4 [VISMET-1821],DGA,-28.954361273747395,-70.89433407406621,780.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO ESTERO GUAQUEN,05000005-2 [VISMET-2206],DGA,-32.333615724493704,-71.42084340996837,25.0,Precipitación,Meteorológica,No informado,60 min,2026-09-01T15:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Sobrante en Piñadero,05100001-3 [VISMET-102],DGA,-32.2253,-70.7119,1300.0,Precipitación,Meteorológica,No informado,60 min,2012-03-22T20:00:00+00:00,Sí,fuentes/vismet/README.md
+NACIMIENTO DEL SOBRANTE,05100003-K [VISMET-1530],DGA,-32.18833061368587,-70.48305303410692,3143.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T05:00:00+00:00,Sí,fuentes/vismet/README.md
+EL TRAPICHE,05100005-6 [VISMET-1800],DGA,-32.22906925344202,-70.73758775256553,1180.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL TRAPICHE,05100005-6 [VISMET-1800],DGA,-32.22906925344202,-70.73758775256553,1180.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL SOBRANTE HACIENDA,05100006-4 [VISMET-1680],DGA,-32.229504586808126,-70.79484424449599,810.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL SOBRANTE HACIENDA,05100006-4 [VISMET-1680],DGA,-32.229504586808126,-70.79484424449599,810.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PEDERNAL HACIENDA,05101005-1 [VISMET-1649],DGA,-32.09274711185625,-70.79876549293103,1100.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PEDERNAL HACIENDA,05101005-1 [VISMET-1649],DGA,-32.09274711185625,-70.79876549293103,1100.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CHALACO,05101006-K [VISMET-1620],DGA,-32.178919554975224,-70.78742405482822,880.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CHALACO,05101006-K [VISMET-1620],DGA,-32.178919554975224,-70.78742405482822,880.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO PETORCA EN PEÑON O HIERRO VIEJO,05110002-6 [VISMET-1196],DGA,-32.2786,-70.9889,423.0,Precipitación,Meteorológica,No informado,60 min,2003-07-15T09:00:00+00:00,Sí,fuentes/vismet/README.md
+HIERRO VIEJO,05110003-4 [VISMET-1650],DGA,-32.28139891213188,-70.97684465758458,440.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+HIERRO VIEJO,05110003-4 [VISMET-1650],DGA,-32.28139891213188,-70.97684465758458,440.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PALQUICO,05111001-3 [VISMET-1710],DGA,-32.25272464865315,-71.13862707376231,450.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PALQUICO,05111001-3 [VISMET-1710],DGA,-32.25272464865315,-71.13862707376231,450.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+FRUTILLAR ALTO,05111002-1 [VISMET-1560],DGA,-32.14956746360133,-70.9979738150839,780.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+FRUTILLAR ALTO,05111002-1 [VISMET-1560],DGA,-32.14956746360133,-70.9979738150839,780.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL SALVADOR,05111004-8 [VISMET-1770],DGA,-32.30625581127207,-71.07731482815274,340.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL SALVADOR,05111004-8 [VISMET-1770],DGA,-32.30625581127207,-71.07731482815274,340.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ARTIFICIO,05120003-9 [VISMET-1831],DGA,-32.398612299193736,-71.09556450852942,250.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ARTIFICIO,05120003-9 [VISMET-1831],DGA,-32.398612299193736,-71.09556450852942,250.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS COLMENAS,05120004-7 [VISMET-1740],DGA,-32.31036291018699,-71.25869691965664,80.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS COLMENAS,05120004-7 [VISMET-1740],DGA,-32.31036291018699,-71.25869691965664,80.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LONGOTOMA,05120006-3 [VISMET-1651],DGA,-32.39313031849141,-71.37170032522563,20.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LONGOTOMA,05120006-3 [VISMET-1651],DGA,-32.39313031849141,-71.37170032522563,20.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Alicahue Collihuay,05200001-7 [VISMET-103],DGA,-32.33,-70.7381,780.0,Precipitación,Meteorológica,No informado,60 min,2003-07-11T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Alicahue Collihuay,05200001-7 [VISMET-103],DGA,-32.33,-70.7381,780.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ALICAHUE,05200006-8 [VISMET-1590],DGA,-32.34096020710458,-70.75173954410567,750.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ALICAHUE,05200006-8 [VISMET-1590],DGA,-32.34096020710458,-70.75173954410567,750.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA MOSTAZA,05200007-6 [VISMET-1711],DGA,-32.43759437895911,-70.6816232391524,1200.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA MOSTAZA,05200007-6 [VISMET-1711],DGA,-32.43759437895911,-70.6816232391524,1200.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA VIÑA,05210002-K [VISMET-1771],DGA,-32.43217969340323,-70.91192931825783,370.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA VIÑA,05210002-K [VISMET-1771],DGA,-32.43217969340323,-70.91192931825783,370.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+MINA CERRO NEGRO,05211003-3 [VISMET-1621],DGA,-32.59303721041586,-70.87210584333742,650.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+MINA CERRO NEGRO,05211003-3 [VISMET-1621],DGA,-32.59303721041586,-70.87210584333742,650.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS PUERTAS,05211004-1 [VISMET-1847],DGA,-32.48689899823106,-70.93252727469823,350.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+LAS PUERTAS,05211004-1 [VISMET-1847],DGA,-32.48689899823106,-70.93252727469823,350.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+CHACRILLA,05220006-7 [VISMET-1681],DGA,-32.42716402591351,-71.06066593533808,290.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS PATAGUAS,05220007-5 [VISMET-1741],DGA,-32.537362198026266,-71.1352675474523,350.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS PATAGUAS,05220007-5 [VISMET-1741],DGA,-32.537362198026266,-71.1352675474523,350.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PATAGUAS,05220016-4 [VISMET-1975],DGA,-32.51222746741473,-71.17944974114555,164.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+VALLE HERMOSO,05221005-4 [VISMET-1561],DGA,-32.443509253539446,-71.19906410674669,80.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO QUEBRADILLA,05221015-1 [VISMET-1974],DGA,-32.48472295495775,-71.2586180295104,67.0,Precipitación,Meteorológica,No informado,60 min,2026-09-01T05:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGUNA DE ZAPALLAR,05310001-5 [VISMET-1592],DGA,-32.623782975728965,-71.40746503184414,50.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGUNA DE ZAPALLAR,05310001-5 [VISMET-1592],DGA,-32.623782975728965,-71.40746503184414,50.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ESTERO QUINTERO EN VALLE ALEGRE,05320001-K [VISMET-1712],DGA,-32.80111331161662,-71.41951737486687,40.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PUCHUNCAVI,05320012-5 [VISMET-1973],DGA,-32.68278186751395,-71.41417642376923,77.0,Precipitación,Meteorológica,No informado,60 min,2026-08-18T17:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Juncal en Juncal,05401003-6 [VISMET-104],DGA,-32.8625,-70.1675,2200.0,Precipitación,Meteorológica,No informado,60 min,2014-09-10T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Juncal en Juncal,05401003-6 [VISMET-104],DGA,-32.8625,-70.1675,2200.0,Temperatura,Meteorológica,No informado,60 min,2014-09-10T12:00:00+00:00,Sí,fuentes/vismet/README.md
+Portillo,05401007-9 [VISMET-105],DGA,-32.84444444444445,-70.11083333333333,3000.0,Temperatura,Meteorológica,No informado,60 min,2004-05-24T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Aconcagua en Río Blanco,05403002-9 [VISMET-109],DGA,-32.9067,-70.3036,1420.0,Precipitación,Meteorológica,No informado,60 min,2014-06-20T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Aconcagua en Río Blanco,05403002-9 [VISMET-109],DGA,-32.9067,-70.3036,1420.0,Temperatura,Meteorológica,No informado,60 min,2014-06-20T13:00:00+00:00,Sí,fuentes/vismet/README.md
+RIECILLOS,05403006-1 [VISMET-1652],DGA,-32.92257050302491,-70.35709850823983,1290.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIECILLOS,05403006-1 [VISMET-1652],DGA,-32.92257050302491,-70.35709850823983,1290.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Riecillo,05403007-K [VISMET-1833],DGA,-32.92972452161688,-70.35695106308901,1290.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Riecillo,05403007-K [VISMET-1833],DGA,-32.92972452161688,-70.35695106308901,1290.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Canal Colorado en Bocatoma,05404001-6 [VISMET-110],DGA,-32.8347,-70.3533,1391.0,Precipitación,Meteorológica,No informado,60 min,2014-04-08T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Canal Colorado en Bocatoma,05404001-6 [VISMET-110],DGA,-32.8347,-70.3533,1391.0,Temperatura,Meteorológica,No informado,60 min,2014-04-08T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Aconcagua Chacabuquito,05410002-7 [VISMET-111],DGA,-32.8503,-70.5094,950.0,Precipitación,Meteorológica,No informado,60 min,2000-01-03T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Aconcagua Chacabuquito,05410002-7 [VISMET-111],DGA,-32.8503,-70.5094,950.0,Temperatura,Meteorológica,No informado,60 min,2000-06-21T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Aconcagua San Felipe,05410005-1 [VISMET-112],DGA,-32.7572,-70.7367,650.0,Precipitación,Meteorológica,No informado,60 min,2000-01-03T12:00:00+00:00,No,fuentes/vismet/README.md
+VILCUYA,05410006-K [VISMET-1197],DGA,-32.8603,-70.4719,1072.0,Precipitación,Meteorológica,No informado,60 min,2016-08-08T18:00:00+00:00,No,fuentes/vismet/README.md
+VILCUYA,05410006-K [VISMET-1197],DGA,-32.8603,-70.4719,1072.0,Temperatura,Meteorológica,No informado,60 min,2016-08-08T13:00:00+00:00,No,fuentes/vismet/README.md
+LOS ANDES,05410007-8 [VISMET-1562],DGA,-32.81132954551066,-70.64197665346984,820.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LOS ANDES,05410007-8 [VISMET-1562],DGA,-32.81132954551066,-70.64197665346984,820.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN FELIPE,05410008-6 [VISMET-1682],DGA,-32.755353980649865,-70.70696438894232,640.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ESTERO POCURO EN EL SIFON,05411001-4 [VISMET-1198],DGA,-32.9164,-70.5403,1168.0,Precipitación,Meteorológica,No informado,60 min,2017-03-13T20:00:00+00:00,Sí,fuentes/vismet/README.md
+ESTERO POCURO EN EL SIFON,05411001-4 [VISMET-1198],DGA,-32.9164,-70.5403,1168.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO ROCIN AGUAS ABAJO EMBALSE CHACRILLA,05413004-K [VISMET-1531],DGA,-32.499169091263326,-70.57222750032325,1190.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Putaendo Rdo. Los Patos,05414001-0 [VISMET-114],DGA,-32.5017,-70.5811,1218.0,Precipitación,Meteorológica,No informado,60 min,2001-09-24T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Putaendo Rdo. Los Patos,05414001-0 [VISMET-114],DGA,-32.5017,-70.5811,1218.0,Temperatura,Meteorológica,No informado,60 min,2015-12-02T12:00:00+00:00,No,fuentes/vismet/README.md
+RESGUARDO LOS PATOS,05414004-5 [VISMET-1801],DGA,-32.50149456223865,-70.58170888425533,1220.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RESGUARDO LOS PATOS,05414004-5 [VISMET-1801],DGA,-32.50149456223865,-70.58170888425533,1220.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL TARTARO,05414005-3 [VISMET-1591],DGA,-32.568469306013014,-70.6988454172061,950.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL TARTARO,05414005-3 [VISMET-1591],DGA,-32.568469306013014,-70.6988454172061,950.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+JAHUEL,05415004-0 [VISMET-1532],DGA,-32.68727160445305,-70.59648484105097,1020.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+JAHUEL,05415004-0 [VISMET-1532],DGA,-32.68727160445305,-70.59648484105097,1020.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LO CAMPO,05420012-9 [VISMET-1972],DGA,-32.8097276879566,-70.92528219901912,441.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+CATEMU,05421005-1 [VISMET-1772],DGA,-32.757946113233956,-70.94261009901302,440.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CATEMU,05421005-1 [VISMET-1772],DGA,-32.757946113233956,-70.94261009901302,440.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS CHILCAS,05422002-2 [VISMET-1832],DGA,-32.86616384796732,-70.84827736561704,850.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS CHILCAS,05422002-2 [VISMET-1832],DGA,-32.86616384796732,-70.84827736561704,850.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Aconcagua Romeral,05423003-6 [VISMET-115],DGA,-32.8403,-71.0256,365.0,Precipitación,Meteorológica,No informado,60 min,2000-09-29T18:00:00+00:00,Sí,fuentes/vismet/README.md
+ESTERO RABUCO,05423013-3 [VISMET-1742],DGA,-32.853473704129925,-71.12060858755473,300.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ESTERO RABUCO,05423013-3 [VISMET-1742],DGA,-32.853473704129925,-71.12060858755473,300.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL COBRE,05424005-8 [VISMET-1622],DGA,-32.65355227591725,-71.19649700553437,280.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL COBRE,05424005-8 [VISMET-1622],DGA,-32.65355227591725,-71.19649700553437,280.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LO ROJAS,05425003-7 [VISMET-1802],DGA,-32.81364536875747,-71.25048175091804,190.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LO ROJAS,05425003-7 [VISMET-1802],DGA,-32.81364536875747,-71.25048175091804,190.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+QUILLOTA,05426004-0 [VISMET-1199],DGA,-32.8958,-71.2092,140.0,Precipitación,Meteorológica,No informado,60 min,2016-08-08T22:00:00+00:00,Sí,fuentes/vismet/README.md
+QUILLOTA,05426004-0 [VISMET-1199],DGA,-32.8958,-71.2092,140.0,Temperatura,Meteorológica,No informado,60 min,2016-08-08T13:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO QUILLOTA,05426031-8 [VISMET-1971],DGA,-32.908341084244526,-71.26639884108891,107.0,Precipitación,Meteorológica,No informado,60 min,2026-08-12T17:00:00+00:00,Sí,fuentes/vismet/README.md
+LLIU-LLIU EMBALSE,05427006-2 [VISMET-1200],DGA,-33.0986,-71.2144,255.0,Precipitación,Meteorológica,No informado,60 min,2016-08-08T21:00:00+00:00,Sí,fuentes/vismet/README.md
+LLIU-LLIU EMBALSE,05427006-2 [VISMET-1200],DGA,-33.0986,-71.2144,255.0,Temperatura,Meteorológica,No informado,60 min,2016-08-08T19:00:00+00:00,Sí,fuentes/vismet/README.md
+LOS AROMOS,05427007-0 [VISMET-1743],DGA,-32.958287343116766,-71.34512496064069,100.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LOS AROMOS,05427007-0 [VISMET-1743],DGA,-32.958287343116766,-71.34512496064069,100.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+QUEBRADA ALVARADO,05427008-9 [VISMET-1653],DGA,-33.05063494611464,-71.11460521891813,290.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+QUEBRADA ALVARADO,05427008-9 [VISMET-1653],DGA,-33.05063494611464,-71.11460521891813,290.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS PIEDRAS,05500001-8 [VISMET-1804],DGA,-33.15563478117226,-71.31204164485835,225.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS PIEDRAS,05500001-8 [VISMET-1804],DGA,-33.15563478117226,-71.31204164485835,225.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Salinas,05500003-4 [VISMET-117],DGA,-33.0019,-71.5467,20.0,Precipitación,Meteorológica,No informado,60 min,2013-08-14T17:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Salinas,05500003-4 [VISMET-117],DGA,-33.0019,-71.5467,20.0,Temperatura,Meteorológica,No informado,60 min,2013-08-14T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Rodelillo,05510001-2 [VISMET-118],DGA,-33.0503,-71.5833,110.0,Precipitación,Meteorológica,No informado,60 min,2015-03-01T03:00:00+00:00,Sí,fuentes/vismet/README.md
+Rodelillo,05510001-2 [VISMET-118],DGA,-33.0503,-71.5833,110.0,Temperatura,Meteorológica,No informado,60 min,2014-04-24T18:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGO PEÑUELAS,05510002-0 [VISMET-1201],DGA,-33.145,-71.5553,342.0,Precipitación,Meteorológica,No informado,60 min,2016-09-05T20:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGO PEÑUELAS,05510002-0 [VISMET-1201],DGA,-33.145,-71.5553,342.0,Temperatura,Meteorológica,No informado,60 min,2016-09-05T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Cerro Colorado Armada de Chile,05510005-5 [VISMET-119],DGA,-33.0819,-71.6169,510.0,Precipitación,Meteorológica,No informado,60 min,2015-03-01T02:00:00+00:00,Sí,fuentes/vismet/README.md
+Cerro Colorado Armada de Chile,05510005-5 [VISMET-119],DGA,-33.0819,-71.6169,510.0,Temperatura,Meteorológica,No informado,60 min,2014-05-08T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Valparaíso,05510007-1 [VISMET-120],DGA,-33.04138888888889,-71.60444444444444,44.0,Precipitación,Meteorológica,No informado,60 min,2016-12-25T12:00:00+00:00,Sí,fuentes/vismet/README.md
+Valparaíso,05510007-1 [VISMET-120],DGA,-33.04138888888889,-71.60444444444444,44.0,Temperatura,Meteorológica,No informado,60 min,2016-08-05T19:00:00+00:00,Sí,fuentes/vismet/README.md
+CASABLANCA,05520001-7 [VISMET-1564],DGA,-33.32311181321739,-71.41051115208674,290.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CASABLANCA,05520001-7 [VISMET-1564],DGA,-33.32311181321739,-71.41051115208674,290.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+TAPIHUE,05520002-5 [VISMET-1534],DGA,-33.29083120430987,-71.28948028384033,310.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+TAPIHUE,05520002-5 [VISMET-1534],DGA,-33.29083120430987,-71.28948028384033,310.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LOS PERALES,05520042-4 [VISMET-2220],DGA,-33.322504093359186,-71.3111131330087,314.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN ANTONIO (PTA. PANUL),05530002-K [VISMET-1202],DGA,-33.5747,-71.625,84.0,Precipitación,Meteorológica,No informado,60 min,2017-12-15T14:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN ANTONIO (PTA. PANUL),05530002-K [VISMET-1202],DGA,-33.5747,-71.625,84.0,Temperatura,Meteorológica,No informado,60 min,2017-12-15T12:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGUNILLAS,05530003-8 [VISMET-1685],DGA,-33.44733093443429,-71.45477184046334,200.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGUNILLAS,05530003-8 [VISMET-1685],DGA,-33.44733093443429,-71.45477184046334,200.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ALGARROBO,05530005-4 [VISMET-1203],DGA,-33.4389,-71.6239,130.0,Precipitación,Meteorológica,No informado,60 min,2016-09-09T15:00:00+00:00,Sí,fuentes/vismet/README.md
+ALGARROBO,05530005-4 [VISMET-1203],DGA,-33.4389,-71.6239,130.0,Temperatura,Meteorológica,No informado,60 min,2016-09-09T12:00:00+00:00,Sí,fuentes/vismet/README.md
+POIKE,05610000-8 [VISMET-1519],DGA,-27.10526177671011,-109.25500507339264,32.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POIKE,05610000-8 [VISMET-1519],DGA,-27.10526177671011,-109.25500507339264,32.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Isla de Pascua,05610001-6 [VISMET-937],DGA,-27.13361111111111,-109.3517746,0.0,Precipitación,Meteorológica,No informado,60 min,2018-04-11T17:00:00+00:00,Sí,fuentes/vismet/README.md
+Isla de Pascua,05610001-6 [VISMET-937],DGA,-27.13361111111111,-109.3517746,0.0,Temperatura,Meteorológica,No informado,60 min,2018-04-11T12:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO MAIPO EN LAS MELOSAS,05701002-9 [VISMET-1747],DGA,-33.85191929748835,-70.19822272163766,1527.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO MAIPO EN LAS MELOSAS,05701002-9 [VISMET-1747],DGA,-33.85191929748835,-70.19822272163766,1527.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Melosas Ruta de Nieve Fpp,05701010-K [VISMET-1271],DGA,-33.86388888888889,-70.2725,3320.0,Temperatura,Meteorológica,No informado,60 min,2019-02-21T01:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS HUALTATAS,05701011-8 [VISMET-1891],DGA,-34.06776286951852,-70.10874261287262,2020.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LAS HUALTATAS,05701011-8 [VISMET-1891],DGA,-34.06776286951852,-70.10874261287262,2020.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Volcan en Queltehues,05702001-6 [VISMET-122],DGA,-33.8056,-70.2089,1365.0,Precipitación,Meteorológica,No informado,60 min,2014-02-27T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Volcan en Queltehues,05702001-6 [VISMET-122],DGA,-33.8056,-70.2089,1365.0,Temperatura,Meteorológica,No informado,60 min,2014-02-27T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Glaciar San Franciscoen Aguas Panimavida,05702011-3 [VISMET-123],DGA,-33.8053,-70.07,2220.0,Precipitación,Meteorológica,No informado,60 min,2011-10-06T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Glaciar San Franciscoen Aguas Panimavida,05702011-3 [VISMET-123],DGA,-33.8053,-70.07,2220.0,Temperatura,Meteorológica,No informado,60 min,2011-10-06T12:00:00+00:00,Sí,fuentes/vismet/README.md
+El Yeso Embalse,05703008-9 [VISMET-938],DGA,-33.6767,-70.0886,2475.0,Precipitación,Meteorológica,No informado,60 min,2013-02-22T15:00:00+00:00,Sí,fuentes/vismet/README.md
+El Yeso Embalse,05703008-9 [VISMET-938],DGA,-33.6767,-70.0886,2475.0,Temperatura,Meteorológica,No informado,60 min,2013-02-18T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Laguna Negra,05703009-7 [VISMET-124],DGA,-33.66583333333333,-70.10777777777777,2780.0,Precipitación,Meteorológica,No informado,60 min,2015-05-22T11:00:00+00:00,No,fuentes/vismet/README.md
+Laguna Negra,05703009-7 [VISMET-124],DGA,-33.66583333333333,-70.10777777777777,2780.0,Temperatura,Meteorológica,No informado,60 min,2000-09-28T07:00:00+00:00,Sí,fuentes/vismet/README.md
+VALLE ECHAURREN NORTE,05703012-7 [VISMET-1836],DGA,-33.593771677833125,-70.11028040891443,2950.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T05:00:00+00:00,Sí,fuentes/vismet/README.md
+VALLE ECHAURREN NORTE,05703012-7 [VISMET-1836],DGA,-33.593771677833125,-70.11028040891443,2950.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T05:00:00+00:00,Sí,fuentes/vismet/README.md
+PORTEZUELO ECHAURREN,05703013-5 [VISMET-1205],DGA,-33.57652204517562,-70.12883967930733,3847.0,Temperatura,Meteorológica,No informado,60 min,2016-03-28T12:00:00+00:00,No,fuentes/vismet/README.md
+TERMAS DEL PLOMO,05703014-3 [VISMET-1206],DGA,-33.61333333333334,-69.90583333333333,3000.0,Precipitación,Meteorológica,No informado,60 min,2016-01-12T16:00:00+00:00,Sí,fuentes/vismet/README.md
+TERMAS DEL PLOMO,05703014-3 [VISMET-1206],DGA,-33.61333333333334,-69.90583333333333,3000.0,Temperatura,Meteorológica,No informado,60 min,2016-01-12T12:00:00+00:00,No,fuentes/vismet/README.md
+GLACIAR BELLO BAJO (EMAM),05703016-K [VISMET-1715],DGA,-33.52508608701643,-69.94712229510532,4390.0,Temperatura,Meteorológica,No informado,60 min,2026-10-16T13:00:00+00:00,Sí,fuentes/vismet/README.md
+GLACIAR PIRAMIDE (EMAM),05703018-6 [VISMET-1776],DGA,-33.589612918097025,-69.89067891260865,3450.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+Río Maipo en San Alfonso,05704002-5 [VISMET-125],DGA,-33.7347,-70.3008,1092.0,Precipitación,Meteorológica,No informado,60 min,2012-01-04T21:00:00+00:00,No,fuentes/vismet/README.md
+SAN GABRIEL,05704004-1 [VISMET-1537],DGA,-33.78246734098041,-70.2394078152498,1266.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN GABRIEL,05704004-1 [VISMET-1537],DGA,-33.78246734098041,-70.2394078152498,1266.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN JOSE DE MAIPO RETEN,05704006-8 [VISMET-1207],DGA,-33.6361,-70.3531,963.0,Precipitación,Meteorológica,No informado,60 min,2013-11-15T19:00:00+00:00,Sí,fuentes/vismet/README.md
+SAN JOSE DE MAIPO RETEN,05704006-8 [VISMET-1207],DGA,-33.6361,-70.3531,963.0,Temperatura,Meteorológica,No informado,60 min,2016-09-01T12:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO MAIPO EN EL INGENIO,05704016-5 [VISMET-1850],DGA,-33.76805640661526,-70.27389540649195,1156.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO MAIPO EN EL INGENIO,05704016-5 [VISMET-1850],DGA,-33.76805640661526,-70.27389540649195,1156.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Colorado antes Junta Río Olivares,05705001-2 [VISMET-126],DGA,-33.49,-70.1342,1500.0,Precipitación,Meteorológica,No informado,60 min,2013-03-27T14:00:00+00:00,No,fuentes/vismet/README.md
+Río Colorado antes Junta Río Olivares,05705001-2 [VISMET-126],DGA,-33.49,-70.1342,1500.0,Temperatura,Meteorológica,No informado,60 min,2013-03-27T12:00:00+00:00,No,fuentes/vismet/README.md
+Canal Queltehue,05705002-0 [VISMET-127],DGA,-33.8783,-70.1978,1519.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+GLACIAR TUPUNGATITO BAJO,05705004-7 [VISMET-1655],DGA,-33.38584148243736,-69.8547284718545,4425.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+METEOROLOGICA RIO COLORADO,05705006-3 [VISMET-1535],DGA,-33.49472884919836,-70.13778791984875,1540.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+METEOROLOGICA RIO COLORADO,05705006-3 [VISMET-1535],DGA,-33.49472884919836,-70.13778791984875,1540.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Olivares antes Junta Río Colorado,05706001-8 [VISMET-128],DGA,-33.4878,-70.1367,1500.0,Precipitación,Meteorológica,No informado,60 min,2013-08-01T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Olivares antes Junta Río Colorado,05706001-8 [VISMET-128],DGA,-33.4878,-70.1367,1500.0,Temperatura,Meteorológica,No informado,60 min,2013-07-29T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Glaciar Olivares Gamma,05706002-6 [VISMET-129],DGA,-33.152499999999996,-70.15083333333334,3628.0,Temperatura,Meteorológica,No informado,60 min,2014-05-18T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Valle Olivares,05706003-4 [VISMET-130],DGA,-33.1869,-70.1122,2787.0,Precipitación,Meteorológica,No informado,60 min,2014-05-19T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Valle Olivares,05706003-4 [VISMET-130],DGA,-33.1869,-70.1122,2787.0,Temperatura,Meteorológica,No informado,60 min,2014-05-19T13:00:00+00:00,Sí,fuentes/vismet/README.md
+GLACIAR JUNCAL SUR,05706004-2 [VISMET-1848],DGA,-33.11761657248624,-70.11187131037973,4035.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+GLACIAR OLIVARES ALFA,05706005-0 [VISMET-1684],DGA,-33.178712745354595,-70.21807502940312,4230.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+MAITENES,05707003-K [VISMET-1686],DGA,-33.531100015958565,-70.26181551887255,1143.0,Precipitación,Meteorológica,No informado,60 min,2026-08-18T08:00:00+00:00,Sí,fuentes/vismet/README.md
+MAITENES,05707003-K [VISMET-1686],DGA,-33.531100015958565,-70.26181551887255,1143.0,Temperatura,Meteorológica,No informado,60 min,2026-08-18T08:00:00+00:00,Sí,fuentes/vismet/README.md
+Maipo en El Manzano,05710001-K [VISMET-132],DGA,-33.5939,-70.3792,850.0,Precipitación,Meteorológica,No informado,60 min,2011-05-19T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Maipo en El Manzano,05710001-K [VISMET-132],DGA,-33.5939,-70.3792,850.0,Temperatura,Meteorológica,No informado,60 min,2012-01-03T18:00:00+00:00,Sí,fuentes/vismet/README.md
+LA OBRA RECINTO EMOS,05710007-9 [VISMET-1626],DGA,-33.59138166993519,-70.4851540295649,796.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,No,fuentes/vismet/README.md
+LA OBRA RECINTO EMOS,05710007-9 [VISMET-1626],DGA,-33.59138166993519,-70.4851540295649,796.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,No,fuentes/vismet/README.md
+POZO ESTERO EL MANZANO,05710013-3 [VISMET-1596],DGA,-33.58722255440651,-70.39223070506281,891.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO ESTERO EL MANZANO,05710013-3 [VISMET-1596],DGA,-33.58722255440651,-70.39223070506281,891.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PIRQUE,05711003-1 [VISMET-1208],DGA,-33.6736,-70.5869,663.0,Precipitación,Meteorológica,No informado,60 min,2013-12-30T20:00:00+00:00,Sí,fuentes/vismet/README.md
+PIRQUE,05711003-1 [VISMET-1208],DGA,-33.6736,-70.5869,663.0,Temperatura,Meteorológica,No informado,60 min,2013-12-30T18:00:00+00:00,Sí,fuentes/vismet/README.md
+CODEGUA,05713018-0 [VISMET-1851],DGA,-34.05921404535054,-70.62787574357138,612.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CODEGUA,05713018-0 [VISMET-1851],DGA,-34.05921404535054,-70.62787574357138,612.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO ANGOSTURA EN VALDIVIA DE PAINE,05716001-2 [VISMET-1209],DGA,-33.8111,-70.8836,341.0,Precipitación,Meteorológica,No informado,60 min,2013-07-30T20:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO ANGOSTURA EN VALDIVIA DE PAINE,05716001-2 [VISMET-1209],DGA,-33.8111,-70.8836,341.0,Temperatura,Meteorológica,No informado,60 min,2013-07-30T19:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGUNA ACULEO,05716005-5 [VISMET-1210],DGA,-33.8858,-70.8775,375.0,Precipitación,Meteorológica,No informado,60 min,2015-06-04T14:00:00+00:00,Sí,fuentes/vismet/README.md
+LAGUNA ACULEO,05716005-5 [VISMET-1210],DGA,-33.8858,-70.8775,375.0,Temperatura,Meteorológica,No informado,60 min,2015-06-04T12:00:00+00:00,No,fuentes/vismet/README.md
+LAGUNA ACULEO LOS CASTAÑOS,05716011-K [VISMET-1211],DGA,-33.8592,-70.9069,357.0,Temperatura,Meteorológica,No informado,60 min,2014-08-01T01:00:00+00:00,No,fuentes/vismet/README.md
+EL VERGEL,05717008-5 [VISMET-1806],DGA,-33.695866651324295,-70.92369873967596,340.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+EL VERGEL,05717008-5 [VISMET-1806],DGA,-33.695866651324295,-70.92369873967596,340.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Molina antes Junta San Francisco,05720001-4 [VISMET-135],DGA,-33.3733,-70.3961,1158.0,Precipitación,Meteorológica,No informado,60 min,2009-08-06T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Farellones,05720005-7 [VISMET-1834],DGA,-33.35167325973444,-70.31278130727236,2452.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Farellones,05720005-7 [VISMET-1834],DGA,-33.35167325973444,-70.31278130727236,2452.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LA JUNTA,05720006-5 [VISMET-1745],DGA,-33.38889714729756,-70.37334234397362,1222.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LA JUNTA,05720006-5 [VISMET-1745],DGA,-33.38889714729756,-70.37334234397362,1222.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Yerba Loca antes Junta San Francisco,05721001-K [VISMET-136],DGA,-33.3414,-70.3636,1350.0,Precipitación,Meteorológica,No informado,60 min,2009-05-19T15:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Yerba Loca antes Junta San Francisco,05721001-K [VISMET-136],DGA,-33.3414,-70.3636,1350.0,Temperatura,Meteorológica,No informado,60 min,2013-10-21T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Río San Francisco antes Junta Estero Yerba Loca,05721016-8 [VISMET-137],DGA,-33.3086,-70.3572,1550.0,Precipitación,Meteorológica,No informado,60 min,2013-03-24T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Río San Francisco antes Junta Estero Yerba Loca,05721016-8 [VISMET-137],DGA,-33.3086,-70.3572,1550.0,Temperatura,Meteorológica,No informado,60 min,2010-08-12T13:00:00+00:00,No,fuentes/vismet/README.md
+Estero Yerba Loca en Piedra Carvajal,05721017-6 [VISMET-138],DGA,-33.2214,-70.2736,3250.0,Precipitación,Meteorológica,No informado,60 min,2011-10-28T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Yerba Loca en Piedra Carvajal,05721017-6 [VISMET-138],DGA,-33.2214,-70.2736,3250.0,Temperatura,Meteorológica,No informado,60 min,2011-10-28T12:00:00+00:00,Sí,fuentes/vismet/README.md
+LA PARVA,05721019-2 [VISMET-1744],DGA,-33.33052402505304,-70.29731500148172,2703.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T05:00:00+00:00,Sí,fuentes/vismet/README.md
+LA PARVA,05721019-2 [VISMET-1744],DGA,-33.33052402505304,-70.29731500148172,2703.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Arrayán Montosa,05722001-5 [VISMET-139],DGA,-33.3256,-70.4561,880.0,Precipitación,Meteorológica,No informado,60 min,2013-04-23T16:00:00+00:00,No,fuentes/vismet/README.md
+Estero Arrayán Montosa,05722001-5 [VISMET-139],DGA,-33.3256,-70.4561,880.0,Temperatura,Meteorológica,No informado,60 min,2013-08-05T13:00:00+00:00,No,fuentes/vismet/README.md
+Mapocho Los Almendros,05722002-3 [VISMET-939],DGA,-33.3703,-70.4508,966.0,Precipitación,Meteorológica,No informado,60 min,2000-03-15T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Mapocho Los Almendros,05722002-3 [VISMET-939],DGA,-33.3703,-70.4508,966.0,Temperatura,Meteorológica,No informado,60 min,1999-08-02T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Mapocho en los Almendros Gprs,05722007-4 [VISMET-140],DGA,-33.3706,-70.4508,965.0,Precipitación,Meteorológica,No informado,60 min,2016-04-22T19:00:00+00:00,No,fuentes/vismet/README.md
+PARQUE EL ARRAYAN,05722008-2 [VISMET-1624],DGA,-33.33834110511216,-70.46917537224756,970.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+PARQUE EL ARRAYAN,05722008-2 [VISMET-1624],DGA,-33.33834110511216,-70.46917537224756,970.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+QUEBRADA RAMON EN RECINTO EMOS,05730008-6 [VISMET-1212],DGA,-33.4331,-70.5142,846.0,Precipitación,Meteorológica,No informado,60 min,2013-12-06T17:00:00+00:00,Sí,fuentes/vismet/README.md
+Cerro Calán,05730012-4 [VISMET-141],DGA,-33.395,-70.5367,848.0,Precipitación,Meteorológica,No informado,60 min,2000-06-22T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Cerro Calán,05730012-4 [VISMET-141],DGA,-33.395,-70.5367,848.0,Temperatura,Meteorológica,No informado,60 min,2000-06-22T19:00:00+00:00,Sí,fuentes/vismet/README.md
+ANTUPIREN,05730013-2 [VISMET-1805],DGA,-33.49675346032057,-70.51626954376941,904.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+ANTUPIREN,05730013-2 [VISMET-1805],DGA,-33.49675346032057,-70.51626954376941,904.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+Terraza Oficinas Centrales DGA,05730016-7 [VISMET-142],DGA,-33.4486,-70.6444,560.0,Precipitación,Meteorológica,No informado,60 min,2009-04-06T23:00:00+00:00,No,fuentes/vismet/README.md
+Terraza Oficinas Centrales DGA,05730016-7 [VISMET-142],DGA,-33.4486,-70.6444,560.0,Temperatura,Meteorológica,No informado,60 min,2009-01-01T00:00:00+00:00,No,fuentes/vismet/README.md
+Quebrada de Macul,05730039-6 [VISMET-143],DGA,-33.5017,-70.5144,950.0,Precipitación,Meteorológica,No informado,60 min,2003-07-01T04:00:00+00:00,No,fuentes/vismet/README.md
+Quebrada de Macul,05730039-6 [VISMET-143],DGA,-33.5017,-70.5144,950.0,Temperatura,Meteorológica,No informado,60 min,2003-05-10T01:00:00+00:00,No,fuentes/vismet/README.md
+QUEBRADA DE RAMON 1,05730061-2 [VISMET-1849],DGA,-33.43833551384825,-70.49667531659213,1110.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+QUEBRADA DE RAMON 1,05730061-2 [VISMET-1849],DGA,-33.43833551384825,-70.49667531659213,1110.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+QUEBRADA DE RAMON 2,05730062-0 [VISMET-1565],DGA,-33.43528330692158,-70.50445363676378,973.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+QUEBRADA DE RAMON 2,05730062-0 [VISMET-1565],DGA,-33.43528330692158,-70.50445363676378,973.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,No,fuentes/vismet/README.md
+POZO CERRILLOS,05730063-9 [VISMET-1835],DGA,-33.50972414981842,-70.71389154260982,512.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO CERRILLOS,05730063-9 [VISMET-1835],DGA,-33.50972414981842,-70.71389154260982,512.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+HUECHUN EMBALSE,05732001-K [VISMET-1563],DGA,-33.085624196294255,-70.80177676176991,556.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+HUECHUN EMBALSE,05732001-K [VISMET-1563],DGA,-33.085624196294255,-70.80177676176991,556.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+HUECHUN ANDINA,05732002-8 [VISMET-1803],DGA,-33.072550516054534,-70.76754404665604,590.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+HUECHUN ANDINA,05732002-8 [VISMET-1803],DGA,-33.072550516054534,-70.76754404665604,590.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RINCON DE LOS VALLES,05733006-6 [VISMET-1713],DGA,-32.94760973321001,-70.75325464186467,955.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RINCON DE LOS VALLES,05733006-6 [VISMET-1713],DGA,-32.94760973321001,-70.75325464186467,955.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CALEU,05733007-4 [VISMET-1214],DGA,-33.0053,-70.9933,1135.0,Precipitación,Meteorológica,No informado,60 min,2017-12-14T16:00:00+00:00,Sí,fuentes/vismet/README.md
+CALEU,05733007-4 [VISMET-1214],DGA,-33.0053,-70.9933,1135.0,Temperatura,Meteorológica,No informado,60 min,2017-12-18T12:00:00+00:00,Sí,fuentes/vismet/README.md
+RUNGUE EMBALSE,05733008-2 [VISMET-1773],DGA,-33.01994233532192,-70.9079487819015,700.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RUNGUE EMBALSE,05733008-2 [VISMET-1773],DGA,-33.01994233532192,-70.9079487819015,700.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+FUNDO LAS BATEAS,05733010-4 [VISMET-1623],DGA,-32.94752539045841,-70.80663855891092,810.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+FUNDO LAS BATEAS,05733010-4 [VISMET-1623],DGA,-32.94752539045841,-70.80663855891092,810.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Cuesta La Dormida (Ex TIL TIL),05733018-K [VISMET-1683],DGA,-33.07583699273777,-70.94417084987683,682.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Cuesta La Dormida (Ex TIL TIL),05733018-K [VISMET-1683],DGA,-33.07583699273777,-70.94417084987683,682.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO CANCHA POLPAICO,05733020-1 [VISMET-1714],DGA,-33.16889082200616,-70.89056072260651,518.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO CANCHA POLPAICO,05733020-1 [VISMET-1714],DGA,-33.16889082200616,-70.89056072260651,518.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO COLINA EN PELDEHUE,05735001-6 [VISMET-1774],DGA,-33.20199584297923,-70.58803176970528,860.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CHICUREO,05736012-7 [VISMET-1594],DGA,-33.283612953246354,-70.65112090073944,560.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CHICUREO,05736012-7 [VISMET-1594],DGA,-33.283612953246354,-70.65112090073944,560.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Mapocho Rinconada  de Maipu,05737002-5 [VISMET-145],DGA,-33.4961,-70.8167,440.0,Precipitación,Meteorológica,No informado,60 min,2001-04-24T12:00:00+00:00,No,fuentes/vismet/README.md
+Mapocho Rinconada  de Maipu,05737002-5 [VISMET-145],DGA,-33.4961,-70.8167,440.0,Temperatura,Meteorológica,No informado,60 min,2013-08-09T13:00:00+00:00,No,fuentes/vismet/README.md
+FUNDO MARRUECOS,05737008-4 [VISMET-1566],DGA,-33.555381489850625,-70.82252255930347,430.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+FUNDO MARRUECOS,05737008-4 [VISMET-1566],DGA,-33.555381489850625,-70.82252255930347,430.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+CARMEN DE LAS ROSAS,05740004-8 [VISMET-1656],DGA,-33.759970868947754,-71.15760473784144,165.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+MELIPILLA,05740005-6 [VISMET-1216],DGA,-33.6803,-71.1997,271.0,Precipitación,Meteorológica,No informado,60 min,2010-12-16T17:00:00+00:00,Sí,fuentes/vismet/README.md
+MELIPILLA,05740005-6 [VISMET-1216],DGA,-33.6803,-71.1997,271.0,Temperatura,Meteorológica,No informado,60 min,2010-12-16T12:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO HORCON DE PIEDRA,05740019-6 [VISMET-1807],DGA,-33.78389723168076,-71.10778678465029,179.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO HORCON DE PIEDRA,05740019-6 [VISMET-1807],DGA,-33.78389723168076,-71.10778678465029,179.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO RIO MAIPO EN HUECHUN,05740020-K [VISMET-1716],DGA,-33.722785772773285,-71.28973173121602,109.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO RIO MAIPO EN HUECHUN,05740020-K [VISMET-1716],DGA,-33.722785772773285,-71.28973173121602,109.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+COLLIGUAY,05741002-7 [VISMET-1654],DGA,-33.16849150460916,-71.14651038013761,490.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+COLLIGUAY,05741002-7 [VISMET-1654],DGA,-33.16849150460916,-71.14651038013761,490.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ESTADIO CUYUNCAVI,05743002-8 [VISMET-1775],DGA,-33.39222749156962,-71.12056393086476,221.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+ESTADIO CUYUNCAVI,05743002-8 [VISMET-1775],DGA,-33.39222749156962,-71.12056393086476,221.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LOS PANGUILES,05744002-3 [VISMET-1217],DGA,-33.4386,-71.0256,195.0,Precipitación,Meteorológica,No informado,60 min,2014-06-13T17:00:00+00:00,Sí,fuentes/vismet/README.md
+LOS PANGUILES,05744002-3 [VISMET-1217],DGA,-33.4386,-71.0256,195.0,Temperatura,Meteorológica,No informado,60 min,2014-06-13T13:00:00+00:00,Sí,fuentes/vismet/README.md
+IBACACHE ALTO,05744003-1 [VISMET-1595],DGA,-33.480542815009215,-71.28145179586558,169.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+IBACACHE ALTO,05744003-1 [VISMET-1595],DGA,-33.480542815009215,-71.28145179586558,169.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+MALLARAUCO,05745001-0 [VISMET-1218],DGA,-33.5697,-71.1061,180.0,Precipitación,Meteorológica,No informado,60 min,2017-12-13T18:00:00+00:00,Sí,fuentes/vismet/README.md
+MALLARAUCO,05745001-0 [VISMET-1218],DGA,-33.5697,-71.1061,180.0,Temperatura,Meteorológica,No informado,60 min,2017-12-13T12:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Puangue en Ruta 78,05746001-6 [VISMET-149],DGA,-33.6614,-71.3372,93.0,Precipitación,Meteorológica,No informado,60 min,2010-12-03T10:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero Puangue en Ruta 78,05746001-6 [VISMET-149],DGA,-33.6614,-71.3372,93.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Guindos,05747001-1 [VISMET-1289],DGA,-33.89083333333333,-71.23361111111112,125.0,Precipitación,Meteorológica,No informado,60 min,2019-09-03T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Guindos,05747001-1 [VISMET-1289],DGA,-33.89083333333333,-71.23361111111112,125.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO MELIPILLA ULMEN,05747014-3 [VISMET-1597],DGA,-33.83972729111243,-71.3666775875619,149.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO MELIPILLA ULMEN,05747014-3 [VISMET-1597],DGA,-33.83972729111243,-71.3666775875619,149.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Maipo en Cabimbao,05748001-7 [VISMET-150],DGA,-33.7219,-71.555,35.0,Precipitación,Meteorológica,No informado,60 min,2011-10-13T18:00:00+00:00,Sí,fuentes/vismet/README.md
+CERRILLOS DE LEYDA,05748003-3 [VISMET-1219],DGA,-33.6344,-71.5106,195.0,Precipitación,Meteorológica,No informado,60 min,2017-12-13T19:00:00+00:00,Sí,fuentes/vismet/README.md
+CERRILLOS DE LEYDA,05748003-3 [VISMET-1219],DGA,-33.6344,-71.5106,195.0,Temperatura,Meteorológica,No informado,60 min,2017-12-13T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Rinconada San Juan,05748005-K [VISMET-1536],DGA,-33.762781085936325,-71.51750182527802,170.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Rinconada San Juan,05748005-K [VISMET-1536],DGA,-33.762781085936325,-71.51750182527802,170.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LICEO MUNICIPAL SAN PEDRO ANEXO MEDIA,05800009-4 [VISMET-1627],DGA,-33.90833498109075,-71.42028289857772,151.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LICEO MUNICIPAL SAN PEDRO ANEXO MEDIA,05800009-4 [VISMET-1627],DGA,-33.90833498109075,-71.42028289857772,151.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO SAN VICENTE,05800010-8 [VISMET-2186],DGA,-34.04834198902126,-71.38111545072478,180.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO SAN VICENTE,05800010-8 [VISMET-2186],DGA,-34.04834198902126,-71.38111545072478,180.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO RINCONADA LONGOVILO,05800012-4 [VISMET-1567],DGA,-33.913338383338726,-71.36416964390196,166.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO RINCONADA LONGOVILO,05800012-4 [VISMET-1567],DGA,-33.913338383338726,-71.36416964390196,166.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO ESCUELA EL PRADO,05800013-2 [VISMET-1657],DGA,-33.91972218031443,-71.51472487102349,131.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO ESCUELA EL PRADO,05800013-2 [VISMET-1657],DGA,-33.91972218031443,-71.51472487102349,131.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Leñas Cachapoal,06000003-4 [VISMET-152],DGA,-34.3628,-70.3056,1296.0,Precipitación,Meteorológica,No informado,60 min,2013-07-05T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Leñas Cachapoal,06000003-4 [VISMET-152],DGA,-34.3628,-70.3056,1296.0,Temperatura,Meteorológica,No informado,60 min,2013-07-05T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Laguna el Yeso,06000004-2 [VISMET-153],DGA,-34.4078,-70.21,2140.0,Precipitación,Meteorológica,No informado,60 min,2015-06-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Laguna el Yeso,06000004-2 [VISMET-153],DGA,-34.4078,-70.21,2140.0,Temperatura,Meteorológica,No informado,60 min,2013-04-11T12:00:00+00:00,No,fuentes/vismet/README.md
+GLACIAR CORTADERAL,06001000-5 [VISMET-1220],DGA,-34.66082011083521,-70.25616058848219,3156.0,Precipitación,Meteorológica,No informado,60 min,2018-05-31T17:00:00+00:00,No,fuentes/vismet/README.md
+GLACIAR CORTADERAL,06001000-5 [VISMET-1220],DGA,-34.66082011083521,-70.25616058848219,3156.0,Temperatura,Meteorológica,No informado,60 min,2018-05-31T13:00:00+00:00,No,fuentes/vismet/README.md
+LOS PEJERREYES,06002002-7 [VISMET-2202],DGA,-34.45576801322702,-70.27946950899779,1679.0,Precipitación,Meteorológica,No informado,60 min,2026-08-08T20:00:00+00:00,Sí,fuentes/vismet/README.md
+LOS PEJERREYES,06002002-7 [VISMET-2202],DGA,-34.45576801322702,-70.27946950899779,1679.0,Temperatura,Meteorológica,No informado,60 min,2026-08-08T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Cachapoal 5 km a. Jta Cortaderal,06003001-4 [VISMET-155],DGA,-34.3464,-70.3764,1127.0,Precipitación,Meteorológica,No informado,60 min,2000-01-03T11:00:00+00:00,Sí,fuentes/vismet/README.md
+Cachapoal 5 km a. Jta Cortaderal,06003001-4 [VISMET-155],DGA,-34.3464,-70.3764,1127.0,Temperatura,Meteorológica,No informado,60 min,2009-12-02T00:00:00+00:00,Sí,fuentes/vismet/README.md
+GLACIAR CIPRESES,06003004-9 [VISMET-1221],DGA,-34.53619436256587,-70.41742793311516,1880.0,Precipitación,Meteorológica,No informado,60 min,2016-11-23T16:00:00+00:00,No,fuentes/vismet/README.md
+GLACIAR CIPRESES,06003004-9 [VISMET-1221],DGA,-34.53619436256587,-70.41742793311516,1880.0,Temperatura,Meteorológica,No informado,60 min,2016-11-23T12:00:00+00:00,No,fuentes/vismet/README.md
+CERRO TENIENTE,06005005-8 [VISMET-2229],DGA,-34.20458997604626,-70.26920353672476,3460.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T05:00:00+00:00,Sí,fuentes/vismet/README.md
+Pangal en Pangal,06006001-0 [VISMET-156],DGA,-34.2467,-70.3281,1500.0,Precipitación,Meteorológica,No informado,60 min,2001-11-28T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Pangal en Pangal,06006001-0 [VISMET-156],DGA,-34.2467,-70.3281,1500.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Canal Sauzal en Puente Termas,06008009-7 [VISMET-158],DGA,-34.2403,-70.5506,750.0,Precipitación,Meteorológica,No informado,60 min,2005-07-29T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Canal Sauzal en Puente Termas,06008009-7 [VISMET-158],DGA,-34.2403,-70.5506,750.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Rancagua Endesa,06010015-2 [VISMET-159],DGA,-34.1908,-70.7508,515.0,Precipitación,Meteorológica,No informado,60 min,2002-10-25T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Rancagua Endesa,06010015-2 [VISMET-159],DGA,-34.1908,-70.7508,515.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero de la Cadena antes Junta Río Cachapoal,06011001-8 [VISMET-160],DGA,-34.1842,-70.8436,440.0,Precipitación,Meteorológica,No informado,60 min,2016-12-16T14:00:00+00:00,Sí,fuentes/vismet/README.md
+Estero de la Cadena antes Junta Río Cachapoal,06011001-8 [VISMET-160],DGA,-34.1842,-70.8436,440.0,Temperatura,Meteorológica,No informado,60 min,2016-12-16T12:00:00+00:00,Sí,fuentes/vismet/README.md
+COLTAUCO,06012003-K [VISMET-1989],DGA,-34.28743337674789,-71.0800261922097,253.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+COLTAUCO,06012003-K [VISMET-1989],DGA,-34.28743337674789,-71.0800261922097,253.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Claro Hac. Las Nieves,06013001-9 [VISMET-162],DGA,-34.4922,-70.7028,720.0,Precipitación,Meteorológica,No informado,60 min,2015-06-10T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Claro Hac. Las Nieves,06013001-9 [VISMET-162],DGA,-34.4922,-70.7028,720.0,Temperatura,Meteorológica,No informado,60 min,2013-07-08T13:00:00+00:00,Sí,fuentes/vismet/README.md
+POPETA,06013005-1 [VISMET-1893],DGA,-34.44015479465827,-70.7811534345605,480.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POPETA,06013005-1 [VISMET-1893],DGA,-34.44015479465827,-70.7811534345605,480.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Laguna los Cristales,06013008-6 [VISMET-163],DGA,-34.5606,-70.5097,2343.0,Precipitación,Meteorológica,No informado,60 min,2015-03-01T02:00:00+00:00,Sí,fuentes/vismet/README.md
+Laguna los Cristales,06013008-6 [VISMET-163],DGA,-34.5606,-70.5097,2343.0,Temperatura,Meteorológica,No informado,60 min,2013-03-09T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Río Claro en Tunca,06015001-K [VISMET-1306],DGA,-34.385555555555555,-71.10166666666666,480.0,Precipitación,Meteorológica,No informado,60 min,2020-05-04T23:00:00+00:00,No,fuentes/vismet/README.md
+RENGO,06015003-6 [VISMET-1988],DGA,-34.39851152091101,-70.83149356661549,352.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RENGO,06015003-6 [VISMET-1988],DGA,-34.39851152091101,-70.83149356661549,352.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+QUINTA DE TILCOCO,06015030-3 [VISMET-2201],DGA,-34.347503911353215,-70.97417278742267,272.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+QUINTA DE TILCOCO,06015030-3 [VISMET-2201],DGA,-34.347503911353215,-70.97417278742267,272.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+San Fernando,06016004-K [VISMET-164],DGA,-34.5983,-70.9686,350.0,Precipitación,Meteorológica,No informado,60 min,2002-10-25T12:00:00+00:00,Sí,fuentes/vismet/README.md
+San Fernando,06016004-K [VISMET-164],DGA,-34.5983,-70.9686,350.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+MILLAHUE,06018010-5 [VISMET-1987],DGA,-34.525779507158916,-71.2081390958934,200.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+MILLAHUE,06018010-5 [VISMET-1987],DGA,-34.525779507158916,-71.2081390958934,200.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+TRANQUE LAS PATAGUAS,06018030-K [VISMET-1853],DGA,-34.53272766222917,-71.16908147832342,235.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Cachapoal en Pte Arqueado,06019003-8 [VISMET-165],DGA,-34.2731,-71.3717,115.0,Precipitación,Meteorológica,No informado,60 min,2002-09-25T23:00:00+00:00,Sí,fuentes/vismet/README.md
+PICHIDEGUA,06019005-4 [VISMET-1986],DGA,-34.28762491244362,-71.41130948024828,110.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PICHIDEGUA,06019005-4 [VISMET-1986],DGA,-34.28762491244362,-71.41130948024828,110.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Termas del Flaco,06020001-7 [VISMET-167],DGA,-34.891666666666666,-70.32972222222222,2650.0,Precipitación,Meteorológica,No informado,60 min,2024-04-19T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Termas del Flaco,06020001-7 [VISMET-167],DGA,-34.891666666666666,-70.32972222222222,2650.0,Temperatura,Meteorológica,No informado,60 min,1999-06-22T13:00:00+00:00,Sí,fuentes/vismet/README.md
+CERRO LOS GUZMANES,06021002-0 [VISMET-1985],DGA,-34.88611555529868,-70.46361343498845,3125.0,Precipitación,Meteorológica,No informado,60 min,2026-08-04T17:00:00+00:00,Sí,fuentes/vismet/README.md
+CERRO LOS GUZMANES,06021002-0 [VISMET-1985],DGA,-34.88611555529868,-70.46361343498845,3125.0,Temperatura,Meteorológica,No informado,60 min,2026-08-04T17:00:00+00:00,Sí,fuentes/vismet/README.md
+PUEBLO TERMAS DEL FLACO METEOROLOGICA,06021003-9 [VISMET-1984],DGA,-34.95473088009796,-70.44027920126659,1765.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+PUEBLO TERMAS DEL FLACO METEOROLOGICA,06021003-9 [VISMET-1984],DGA,-34.95473088009796,-70.44027920126659,1765.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Glaciar Universidad en Río San Andres,06023000-5 [VISMET-168],DGA,-34.72027777777778,-70.35916666666667,2429.0,Precipitación,Meteorológica,No informado,60 min,2014-01-28T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Glaciar Universidad en Río San Andres,06023000-5 [VISMET-168],DGA,-34.72027777777778,-70.35916666666667,2429.0,Temperatura,Meteorológica,No informado,60 min,2011-06-07T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Claro Valle dos,06027001-5 [VISMET-169],DGA,-34.6867,-70.8739,476.0,Precipitación,Meteorológica,No informado,60 min,2016-04-27T19:00:00+00:00,Sí,fuentes/vismet/README.md
+LA RUFINA,06027003-1 [VISMET-1894],DGA,-34.743038492297686,-70.7518153103377,743.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA RUFINA,06027003-1 [VISMET-1894],DGA,-34.743038492297686,-70.7518153103377,743.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PUENTE NEGRO METEOROLOGICA,06027004-K [VISMET-1933],DGA,-34.69222894491949,-70.87611451113699,500.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PUENTE NEGRO METEOROLOGICA,06027004-K [VISMET-1933],DGA,-34.69222894491949,-70.87611451113699,500.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Tinguiririca Los Briones,06028001-0 [VISMET-170],DGA,-34.7186,-70.8267,560.0,Precipitación,Meteorológica,No informado,60 min,2000-01-03T11:00:00+00:00,Sí,fuentes/vismet/README.md
+Tinguiririca Los Briones,06028001-0 [VISMET-170],DGA,-34.7186,-70.8267,560.0,Temperatura,Meteorológica,No informado,60 min,2013-12-16T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Convento Viejo,06034003-K [VISMET-174],DGA,-34.7694,-71.1331,239.0,Precipitación,Meteorológica,No informado,60 min,2015-06-04T19:00:00+00:00,Sí,fuentes/vismet/README.md
+Convento Viejo,06034003-K [VISMET-174],DGA,-34.7694,-71.1331,239.0,Temperatura,Meteorológica,No informado,60 min,2016-11-23T18:00:00+00:00,Sí,fuentes/vismet/README.md
+LA CANDELARIA,06036001-4 [VISMET-1934],DGA,-34.78096572756563,-71.41454758290176,213.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA CANDELARIA,06036001-4 [VISMET-1934],DGA,-34.78096572756563,-71.41454758290176,213.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+VILLA ALHUE,06040001-6 [VISMET-1983],DGA,-34.03504922269673,-71.09407466330664,197.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+VILLA ALHUE,06040001-6 [VISMET-1983],DGA,-34.03504922269673,-71.09407466330664,197.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LA PUNTILLA,06041010-0 [VISMET-1931],DGA,-34.03000621059774,-71.12000691308032,160.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO LA PUNTILLA,06041010-0 [VISMET-1931],DGA,-34.03000621059774,-71.12000691308032,160.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+BARRERA LONCHA,06042004-1 [VISMET-1982],DGA,-34.07831273195525,-71.19517478995593,144.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+BARRERA LONCHA,06042004-1 [VISMET-1982],DGA,-34.07831273195525,-71.19517478995593,144.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+ALHUE QUILAMUTA,06043006-3 [VISMET-1981],DGA,-34.0697672516288,-71.26117421995663,146.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+ALHUE QUILAMUTA,06043006-3 [VISMET-1981],DGA,-34.0697672516288,-71.26117421995663,146.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+COCALAN,06044001-8 [VISMET-1932],DGA,-34.20677199025091,-71.27891392393221,120.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+COCALAN,06044001-8 [VISMET-1932],DGA,-34.20677199025091,-71.27891392393221,120.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO MARCHIGUE,06051009-1 [VISMET-1980],DGA,-34.39926390018739,-71.61271280416946,136.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+POZO MARCHIGUE,06051009-1 [VISMET-1980],DGA,-34.39926390018739,-71.61271280416946,136.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Guadalao,06052006-2 [VISMET-2205],DGA,-34.259168683705255,-71.54472302557377,142.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+Guadalao,06052006-2 [VISMET-2205],DGA,-34.259168683705255,-71.54472302557377,142.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA AGUADA,06052007-0 [VISMET-1892],DGA,-34.2533355300455,-71.7286122237829,282.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LA AGUADA,06052007-0 [VISMET-1892],DGA,-34.2533355300455,-71.7286122237829,282.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LITUECHE,06055003-4 [VISMET-1979],DGA,-34.11673147080669,-71.72951424684445,250.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LITUECHE,06055003-4 [VISMET-1979],DGA,-34.11673147080669,-71.72951424684445,250.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO RAPEL EN UCUQUER,06055008-5 [VISMET-1777],DGA,-33.99700066677135,-71.65429366790273,42.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RIO RAPEL EN UCUQUER,06055008-5 [VISMET-1777],DGA,-33.99700066677135,-71.65429366790273,42.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RAPEL,06056003-K [VISMET-1837],DGA,-33.948216097344144,-71.73427647458341,16.0,Precipitación,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+RAPEL,06056003-K [VISMET-1837],DGA,-33.948216097344144,-71.73427647458341,16.0,Temperatura,Meteorológica,No informado,60 min,2026-07-05T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PASO EL SOLDADO,06110003-2 [VISMET-2204],DGA,-34.13028624093515,-71.89944952533239,272.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+PASO EL SOLDADO,06110003-2 [VISMET-2204],DGA,-34.13028624093515,-71.89944952533239,272.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+Pichilemu,06120001-0 [VISMET-181],DGA,-34.3844,-72.0044,5.0,Precipitación,Meteorológica,No informado,60 min,2014-12-04T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Pichilemu,06120001-0 [VISMET-181],DGA,-34.3844,-72.0044,5.0,Temperatura,Meteorológica,No informado,60 min,2019-06-18T23:00:00+00:00,Sí,fuentes/vismet/README.md
+EL MEMBRILLO,06130001-5 [VISMET-2197],DGA,-34.80861701343384,-71.61244800556922,110.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+EL MEMBRILLO,06130001-5 [VISMET-2197],DGA,-34.80861701343384,-71.61244800556922,110.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+RANGUILI,06130002-3 [VISMET-1978],DGA,-34.866455912665515,-71.74960876099716,120.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+RANGUILI,06130002-3 [VISMET-1978],DGA,-34.866455912665515,-71.74960876099716,120.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+LOLOL,06131004-5 [VISMET-1977],DGA,-34.72977815929984,-71.67503933007285,429.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+LOLOL,06131004-5 [VISMET-1977],DGA,-34.72977815929984,-71.67503933007285,429.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+NILAHUE BARAHONA,06132002-4 [VISMET-1976],DGA,-34.57358142074703,-71.76651405494125,90.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+NILAHUE BARAHONA,06132002-4 [VISMET-1976],DGA,-34.57358142074703,-71.76651405494125,90.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T02:00:00+00:00,Sí,fuentes/vismet/README.md
+CAHUIL,06132006-7 [VISMET-2198],DGA,-34.533201239242146,-71.98328307075762,13.0,Precipitación,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+CAHUIL,06132006-7 [VISMET-2198],DGA,-34.533201239242146,-71.98328307075762,13.0,Temperatura,Meteorológica,No informado,60 min,2026-09-05T01:00:00+00:00,Sí,fuentes/vismet/README.md
+PUMANQUE,06132010-5 [VISMET-2200],DGA,-34.601670062578805,-71.6558337722414,146.0,Precipitación,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
+PUMANQUE,06132010-5 [VISMET-2200],DGA,-34.601670062578805,-71.6558337722414,146.0,Temperatura,Meteorológica,No informado,60 min,2026-08-03T04:00:00+00:00,Sí,fuentes/vismet/README.md
 Visviri Tenencia,170001 [VISMET-439],DMC,-17.595,-69.4769,4084.0,Precipitación,Meteorológica,No informado,60 min,2014-01-01T01:00:00+00:00,No,fuentes/vismet/README.md
 Visviri Tenencia,170001 [VISMET-439],DMC,-17.595,-69.4769,4084.0,Temperatura,Meteorológica,No informado,60 min,2014-01-01T01:00:00+00:00,No,fuentes/vismet/README.md
 "Chacalluta, Arica Ap.",180005 [VISMET-1368],DMC,-18.35556,-70.34028,50.0,Precipitación,Meteorológica,No informado,60 min,2021-01-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
@@ -652,6 +1346,8 @@ Mejillones,230022 [VISMET-1276],DMC,-23.10917,-70.44056,31.0,Temperatura,Meteoro
 "Cerro Paranal, observatorio astronómico",240005 [VISMET-1293],DMC,-24.6275,-70.40472,2648.0,Temperatura,Meteorológica,No informado,60 min,2019-12-04T10:00:00+00:00,Sí,fuentes/vismet/README.md
 Taltal,250005 [VISMET-444],DMC,-25.4111,-70.4842,37.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
 Taltal,250005 [VISMET-444],DMC,-25.4111,-70.4842,37.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Mataveri  Isla de Pascua Ap.,270001 [VISMET-445],DMC,-27.1606,-109.427,48.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Mataveri  Isla de Pascua Ap.,270001 [VISMET-445],DMC,-27.1606,-109.427,48.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
 "Desierto de Atacama, Caldera  Ad.",270008 [VISMET-1369],DMC,-27.25444,-70.78111,197.0,Precipitación,Meteorológica,No informado,60 min,2021-01-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
 "Desierto de Atacama, Caldera  Ad.",270008 [VISMET-1369],DMC,-27.25444,-70.78111,197.0,Temperatura,Meteorológica,No informado,60 min,2021-01-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
 Copiapó Universidad de Atacama,270009 [VISMET-915],DMC,-27.35888888888889,-70.35333333333332,362.0,Precipitación,Meteorológica,No informado,60 min,2016-12-21T22:00:00+00:00,Sí,fuentes/vismet/README.md
@@ -664,16 +1360,268 @@ Freirina Nicolasa,280010 [VISMET-916],DMC,-28.516944444444444,-71.01,156.0,Preci
 Freirina Nicolasa,280010 [VISMET-916],DMC,-28.516944444444444,-71.01,156.0,Temperatura,Meteorológica,No informado,60 min,2016-12-21T21:00:00+00:00,No,fuentes/vismet/README.md
 "Alto del Carmen, Los Sauces",280028 [VISMET-1495],DMC,-28.77778,-70.47055,854.0,Precipitación,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
 "Alto del Carmen, Los Sauces",280028 [VISMET-1495],DMC,-28.77778,-70.47055,854.0,Temperatura,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
+San Felipe Escuela Agrícola,320019 [VISMET-1283],DMC,-32.75528,-70.70694,662.0,Precipitación,Meteorológica,No informado,60 min,2019-07-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+San Felipe Escuela Agrícola,320019 [VISMET-1283],DMC,-32.75528,-70.70694,662.0,Temperatura,Meteorológica,No informado,60 min,2019-07-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar  Ad. (Torquemada),320041 [VISMET-1164],DMC,-32.94944,-71.47444,141.0,Precipitación,Meteorológica,No informado,60 min,2019-01-01T15:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar  Ad. (Torquemada),320041 [VISMET-1164],DMC,-32.94944,-71.47444,141.0,Temperatura,Meteorológica,No informado,60 min,2018-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Llay Llay, Las Peñas",320045 [VISMET-920],DMC,-32.88138888888889,-70.91305555555556,436.0,Precipitación,Meteorológica,No informado,60 min,2017-10-24T15:00:00+00:00,Sí,fuentes/vismet/README.md
+"Llay Llay, Las Peñas",320045 [VISMET-920],DMC,-32.88138888888889,-70.91305555555556,436.0,Temperatura,Meteorológica,No informado,60 min,2017-10-24T15:00:00+00:00,Sí,fuentes/vismet/README.md
+Chincolco Liceo agrícola,320049 [VISMET-921],DMC,-32.222500000000004,-70.83166666666666,665.0,Precipitación,Meteorológica,No informado,60 min,2017-10-13T17:00:00+00:00,Sí,fuentes/vismet/README.md
+Chincolco Liceo agrícola,320049 [VISMET-921],DMC,-32.222500000000004,-70.83166666666666,665.0,Temperatura,Meteorológica,No informado,60 min,2017-10-13T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Libertadores,320051 [VISMET-447],DMC,-32.8456,-70.1192,2955.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Libertadores,320051 [VISMET-447],DMC,-32.8456,-70.1192,2955.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,No,fuentes/vismet/README.md
+Catemu,320055 [VISMET-1418],DMC,-32.75889,-70.94278,443.0,Precipitación,Meteorológica,No informado,60 min,2022-08-03T08:00:00+00:00,Sí,fuentes/vismet/README.md
+Catemu,320055 [VISMET-1418],DMC,-32.75889,-70.94278,443.0,Temperatura,Meteorológica,No informado,60 min,2022-08-03T08:00:00+00:00,Sí,fuentes/vismet/README.md
+"Quintero, Climatológica",320056 [VISMET-953],DMC,-32.784166666666664,-71.52277777777778,5.0,Precipitación,Meteorológica,No informado,60 min,2018-04-18T22:00:00+00:00,Sí,fuentes/vismet/README.md
+"Quintero, Climatológica",320056 [VISMET-953],DMC,-32.784166666666664,-71.52277777777778,5.0,Temperatura,Meteorológica,No informado,60 min,2018-04-18T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Zapallar Catapilco,320063 [VISMET-922],DMC,-32.561388888888885,-71.29777777777778,81.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Zapallar Catapilco,320063 [VISMET-922],DMC,-32.561388888888885,-71.29777777777778,81.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+El TÃ¡rtaro (Putaendo),320121 [VISMET-1496],DMC,-32.57083,-70.70417,933.0,Precipitación,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
+El TÃ¡rtaro (Putaendo),320121 [VISMET-1496],DMC,-32.57083,-70.70417,933.0,Temperatura,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
+Panquehue,320122 [VISMET-1497],DMC,-32.76917,-70.835,519.0,Precipitación,Meteorológica,No informado,60 min,2026-08-04T13:00:00+00:00,Sí,fuentes/vismet/README.md
+Panquehue,320122 [VISMET-1497],DMC,-32.76917,-70.835,519.0,Temperatura,Meteorológica,No informado,60 min,2026-08-04T13:00:00+00:00,Sí,fuentes/vismet/README.md
+"San Esteban, Liceo",320123 [VISMET-1498],DMC,-32.80111,-70.57805,835.0,Precipitación,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
+"San Esteban, Liceo",320123 [VISMET-1498],DMC,-32.80111,-70.57805,835.0,Temperatura,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
+"Quillota, Liceo AgrÃ­cola",320124 [VISMET-1499],DMC,-32.90722,-71.27139,123.0,Precipitación,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
+"Quillota, Liceo AgrÃ­cola",320124 [VISMET-1499],DMC,-32.90722,-71.27139,123.0,Temperatura,Meteorológica,No informado,60 min,2026-08-04T12:00:00+00:00,Sí,fuentes/vismet/README.md
+"Planta Transmisora Quintero, Armada",320127 [VISMET-2392],DMC,-32.80361,-71.48444,73.0,Precipitación,Meteorológica,No informado,60 min,2026-10-16T04:00:00+00:00,Sí,fuentes/vismet/README.md
+"Planta Transmisora Quintero, Armada",320127 [VISMET-2392],DMC,-32.80361,-71.48444,73.0,Temperatura,Meteorológica,No informado,60 min,2026-10-16T04:00:00+00:00,Sí,fuentes/vismet/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006 [VISMET-448],DMC,-33.0492,-71.5017,50.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006 [VISMET-448],DMC,-33.0492,-71.5017,50.0,Temperatura,Meteorológica,No informado,60 min,2016-12-09T16:00:00+00:00,Sí,fuentes/vismet/README.md
+"Rodelillo, Ad.",330007 [VISMET-449],DMC,-33.0367,-71.5342,330.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Rodelillo, Ad.",330007 [VISMET-449],DMC,-33.0367,-71.5342,330.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019 [VISMET-1273],DMC,-33.45528,-70.54861,650.0,Precipitación,Meteorológica,No informado,60 min,2019-03-25T17:00:00+00:00,Sí,fuentes/vismet/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019 [VISMET-1273],DMC,-33.45528,-70.54861,650.0,Temperatura,Meteorológica,No informado,60 min,2021-03-22T19:00:00+00:00,Sí,fuentes/vismet/README.md
+"Quinta Normal, Santiago",330020 [VISMET-450],DMC,-33.445,-70.6828,534.0,Precipitación,Meteorológica,No informado,60 min,2017-04-03T21:00:00+00:00,Sí,fuentes/vismet/README.md
+"Quinta Normal, Santiago",330020 [VISMET-450],DMC,-33.445,-70.6828,534.0,Temperatura,Meteorológica,No informado,60 min,2017-04-10T12:00:00+00:00,Sí,fuentes/vismet/README.md
+Pudahuel Santiago,330021 [VISMET-1112],DMC,-33.39194,-70.79639,482.0,Precipitación,Meteorológica,No informado,60 min,2018-09-25T15:00:00+00:00,Sí,fuentes/vismet/README.md
+Pudahuel Santiago,330021 [VISMET-1112],DMC,-33.39194,-70.79639,482.0,Temperatura,Meteorológica,No informado,60 min,2019-05-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Santo Domingo, Ad.",330030 [VISMET-451],DMC,-33.655,-71.6142,75.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Santo Domingo, Ad.",330030 [VISMET-451],DMC,-33.655,-71.6142,75.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Juan Fernández, Estación Meteorológica.",330031 [VISMET-452],DMC,-33.6367,-78.835,40.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Juan Fernández, Estación Meteorológica.",330031 [VISMET-452],DMC,-33.6367,-78.835,40.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Talagante,330071 [VISMET-454],DMC,-33.6736,-70.8475,390.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Talagante,330071 [VISMET-454],DMC,-33.6736,-70.8475,390.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,No,fuentes/vismet/README.md
+Río Clarillo,330075 [VISMET-924],DMC,-33.72833333333333,-70.49666666666667,876.0,Precipitación,Meteorológica,No informado,60 min,2017-10-24T14:00:00+00:00,No,fuentes/vismet/README.md
+Río Clarillo,330075 [VISMET-924],DMC,-33.72833333333333,-70.49666666666667,876.0,Temperatura,Meteorológica,No informado,60 min,2017-10-24T14:00:00+00:00,No,fuentes/vismet/README.md
+Chorombo Hacienda,330076 [VISMET-455],DMC,-33.5258,-71.2283,145.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,No,fuentes/vismet/README.md
+Chorombo Hacienda,330076 [VISMET-455],DMC,-33.5258,-71.2283,145.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+El Colorado,330077 [VISMET-456],DMC,-33.35,-70.2936,2750.0,Precipitación,Meteorológica,No informado,60 min,2017-01-11T17:00:00+00:00,Sí,fuentes/vismet/README.md
+El Colorado,330077 [VISMET-456],DMC,-33.35,-70.2936,2750.0,Temperatura,Meteorológica,No informado,60 min,2017-01-11T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Polpaico,330081 [VISMET-1419],DMC,-33.12389,-70.82805,547.0,Precipitación,Meteorológica,No informado,60 min,2022-08-03T08:00:00+00:00,No,fuentes/vismet/README.md
+Polpaico,330081 [VISMET-1419],DMC,-33.12389,-70.82805,547.0,Temperatura,Meteorológica,No informado,60 min,2022-08-03T08:00:00+00:00,No,fuentes/vismet/README.md
+Lo Prado Cerro San Francisco,330111 [VISMET-457],DMC,-33.4581,-70.9486,1068.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Lo Prado Cerro San Francisco,330111 [VISMET-457],DMC,-33.4581,-70.9486,1068.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+San José  Guayacán,330112 [VISMET-458],DMC,-33.6153,-70.3506,928.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+San José  Guayacán,330112 [VISMET-458],DMC,-33.6153,-70.3506,928.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+El Paico,330113 [VISMET-459],DMC,-33.7064,-71.0081,275.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+El Paico,330113 [VISMET-459],DMC,-33.7064,-71.0081,275.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pablo - DASA,330114 [VISMET-460],DMC,-33.4422,-70.7467,490.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+San Pablo - DASA,330114 [VISMET-460],DMC,-33.4422,-70.7467,490.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+NOS  Aguas Andinas,330115 [VISMET-1113],DMC,-33.62083,-70.71167,555.0,Precipitación,Meteorológica,No informado,60 min,2018-09-25T15:00:00+00:00,No,fuentes/vismet/README.md
+Arrayán Aguas Andinas,330116 [VISMET-1114],DMC,-33.33611,-70.4575,1008.0,Precipitación,Meteorológica,No informado,60 min,2018-09-25T15:00:00+00:00,No,fuentes/vismet/README.md
+Las Vizcachas Aguas Andinas,330117 [VISMET-1115],DMC,-33.59611,-70.54222,730.0,Precipitación,Meteorológica,No informado,60 min,2018-09-25T15:00:00+00:00,No,fuentes/vismet/README.md
+Lo Pinto,330118 [VISMET-461],DMC,-33.2681,-70.7322,512.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Lo Pinto,330118 [VISMET-461],DMC,-33.2681,-70.7322,512.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Curacaví Ad.,330121 [VISMET-923],DMC,-33.41111111111111,-71.16777777777779,208.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Curacaví Ad.,330121 [VISMET-923],DMC,-33.41111111111111,-71.16777777777779,208.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Aguas Andínas, La Florida",330122 [VISMET-925],DMC,-33.544999999999995,-70.54833333333333,670.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Aguas Andínas, La Florida",330122 [VISMET-925],DMC,-33.544999999999995,-70.54833333333333,670.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"El Milagro, Buin",330160 [VISMET-954],DMC,-33.754444444444445,-70.76444444444445,460.0,Precipitación,Meteorológica,No informado,60 min,2018-04-13T19:00:00+00:00,No,fuentes/vismet/README.md
+"El Milagro, Buin",330160 [VISMET-954],DMC,-33.754444444444445,-70.76444444444445,460.0,Temperatura,Meteorológica,No informado,60 min,2018-04-13T18:00:00+00:00,No,fuentes/vismet/README.md
+Colina (Reg.),330162 [VISMET-1278],DMC,-33.16222,-70.64389,726.0,Precipitación,Meteorológica,No informado,60 min,2019-03-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Colina (Reg.),330162 [VISMET-1278],DMC,-33.16222,-70.64389,726.0,Temperatura,Meteorológica,No informado,60 min,2019-03-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Peldehue Ad.,330163 [VISMET-1300],DMC,-33.11389,-70.68583,683.0,Precipitación,Meteorológica,No informado,60 min,2020-01-07T15:00:00+00:00,Sí,fuentes/vismet/README.md
+Peldehue Ad.,330163 [VISMET-1300],DMC,-33.11389,-70.68583,683.0,Temperatura,Meteorológica,No informado,60 min,2020-01-07T15:00:00+00:00,Sí,fuentes/vismet/README.md
+La Dormida,330193 [VISMET-1433],DMC,-33.04944,-71.00139,1450.0,Precipitación,Meteorológica,No informado,60 min,2022-10-03T06:00:00+00:00,Sí,fuentes/vismet/README.md
+La Dormida,330193 [VISMET-1433],DMC,-33.04944,-71.00139,1450.0,Temperatura,Meteorológica,No informado,60 min,2022-10-03T06:00:00+00:00,Sí,fuentes/vismet/README.md
+"Rancagua, Aeródromo la Independencia",340045 [VISMET-463],DMC,-34.1758,-70.7794,482.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+"Rancagua, Aeródromo la Independencia",340045 [VISMET-463],DMC,-34.1758,-70.7794,482.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Quimávida,340048 [VISMET-464],DMC,-34.2133,-70.9983,316.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Quimávida,340048 [VISMET-464],DMC,-34.2133,-70.9983,316.0,Temperatura,Meteorológica,No informado,60 min,2017-01-25T15:00:00+00:00,Sí,fuentes/vismet/README.md
+Nilahue - La Quebrada,340066 [VISMET-465],DMC,-34.6314,-71.725,81.0,Precipitación,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Nilahue - La Quebrada,340066 [VISMET-465],DMC,-34.6314,-71.725,81.0,Temperatura,Meteorológica,No informado,60 min,2016-12-01T01:00:00+00:00,Sí,fuentes/vismet/README.md
+Portezuelo-Codelco,340093 [VISMET-466],DMC,-34.1983,-70.5792,1185.0,Precipitación,Meteorológica,No informado,60 min,2016-12-21T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Portezuelo-Codelco,340093 [VISMET-466],DMC,-34.1983,-70.5792,1185.0,Temperatura,Meteorológica,No informado,60 min,2016-12-21T16:00:00+00:00,Sí,fuentes/vismet/README.md
+Pichilemu aeródromo,340115 [VISMET-955],DMC,-34.39416666666666,-72.01861111111111,25.0,Precipitación,Meteorológica,No informado,60 min,2017-10-24T20:00:00+00:00,Sí,fuentes/vismet/README.md
+Pichilemu aeródromo,340115 [VISMET-955],DMC,-34.39416666666666,-72.01861111111111,25.0,Temperatura,Meteorológica,No informado,60 min,2017-10-24T19:00:00+00:00,Sí,fuentes/vismet/README.md
+San Miguel,RMCL0005 [VISMET-2263],REDMETEO,-33.5069,-70.6508,565.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+San Miguel,RMCL0005 [VISMET-2263],REDMETEO,-33.5069,-70.6508,565.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Quilpué - El Belloto,RMCL0007 [VISMET-2265],REDMETEO,-33.0454,-71.4076,120.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Quilpué - El Belloto,RMCL0007 [VISMET-2265],REDMETEO,-33.0454,-71.4076,120.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Papudo,RMCL0010 [VISMET-2268],REDMETEO,-32.508,-71.4456,10.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Papudo,RMCL0010 [VISMET-2268],REDMETEO,-32.508,-71.4456,10.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Pirque - El Huingan,RMCL0011 [VISMET-2269],REDMETEO,-33.6341,-70.5504,649.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Pirque - El Huingan,RMCL0011 [VISMET-2269],REDMETEO,-33.6341,-70.5504,649.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Buin Oriente,RMCL0012 [VISMET-2270],REDMETEO,-33.7329,-70.7216,500.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Buin Oriente,RMCL0012 [VISMET-2270],REDMETEO,-33.7329,-70.7216,500.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Paine Oriente,RMCL0013 [VISMET-2271],REDMETEO,-33.7895,-70.635,464.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Paine Oriente,RMCL0013 [VISMET-2271],REDMETEO,-33.7895,-70.635,464.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+El Melón,RMCL0018 [VISMET-2272],REDMETEO,-32.6938,-71.2097,245.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+El Melón,RMCL0018 [VISMET-2272],REDMETEO,-32.6938,-71.2097,245.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Reñaca,RMCL0020 [VISMET-2273],REDMETEO,-32.9762,-71.5364,81.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Reñaca,RMCL0020 [VISMET-2273],REDMETEO,-32.9762,-71.5364,81.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Placilla de Peñuelas,RMCL0021 [VISMET-2274],REDMETEO,-33.1243,-71.569,335.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Placilla de Peñuelas,RMCL0021 [VISMET-2274],REDMETEO,-33.1243,-71.569,335.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Villa Alemana - Pob Guillermo Marconi,RMCL0022 [VISMET-2275],REDMETEO,-33.0499,-71.393,132.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Villa Alemana - Pob Guillermo Marconi,RMCL0022 [VISMET-2275],REDMETEO,-33.0499,-71.393,132.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Vitacura RGVB,RMCL0026 [VISMET-2277],REDMETEO,-33.3759,-70.5461,790.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,No,fuentes/vismet/README.md
+Vitacura RGVB,RMCL0026 [VISMET-2277],REDMETEO,-33.3759,-70.5461,790.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,No,fuentes/vismet/README.md
+Villa Alemana - Peña Blanca,RMCL0028 [VISMET-2279],REDMETEO,-33.0526,-71.3548,143.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Villa Alemana - Peña Blanca,RMCL0028 [VISMET-2279],REDMETEO,-33.0526,-71.3548,143.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Tiltil,RMCL0029 [VISMET-2280],REDMETEO,-33.0769,-70.9251,590.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Tiltil,RMCL0029 [VISMET-2280],REDMETEO,-33.0769,-70.9251,590.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Hijuelas - Centro,RMCL0030 [VISMET-2281],REDMETEO,-32.8,-71.1458,254.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Hijuelas - Centro,RMCL0030 [VISMET-2281],REDMETEO,-32.8,-71.1458,254.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+La Calera - Colegio Fundadores,RMCL0031 [VISMET-2282],REDMETEO,-32.7932,-71.2044,183.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+La Calera - Colegio Fundadores,RMCL0031 [VISMET-2282],REDMETEO,-32.7932,-71.2044,183.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Casablanca - Centro,RMCL0032 [VISMET-2283],REDMETEO,-33.31381,-71.4089,293.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Casablanca - Centro,RMCL0032 [VISMET-2283],REDMETEO,-33.31381,-71.4089,293.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Lo Barnechea - San Enrique,RMCL0034 [VISMET-2285],REDMETEO,-33.3633,-70.4958,900.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Lo Barnechea - San Enrique,RMCL0034 [VISMET-2285],REDMETEO,-33.3633,-70.4958,900.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Concón Rural - Los Eucaliptus,RMCL0037 [VISMET-2287],REDMETEO,-32.94,-71.44,61.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Concón Rural - Los Eucaliptus,RMCL0037 [VISMET-2287],REDMETEO,-32.94,-71.44,61.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Santa Julia,RMCL0039 [VISMET-2288],REDMETEO,-33.0052,-71.4995,220.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Santa Julia,RMCL0039 [VISMET-2288],REDMETEO,-33.0052,-71.4995,220.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Quintero,RMCL0040 [VISMET-2289],REDMETEO,-32.7857,-71.5345,56.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Quintero,RMCL0040 [VISMET-2289],REDMETEO,-32.7857,-71.5345,56.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Andes,RMCL0045 [VISMET-2291],REDMETEO,-32.8462,-70.5892,816.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Andes,RMCL0045 [VISMET-2291],REDMETEO,-32.8462,-70.5892,816.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Casablanca - La Playa,RMCL0050 [VISMET-2295],REDMETEO,-33.2388,-71.4584,330.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Casablanca - La Playa,RMCL0050 [VISMET-2295],REDMETEO,-33.2388,-71.4584,330.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Limache,RMCL0054 [VISMET-2299],REDMETEO,-33.0075,-71.2602,128.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Limache,RMCL0054 [VISMET-2299],REDMETEO,-33.0075,-71.2602,128.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Pullally,RMCL0056 [VISMET-2300],REDMETEO,-32.4357,-71.3177,50.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pullally,RMCL0056 [VISMET-2300],REDMETEO,-32.4357,-71.3177,50.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Paine - Las Colonias,RMCL0058 [VISMET-2302],REDMETEO,-33.8349,-70.7621,375.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Paine - Las Colonias,RMCL0058 [VISMET-2302],REDMETEO,-33.8349,-70.7621,375.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Lo Espejo - UCH,RMCL0059 [VISMET-2303],REDMETEO,-33.512,-70.6916,536.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Lo Espejo - UCH,RMCL0059 [VISMET-2303],REDMETEO,-33.512,-70.6916,536.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
 Iquique - Lic. Bicentenario Minero - UCH,RMCL0071 [VISMET-2306],REDMETEO,-20.27235,-70.0949,534.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
 Iquique - Lic. Bicentenario Minero - UCH,RMCL0071 [VISMET-2306],REDMETEO,-20.27235,-70.0949,534.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Valparaíso - Cerro Concepción,RMCL0082 [VISMET-2307],REDMETEO,-33.04184,-71.6281,59.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Valparaíso - Cerro Concepción,RMCL0082 [VISMET-2307],REDMETEO,-33.04184,-71.6281,59.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Concon - Las Pretas,RMCL0084 [VISMET-2308],REDMETEO,-32.93178,-71.5286,68.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Concon - Las Pretas,RMCL0084 [VISMET-2308],REDMETEO,-32.93178,-71.5286,68.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Jardín Botánico,RMCL0086 [VISMET-2309],REDMETEO,-33.04927,-71.5016,32.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Jardín Botánico,RMCL0086 [VISMET-2309],REDMETEO,-33.04927,-71.5016,32.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pedro Aguirre Cerda - UCH,RMCL0089 [VISMET-2310],REDMETEO,-33.48939,-70.6633,531.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pedro Aguirre Cerda - UCH,RMCL0089 [VISMET-2310],REDMETEO,-33.48939,-70.6633,531.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Ñuñoa,RMCL0091 [VISMET-2311],REDMETEO,-33.45068,-70.5738,614.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,No,fuentes/vismet/README.md
+Ñuñoa,RMCL0091 [VISMET-2311],REDMETEO,-33.45068,-70.5738,614.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,No,fuentes/vismet/README.md
+San Joaquin - UCH,RMCL0092 [VISMET-2312],REDMETEO,-33.48034,-70.6237,550.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+San Joaquin - UCH,RMCL0092 [VISMET-2312],REDMETEO,-33.48034,-70.6237,550.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pudahuel Norte - UCH,RMCL0093 [VISMET-2313],REDMETEO,-33.44054,-70.7475,490.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pudahuel Norte - UCH,RMCL0093 [VISMET-2313],REDMETEO,-33.44054,-70.7475,490.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Nalcas - UCH,RMCL0095 [VISMET-2314],REDMETEO,-33.52549,-70.5503,685.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Nalcas - UCH,RMCL0095 [VISMET-2314],REDMETEO,-33.52549,-70.5503,685.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Maipú - UCH,RMCL0099 [VISMET-2315],REDMETEO,-33.49373,-70.7778,461.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Maipú - UCH,RMCL0099 [VISMET-2315],REDMETEO,-33.49373,-70.7778,461.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Puente Alto - UCH,RMCL0100 [VISMET-2316],REDMETEO,-33.58835,-70.5771,677.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,No,fuentes/vismet/README.md
+Puente Alto - UCH,RMCL0100 [VISMET-2316],REDMETEO,-33.58835,-70.5771,677.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,No,fuentes/vismet/README.md
+Independencia - UCH,RMCL0101 [VISMET-2317],REDMETEO,-33.40792,-70.662,532.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Independencia - UCH,RMCL0101 [VISMET-2317],REDMETEO,-33.40792,-70.662,532.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Macul - UCH,RMCL0102 [VISMET-2318],REDMETEO,-33.48758,-70.5973,567.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Macul - UCH,RMCL0102 [VISMET-2318],REDMETEO,-33.48758,-70.5973,567.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Colegio Capellán Pascal,RMCL0104 [VISMET-2319],REDMETEO,-32.9944,-71.5443,5.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Colegio Capellán Pascal,RMCL0104 [VISMET-2319],REDMETEO,-32.9944,-71.5443,5.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Ñuñoa José Domingo Cañas,RMCL0107 [VISMET-2320],REDMETEO,-33.4568,-70.6107,539.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pudahuel Sur,RMCL0109 [VISMET-2321],REDMETEO,-33.4512,-70.7559,477.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pudahuel Sur,RMCL0109 [VISMET-2321],REDMETEO,-33.4512,-70.7559,477.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Quinta Vergara,RMCL0111 [VISMET-2323],REDMETEO,-33.02887,-71.5537,15.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Quinta Vergara,RMCL0111 [VISMET-2323],REDMETEO,-33.02887,-71.5537,15.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Villa Dulce Ampliación,RMCL0162 [VISMET-2367],REDMETEO,-33.0265,-71.5067,247.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Viña del Mar - Villa Dulce Ampliación,RMCL0162 [VISMET-2367],REDMETEO,-33.0265,-71.5067,247.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
 Copiapó,RMCL0165 [VISMET-2370],REDMETEO,-27.364,-70.3116,510.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
 Copiapó,RMCL0165 [VISMET-2370],REDMETEO,-27.364,-70.3116,510.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Placilla de Peñuelas - Salto de Agua,RMCL0167 [VISMET-2372],REDMETEO,-33.1197,-71.5812,350.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Placilla de Peñuelas - Salto de Agua,RMCL0167 [VISMET-2372],REDMETEO,-33.1197,-71.5812,350.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Zapallar - Catapilco,RMCL0170 [VISMET-2375],REDMETEO,-32.5703,-71.3022,85.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Zapallar - Catapilco,RMCL0170 [VISMET-2375],REDMETEO,-32.5703,-71.3022,85.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
 Calama - Hauka Huali Oriente,RMCL0172 [VISMET-2376],REDMETEO,-22.44965,-68.9471,2250.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
 Calama - Hauka Huali Oriente,RMCL0172 [VISMET-2376],REDMETEO,-22.44965,-68.9471,2250.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
 Calama - TRX Telecom,RMCL0173 [VISMET-2377],REDMETEO,-22.43242,-68.9163,2287.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
 Calama - TRX Telecom,RMCL0173 [VISMET-2377],REDMETEO,-22.43242,-68.9163,2287.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+La Cisterna Norte,RMCL0174 [VISMET-2378],REDMETEO,-33.5148,-70.6639,552.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+La Cisterna Norte,RMCL0174 [VISMET-2378],REDMETEO,-33.5148,-70.6639,552.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+San Bernardo - Madrid Osorio,RMCL0181 [VISMET-2382],REDMETEO,-33.6112,-70.7031,578.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+San Bernardo - Madrid Osorio,RMCL0181 [VISMET-2382],REDMETEO,-33.6112,-70.7031,578.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Andes - Brisas de Los Andes,RMCL0182 [VISMET-2383],REDMETEO,-32.8554,-70.5872,821.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Los Andes - Brisas de Los Andes,RMCL0182 [VISMET-2383],REDMETEO,-32.8554,-70.5872,821.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Condes - La Reconquista,RMCL0187 [VISMET-2388],REDMETEO,-33.4143,-70.571,683.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Las Condes - La Reconquista,RMCL0187 [VISMET-2388],REDMETEO,-33.4143,-70.571,683.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Quilpué - Colegio Los Leones,RMCL0188 [VISMET-2389],REDMETEO,-33.0614,-71.427,176.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Quilpué - Colegio Los Leones,RMCL0188 [VISMET-2389],REDMETEO,-33.0614,-71.427,176.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Villa Alemana - Colegio Altomonte,RMCL0190 [VISMET-2390],REDMETEO,-33.0604,-71.3284,214.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Villa Alemana - Colegio Altomonte,RMCL0190 [VISMET-2390],REDMETEO,-33.0604,-71.3284,214.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Peñalolén - San Luis de Macul,RMCL0191 [VISMET-2391],REDMETEO,-33.50614,-70.5697,623.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Peñalolén - San Luis de Macul,RMCL0191 [VISMET-2391],REDMETEO,-33.50614,-70.5697,623.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+Tiltil,wl:1d:0a:00:4b:ac [VISMET-1332],REDMETEO,-33.077246944904,-70.925032186509,590.1,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Tiltil,wl:1d:0a:00:4b:ac [VISMET-1332],REDMETEO,-33.077246944904,-70.925032186509,590.1,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Miraflores Alto,yy:00:00:00:00:01 [VISMET-1323],REDMETEO,-33.026599,-71.507067,260.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Miraflores Alto,yy:00:00:00:00:01 [VISMET-1323],REDMETEO,-33.026599,-71.507067,260.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Quilpué,yy:00:00:00:00:02 [VISMET-1324],REDMETEO,-33.076,-71.421,170.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Quilpué,yy:00:00:00:00:02 [VISMET-1324],REDMETEO,-33.076,-71.421,170.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Lampa,yy:00:00:00:00:03 [VISMET-1325],REDMETEO,-33.305,-70.741,494.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Lampa,yy:00:00:00:00:03 [VISMET-1325],REDMETEO,-33.305,-70.741,494.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Paine,yy:00:00:00:00:08 [VISMET-1329],REDMETEO,-33.789576,-70.634902,449.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Paine,yy:00:00:00:00:08 [VISMET-1329],REDMETEO,-33.789576,-70.634902,449.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Papudo,yy:00:00:00:00:09 [VISMET-1330],REDMETEO,-32.507882,-71.445437,35.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Papudo,yy:00:00:00:00:09 [VISMET-1330],REDMETEO,-32.507882,-71.445437,35.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Nancagua,yy:00:00:00:00:29 [VISMET-1338],REDMETEO,-34.658317,-71.268916,182.0,Precipitación,Meteorológica,No informado,60 min,2021-01-21T20:00:00+00:00,No,fuentes/vismet/README.md
+Nancagua,yy:00:00:00:00:29 [VISMET-1338],REDMETEO,-34.658317,-71.268916,182.0,Temperatura,Meteorológica,No informado,60 min,2021-01-21T20:00:00+00:00,No,fuentes/vismet/README.md
+Santo Domingo,yy:00:00:00:00:2c [VISMET-1339],REDMETEO,-33.640315,-71.60728,42.0,Precipitación,Meteorológica,No informado,60 min,2020-08-19T01:00:00+00:00,No,fuentes/vismet/README.md
+Santo Domingo,yy:00:00:00:00:2c [VISMET-1339],REDMETEO,-33.640315,-71.60728,42.0,Temperatura,Meteorológica,No informado,60 min,2020-08-19T01:00:00+00:00,No,fuentes/vismet/README.md
+Pedro Aguirre Cerda,yy:00:00:00:00:33 [VISMET-1344],REDMETEO,-33.493938,-70.66456,530.0,Precipitación,Meteorológica,No informado,60 min,2021-01-05T04:00:00+00:00,No,fuentes/vismet/README.md
+Pedro Aguirre Cerda,yy:00:00:00:00:33 [VISMET-1344],REDMETEO,-33.493938,-70.66456,530.0,Temperatura,Meteorológica,No informado,60 min,2021-01-05T04:00:00+00:00,No,fuentes/vismet/README.md
+Laguna Verde,yy:00:00:00:00:37 [VISMET-1347],REDMETEO,-33.11,-71.68,146.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Laguna Verde,yy:00:00:00:00:37 [VISMET-1347],REDMETEO,-33.11,-71.68,146.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Los Andes,yy:00:00:00:00:38 [VISMET-1348],REDMETEO,-32.846,-70.59,830.0,Precipitación,Meteorológica,No informado,60 min,2020-10-12T05:00:00+00:00,No,fuentes/vismet/README.md
+Los Andes,yy:00:00:00:00:38 [VISMET-1348],REDMETEO,-32.846,-70.59,830.0,Temperatura,Meteorológica,No informado,60 min,2020-10-12T05:00:00+00:00,No,fuentes/vismet/README.md
+Quilpué Centro,yy:00:00:00:00:39 [VISMET-1349],REDMETEO,-33.04811,-71.42641,140.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Quilpué Centro,yy:00:00:00:00:39 [VISMET-1349],REDMETEO,-33.04811,-71.42641,140.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Curacaví,yy:00:00:00:00:3a [VISMET-1350],REDMETEO,-33.376688,-71.17731,243.0,Precipitación,Meteorológica,No informado,60 min,2020-12-14T04:00:00+00:00,No,fuentes/vismet/README.md
+Curacaví,yy:00:00:00:00:3a [VISMET-1350],REDMETEO,-33.376688,-71.17731,243.0,Temperatura,Meteorológica,No informado,60 min,2020-12-14T04:00:00+00:00,No,fuentes/vismet/README.md
+Viña del Mar Alto,yy:00:00:00:00:3c [VISMET-1352],REDMETEO,-33.038938,-71.55706,222.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T17:00:00+00:00,No,fuentes/vismet/README.md
+Viña del Mar Alto,yy:00:00:00:00:3c [VISMET-1352],REDMETEO,-33.038938,-71.55706,222.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T17:00:00+00:00,No,fuentes/vismet/README.md
+Los Molles,yy:00:00:00:00:3d [VISMET-1353],REDMETEO,-32.213849,-71.511683,112.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Los Molles,yy:00:00:00:00:3d [VISMET-1353],REDMETEO,-32.213849,-71.511683,112.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
 Calama,yy:00:00:00:00:3e [VISMET-1354],REDMETEO,-22.4324375,-68.9185012,2293.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
 Calama,yy:00:00:00:00:3e [VISMET-1354],REDMETEO,-22.4324375,-68.9185012,2293.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+"Viña del Mar, Las Salinas",yy:00:00:00:00:3f [VISMET-1355],REDMETEO,-32.994635,-71.544479,25.0,Precipitación,Meteorológica,No informado,60 min,2021-07-29T15:00:00+00:00,No,fuentes/vismet/README.md
+"Viña del Mar, Las Salinas",yy:00:00:00:00:3f [VISMET-1355],REDMETEO,-32.994635,-71.544479,25.0,Temperatura,Meteorológica,No informado,60 min,2021-07-29T15:00:00+00:00,No,fuentes/vismet/README.md
+Concón,yy:00:00:00:00:41 [VISMET-1357],REDMETEO,-32.921228,-71.513496,44.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Concón,yy:00:00:00:00:41 [VISMET-1357],REDMETEO,-32.921228,-71.513496,44.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Colina,yy:00:00:00:00:42 [VISMET-1358],REDMETEO,-33.226795,-70.671829,554.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Colina,yy:00:00:00:00:42 [VISMET-1358],REDMETEO,-33.226795,-70.671829,554.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Quintero,yy:00:00:00:00:43 [VISMET-1359],REDMETEO,-32.785553,-71.534603,42.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Quintero,yy:00:00:00:00:43 [VISMET-1359],REDMETEO,-32.785553,-71.534603,42.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Placilla de Peñuelas,yy:00:00:00:00:44 [VISMET-1360],REDMETEO,-33.124,-71.569,348.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Placilla de Peñuelas,yy:00:00:00:00:44 [VISMET-1360],REDMETEO,-33.124,-71.569,348.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Casablanca sector La Playa,yy:00:00:00:00:50 [VISMET-1375],REDMETEO,-33.239007,-71.458378,332.0,Precipitación,Meteorológica,No informado,60 min,2021-07-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Casablanca sector La Playa,yy:00:00:00:00:50 [VISMET-1375],REDMETEO,-33.239007,-71.458378,332.0,Temperatura,Meteorológica,No informado,60 min,2021-07-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Pirque,yy:00:00:00:00:55 [VISMET-1378],REDMETEO,-33.632903,-70.552158,690.0,Precipitación,Meteorológica,No informado,60 min,2021-07-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Pirque,yy:00:00:00:00:55 [VISMET-1378],REDMETEO,-33.632903,-70.552158,690.0,Temperatura,Meteorológica,No informado,60 min,2021-07-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Buin Oriente,yy:00:00:00:00:56 [VISMET-1379],REDMETEO,-33.732831,-70.721616,510.0,Precipitación,Meteorológica,No informado,60 min,2021-07-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Buin Oriente,yy:00:00:00:00:56 [VISMET-1379],REDMETEO,-33.732831,-70.721616,510.0,Temperatura,Meteorológica,No informado,60 min,2021-07-01T03:00:00+00:00,No,fuentes/vismet/README.md
+Pichilemu,yy:00:00:00:00:5a [VISMET-1386],REDMETEO,-34.40074,-72.00233,40.0,Precipitación,Meteorológica,No informado,60 min,2021-11-01T02:00:00+00:00,No,fuentes/vismet/README.md
+Pichilemu,yy:00:00:00:00:5a [VISMET-1386],REDMETEO,-34.40074,-72.00233,40.0,Temperatura,Meteorológica,No informado,60 min,2021-11-01T02:00:00+00:00,No,fuentes/vismet/README.md
+La Calera,yy:00:00:00:00:5b [VISMET-1387],REDMETEO,-32.79,-71.2,216.0,Precipitación,Meteorológica,No informado,60 min,2021-11-01T02:00:00+00:00,No,fuentes/vismet/README.md
+La Calera,yy:00:00:00:00:5b [VISMET-1387],REDMETEO,-32.79,-71.2,216.0,Temperatura,Meteorológica,No informado,60 min,2021-11-01T02:00:00+00:00,No,fuentes/vismet/README.md
+Cartagena,yy:00:00:00:00:63 [VISMET-1395],REDMETEO,-33.54893,-71.60218,23.0,Precipitación,Meteorológica,No informado,60 min,2022-04-19T18:00:00+00:00,No,fuentes/vismet/README.md
+Cartagena,yy:00:00:00:00:63 [VISMET-1395],REDMETEO,-33.54893,-71.60218,23.0,Temperatura,Meteorológica,No informado,60 min,2022-04-19T18:00:00+00:00,No,fuentes/vismet/README.md
+El Melon,yy:00:00:00:00:66 [VISMET-1404],REDMETEO,-32.69389,-71.20983,245.0,Precipitación,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+El Melon,yy:00:00:00:00:66 [VISMET-1404],REDMETEO,-32.69389,-71.20983,245.0,Temperatura,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+Villa Alemana,yy:00:00:00:00:6b [VISMET-1457],REDMETEO,-33.048,-71.351,165.0,Precipitación,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+Villa Alemana,yy:00:00:00:00:6b [VISMET-1457],REDMETEO,-33.048,-71.351,165.0,Temperatura,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+"Santa Julia, Viña del Mar",yy:00:00:00:00:6c [VISMET-1458],REDMETEO,-33.005,-71.499,215.0,Precipitación,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+"Santa Julia, Viña del Mar",yy:00:00:00:00:6c [VISMET-1458],REDMETEO,-33.005,-71.499,215.0,Temperatura,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+Curacaví Norte,yy:00:00:00:00:6f [VISMET-1461],REDMETEO,-33.3288113,-71.1274309,315.0,Precipitación,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+Curacaví Norte,yy:00:00:00:00:6f [VISMET-1461],REDMETEO,-33.3288113,-71.1274309,315.0,Temperatura,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+San Miguel,zx:00:00:00:00:4a [VISMET-1364],REDMETEO,-33.506688,-70.650813,580.0,Precipitación,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+San Miguel,zx:00:00:00:00:4a [VISMET-1364],REDMETEO,-33.506688,-70.650813,580.0,Temperatura,Meteorológica,No informado,60 min,2020-08-18T16:00:00+00:00,No,fuentes/vismet/README.md
+Quilpué El Belloto,zx:00:00:00:00:6e [VISMET-1460],REDMETEO,-33.045375,-71.407591,38.0,Precipitación,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
+Quilpué El Belloto,zx:00:00:00:00:6e [VISMET-1460],REDMETEO,-33.045375,-71.407591,38.0,Temperatura,Meteorológica,No informado,60 min,2023-10-24T12:00:00+00:00,No,fuentes/vismet/README.md
 Arica - Capitanía de Puerto (SERVIMET),RMCL0114 [VISMET-2324],SERVIMET,-18.4769,-70.3219,8.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
 Arica - Capitanía de Puerto (SERVIMET),RMCL0114 [VISMET-2324],SERVIMET,-18.4769,-70.3219,8.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
 Iquique - Capitanía de Puerto (SERVIMET),RMCL0116 [VISMET-2325],SERVIMET,-20.21128,-70.1534,12.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
@@ -686,3 +1634,19 @@ Chañaral - Capitanía de Puerto (SERVIMET),RMCL0121 [VISMET-2328],SERVIMET,-26.
 Chañaral - Capitanía de Puerto (SERVIMET),RMCL0121 [VISMET-2328],SERVIMET,-26.35111,-70.6377,8.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
 Huasco - Capitanía de Puerto (SERVIMET),RMCL0123 [VISMET-2329],SERVIMET,-28.46165,-71.2266,17.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
 Huasco - Capitanía de Puerto (SERVIMET),RMCL0123 [VISMET-2329],SERVIMET,-28.46165,-71.2266,17.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Hanga Roa - Capitanía de Puerto (SERVIMET),RMCL0124 [VISMET-2330],SERVIMET,-27.14987,-109.437,10.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Hanga Roa - Capitanía de Puerto (SERVIMET),RMCL0124 [VISMET-2330],SERVIMET,-27.14987,-109.437,10.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Juan Fernández - Capitanía de Puerto (SERVIMET),RMCL0126 [VISMET-2332],SERVIMET,-33.63604,-78.8294,23.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Juan Fernández - Capitanía de Puerto (SERVIMET),RMCL0126 [VISMET-2332],SERVIMET,-33.63604,-78.8294,23.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Quintero - Capitanía de Puerto (SERVIMET),RMCL0128 [VISMET-2334],SERVIMET,-32.77551,-71.5254,10.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Quintero - Capitanía de Puerto (SERVIMET),RMCL0128 [VISMET-2334],SERVIMET,-32.77551,-71.5254,10.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Valparaíso - Capitanía de Puerto (SERVIMET),RMCL0129 [VISMET-2335],SERVIMET,-33.03798,-71.6273,40.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Valparaíso - Capitanía de Puerto (SERVIMET),RMCL0129 [VISMET-2335],SERVIMET,-33.03798,-71.6273,40.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+"Viña del Mar - FACIMAR, Universidad de Valparaíso (SERVIMET)",RMCL0132 [VISMET-2338],SERVIMET,-32.95708,-71.5504,8.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+San Antonio - Faro Punta Panul (SERVIMET),RMCL0133 [VISMET-2339],SERVIMET,-33.57503,-71.6251,90.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T22:00:00+00:00,Sí,fuentes/vismet/README.md
+San Antonio - Faro Punta Panul (SERVIMET),RMCL0133 [VISMET-2339],SERVIMET,-33.57503,-71.6251,90.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T18:00:00+00:00,Sí,fuentes/vismet/README.md
+Pichilemu - Capitanía de Puerto (SERVIMET),RMCL0134 [VISMET-2340],SERVIMET,-34.38495,-72.0085,6.0,Precipitación,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pichilemu - Capitanía de Puerto (SERVIMET),RMCL0134 [VISMET-2340],SERVIMET,-34.38495,-72.0085,6.0,Temperatura,Meteorológica,No informado,60 min,2026-10-05T21:00:00+00:00,Sí,fuentes/vismet/README.md
+Pedernal - [Qda. Lagunitas] - UFRO [PP02],UFRO_PP02 [VISMET-1483],UFRO,-32.078359999999996,-70.82289,1389.0,Temperatura,Meteorológica,No informado,60 min,2024-05-16T17:00:00+00:00,No,fuentes/vismet/README.md
+Paso Los Caballos - UFRO [PP08],UFRO_PP08 [VISMET-1484],UFRO,-33.38623,-70.33116,1458.0,Precipitación,Meteorológica,No informado,60 min,2024-05-16T17:00:00+00:00,No,fuentes/vismet/README.md
+Paso Los Caballos - UFRO [PP08],UFRO_PP08 [VISMET-1484],UFRO,-33.38623,-70.33116,1458.0,Temperatura,Meteorológica,No informado,60 min,2024-05-16T17:00:00+00:00,No,fuentes/vismet/README.md

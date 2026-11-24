@@ -97,6 +97,10 @@ def main() -> int:
     parser.add_argument("--window-days", type=int, default=7)
     parser.add_argument("--workers", type=int, default=2)
     parser.add_argument(
+        "--region", action="append", default=[],
+        help="Valida sólo estas regiones y conserva intactas las demás filas",
+    )
+    parser.add_argument(
         "--reuse-first",
         action="store_true",
         help="Reutiliza primeras fechas/valores ya verificados y repite sólo la ventana actual",
@@ -107,12 +111,21 @@ def main() -> int:
 
     with args.input.open(encoding="utf-8-sig", newline="") as handle:
         records = list(csv.DictReader(handle))
-    by_key = {(row["estacion_id"], row["variable_codigo"]): row for row in records}
+    selected_records = (
+        [row for row in records if row["region"] in set(args.region)]
+        if args.region else records
+    )
+    if not selected_records:
+        raise ValueError("No hay filas para las regiones solicitadas")
+    by_key = {
+        (row["estacion_id"], row["variable_codigo"]): row
+        for row in selected_records
+    }
     current_end = args.as_of - timedelta(days=1)
     current_start = current_end - timedelta(days=args.window_days - 1)
 
     first_groups: dict[tuple[str, date], list[str]] = defaultdict(list)
-    for row in records:
+    for row in selected_records:
         value = row["primera_fecha_disponible"]
         if value and value != "No informado":
             candidate = datetime.fromisoformat(value).date()
@@ -127,7 +140,7 @@ def main() -> int:
             datetime.fromisoformat(row["primera_fecha_disponible"]),
             row["primer_valor_verificado"],
         )
-        for row in records
+        for row in selected_records
         if args.reuse_first
         and row.get("primer_valor_verificado")
         and row["primera_fecha_disponible"] != "No informado"
@@ -135,8 +148,8 @@ def main() -> int:
     if args.reuse_first:
         first_tasks = []
 
-    variables = sorted({row["variable_codigo"] for row in records})
-    stations = sorted({row["estacion_id"] for row in records})
+    variables = sorted({row["variable_codigo"] for row in selected_records})
+    stations = sorted({row["estacion_id"] for row in selected_records})
     current_tasks = [
         (station_chunk, variable)
         for variable in variables
@@ -226,15 +239,16 @@ def main() -> int:
     evidence = {
         "fecha_consulta_utc": consulted,
         "ventana_actual": [current_start.isoformat(), current_end.isoformat()],
-        "series": len(records),
+        "regiones": args.region or "todas",
+        "series": len(selected_records),
         "series_con_primera_fecha_horaria": sum(
-            row["primer_valor_verificado"] != "" for row in records
+            row["primer_valor_verificado"] != "" for row in selected_records
         ),
         "series_sin_fecha_historica": sum(
-            row["primera_fecha_disponible"] == "No informado" for row in records
+            row["primera_fecha_disponible"] == "No informado" for row in selected_records
         ),
         "series_con_datos_actuales": sum(
-            row["datos_disponibles_actualmente"] == "Sí" for row in records
+            row["datos_disponibles_actualmente"] == "Sí" for row in selected_records
         ),
         "husos_publicados": sorted(timezones),
         "marcas_temporales_invalidas_omitidas": sorted(set(invalid_timestamps)),

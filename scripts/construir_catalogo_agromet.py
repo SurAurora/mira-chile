@@ -60,8 +60,14 @@ def main() -> int:
     absent = 0
     for item in availability:
         if item["estado_consulta"] != "completada":
+            if item["primera_fecha_disponible"] == "No informado":
+                # El fallo permanece en el sondeo para auditoría, pero no crea
+                # una fila sin una primera observación comprobada.
+                absent += 1
+                continue
             raise SystemExit(
-                f"Consulta no completada: {item['estacion_id']} {item['variable_codigo']}"
+                f"Consulta no completada con fecha: "
+                f"{item['estacion_id']} {item['variable_codigo']}"
             )
         if item["variable_codigo"] not in VARIABLES:
             raise SystemExit(f"Variable no normalizada: {item['variable_codigo']}")

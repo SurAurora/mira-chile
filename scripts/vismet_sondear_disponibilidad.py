@@ -2,7 +2,7 @@
 """Verifica la primera observación y disponibilidad reciente en VISMET.
 
 Respeta el máximo oficial de 168 horas. Recorre semanas consecutivas desde
-2000 (inicio descrito por CR2) y comprueba cada primera detección contra una
+el inicio solicitado y comprueba cada primera detección contra una
 serie horaria. No usa una búsqueda binaria que presuponga continuidad.
 """
 
@@ -36,7 +36,11 @@ ORGANIZATIONS = {
     "ceaza": "CEAZA", "redmeteo": "REDMETEO", "ufro": "UFRO",
     "estaciones_andinas_cr2": "CR2",
 }
-REGIONS = {15: "Arica y Parinacota", 1: "Tarapacá", 2: "Antofagasta", 3: "Atacama"}
+REGIONS = {
+    15: "Arica y Parinacota", 1: "Tarapacá", 2: "Antofagasta", 3: "Atacama",
+    5: "Valparaíso", 13: "Metropolitana de Santiago",
+    6: "Libertador General Bernardo O'Higgins",
+}
 _local = threading.local()
 
 
@@ -219,8 +223,21 @@ def main(resume_internal: bool = False) -> int:
     state = {"start": args.start, "as_of": args.as_of, "primeras": {}, "ultima_ventana": {}, "completo": False}
     if (args.resume or resume_internal) and state_path.exists():
         state = json.loads(state_path.read_text(encoding="utf-8"))
-        if state["start"] != args.start or state["as_of"] != args.as_of:
-            raise ValueError("El sondeo reanudado debe conservar --start y --as-of")
+        if state["as_of"] != args.as_of:
+            raise ValueError("El sondeo reanudado debe conservar --as-of")
+        if state["start"] != args.start:
+            old_start = datetime.fromisoformat(state["start"])
+            new_start = datetime.fromisoformat(args.start)
+            if new_start >= old_start:
+                raise ValueError("Al reanudar, --start sólo puede ampliarse hacia una fecha anterior")
+            state["start"] = args.start
+            state["ultima_ventana"] = {}
+            state["completo"] = False
+            print(
+                f"Inicio histórico ampliado de {old_start.date()} a {new_start.date()}; "
+                "relectura de caché",
+                flush=True,
+            )
 
     # Inventario oficial del mismo portal. No se transfieren alturas desde otras redes.
     frame = gpd.read_file("/home/alagos/fondef_polvo/data/geospatial/Regiones/Regional.shp")

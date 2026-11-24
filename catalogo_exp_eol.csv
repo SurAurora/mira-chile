@@ -109,6 +109,12 @@ Chañaral Ad.,260002,MINENERGIA,-26.33222,-70.61083,23.0,Humedad,Meteorológica,
 Chañaral Ad.,260002,MINENERGIA,-26.33222,-70.61083,23.0,Temperatura,Meteorológica,No informado,Variable,1954-03-01T12:00,No,fuentes/exp_eol/README.md
 "Ad. Ricardo García Posada, El Salvador",260010,MINENERGIA,-26.31305,-69.75139,1597.0,Dirección del viento,Meteorológica,10,Variable,2023-08-04T17:00+00:00,No,fuentes/exp_eol/README.md
 "Ad. Ricardo García Posada, El Salvador",260010,MINENERGIA,-26.31305,-69.75139,1597.0,Intensidad del viento,Meteorológica,10,Variable,2023-08-04T17:00+00:00,No,fuentes/exp_eol/README.md
+Mataveri Isla de Pascua Ap.,270001,MINENERGIA,-27.15889,-109.43250,69.0,Dirección del viento,Meteorológica,10,Variable,1954-06-14T15:00+00:00,No,fuentes/exp_eol/README.md
+Mataveri Isla de Pascua Ap.,270001,MINENERGIA,-27.15889,-109.43250,69.0,Dirección del viento,Meteorológica,No informado,60 min,2020-03-18T00:00+00:00,No,fuentes/exp_eol/README.md
+Mataveri Isla de Pascua Ap.,270001,MINENERGIA,-27.15889,-109.43250,69.0,Humedad,Meteorológica,No informado,Variable,1954-06-14T15:00,No,fuentes/exp_eol/README.md
+Mataveri Isla de Pascua Ap.,270001,MINENERGIA,-27.15889,-109.43250,69.0,Intensidad del viento,Meteorológica,10,Variable,1954-06-14T15:00+00:00,No,fuentes/exp_eol/README.md
+Mataveri Isla de Pascua Ap.,270001,MINENERGIA,-27.15889,-109.43250,69.0,Intensidad del viento,Meteorológica,No informado,60 min,2020-03-18T00:00+00:00,No,fuentes/exp_eol/README.md
+Mataveri Isla de Pascua Ap.,270001,MINENERGIA,-27.15889,-109.43250,69.0,Temperatura,Meteorológica,No informado,Variable,1954-06-14T15:00,No,fuentes/exp_eol/README.md
 "Copiapó, Chamonate Ad.",270002,MINENERGIA,-27.29944,-70.41417,305.0,Humedad,Meteorológica,No informado,60 min,1951-12-31T23:00,No,fuentes/exp_eol/README.md
 "Copiapó, Chamonate Ad.",270002,MINENERGIA,-27.29944,-70.41417,305.0,Temperatura,Meteorológica,No informado,Variable,1951-01-01T12:00,No,fuentes/exp_eol/README.md
 "Desierto de Atacama, Caldera Ad.",270008,MINENERGIA,-27.25444,-70.78111,204.0,Dirección del viento,Meteorológica,10,60 min,2005-02-01T12:00+00:00,No,fuentes/exp_eol/README.md
@@ -134,6 +140,270 @@ Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Intensidad del vie
 Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
 Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T23:00,No,fuentes/exp_eol/README.md
 Freirina Nicolasa,280010,MINENERGIA,-28.51694,-71.01000,156.0,Temperatura,Meteorológica,No informado,60 min,2017-01-01T00:00,No,fuentes/exp_eol/README.md
+San Felipe Escuela Agrícola,320019,MINENERGIA,-32.75528,-70.70694,662.0,Dirección del viento,Meteorológica,10,60 min,2019-07-18T14:00+00:00,No,fuentes/exp_eol/README.md
+San Felipe Escuela Agrícola,320019,MINENERGIA,-32.75528,-70.70694,662.0,Dirección del viento,Meteorológica,No informado,60 min,2019-07-18T14:00+00:00,No,fuentes/exp_eol/README.md
+San Felipe Escuela Agrícola,320019,MINENERGIA,-32.75528,-70.70694,662.0,Intensidad del viento,Meteorológica,10,60 min,2019-07-18T14:00+00:00,No,fuentes/exp_eol/README.md
+San Felipe Escuela Agrícola,320019,MINENERGIA,-32.75528,-70.70694,662.0,Intensidad del viento,Meteorológica,No informado,60 min,2019-07-18T14:00+00:00,No,fuentes/exp_eol/README.md
+"Quintero, Estación Aeronáutica",320025,MINENERGIA,-32.78889,-71.52555,13.0,Humedad,Meteorológica,No informado,Variable,1952-01-12T06:00,No,fuentes/exp_eol/README.md
+"Quintero, Estación Aeronáutica",320025,MINENERGIA,-32.78889,-71.52555,13.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+Viña del Mar Ad. (Torquemada),320041,MINENERGIA,-32.94944,-71.47611,140.0,Dirección del viento,Meteorológica,10,60 min,2013-10-23T00:00+00:00,No,fuentes/exp_eol/README.md
+Viña del Mar Ad. (Torquemada),320041,MINENERGIA,-32.94944,-71.47611,140.0,Dirección del viento,Meteorológica,No informado,60 min,2024-05-08T17:00+00:00,No,fuentes/exp_eol/README.md
+Viña del Mar Ad. (Torquemada),320041,MINENERGIA,-32.94944,-71.47611,140.0,Humedad,Meteorológica,No informado,60 min,2013-12-31T21:00,No,fuentes/exp_eol/README.md
+Viña del Mar Ad. (Torquemada),320041,MINENERGIA,-32.94944,-71.47611,140.0,Intensidad del viento,Meteorológica,10,60 min,2013-10-23T00:00+00:00,No,fuentes/exp_eol/README.md
+Viña del Mar Ad. (Torquemada),320041,MINENERGIA,-32.94944,-71.47611,140.0,Intensidad del viento,Meteorológica,No informado,60 min,2024-05-08T17:00+00:00,No,fuentes/exp_eol/README.md
+Viña del Mar Ad. (Torquemada),320041,MINENERGIA,-32.94944,-71.47611,140.0,Radiación solar,Meteorológica,No informado,10 min,2024-05-10T00:10,No,fuentes/exp_eol/README.md
+Viña del Mar Ad. (Torquemada),320041,MINENERGIA,-32.94944,-71.47611,140.0,Temperatura,Meteorológica,No informado,60 min,2013-12-31T21:00,No,fuentes/exp_eol/README.md
+"Llay Llay, Las Peñas",320045,MINENERGIA,-32.88139,-70.91305,423.0,Dirección del viento,Meteorológica,10,60 min,2017-11-09T15:00+00:00,No,fuentes/exp_eol/README.md
+"Llay Llay, Las Peñas",320045,MINENERGIA,-32.88139,-70.91305,423.0,Dirección del viento,Meteorológica,No informado,60 min,2017-11-08T23:00+00:00,No,fuentes/exp_eol/README.md
+"Llay Llay, Las Peñas",320045,MINENERGIA,-32.88139,-70.91305,423.0,Humedad,Meteorológica,No informado,60 min,2017-12-31T21:00,No,fuentes/exp_eol/README.md
+"Llay Llay, Las Peñas",320045,MINENERGIA,-32.88139,-70.91305,423.0,Intensidad del viento,Meteorológica,10,60 min,2017-11-09T15:00+00:00,No,fuentes/exp_eol/README.md
+"Llay Llay, Las Peñas",320045,MINENERGIA,-32.88139,-70.91305,423.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-11-08T23:00+00:00,No,fuentes/exp_eol/README.md
+"Llay Llay, Las Peñas",320045,MINENERGIA,-32.88139,-70.91305,423.0,Radiación solar,Meteorológica,No informado,10 min,2017-12-31T21:00,No,fuentes/exp_eol/README.md
+"Llay Llay, Las Peñas",320045,MINENERGIA,-32.88139,-70.91305,423.0,Temperatura,Meteorológica,No informado,Variable,1993-02-01T12:00,No,fuentes/exp_eol/README.md
+Longotoma Liceo Agrícola,320048,MINENERGIA,-32.39305,-71.37167,26.0,Temperatura,Meteorológica,No informado,Variable,1995-06-15T18:00,No,fuentes/exp_eol/README.md
+Chincolco Liceo agrícola,320049,MINENERGIA,-32.22250,-70.83167,665.0,Dirección del viento,Meteorológica,10,60 min,2017-11-09T13:00+00:00,No,fuentes/exp_eol/README.md
+Chincolco Liceo agrícola,320049,MINENERGIA,-32.22250,-70.83167,665.0,Dirección del viento,Meteorológica,No informado,60 min,2017-11-08T23:00+00:00,No,fuentes/exp_eol/README.md
+Chincolco Liceo agrícola,320049,MINENERGIA,-32.22250,-70.83167,665.0,Humedad,Meteorológica,No informado,60 min,2018-05-14T23:00,No,fuentes/exp_eol/README.md
+Chincolco Liceo agrícola,320049,MINENERGIA,-32.22250,-70.83167,665.0,Intensidad del viento,Meteorológica,10,60 min,2017-11-09T13:00+00:00,No,fuentes/exp_eol/README.md
+Chincolco Liceo agrícola,320049,MINENERGIA,-32.22250,-70.83167,665.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-11-08T23:00+00:00,No,fuentes/exp_eol/README.md
+Chincolco Liceo agrícola,320049,MINENERGIA,-32.22250,-70.83167,665.0,Radiación solar,Meteorológica,No informado,10 min,2018-05-14T22:40,No,fuentes/exp_eol/README.md
+Chincolco Liceo agrícola,320049,MINENERGIA,-32.22250,-70.83167,665.0,Temperatura,Meteorológica,No informado,Variable,1996-07-03T12:00,No,fuentes/exp_eol/README.md
+Los Libertadores,320051,MINENERGIA,-32.84555,-70.11917,2955.0,Dirección del viento,Meteorológica,10,60 min,2012-08-27T21:00+00:00,No,fuentes/exp_eol/README.md
+Los Libertadores,320051,MINENERGIA,-32.84555,-70.11917,2955.0,Dirección del viento,Meteorológica,No informado,60 min,2012-08-27T21:00+00:00,No,fuentes/exp_eol/README.md
+Los Libertadores,320051,MINENERGIA,-32.84555,-70.11917,2955.0,Humedad,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+Los Libertadores,320051,MINENERGIA,-32.84555,-70.11917,2955.0,Intensidad del viento,Meteorológica,10,60 min,2012-08-27T21:00+00:00,No,fuentes/exp_eol/README.md
+Los Libertadores,320051,MINENERGIA,-32.84555,-70.11917,2955.0,Intensidad del viento,Meteorológica,No informado,60 min,2012-08-27T21:00+00:00,No,fuentes/exp_eol/README.md
+Los Libertadores,320051,MINENERGIA,-32.84555,-70.11917,2955.0,Radiación solar,Meteorológica,No informado,10 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+Los Libertadores,320051,MINENERGIA,-32.84555,-70.11917,2955.0,Temperatura,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Dirección del viento,Meteorológica,10,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Dirección del viento,Meteorológica,2,60 min,2010-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Dirección del viento,Meteorológica,No informado,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Humedad,Meteorológica,No informado,60 min,2010-01-01T00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Intensidad del viento,Meteorológica,10,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Intensidad del viento,Meteorológica,2,60 min,2010-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Intensidad del viento,Meteorológica,No informado,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Radiación solar,Meteorológica,No informado,Variable,2010-01-01T00:00,No,fuentes/exp_eol/README.md
+Catemu,320055,MINENERGIA,-32.75889,-70.94278,443.0,Temperatura,Meteorológica,No informado,Variable,2002-01-01T00:00,No,fuentes/exp_eol/README.md
+"Quintero, Climatológica",320056,MINENERGIA,-32.78417,-71.52278,5.0,Dirección del viento,Meteorológica,10,60 min,2018-05-01T00:00+00:00,No,fuentes/exp_eol/README.md
+"Quintero, Climatológica",320056,MINENERGIA,-32.78417,-71.52278,5.0,Dirección del viento,Meteorológica,No informado,60 min,2018-04-30T23:00+00:00,No,fuentes/exp_eol/README.md
+"Quintero, Climatológica",320056,MINENERGIA,-32.78417,-71.52278,5.0,Intensidad del viento,Meteorológica,10,60 min,2018-05-01T00:00+00:00,No,fuentes/exp_eol/README.md
+"Quintero, Climatológica",320056,MINENERGIA,-32.78417,-71.52278,5.0,Intensidad del viento,Meteorológica,No informado,60 min,2018-04-30T23:00+00:00,No,fuentes/exp_eol/README.md
+Zapallar Catapilco,320063,MINENERGIA,-32.56139,-71.29778,81.0,Dirección del viento,Meteorológica,10,60 min,2016-09-06T00:00+00:00,No,fuentes/exp_eol/README.md
+Zapallar Catapilco,320063,MINENERGIA,-32.56139,-71.29778,81.0,Dirección del viento,Meteorológica,No informado,60 min,2016-06-20T19:00+00:00,No,fuentes/exp_eol/README.md
+Zapallar Catapilco,320063,MINENERGIA,-32.56139,-71.29778,81.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Zapallar Catapilco,320063,MINENERGIA,-32.56139,-71.29778,81.0,Intensidad del viento,Meteorológica,10,60 min,2016-09-06T00:00+00:00,No,fuentes/exp_eol/README.md
+Zapallar Catapilco,320063,MINENERGIA,-32.56139,-71.29778,81.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-06-20T19:00+00:00,No,fuentes/exp_eol/README.md
+Zapallar Catapilco,320063,MINENERGIA,-32.56139,-71.29778,81.0,Radiación solar,Meteorológica,No informado,10 min,2016-06-20T18:20,No,fuentes/exp_eol/README.md
+Zapallar Catapilco,320063,MINENERGIA,-32.56139,-71.29778,81.0,Temperatura,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+El Tártaro (Putaendo),320121,MINENERGIA,-32.57083,-70.70417,933.0,Dirección del viento,Meteorológica,10,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+El Tártaro (Putaendo),320121,MINENERGIA,-32.57083,-70.70417,933.0,Dirección del viento,Meteorológica,No informado,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+El Tártaro (Putaendo),320121,MINENERGIA,-32.57083,-70.70417,933.0,Intensidad del viento,Meteorológica,10,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+El Tártaro (Putaendo),320121,MINENERGIA,-32.57083,-70.70417,933.0,Intensidad del viento,Meteorológica,No informado,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+Panquehue,320122,MINENERGIA,-32.76917,-70.83500,519.0,Dirección del viento,Meteorológica,10,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+Panquehue,320122,MINENERGIA,-32.76917,-70.83500,519.0,Dirección del viento,Meteorológica,No informado,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+Panquehue,320122,MINENERGIA,-32.76917,-70.83500,519.0,Intensidad del viento,Meteorológica,10,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+Panquehue,320122,MINENERGIA,-32.76917,-70.83500,519.0,Intensidad del viento,Meteorológica,No informado,60 min,2024-04-25T18:00+00:00,No,fuentes/exp_eol/README.md
+"San Esteban, Liceo",320123,MINENERGIA,-32.80111,-70.57805,835.0,Dirección del viento,Meteorológica,10,60 min,2024-11-09T18:00+00:00,No,fuentes/exp_eol/README.md
+"San Esteban, Liceo",320123,MINENERGIA,-32.80111,-70.57805,835.0,Dirección del viento,Meteorológica,No informado,60 min,2024-11-09T18:00+00:00,No,fuentes/exp_eol/README.md
+"San Esteban, Liceo",320123,MINENERGIA,-32.80111,-70.57805,835.0,Intensidad del viento,Meteorológica,10,60 min,2024-11-09T18:00+00:00,No,fuentes/exp_eol/README.md
+"San Esteban, Liceo",320123,MINENERGIA,-32.80111,-70.57805,835.0,Intensidad del viento,Meteorológica,No informado,60 min,2024-11-09T18:00+00:00,No,fuentes/exp_eol/README.md
+Cristo Redentor,320901,MINENERGIA,-32.82528,-70.07250,3835.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T07:00,No,fuentes/exp_eol/README.md
+El Belloto Ad.,330003,MINENERGIA,-33.04750,-71.41667,121.0,Humedad,Meteorológica,No informado,Variable,1953-01-01T10:00,No,fuentes/exp_eol/README.md
+El Belloto Ad.,330003,MINENERGIA,-33.04750,-71.41667,121.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T10:00,No,fuentes/exp_eol/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006,MINENERGIA,-33.04500,-71.50194,50.0,Dirección del viento,Meteorológica,10,60 min,2016-09-06T19:00+00:00,No,fuentes/exp_eol/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006,MINENERGIA,-33.04500,-71.50194,50.0,Dirección del viento,Meteorológica,No informado,60 min,2016-12-08T23:00+00:00,No,fuentes/exp_eol/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006,MINENERGIA,-33.04500,-71.50194,50.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006,MINENERGIA,-33.04500,-71.50194,50.0,Intensidad del viento,Meteorológica,10,60 min,2016-09-06T19:00+00:00,No,fuentes/exp_eol/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006,MINENERGIA,-33.04500,-71.50194,50.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-12-08T23:00+00:00,No,fuentes/exp_eol/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006,MINENERGIA,-33.04500,-71.50194,50.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+"Jardín Botánico (ex Parque Fauna), Viña del Mar",330006,MINENERGIA,-33.04500,-71.50194,50.0,Temperatura,Meteorológica,No informado,Variable,2002-05-01T12:00,No,fuentes/exp_eol/README.md
+"Rodelillo, Ad.",330007,MINENERGIA,-33.06528,-71.55639,335.0,Dirección del viento,Meteorológica,10,60 min,1971-02-01T13:00+00:00,No,fuentes/exp_eol/README.md
+"Rodelillo, Ad.",330007,MINENERGIA,-33.06528,-71.55639,335.0,Dirección del viento,Meteorológica,No informado,60 min,2014-11-06T18:00+00:00,No,fuentes/exp_eol/README.md
+"Rodelillo, Ad.",330007,MINENERGIA,-33.06528,-71.55639,335.0,Humedad,Meteorológica,No informado,60 min,1971-02-04T13:00,No,fuentes/exp_eol/README.md
+"Rodelillo, Ad.",330007,MINENERGIA,-33.06528,-71.55639,335.0,Intensidad del viento,Meteorológica,10,60 min,1971-02-01T13:00+00:00,No,fuentes/exp_eol/README.md
+"Rodelillo, Ad.",330007,MINENERGIA,-33.06528,-71.55639,335.0,Intensidad del viento,Meteorológica,No informado,60 min,2014-11-06T18:00+00:00,No,fuentes/exp_eol/README.md
+"Rodelillo, Ad.",330007,MINENERGIA,-33.06528,-71.55639,335.0,Radiación solar,Meteorológica,No informado,10 min,2014-12-31T21:00,No,fuentes/exp_eol/README.md
+"Rodelillo, Ad.",330007,MINENERGIA,-33.06528,-71.55639,335.0,Temperatura,Meteorológica,No informado,60 min,1971-02-01T13:00,No,fuentes/exp_eol/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019,MINENERGIA,-33.45528,-70.54861,649.0,Dirección del viento,Meteorológica,10,60 min,1954-10-11T12:00+00:00,No,fuentes/exp_eol/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019,MINENERGIA,-33.45528,-70.54861,649.0,Dirección del viento,Meteorológica,No informado,60 min,2022-03-18T12:00+00:00,No,fuentes/exp_eol/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019,MINENERGIA,-33.45528,-70.54861,649.0,Humedad,Meteorológica,No informado,60 min,1954-12-31T22:00,No,fuentes/exp_eol/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019,MINENERGIA,-33.45528,-70.54861,649.0,Intensidad del viento,Meteorológica,10,60 min,1954-10-11T12:00+00:00,No,fuentes/exp_eol/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019,MINENERGIA,-33.45528,-70.54861,649.0,Intensidad del viento,Meteorológica,No informado,60 min,2022-03-18T12:00+00:00,No,fuentes/exp_eol/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019,MINENERGIA,-33.45528,-70.54861,649.0,Radiación solar,Meteorológica,No informado,10 min,2023-12-31T21:00,No,fuentes/exp_eol/README.md
+"Eulogio Sánchez, Tobalaba Ad.",330019,MINENERGIA,-33.45528,-70.54861,649.0,Temperatura,Meteorológica,No informado,60 min,1954-12-31T22:00,No,fuentes/exp_eol/README.md
+"Quinta Normal, Santiago",330020,MINENERGIA,-33.44500,-70.68278,520.0,Dirección del viento,Meteorológica,10,Variable,1941-01-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Quinta Normal, Santiago",330020,MINENERGIA,-33.44500,-70.68278,520.0,Dirección del viento,Meteorológica,No informado,60 min,2017-04-10T12:00+00:00,No,fuentes/exp_eol/README.md
+"Quinta Normal, Santiago",330020,MINENERGIA,-33.44500,-70.68278,520.0,Humedad,Meteorológica,No informado,Variable,1949-12-31T23:00,No,fuentes/exp_eol/README.md
+"Quinta Normal, Santiago",330020,MINENERGIA,-33.44500,-70.68278,520.0,Intensidad del viento,Meteorológica,10,Variable,1941-01-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Quinta Normal, Santiago",330020,MINENERGIA,-33.44500,-70.68278,520.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-04-10T12:00+00:00,No,fuentes/exp_eol/README.md
+"Quinta Normal, Santiago",330020,MINENERGIA,-33.44500,-70.68278,520.0,Radiación solar,Meteorológica,No informado,10 min,2011-12-31T21:00,No,fuentes/exp_eol/README.md
+"Quinta Normal, Santiago",330020,MINENERGIA,-33.44500,-70.68278,520.0,Temperatura,Meteorológica,No informado,Variable,1949-12-31T23:00,No,fuentes/exp_eol/README.md
+Pudahuel Santiago,330021,MINENERGIA,-33.37833,-70.78778,474.0,Dirección del viento,Meteorológica,10,60 min,1966-01-04T15:00+00:00,No,fuentes/exp_eol/README.md
+Pudahuel Santiago,330021,MINENERGIA,-33.37833,-70.78778,474.0,Dirección del viento,Meteorológica,No informado,60 min,2019-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Pudahuel Santiago,330021,MINENERGIA,-33.37833,-70.78778,474.0,Humedad,Meteorológica,No informado,60 min,1967-01-06T12:00,No,fuentes/exp_eol/README.md
+Pudahuel Santiago,330021,MINENERGIA,-33.37833,-70.78778,474.0,Intensidad del viento,Meteorológica,10,60 min,1966-01-04T15:00+00:00,No,fuentes/exp_eol/README.md
+Pudahuel Santiago,330021,MINENERGIA,-33.37833,-70.78778,474.0,Intensidad del viento,Meteorológica,No informado,60 min,2019-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Pudahuel Santiago,330021,MINENERGIA,-33.37833,-70.78778,474.0,Radiación solar,Meteorológica,No informado,10 min,2018-12-31T23:10,No,fuentes/exp_eol/README.md
+Pudahuel Santiago,330021,MINENERGIA,-33.37833,-70.78778,474.0,Temperatura,Meteorológica,No informado,60 min,1966-01-05T00:00,No,fuentes/exp_eol/README.md
+Los Cerrillos ad.,330023,MINENERGIA,-33.49472,-70.70389,519.0,Humedad,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+Los Cerrillos ad.,330023,MINENERGIA,-33.49472,-70.70389,519.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+El Bosque Base Aérea,330027,MINENERGIA,-33.56250,-70.68500,574.0,Humedad,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+El Bosque Base Aérea,330027,MINENERGIA,-33.56250,-70.68500,574.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T06:00,No,fuentes/exp_eol/README.md
+"Santo Domingo, Ad.",330030,MINENERGIA,-33.65611,-71.61333,77.0,Dirección del viento,Meteorológica,10,60 min,1966-08-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Santo Domingo, Ad.",330030,MINENERGIA,-33.65611,-71.61333,77.0,Dirección del viento,Meteorológica,No informado,60 min,2020-03-23T15:00+00:00,No,fuentes/exp_eol/README.md
+"Santo Domingo, Ad.",330030,MINENERGIA,-33.65611,-71.61333,77.0,Humedad,Meteorológica,No informado,60 min,1966-12-31T21:00,No,fuentes/exp_eol/README.md
+"Santo Domingo, Ad.",330030,MINENERGIA,-33.65611,-71.61333,77.0,Intensidad del viento,Meteorológica,10,60 min,1966-08-01T12:00+00:00,No,fuentes/exp_eol/README.md
+"Santo Domingo, Ad.",330030,MINENERGIA,-33.65611,-71.61333,77.0,Intensidad del viento,Meteorológica,No informado,60 min,2020-03-23T15:00+00:00,No,fuentes/exp_eol/README.md
+"Santo Domingo, Ad.",330030,MINENERGIA,-33.65611,-71.61333,77.0,Temperatura,Meteorológica,No informado,60 min,1966-12-31T21:00,No,fuentes/exp_eol/README.md
+"Juan Fernández, Estación Meteorológica.",330031,MINENERGIA,-33.63583,-78.83305,40.0,Dirección del viento,Meteorológica,10,Variable,1941-01-01T07:00+00:00,No,fuentes/exp_eol/README.md
+"Juan Fernández, Estación Meteorológica.",330031,MINENERGIA,-33.63583,-78.83305,40.0,Dirección del viento,Meteorológica,No informado,60 min,2016-01-12T09:00+00:00,No,fuentes/exp_eol/README.md
+"Juan Fernández, Estación Meteorológica.",330031,MINENERGIA,-33.63583,-78.83305,40.0,Humedad,Meteorológica,No informado,Variable,1950-01-01T12:00,No,fuentes/exp_eol/README.md
+"Juan Fernández, Estación Meteorológica.",330031,MINENERGIA,-33.63583,-78.83305,40.0,Intensidad del viento,Meteorológica,10,Variable,1941-01-01T07:00+00:00,No,fuentes/exp_eol/README.md
+"Juan Fernández, Estación Meteorológica.",330031,MINENERGIA,-33.63583,-78.83305,40.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-01-12T09:00+00:00,No,fuentes/exp_eol/README.md
+"Juan Fernández, Estación Meteorológica.",330031,MINENERGIA,-33.63583,-78.83305,40.0,Radiación solar,Meteorológica,No informado,10 min,2016-01-12T08:10,No,fuentes/exp_eol/README.md
+"Juan Fernández, Estación Meteorológica.",330031,MINENERGIA,-33.63583,-78.83305,40.0,Temperatura,Meteorológica,No informado,Variable,1950-01-01T12:00,No,fuentes/exp_eol/README.md
+"La Punta, Juan Fernández Ad.",330066,MINENERGIA,-33.66639,-78.93167,126.0,Humedad,Meteorológica,No informado,Variable,2013-07-30T13:00,No,fuentes/exp_eol/README.md
+"La Punta, Juan Fernández Ad.",330066,MINENERGIA,-33.66639,-78.93167,126.0,Temperatura,Meteorológica,No informado,60 min,2013-07-30T00:00,No,fuentes/exp_eol/README.md
+Talagante,330071,MINENERGIA,-33.67028,-70.84944,390.0,Dirección del viento,Meteorológica,10,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Talagante,330071,MINENERGIA,-33.67028,-70.84944,390.0,Dirección del viento,Meteorológica,No informado,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Talagante,330071,MINENERGIA,-33.67028,-70.84944,390.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Talagante,330071,MINENERGIA,-33.67028,-70.84944,390.0,Intensidad del viento,Meteorológica,10,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Talagante,330071,MINENERGIA,-33.67028,-70.84944,390.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Talagante,330071,MINENERGIA,-33.67028,-70.84944,390.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Talagante,330071,MINENERGIA,-33.67028,-70.84944,390.0,Temperatura,Meteorológica,No informado,Variable,1992-01-01T00:00,No,fuentes/exp_eol/README.md
+Río Clarillo,330075,MINENERGIA,-33.72833,-70.49667,876.0,Dirección del viento,Meteorológica,10,Variable,1991-10-01T12:00+00:00,No,fuentes/exp_eol/README.md
+Río Clarillo,330075,MINENERGIA,-33.72833,-70.49667,876.0,Dirección del viento,Meteorológica,No informado,60 min,2017-11-08T23:00+00:00,No,fuentes/exp_eol/README.md
+Río Clarillo,330075,MINENERGIA,-33.72833,-70.49667,876.0,Humedad,Meteorológica,No informado,60 min,2017-12-31T21:00,No,fuentes/exp_eol/README.md
+Río Clarillo,330075,MINENERGIA,-33.72833,-70.49667,876.0,Intensidad del viento,Meteorológica,10,Variable,1991-10-01T12:00+00:00,No,fuentes/exp_eol/README.md
+Río Clarillo,330075,MINENERGIA,-33.72833,-70.49667,876.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-11-08T23:00+00:00,No,fuentes/exp_eol/README.md
+Río Clarillo,330075,MINENERGIA,-33.72833,-70.49667,876.0,Radiación solar,Meteorológica,No informado,10 min,2017-12-31T21:00,No,fuentes/exp_eol/README.md
+Río Clarillo,330075,MINENERGIA,-33.72833,-70.49667,876.0,Temperatura,Meteorológica,No informado,Variable,1992-01-01T00:00,No,fuentes/exp_eol/README.md
+Chorombo Hacienda,330076,MINENERGIA,-33.52944,-71.22917,145.0,Dirección del viento,Meteorológica,10,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Chorombo Hacienda,330076,MINENERGIA,-33.52944,-71.22917,145.0,Dirección del viento,Meteorológica,No informado,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Chorombo Hacienda,330076,MINENERGIA,-33.52944,-71.22917,145.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Chorombo Hacienda,330076,MINENERGIA,-33.52944,-71.22917,145.0,Intensidad del viento,Meteorológica,10,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Chorombo Hacienda,330076,MINENERGIA,-33.52944,-71.22917,145.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-09-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Chorombo Hacienda,330076,MINENERGIA,-33.52944,-71.22917,145.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Chorombo Hacienda,330076,MINENERGIA,-33.52944,-71.22917,145.0,Temperatura,Meteorológica,No informado,Variable,1992-01-01T00:00,No,fuentes/exp_eol/README.md
+El Colorado,330077,MINENERGIA,-33.35000,-70.29361,2750.0,Dirección del viento,Meteorológica,10,60 min,2012-08-27T18:00+00:00,No,fuentes/exp_eol/README.md
+El Colorado,330077,MINENERGIA,-33.35000,-70.29361,2750.0,Dirección del viento,Meteorológica,No informado,60 min,2012-08-27T18:00+00:00,No,fuentes/exp_eol/README.md
+El Colorado,330077,MINENERGIA,-33.35000,-70.29361,2750.0,Humedad,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+El Colorado,330077,MINENERGIA,-33.35000,-70.29361,2750.0,Intensidad del viento,Meteorológica,10,60 min,2012-08-27T18:00+00:00,No,fuentes/exp_eol/README.md
+El Colorado,330077,MINENERGIA,-33.35000,-70.29361,2750.0,Intensidad del viento,Meteorológica,No informado,60 min,2012-08-27T18:00+00:00,No,fuentes/exp_eol/README.md
+El Colorado,330077,MINENERGIA,-33.35000,-70.29361,2750.0,Radiación solar,Meteorológica,No informado,10 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+El Colorado,330077,MINENERGIA,-33.35000,-70.29361,2750.0,Temperatura,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+Polpaico,330081,MINENERGIA,-33.12389,-70.82805,547.0,Dirección del viento,Meteorológica,10,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Polpaico,330081,MINENERGIA,-33.12389,-70.82805,547.0,Dirección del viento,Meteorológica,No informado,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Polpaico,330081,MINENERGIA,-33.12389,-70.82805,547.0,Intensidad del viento,Meteorológica,10,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Polpaico,330081,MINENERGIA,-33.12389,-70.82805,547.0,Intensidad del viento,Meteorológica,No informado,60 min,2024-02-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Colina,330083,MINENERGIA,-33.20389,-70.69778,569.0,Humedad,Meteorológica,No informado,Variable,2010-07-07T12:00,No,fuentes/exp_eol/README.md
+Colina,330083,MINENERGIA,-33.20389,-70.69778,569.0,Temperatura,Meteorológica,No informado,Variable,1992-05-01T12:00,No,fuentes/exp_eol/README.md
+Lo Prado Cerro San Francisco,330111,MINENERGIA,-33.45806,-70.94861,1068.0,Dirección del viento,Meteorológica,10,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+Lo Prado Cerro San Francisco,330111,MINENERGIA,-33.45806,-70.94861,1068.0,Dirección del viento,Meteorológica,No informado,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+Lo Prado Cerro San Francisco,330111,MINENERGIA,-33.45806,-70.94861,1068.0,Humedad,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+Lo Prado Cerro San Francisco,330111,MINENERGIA,-33.45806,-70.94861,1068.0,Intensidad del viento,Meteorológica,10,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+Lo Prado Cerro San Francisco,330111,MINENERGIA,-33.45806,-70.94861,1068.0,Intensidad del viento,Meteorológica,No informado,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+Lo Prado Cerro San Francisco,330111,MINENERGIA,-33.45806,-70.94861,1068.0,Radiación solar,Meteorológica,No informado,10 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+Lo Prado Cerro San Francisco,330111,MINENERGIA,-33.45806,-70.94861,1068.0,Temperatura,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+San José Guayacán,330112,MINENERGIA,-33.61528,-70.35055,928.0,Dirección del viento,Meteorológica,10,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+San José Guayacán,330112,MINENERGIA,-33.61528,-70.35055,928.0,Dirección del viento,Meteorológica,No informado,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+San José Guayacán,330112,MINENERGIA,-33.61528,-70.35055,928.0,Humedad,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+San José Guayacán,330112,MINENERGIA,-33.61528,-70.35055,928.0,Intensidad del viento,Meteorológica,10,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+San José Guayacán,330112,MINENERGIA,-33.61528,-70.35055,928.0,Intensidad del viento,Meteorológica,No informado,60 min,2012-12-07T20:00+00:00,No,fuentes/exp_eol/README.md
+San José Guayacán,330112,MINENERGIA,-33.61528,-70.35055,928.0,Radiación solar,Meteorológica,No informado,10 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+San José Guayacán,330112,MINENERGIA,-33.61528,-70.35055,928.0,Temperatura,Meteorológica,No informado,60 min,2012-12-31T21:00,No,fuentes/exp_eol/README.md
+El Paico,330113,MINENERGIA,-33.70639,-71.00805,275.0,Dirección del viento,Meteorológica,10,60 min,2013-03-25T17:00+00:00,No,fuentes/exp_eol/README.md
+El Paico,330113,MINENERGIA,-33.70639,-71.00805,275.0,Dirección del viento,Meteorológica,No informado,60 min,2013-03-25T17:00+00:00,No,fuentes/exp_eol/README.md
+El Paico,330113,MINENERGIA,-33.70639,-71.00805,275.0,Humedad,Meteorológica,No informado,60 min,2013-03-25T17:00,No,fuentes/exp_eol/README.md
+El Paico,330113,MINENERGIA,-33.70639,-71.00805,275.0,Intensidad del viento,Meteorológica,10,60 min,2013-03-25T17:00+00:00,No,fuentes/exp_eol/README.md
+El Paico,330113,MINENERGIA,-33.70639,-71.00805,275.0,Intensidad del viento,Meteorológica,No informado,60 min,2013-03-25T17:00+00:00,No,fuentes/exp_eol/README.md
+El Paico,330113,MINENERGIA,-33.70639,-71.00805,275.0,Radiación solar,Meteorológica,No informado,10 min,2013-03-25T16:40,No,fuentes/exp_eol/README.md
+El Paico,330113,MINENERGIA,-33.70639,-71.00805,275.0,Temperatura,Meteorológica,No informado,60 min,2013-03-25T17:00,No,fuentes/exp_eol/README.md
+San Pablo - DASA,330114,MINENERGIA,-33.44222,-70.74667,490.0,Dirección del viento,Meteorológica,10,60 min,2013-11-06T13:00+00:00,No,fuentes/exp_eol/README.md
+San Pablo - DASA,330114,MINENERGIA,-33.44222,-70.74667,490.0,Dirección del viento,Meteorológica,No informado,60 min,2013-11-06T13:00+00:00,No,fuentes/exp_eol/README.md
+San Pablo - DASA,330114,MINENERGIA,-33.44222,-70.74667,490.0,Humedad,Meteorológica,No informado,60 min,2013-12-31T21:00,No,fuentes/exp_eol/README.md
+San Pablo - DASA,330114,MINENERGIA,-33.44222,-70.74667,490.0,Intensidad del viento,Meteorológica,10,60 min,2013-11-06T13:00+00:00,No,fuentes/exp_eol/README.md
+San Pablo - DASA,330114,MINENERGIA,-33.44222,-70.74667,490.0,Intensidad del viento,Meteorológica,No informado,60 min,2013-11-06T13:00+00:00,No,fuentes/exp_eol/README.md
+San Pablo - DASA,330114,MINENERGIA,-33.44222,-70.74667,490.0,Temperatura,Meteorológica,No informado,60 min,2013-12-31T21:00,No,fuentes/exp_eol/README.md
+Lo Pinto,330118,MINENERGIA,-33.26805,-70.73222,512.0,Dirección del viento,Meteorológica,10,60 min,2014-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Lo Pinto,330118,MINENERGIA,-33.26805,-70.73222,512.0,Dirección del viento,Meteorológica,No informado,60 min,2013-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Lo Pinto,330118,MINENERGIA,-33.26805,-70.73222,512.0,Humedad,Meteorológica,No informado,60 min,2014-01-01T00:00,No,fuentes/exp_eol/README.md
+Lo Pinto,330118,MINENERGIA,-33.26805,-70.73222,512.0,Intensidad del viento,Meteorológica,10,60 min,2014-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Lo Pinto,330118,MINENERGIA,-33.26805,-70.73222,512.0,Intensidad del viento,Meteorológica,No informado,60 min,2013-12-31T23:00+00:00,No,fuentes/exp_eol/README.md
+Lo Pinto,330118,MINENERGIA,-33.26805,-70.73222,512.0,Temperatura,Meteorológica,No informado,60 min,2014-01-01T00:00,No,fuentes/exp_eol/README.md
+Curacaví Ad.,330121,MINENERGIA,-33.41111,-71.16778,203.0,Dirección del viento,Meteorológica,10,60 min,2015-10-01T12:00+00:00,No,fuentes/exp_eol/README.md
+Curacaví Ad.,330121,MINENERGIA,-33.41111,-71.16778,203.0,Dirección del viento,Meteorológica,No informado,60 min,2015-09-30T23:00+00:00,No,fuentes/exp_eol/README.md
+Curacaví Ad.,330121,MINENERGIA,-33.41111,-71.16778,203.0,Humedad,Meteorológica,No informado,60 min,2015-12-31T21:00,No,fuentes/exp_eol/README.md
+Curacaví Ad.,330121,MINENERGIA,-33.41111,-71.16778,203.0,Intensidad del viento,Meteorológica,10,60 min,2015-10-01T12:00+00:00,No,fuentes/exp_eol/README.md
+Curacaví Ad.,330121,MINENERGIA,-33.41111,-71.16778,203.0,Intensidad del viento,Meteorológica,No informado,60 min,2015-09-30T23:00+00:00,No,fuentes/exp_eol/README.md
+Curacaví Ad.,330121,MINENERGIA,-33.41111,-71.16778,203.0,Radiación solar,Meteorológica,No informado,10 min,2015-12-31T21:00,No,fuentes/exp_eol/README.md
+Curacaví Ad.,330121,MINENERGIA,-33.41111,-71.16778,203.0,Temperatura,Meteorológica,No informado,60 min,2015-12-31T21:00,No,fuentes/exp_eol/README.md
+"Aguas Andinas, La Florida",330122,MINENERGIA,-33.54500,-70.54833,670.0,Dirección del viento,Meteorológica,10,60 min,2017-06-01T00:00+00:00,No,fuentes/exp_eol/README.md
+"Aguas Andinas, La Florida",330122,MINENERGIA,-33.54500,-70.54833,670.0,Dirección del viento,Meteorológica,No informado,60 min,2017-06-01T00:00+00:00,No,fuentes/exp_eol/README.md
+"Aguas Andinas, La Florida",330122,MINENERGIA,-33.54500,-70.54833,670.0,Humedad,Meteorológica,No informado,60 min,2017-06-01T00:00,No,fuentes/exp_eol/README.md
+"Aguas Andinas, La Florida",330122,MINENERGIA,-33.54500,-70.54833,670.0,Intensidad del viento,Meteorológica,10,60 min,2017-06-01T00:00+00:00,No,fuentes/exp_eol/README.md
+"Aguas Andinas, La Florida",330122,MINENERGIA,-33.54500,-70.54833,670.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-06-01T00:00+00:00,No,fuentes/exp_eol/README.md
+"Aguas Andinas, La Florida",330122,MINENERGIA,-33.54500,-70.54833,670.0,Radiación solar,Meteorológica,No informado,10 min,2017-05-31T23:10,No,fuentes/exp_eol/README.md
+"Aguas Andinas, La Florida",330122,MINENERGIA,-33.54500,-70.54833,670.0,Temperatura,Meteorológica,No informado,60 min,2017-06-13T20:00,No,fuentes/exp_eol/README.md
+"El Milagro, Buin",330160,MINENERGIA,-33.75444,-70.76444,460.0,Dirección del viento,Meteorológica,10,60 min,2018-05-02T00:00+00:00,No,fuentes/exp_eol/README.md
+"El Milagro, Buin",330160,MINENERGIA,-33.75444,-70.76444,460.0,Dirección del viento,Meteorológica,No informado,60 min,2018-05-01T23:00+00:00,No,fuentes/exp_eol/README.md
+"El Milagro, Buin",330160,MINENERGIA,-33.75444,-70.76444,460.0,Intensidad del viento,Meteorológica,10,60 min,2018-05-02T00:00+00:00,No,fuentes/exp_eol/README.md
+"El Milagro, Buin",330160,MINENERGIA,-33.75444,-70.76444,460.0,Intensidad del viento,Meteorológica,No informado,60 min,2018-05-01T23:00+00:00,No,fuentes/exp_eol/README.md
+"San Antonio, Lo Zarate",330161,MINENERGIA,-33.53055,-71.50611,103.0,Dirección del viento,Meteorológica,10,60 min,2018-11-23T11:00+00:00,No,fuentes/exp_eol/README.md
+"San Antonio, Lo Zarate",330161,MINENERGIA,-33.53055,-71.50611,103.0,Dirección del viento,Meteorológica,No informado,60 min,2018-11-23T11:00+00:00,No,fuentes/exp_eol/README.md
+"San Antonio, Lo Zarate",330161,MINENERGIA,-33.53055,-71.50611,103.0,Intensidad del viento,Meteorológica,10,60 min,2018-11-23T11:00+00:00,No,fuentes/exp_eol/README.md
+"San Antonio, Lo Zarate",330161,MINENERGIA,-33.53055,-71.50611,103.0,Intensidad del viento,Meteorológica,No informado,60 min,2018-11-23T11:00+00:00,No,fuentes/exp_eol/README.md
+Colina (Reg.),330162,MINENERGIA,-33.16222,-70.64306,755.0,Dirección del viento,Meteorológica,10,60 min,2019-02-16T01:00+00:00,No,fuentes/exp_eol/README.md
+Colina (Reg.),330162,MINENERGIA,-33.16222,-70.64306,755.0,Dirección del viento,Meteorológica,No informado,60 min,2019-02-16T01:00+00:00,No,fuentes/exp_eol/README.md
+Colina (Reg.),330162,MINENERGIA,-33.16222,-70.64306,755.0,Intensidad del viento,Meteorológica,10,60 min,2019-02-16T01:00+00:00,No,fuentes/exp_eol/README.md
+Colina (Reg.),330162,MINENERGIA,-33.16222,-70.64306,755.0,Intensidad del viento,Meteorológica,No informado,60 min,2019-02-16T01:00+00:00,No,fuentes/exp_eol/README.md
+Peldehue Ad.,330163,MINENERGIA,-33.11389,-70.68583,670.0,Dirección del viento,Meteorológica,10,60 min,2020-01-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Peldehue Ad.,330163,MINENERGIA,-33.11389,-70.68583,670.0,Dirección del viento,Meteorológica,No informado,60 min,2022-02-09T23:00+00:00,No,fuentes/exp_eol/README.md
+Peldehue Ad.,330163,MINENERGIA,-33.11389,-70.68583,670.0,Intensidad del viento,Meteorológica,10,60 min,2020-01-07T15:00+00:00,No,fuentes/exp_eol/README.md
+Peldehue Ad.,330163,MINENERGIA,-33.11389,-70.68583,670.0,Intensidad del viento,Meteorológica,No informado,60 min,2022-02-09T23:00+00:00,No,fuentes/exp_eol/README.md
+Llanos de Caleu - La Dormida,330193,MINENERGIA,-33.04944,-71.00139,1450.0,Dirección del viento,Meteorológica,10,60 min,2023-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Llanos de Caleu - La Dormida,330193,MINENERGIA,-33.04944,-71.00139,1450.0,Dirección del viento,Meteorológica,No informado,60 min,2023-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Llanos de Caleu - La Dormida,330193,MINENERGIA,-33.04944,-71.00139,1450.0,Intensidad del viento,Meteorológica,10,60 min,2023-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Llanos de Caleu - La Dormida,330193,MINENERGIA,-33.04944,-71.00139,1450.0,Intensidad del viento,Meteorológica,No informado,60 min,2023-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Colina Base Aérea,330903,MINENERGIA,-33.21333,-70.66444,594.0,Humedad,Meteorológica,No informado,Variable,1952-01-09T16:00,No,fuentes/exp_eol/README.md
+Colina Base Aérea,330903,MINENERGIA,-33.21333,-70.66444,594.0,Temperatura,Meteorológica,No informado,Variable,1952-01-01T10:00,No,fuentes/exp_eol/README.md
+Hidango,340042,MINENERGIA,-34.11250,-71.79722,300.0,Temperatura,Meteorológica,No informado,Variable,1989-01-01T12:00,No,fuentes/exp_eol/README.md
+Rancagua,340045,MINENERGIA,-34.17222,-70.77611,482.0,Dirección del viento,Meteorológica,10,60 min,1950-06-01T10:00+00:00,No,fuentes/exp_eol/README.md
+Rancagua,340045,MINENERGIA,-34.17222,-70.77611,482.0,Dirección del viento,Meteorológica,No informado,60 min,2015-11-30T23:00+00:00,No,fuentes/exp_eol/README.md
+Rancagua,340045,MINENERGIA,-34.17222,-70.77611,482.0,Humedad,Meteorológica,No informado,60 min,1955-12-31T21:00,No,fuentes/exp_eol/README.md
+Rancagua,340045,MINENERGIA,-34.17222,-70.77611,482.0,Intensidad del viento,Meteorológica,10,60 min,1950-06-01T10:00+00:00,No,fuentes/exp_eol/README.md
+Rancagua,340045,MINENERGIA,-34.17222,-70.77611,482.0,Intensidad del viento,Meteorológica,No informado,60 min,2015-11-30T23:00+00:00,No,fuentes/exp_eol/README.md
+Rancagua,340045,MINENERGIA,-34.17222,-70.77611,482.0,Radiación solar,Meteorológica,No informado,10 min,2015-12-31T21:00,No,fuentes/exp_eol/README.md
+Rancagua,340045,MINENERGIA,-34.17222,-70.77611,482.0,Temperatura,Meteorológica,No informado,60 min,1950-06-01T10:00,No,fuentes/exp_eol/README.md
+Quimávida,340048,MINENERGIA,-34.21500,-70.99694,316.0,Dirección del viento,Meteorológica,10,60 min,2016-09-06T19:00+00:00,No,fuentes/exp_eol/README.md
+Quimávida,340048,MINENERGIA,-34.21500,-70.99694,316.0,Dirección del viento,Meteorológica,No informado,60 min,2016-09-05T23:00+00:00,No,fuentes/exp_eol/README.md
+Quimávida,340048,MINENERGIA,-34.21500,-70.99694,316.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Quimávida,340048,MINENERGIA,-34.21500,-70.99694,316.0,Intensidad del viento,Meteorológica,10,60 min,2016-09-06T19:00+00:00,No,fuentes/exp_eol/README.md
+Quimávida,340048,MINENERGIA,-34.21500,-70.99694,316.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-09-05T23:00+00:00,No,fuentes/exp_eol/README.md
+Quimávida,340048,MINENERGIA,-34.21500,-70.99694,316.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Quimávida,340048,MINENERGIA,-34.21500,-70.99694,316.0,Temperatura,Meteorológica,No informado,Variable,1989-01-01T12:00,No,fuentes/exp_eol/README.md
+Paredones,340057,MINENERGIA,-34.64472,-71.89750,75.0,Temperatura,Meteorológica,No informado,Variable,1989-01-01T12:00,No,fuentes/exp_eol/README.md
+Nilahue - La Quebrada,340066,MINENERGIA,-34.66083,-71.73528,81.0,Dirección del viento,Meteorológica,10,60 min,2016-09-06T19:00+00:00,No,fuentes/exp_eol/README.md
+Nilahue - La Quebrada,340066,MINENERGIA,-34.66083,-71.73528,81.0,Dirección del viento,Meteorológica,No informado,60 min,2016-09-05T23:00+00:00,No,fuentes/exp_eol/README.md
+Nilahue - La Quebrada,340066,MINENERGIA,-34.66083,-71.73528,81.0,Humedad,Meteorológica,No informado,60 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Nilahue - La Quebrada,340066,MINENERGIA,-34.66083,-71.73528,81.0,Intensidad del viento,Meteorológica,10,60 min,2016-09-06T19:00+00:00,No,fuentes/exp_eol/README.md
+Nilahue - La Quebrada,340066,MINENERGIA,-34.66083,-71.73528,81.0,Intensidad del viento,Meteorológica,No informado,60 min,2016-09-05T23:00+00:00,No,fuentes/exp_eol/README.md
+Nilahue - La Quebrada,340066,MINENERGIA,-34.66083,-71.73528,81.0,Radiación solar,Meteorológica,No informado,10 min,2016-12-31T21:00,No,fuentes/exp_eol/README.md
+Nilahue - La Quebrada,340066,MINENERGIA,-34.66083,-71.73528,81.0,Temperatura,Meteorológica,No informado,Variable,1997-01-01T00:00,No,fuentes/exp_eol/README.md
+Portezuelo-Codelco,340093,MINENERGIA,-34.19833,-70.57917,1185.0,Dirección del viento,Meteorológica,10,60 min,2014-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Portezuelo-Codelco,340093,MINENERGIA,-34.19833,-70.57917,1185.0,Dirección del viento,Meteorológica,No informado,60 min,2015-09-30T23:00+00:00,No,fuentes/exp_eol/README.md
+Portezuelo-Codelco,340093,MINENERGIA,-34.19833,-70.57917,1185.0,Humedad,Meteorológica,No informado,60 min,2014-01-01T00:00,No,fuentes/exp_eol/README.md
+Portezuelo-Codelco,340093,MINENERGIA,-34.19833,-70.57917,1185.0,Intensidad del viento,Meteorológica,10,60 min,2014-01-01T00:00+00:00,No,fuentes/exp_eol/README.md
+Portezuelo-Codelco,340093,MINENERGIA,-34.19833,-70.57917,1185.0,Intensidad del viento,Meteorológica,No informado,60 min,2015-09-30T23:00+00:00,No,fuentes/exp_eol/README.md
+Portezuelo-Codelco,340093,MINENERGIA,-34.19833,-70.57917,1185.0,Temperatura,Meteorológica,No informado,60 min,2014-01-01T00:00,No,fuentes/exp_eol/README.md
+Pichilemu aeródromo,340115,MINENERGIA,-34.39417,-72.01861,25.0,Dirección del viento,Meteorológica,10,60 min,2017-11-06T21:00+00:00,No,fuentes/exp_eol/README.md
+Pichilemu aeródromo,340115,MINENERGIA,-34.39417,-72.01861,25.0,Dirección del viento,Meteorológica,No informado,60 min,2017-11-05T23:00+00:00,No,fuentes/exp_eol/README.md
+Pichilemu aeródromo,340115,MINENERGIA,-34.39417,-72.01861,25.0,Humedad,Meteorológica,No informado,60 min,2018-01-10T03:00,No,fuentes/exp_eol/README.md
+Pichilemu aeródromo,340115,MINENERGIA,-34.39417,-72.01861,25.0,Intensidad del viento,Meteorológica,10,60 min,2017-11-06T21:00+00:00,No,fuentes/exp_eol/README.md
+Pichilemu aeródromo,340115,MINENERGIA,-34.39417,-72.01861,25.0,Intensidad del viento,Meteorológica,No informado,60 min,2017-11-05T23:00+00:00,No,fuentes/exp_eol/README.md
+Pichilemu aeródromo,340115,MINENERGIA,-34.39417,-72.01861,25.0,Radiación solar,Meteorológica,No informado,10 min,2018-01-10T02:40,No,fuentes/exp_eol/README.md
+Pichilemu aeródromo,340115,MINENERGIA,-34.39417,-72.01861,25.0,Temperatura,Meteorológica,No informado,60 min,2018-01-10T03:00,No,fuentes/exp_eol/README.md
+"Rancagua, Radioestación F.A.CH.",340902,MINENERGIA,-34.13333,-70.71667,500.0,Temperatura,Meteorológica,No informado,Variable,1952-01-02T12:00,No,fuentes/exp_eol/README.md
 Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Humedad,Meteorológica,2,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
 Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Intensidad del viento,Meteorológica,4,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
 Aeropuerto Copiapo,ADDA,MINENERGIA,-27.2639,-70.7806,210,Radiación solar,Meteorológica,2.5,10 min,2013-02-23T11:10-04:00,No,fuentes/exp_eol/README.md
@@ -162,6 +432,11 @@ Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Intensidad del viento,Mete
 Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Radiación solar,Meteorológica,No informado,10 min,2010-01-26T13:40-04:00,No,fuentes/exp_eol/README.md
 Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Ráfaga del viento,Meteorológica,4,10 min,2011-01-01T00:00-04:00,No,fuentes/exp_eol/README.md
 Pampa Camarones,CAMA,MINENERGIA,-18.8584,-70.2173,795,Temperatura,Meteorológica,2.5,10 min,2010-01-26T13:40-04:00,No,fuentes/exp_eol/README.md
+Observatorio Solar Cerro Calan,CCALAN,MINENERGIA,-33.3973,-70.5368,850,Humedad,Meteorológica,1.7,10 min,2013-08-09T13:20-04:00,No,fuentes/exp_eol/README.md
+Observatorio Solar Cerro Calan,CCALAN,MINENERGIA,-33.3973,-70.5368,850,Intensidad del viento,Meteorológica,4,10 min,2013-08-09T13:20-04:00,No,fuentes/exp_eol/README.md
+Observatorio Solar Cerro Calan,CCALAN,MINENERGIA,-33.3973,-70.5368,850,Radiación solar,Meteorológica,No informado,10 min,2013-08-09T15:30-04:00,No,fuentes/exp_eol/README.md
+Observatorio Solar Cerro Calan,CCALAN,MINENERGIA,-33.3973,-70.5368,850,Ráfaga del viento,Meteorológica,4,10 min,2013-08-09T13:20-04:00,No,fuentes/exp_eol/README.md
+Observatorio Solar Cerro Calan,CCALAN,MINENERGIA,-33.3973,-70.5368,850,Temperatura,Meteorológica,1.7,10 min,2013-08-09T13:20-04:00,No,fuentes/exp_eol/README.md
 Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Humedad,Meteorológica,1.2,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
 Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Intensidad del viento,Meteorológica,4,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
 Crucero,CRUC,MINENERGIA,-22.2746,-69.5661,1176,Radiación solar,Meteorológica,2.05,10 min,2009-08-28T10:20-04:00,No,fuentes/exp_eol/README.md
@@ -491,6 +766,14 @@ Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Radiación solar,Meteor
 Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Ráfaga del viento,Meteorológica,10,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
 Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Ráfaga del viento,Meteorológica,20,10 min,2009-12-06T00:00-04:00,No,fuentes/exp_eol/README.md
 Capricornio (c8),c8,MINENERGIA,-23.449217,-70.140753,773,Temperatura,Meteorológica,5,10 min,2009-07-05T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Dirección del viento,Meteorológica,30,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Dirección del viento,Meteorológica,40,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Intensidad del viento,Meteorológica,20,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Intensidad del viento,Meteorológica,30,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Intensidad del viento,Meteorológica,40,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Ráfaga del viento,Meteorológica,20,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Ráfaga del viento,Meteorológica,30,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
+"Estación eólica Cerro Centinela, Isla Juan Fernandez (40m)",cerro_centinela,MINENERGIA,-33.639994,-78.804,370,Ráfaga del viento,Meteorológica,40,10 min,2003-10-26T00:10-04:00,No,fuentes/exp_eol/README.md
 Estación eólica Valle Chaca (20m),chaca,MINENERGIA,-18.803983,-70.152828,48,Dirección del viento,Meteorológica,No informado,10 min,2003-01-23T08:00-04:00,No,fuentes/exp_eol/README.md
 Estación eólica Valle Chaca (20m),chaca,MINENERGIA,-18.803983,-70.152828,48,Intensidad del viento,Meteorológica,20,10 min,2003-01-23T08:00-04:00,No,fuentes/exp_eol/README.md
 Estación eólica Valle Chaca (20m),chaca,MINENERGIA,-18.803983,-70.152828,48,Radiación solar,Meteorológica,35,10 min,2003-01-23T08:00-04:00,No,fuentes/exp_eol/README.md

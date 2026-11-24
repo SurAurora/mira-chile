@@ -2,7 +2,7 @@
 
 ## 1. Objetivo
 
-Construir un catálogo reproducible de las observaciones meteorológicas y de calidad del aire disponibles para el norte de Chile. El producto principal **no contiene las observaciones**: es un archivo CSV que describe, para cada estación, variable, altura de sensor y frecuencia de muestreo, desde cuándo existen datos, si están disponibles actualmente y cómo descargarlos.
+Construir un catálogo reproducible de las observaciones meteorológicas y de calidad del aire disponibles en las regiones incorporadas progresivamente a MIRA Chile. El producto principal **no contiene las observaciones**: es un archivo CSV que describe, para cada estación, variable, altura de sensor y frecuencia de muestreo, desde cuándo existen datos, si están disponibles actualmente y cómo descargarlos.
 
 El catálogo debe permitir que otra persona identifique los datos disponibles y reproduzca su descarga siguiendo el `README.md` correspondiente.
 
@@ -14,6 +14,9 @@ Incluir estaciones ubicadas en las siguientes regiones de Chile, ambas regiones 
 2. Región de Tarapacá.
 3. Región de Antofagasta.
 4. Región de Atacama.
+5. Región de Valparaíso.
+6. Región Metropolitana de Santiago.
+7. Región del Libertador General Bernardo O'Higgins.
 
 La inclusión se determina por las coordenadas de la estación, no solamente por la región declarada en el portal de origen. Las estaciones móviles requieren una evaluación separada; no se les debe asignar una única ubicación fija sin evidencia.
 

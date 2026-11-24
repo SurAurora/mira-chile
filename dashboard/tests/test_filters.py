@@ -99,6 +99,21 @@ class FilterTests(unittest.TestCase):
             result.append({**station, **row})
         return result
 
+    def test_central_regions_are_present_and_filterable(self):
+        self.load()
+        expected_regions = {
+            "Valparaíso",
+            "Metropolitana de Santiago",
+            "Libertador General Bernardo O'Higgins",
+        }
+        catalog_regions = {row["region"] for row in CATALOG["stations"]}
+        self.assertTrue(expected_regions <= catalog_regions)
+        menu = self.page.locator("#regionFilter")
+        menu.locator("summary").click()
+        for region in expected_regions:
+            expect(menu.get_by_role("checkbox", name=region, exact=True)).to_have_count(1)
+            self.assertTrue(any(row["region"] == region for row in CATALOG["stations"]))
+
     def test_single_multiple_and_all_in_every_categorical_filter(self):
         self.load()
         options = {

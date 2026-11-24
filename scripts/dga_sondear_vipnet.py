@@ -29,7 +29,7 @@ BASE = "https://vipnet.mop.gob.cl"
 STATIONS_URL = f"{BASE}/v1/vipnet/estaciones/valor"
 VALUES_URL = f"{BASE}/v1/vipnet/estacion/valores"
 TZ = ZoneInfo("America/Santiago")
-TARGET_REGIONS = {1, 2, 3, 15}
+TARGET_REGIONS = {1, 2, 3, 5, 6, 13, 15}
 VARIABLES = {
     0: ("Precipitación", 0.0, 500.0),
     1: ("Temperatura", -80.0, 60.0),
@@ -94,7 +94,7 @@ def fetch_stations() -> list[dict]:
                 "variable": variable,
                 # El valor agregado sólo se usa como prueba de existencia en
                 # la ventana; los controles físicos se aplican a observaciones.
-                "datos_ultimos_7_dias_completos": isinstance(station.get("value"), (int, float)),
+                "datos_ultimos_7_dias_completos": valid_value(variable_id, station.get("value")),
             })
     rows.sort(key=lambda row: (row["codigoEstacion"], row["tipoEstacion"]))
     return rows
@@ -177,9 +177,13 @@ def main() -> int:
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--limit", type=int, help="Limita series para pruebas")
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument(
+        "--refresh-stations", action="store_true",
+        help="Actualiza el inventario y la disponibilidad reciente al reanudar",
+    )
     args = parser.parse_args()
     RAW.mkdir(parents=True, exist_ok=True)
-    if args.resume and STATIONS_OUTPUT.exists():
+    if args.resume and STATIONS_OUTPUT.exists() and not args.refresh_stations:
         stations = json.loads(STATIONS_OUTPUT.read_text(encoding="utf-8"))
     else:
         stations = fetch_stations()

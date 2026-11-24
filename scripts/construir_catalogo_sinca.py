@@ -36,6 +36,9 @@ REGIONS = {
     "I": "Tarapacá",
     "II": "Antofagasta",
     "III": "Atacama",
+    "V": "Valparaíso",
+    "M": "Metropolitana de Santiago",
+    "VI": "Libertador General Bernardo O'Higgins",
 }
 TODAY = date.today()
 CURRENT_START = TODAY - timedelta(days=7)
@@ -188,6 +191,11 @@ def parse_general(text: str) -> dict:
     zone = re.search(r"\d+", general.get("Huso horario", ""))
     published_e = float(utm.group(1)) if utm else None
     published_n = float(utm.group(2)) if utm else None
+    map_match = re.search(
+        r"google\.maps\.LatLng\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)",
+        text,
+        re.I,
+    )
     utm_e, utm_n = published_e, published_n
     utm_correction = "Ninguna"
     # Una coordenada UTM E válida no tiene siete dígitos y la componente N
@@ -208,6 +216,8 @@ def parse_general(text: str) -> dict:
         "utm_n": utm_n,
         "utm_correction": utm_correction,
         "utm_zone": int(zone.group()) if zone else None,
+        "map_lat": float(map_match.group(1)) if map_match else None,
+        "map_lon": float(map_match.group(2)) if map_match else None,
         "reception": general.get("Recepción de datos", "No informado"),
         "operation_start": general.get("Inicio de operación reportada", "No informado"),
     }
@@ -491,6 +501,13 @@ def write_csv(path: Path, rows: list[dict], fields: list[str]) -> None:
         writer.writerows(rows)
 
 
+def read_csv(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--refresh-metadata", action="store_true")
@@ -504,13 +521,19 @@ def main() -> int:
         help="Repite el sondeo sólo para el código SINCA indicado; se puede repetir",
     )
     parser.add_argument("--workers", type=int, default=4)
+    parser.add_argument(
+        "--region-code", action="append", choices=tuple(REGIONS),
+        help="Procesa sólo estos códigos regionales y conserva las demás regiones",
+    )
     args = parser.parse_args()
     if not 1 <= args.workers <= 4:
         parser.error("--workers debe estar entre 1 y 4")
 
     RAW.mkdir(parents=True, exist_ok=True)
+    selected_region_codes = args.region_code or list(REGIONS)
+    partial_run = bool(args.region_code)
     stations: list[dict] = []
-    for code in REGIONS:
+    for code in selected_region_codes:
         text = cached_page(
             RAW / f"region_{code}.html.gz",
             f"{BASE}/index.php/region/index/id/{code}",
@@ -518,6 +541,7 @@ def main() -> int:
         )
         stations.extend(parse_region_page(text, code))
     stations.sort(key=lambda item: (item["region_code"], int(item["id"])))
+    selected_station_ids = {item["id"] for item in stations}
     print(f"estaciones={len(stations)}", flush=True)
 
     def enrich(station: dict) -> tuple[dict, list[dict]]:
@@ -528,12 +552,41 @@ def main() -> int:
         )
         general = parse_general(text)
         station = {**station, **general}
+        # La ficha de Rural 1 publica 195815 E, que cae mar adentro y fuera de
+        # la comuna declarada. Se infiere 295815 E a partir de su norte UTM y
+        # ubicación declarada; se conserva y audita también el valor publicado.
+        if station["id"] == "145" and station["utm_e"] == 195815:
+            station["utm_e"] = 295815.0
+            station["utm_correction"] = (
+                "Rural 1: 195815 E publicado es incompatible con Calera; "
+                "se infirió 295815 E"
+            )
         if station["utm_e"] is not None and station["utm_n"] is not None and station["utm_zone"] is not None:
             station["lat"], station["lon"] = utm_wgs84_to_latlon(
                 station["utm_e"], station["utm_n"], station["utm_zone"]
             )
         else:
             station["lat"], station["lon"] = None, None
+        map_lat, map_lon = station.get("map_lat"), station.get("map_lon")
+        valid_map = (
+            isinstance(map_lat, (int, float)) and isinstance(map_lon, (int, float))
+            and -60 <= map_lat <= -15 and -80 <= map_lon <= -65
+        )
+        converted_is_implausible = (
+            station["lat"] is None or station["lon"] is None
+            or not (-60 <= station["lat"] <= -15 and -80 <= station["lon"] <= -65)
+            or (valid_map and max(abs(station["lat"] - map_lat), abs(station["lon"] - map_lon)) > 0.2)
+        )
+        if valid_map and converted_is_implausible:
+            station["lat"], station["lon"] = map_lat, map_lon
+            map_note = (
+                "UTM publicado incompatible; se usaron las coordenadas WGS84 "
+                "del mapa de la misma ficha"
+            )
+            station["utm_correction"] = (
+                map_note if station["utm_correction"] == "Ninguna"
+                else f"{station['utm_correction']}; {map_note}"
+            )
         series = parse_contaminants(text) + parse_meteorology(text)
         for item in series:
             item.update({"station_id": station["id"], "station_name": station["name"]})
@@ -668,6 +721,28 @@ def main() -> int:
         "window_end",
         "status",
     ]
+    if partial_run:
+        probes.extend(
+            row for row in read_csv(probe_path)
+            if row["station_id"] not in selected_station_ids
+        )
+        catalog.extend(
+            row for row in read_csv(OUTPUT)
+            if row["id"] not in selected_station_ids
+        )
+        inventory.extend(
+            row for row in read_csv(RAW / "inventario_series.csv")
+            if row["station_id"] not in selected_station_ids
+        )
+    probes = list({(row["station_id"], row["macro_full"]): row for row in probes}.values())
+    catalog.sort(key=lambda row: (int(row["id"]), row["variable"], row["altura_sensor_suelo_m"]))
+    combined_keys = [
+        (row["id"], row["variable"], row["altura_sensor_suelo_m"], row["frecuencia_muestreo"])
+        for row in catalog
+    ]
+    if len(combined_keys) != len(set(combined_keys)):
+        raise ValueError("El catálogo SINCA combinado contiene duplicados")
+    inventory.sort(key=lambda row: (int(row["station_id"]), row["macro_full"]))
     write_csv(probe_path, sorted(probes, key=lambda row: (int(row["station_id"]), row["macro_full"])), probe_fields)
     write_csv(RAW / "fallos.csv", failures, ["station_id", "original_code", "macro_full", "error"])
     station_fields = [
@@ -681,6 +756,12 @@ def main() -> int:
         row["lat"] = f"{station['lat']:.6f}" if station["lat"] is not None else "No informado"
         row["lon"] = f"{station['lon']:.6f}" if station["lon"] is not None else "No informado"
         station_rows.append(row)
+    if partial_run:
+        station_rows.extend(
+            row for row in read_csv(RAW / "inventario_estaciones.csv")
+            if row["id"] not in selected_station_ids
+        )
+    station_rows.sort(key=lambda row: int(row["id"]))
     write_csv(RAW / "inventario_estaciones.csv", station_rows, station_fields)
     inventory_fields = [
         "station_id", "station_name", "original_code", "original_name", "variable_normalized",

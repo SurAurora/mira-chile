@@ -6,12 +6,15 @@ Esta fuente corresponde al **Sistema de Información Nacional de Calidad del
 Aire (SINCA), del Ministerio del Medio Ambiente (MMA)**. El campo
 `fuente_institucion` se registra como `SINCA / MMA`.
 
-Se consultaron el 2026-10-30 las estaciones publicadas en:
+Se consultaron y ampliaron hasta el 2026-11-24 las estaciones publicadas en:
 
 - [Arica y Parinacota (XV)](https://sinca.mma.gob.cl/index.php/region/index/id/XV)
 - [Tarapacá (I)](https://sinca.mma.gob.cl/index.php/region/index/id/I)
 - [Antofagasta (II)](https://sinca.mma.gob.cl/index.php/region/index/id/II)
 - [Atacama (III)](https://sinca.mma.gob.cl/index.php/region/index/id/III)
+- [Valparaíso (V)](https://sinca.mma.gob.cl/index.php/region/index/id/V)
+- [Metropolitana de Santiago (M)](https://sinca.mma.gob.cl/index.php/region/index/id/M)
+- [Libertador General Bernardo O'Higgins (VI)](https://sinca.mma.gob.cl/index.php/region/index/id/VI)
 
 El resultado derivado está en `catalogo_sinca.csv`. Las fichas HTML
 comprimidas y los inventarios de auditoría están en
@@ -31,7 +34,7 @@ cuatro consultas concurrentes para no sobrecargar el portal.
 
 El script hace lo siguiente:
 
-1. Obtiene el listado de estaciones de las cuatro páginas regionales.
+1. Obtiene el listado de estaciones de las siete páginas regionales.
 2. Lee de cada ficha el ID, nombre, propietario, operador, coordenadas UTM,
    huso UTM, fechas declaradas, variables y alturas publicadas.
 3. Descarga cada producto horario desde el punto oficial
@@ -105,8 +108,10 @@ corrigió primeras horas que antes aparecían erróneamente como 01:00.
 
 ## Disponibilidad actual
 
-Para la consulta del 2026-10-30 se utilizó la ventana de siete días completos
-`2026-10-23` a `2026-10-29`, ambos inclusive:
+Para la ampliación actualizada el 2026-11-24 se utilizó la ventana de siete días
+completos `2026-11-17` a `2026-11-23`, ambos inclusive. El inventario combinado contiene
+129 estaciones; 120 tienen al menos una serie con valores verificados. El
+catálogo contiene 1.014 series sin duplicados:
 
 - `Sí`: existe al menos un valor en esa ventana.
 - `No`: el portal respondió, pero no contiene valores en la ventana.
@@ -128,6 +133,15 @@ tener siete dígitos y el norte de Atacama sí. Se conservaron esos valores en
 `utm_e_publicado` y `utm_n_publicado`, y se intercambiaron explícitamente a
 `375128 E 6960567 N` antes de transformar. La columna `utm_correction` del
 inventario deja registrada la decisión.
+
+En Valparaíso se detectaron seis fichas con componentes UTM imposibles o
+incompatibles con su propia ubicación. Para Chagres Meteorología, La Palma,
+Quintero, Ventanas y Concón MMA se usaron las coordenadas WGS84 que el mismo
+HTML entrega al mapa incrustado. En Rural 1, cuyo mapa está en `0,0`, se corrigió
+el este publicado de `195815` a `295815`, coherente con el norte UTM y la comuna
+de Calera; esta última es una corrección inferida y queda rotulada como tal. Los
+números originales se conservan en las columnas `*_publicado` y
+la decisión queda en `utm_correction`; no se reemplazaron silenciosamente.
 
 SINCA no publica la altitud sobre el nivel del mar en estas fichas, por lo que
 `altitud_snm_m` se registra como `No informado`.
@@ -172,16 +186,17 @@ mediciones sean inválidas; están fuera de la resolución temporal solicitada.
 
 ## Resultado y controles
 
-En la consulta del 2026-10-30 se obtuvieron:
+En el inventario combinado al 2026-11-24 se obtuvieron:
 
-- 62 estaciones en las cuatro páginas regionales;
-- 289 series horarias de variables pertinentes;
-- 287 series con al menos un valor comprobado, pertenecientes a 54 estaciones;
-- 125 series con datos durante la ventana actual y 162 sin datos en ella;
+- 129 estaciones en las siete páginas regionales;
+- 1.028 series horarias de variables pertinentes;
+- 1.014 series con al menos un valor comprobado, pertenecientes a 120 estaciones;
+- 451 series con datos durante la ventana actual y 563 sin datos en ella;
 - 0 fallos de consulta al finalizar el sondeo.
 
-Dos enlaces horarios no devolvieron ningún valor admisible desde el inicio
-de la serie hasta la fecha de consulta y no se incorporaron al catálogo:
+Catorce enlaces horarios no devolvieron ningún valor admisible desde el
+inicio de la serie hasta la fecha de consulta y no se incorporaron al catálogo.
+Entre los casos ya documentados en la primera etapa están:
 
 | ID | Estación | Código | Altura |
 |---:|---|---|---:|
@@ -197,7 +212,7 @@ general de operación como corte.
 Este resultado queda trazado en:
 
 - `datos_originales/sinca/inventario_estaciones.csv`: metadatos y coordenadas
-  transformadas de las 62 estaciones;
+  transformadas de las 129 estaciones;
 - `datos_originales/sinca/inventario_series.csv`: todas las series horarias
   pertinentes, incluidas las dos sin valores admisibles;
 - `datos_originales/sinca/sondeo_series.csv`: fecha comprobada, ventana actual

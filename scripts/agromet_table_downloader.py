@@ -35,6 +35,9 @@ REGIONS = (
     "Tarapacá",
     "Antofagasta",
     "Atacama",
+    "Valparaíso",
+    "Metropolitana",
+    "O'Higgins",
 )
 VALID_INTERVALS = ("hour", "day")
 

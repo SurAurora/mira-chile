@@ -5,6 +5,14 @@ Aeródromo Ricardo García Posada,EXT-1007,DMC,-26.31305,-69.75139,1610,Temperat
 Colchane,EXT-1012,DMC,-19.27694,-68.63972,3700,Humedad,Meteorológica,No informado,60 min,2023-10-01T19:00,Sí,fuentes/agromet/README.md
 Colchane,EXT-1012,DMC,-19.27694,-68.63972,3700,Presión,Meteorológica,No informado,60 min,2023-10-01T19:00,Sí,fuentes/agromet/README.md
 Colchane,EXT-1012,DMC,-19.27694,-68.63972,3700,Temperatura,Meteorológica,No informado,60 min,2023-10-01T19:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Dirección del viento,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Humedad,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Intensidad del viento,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Precipitación,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Presión,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Radiación solar,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Ráfaga del viento,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
+Panquehue,EXT-1016,DMC,-32.76917,-70.835,519,Temperatura,Meteorológica,No informado,60 min,2024-03-07T00:00,Sí,fuentes/agromet/README.md
 Chorrillos MMA,EXT-1017,MMA-DMC,-22.45,-68.91028,2298,Dirección del viento,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
 Chorrillos MMA,EXT-1017,MMA-DMC,-22.45,-68.91028,2298,Humedad,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
 Chorrillos MMA,EXT-1017,MMA-DMC,-22.45,-68.91028,2298,Intensidad del viento,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
@@ -12,6 +20,64 @@ Chorrillos MMA,EXT-1017,MMA-DMC,-22.45,-68.91028,2298,Precipitación,Meteorológ
 Chorrillos MMA,EXT-1017,MMA-DMC,-22.45,-68.91028,2298,Presión,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
 Chorrillos MMA,EXT-1017,MMA-DMC,-22.45,-68.91028,2298,Ráfaga del viento,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
 Chorrillos MMA,EXT-1017,MMA-DMC,-22.45,-68.91028,2298,Temperatura,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Dirección del viento,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Humedad,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Intensidad del viento,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Precipitación,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Presión,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Radiación solar,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Ráfaga del viento,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+El Tártaro,EXT-1018,DMC,-32.57083,-70.70417,933,Temperatura,Meteorológica,No informado,60 min,2024-03-01T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Dirección del viento,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Humedad,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Intensidad del viento,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Precipitación,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Presión,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Radiación solar,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Ráfaga del viento,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo San Esteban,EXT-1028,DMC,-32.80111,-70.57805,835,Temperatura,Meteorológica,No informado,60 min,2024-07-17T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Dirección del viento,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Humedad,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Intensidad del viento,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Precipitación,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Presión,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Radiación solar,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Ráfaga del viento,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Quillota,EXT-1029,DMC,-32.90722,-71.27139,123,Temperatura,Meteorológica,No informado,60 min,2024-12-04T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Dirección del viento,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Humedad,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Intensidad del viento,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Precipitación,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Presión,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Radiación solar,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Ráfaga del viento,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola Cristo Obrero,EXT-1034,EACO,-34.09394,-70.741099,461,Temperatura,Meteorológica,No informado,60 min,2025-08-01T00:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Las Peñas,EXT-104,DMC,-32.88139,-70.91306,436,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Idahue,EXT-1041,CyT,-34.49054,-71.20247,215,Humedad,Meteorológica,No informado,60 min,2024-10-15T00:00,Sí,fuentes/agromet/README.md
+Idahue,EXT-1041,CyT,-34.49054,-71.20247,215,Intensidad del viento,Meteorológica,No informado,60 min,2024-10-15T00:00,Sí,fuentes/agromet/README.md
+Idahue,EXT-1041,CyT,-34.49054,-71.20247,215,Precipitación,Meteorológica,No informado,60 min,2024-10-15T00:00,Sí,fuentes/agromet/README.md
+Idahue,EXT-1041,CyT,-34.49054,-71.20247,215,Radiación solar,Meteorológica,No informado,60 min,2024-10-15T00:00,Sí,fuentes/agromet/README.md
+Idahue,EXT-1041,CyT,-34.49054,-71.20247,215,Ráfaga del viento,Meteorológica,No informado,60 min,2024-10-15T00:00,Sí,fuentes/agromet/README.md
+Idahue,EXT-1041,CyT,-34.49054,-71.20247,215,Temperatura,Meteorológica,No informado,60 min,2024-10-15T00:00,Sí,fuentes/agromet/README.md
+Nilahue,EXT-1042,CyT,-34.69942,-71.76865,94,Humedad,Meteorológica,No informado,60 min,2024-09-11T00:00,Sí,fuentes/agromet/README.md
+Nilahue,EXT-1042,CyT,-34.69942,-71.76865,94,Intensidad del viento,Meteorológica,No informado,60 min,2024-09-11T00:00,Sí,fuentes/agromet/README.md
+Nilahue,EXT-1042,CyT,-34.69942,-71.76865,94,Precipitación,Meteorológica,No informado,60 min,2024-09-11T00:00,Sí,fuentes/agromet/README.md
+Nilahue,EXT-1042,CyT,-34.69942,-71.76865,94,Radiación solar,Meteorológica,No informado,60 min,2024-09-11T00:00,Sí,fuentes/agromet/README.md
+Nilahue,EXT-1042,CyT,-34.69942,-71.76865,94,Ráfaga del viento,Meteorológica,No informado,60 min,2024-09-11T00:00,Sí,fuentes/agromet/README.md
+Nilahue,EXT-1042,CyT,-34.69942,-71.76865,94,Temperatura,Meteorológica,No informado,60 min,2024-09-11T00:00,Sí,fuentes/agromet/README.md
+Ucuquer,EXT-1043,CyT,-33.97803,-71.69775,157,Humedad,Meteorológica,No informado,60 min,2024-09-17T00:00,Sí,fuentes/agromet/README.md
+Ucuquer,EXT-1043,CyT,-33.97803,-71.69775,157,Intensidad del viento,Meteorológica,No informado,60 min,2024-09-17T00:00,Sí,fuentes/agromet/README.md
+Ucuquer,EXT-1043,CyT,-33.97803,-71.69775,157,Precipitación,Meteorológica,No informado,60 min,2024-09-17T00:00,Sí,fuentes/agromet/README.md
+Ucuquer,EXT-1043,CyT,-33.97803,-71.69775,157,Radiación solar,Meteorológica,No informado,60 min,2024-09-17T00:00,Sí,fuentes/agromet/README.md
+Ucuquer,EXT-1043,CyT,-33.97803,-71.69775,157,Ráfaga del viento,Meteorológica,No informado,60 min,2024-09-17T00:00,Sí,fuentes/agromet/README.md
+Ucuquer,EXT-1043,CyT,-33.97803,-71.69775,157,Temperatura,Meteorológica,No informado,60 min,2024-09-17T00:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Arica,EXT-1044,SERVIMET,-18.47692,-70.321945,8,Dirección del viento,Meteorológica,No informado,60 min,2026-08-13T09:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Arica,EXT-1044,SERVIMET,-18.47692,-70.321945,8,Humedad,Meteorológica,No informado,60 min,2026-08-13T09:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Arica,EXT-1044,SERVIMET,-18.47692,-70.321945,8,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-13T09:00,Sí,fuentes/agromet/README.md
@@ -60,14 +126,22 @@ Capitanía de Puerto Taltal,EXT-1049,SERVIMET,-25.40759,-70.48841,5,Presión,Met
 Capitanía de Puerto Taltal,EXT-1049,SERVIMET,-25.40759,-70.48841,5,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Taltal,EXT-1049,SERVIMET,-25.40759,-70.48841,5,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Taltal,EXT-1049,SERVIMET,-25.40759,-70.48841,5,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Precipitación,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Presión,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
-Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Liceo Agrícola Chincolco,EXT-105,DMC,-32.2225,-70.83167,665,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Precipitación,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Presión,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Chañaral,EXT-1050,SERVIMET,-26.351111,-70.6377,8,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
 Capitanía de Puerto Caldera,EXT-1051,SERVIMET,-27.06558,-70.823258,6,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Caldera,EXT-1051,SERVIMET,-27.06558,-70.823258,6,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Caldera,EXT-1051,SERVIMET,-27.06558,-70.823258,6,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
@@ -76,6 +150,14 @@ Capitanía de Puerto Caldera,EXT-1051,SERVIMET,-27.06558,-70.823258,6,Presión,M
 Capitanía de Puerto Caldera,EXT-1051,SERVIMET,-27.06558,-70.823258,6,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Caldera,EXT-1051,SERVIMET,-27.06558,-70.823258,6,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Caldera,EXT-1051,SERVIMET,-27.06558,-70.823258,6,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Dirección del viento,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Humedad,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Intensidad del viento,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Precipitación,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Presión,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Radiación solar,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Ráfaga del viento,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Hanga Roa,EXT-1052,SERVIMET,-27.14987,-109.43702,10,Temperatura,Meteorológica,No informado,60 min,2026-10-05T15:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Huasco,EXT-1053,SERVIMET,-28.461647,-71.226654,17,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Huasco,EXT-1053,SERVIMET,-28.461647,-71.226654,17,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Huasco,EXT-1053,SERVIMET,-28.461647,-71.226654,17,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
@@ -84,6 +166,94 @@ Capitanía de Puerto Huasco,EXT-1053,SERVIMET,-28.461647,-71.226654,17,Presión,
 Capitanía de Puerto Huasco,EXT-1053,SERVIMET,-28.461647,-71.226654,17,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Huasco,EXT-1053,SERVIMET,-28.461647,-71.226654,17,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
 Capitanía de Puerto Huasco,EXT-1053,SERVIMET,-28.461647,-71.226654,17,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Precipitación,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Presión,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Quintero,EXT-1056,SERVIMET,-32.77551,-71.52544,10,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Precipitación,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Presión,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Extremo Molo de Abrigo Valparaíso,EXT-1057,SERVIMET,-33.03798,-71.62734,40,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Dirección del viento,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Humedad,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Precipitación,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Presión,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Radiación solar,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Faro Punta Panul San Antonio,EXT-1058,SERVIMET,-33.57503,-71.62514,90,Temperatura,Meteorológica,No informado,60 min,2026-08-13T03:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Precipitación,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Presión,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Capitanía de Puerto Juan Fernández,EXT-1059,SERVIMET,-33.63604,-78.82943,23,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,No,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Quintero - Climatológica,EXT-106,DMC,-32.78417,-71.52278,5,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Dirección del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Humedad,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Intensidad del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Precipitación,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Presión,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Radiación solar,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Ráfaga del viento,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Capitanía de Puerto Pichilemu,EXT-1060,SERVIMET,-34.38495,-72.00851,6,Temperatura,Meteorológica,No informado,60 min,2026-08-14T11:00,Sí,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Río Clarillo,EXT-107,DMC,-33.72833,-70.49667,876,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Colorado,EXT-108,DMC,-33.35,-70.29361,2750,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Milagro,EXT-109,DMC,-33.75444,-70.76444,460,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Humedad,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Precipitación,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Presión,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo Pichilemu,EXT-110,DMC,-34.39417,-72.01861,25,Temperatura,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Dirección del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Humedad,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Intensidad del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Precipitación,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Presión,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Ráfaga del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeropuerto Mataveri,EXT-116,DMC,-27.16056,-109.42722,48,Temperatura,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
 Cerro Sombrero AR,EXT-117,DMC,-18.5125,-70.26556,122,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
 Cerro Sombrero AR,EXT-117,DMC,-18.5125,-70.26556,122,Humedad,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
 Cerro Sombrero AR,EXT-117,DMC,-18.5125,-70.26556,122,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
@@ -92,6 +262,14 @@ Cerro Sombrero AR,EXT-117,DMC,-18.5125,-70.26556,122,Presión,Meteorológica,No 
 Cerro Sombrero AR,EXT-117,DMC,-18.5125,-70.26556,122,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
 Cerro Sombrero AR,EXT-117,DMC,-18.5125,-70.26556,122,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
 Cerro Sombrero AR,EXT-117,DMC,-18.5125,-70.26556,122,Temperatura,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Talagante,EXT-118,DMC,-33.67028,-70.84944,390,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
 Putre DMC,EXT-120,DMC,-18.2,-69.5625,3532,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
 Putre DMC,EXT-120,DMC,-18.2,-69.5625,3532,Humedad,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
 Putre DMC,EXT-120,DMC,-18.2,-69.5625,3532,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
@@ -172,6 +350,174 @@ Freirina Nicolasa,EXT-130,DMC,-28.51694,-71.01,156,Presión,Meteorológica,No in
 Freirina Nicolasa,EXT-130,DMC,-28.51694,-71.01,156,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
 Freirina Nicolasa,EXT-130,DMC,-28.51694,-71.01,156,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
 Freirina Nicolasa,EXT-130,DMC,-28.51694,-71.01,156,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Los Libertadores,EXT-132,DMC,-32.84556,-70.11917,2955,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Catapilco,EXT-133,DMC,-32.56139,-71.29778,81,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Jardín Botánico,EXT-134,DMC,-33.045,-71.50194,50,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Dirección del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Humedad,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Intensidad del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Precipitación,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Presión,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Radiación solar,Meteorológica,No informado,60 min,2018-03-28T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Ráfaga del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Rodelillo,EXT-135,DMC,-33.06528,-71.55639,335,Temperatura,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Dirección del viento,Meteorológica,No informado,60 min,2022-03-18T07:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Humedad,Meteorológica,No informado,60 min,2021-03-22T14:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Intensidad del viento,Meteorológica,No informado,60 min,2022-03-18T07:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Precipitación,Meteorológica,No informado,60 min,2021-03-22T14:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Presión,Meteorológica,No informado,60 min,2021-03-22T14:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Radiación solar,Meteorológica,No informado,60 min,2021-03-23T04:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Ráfaga del viento,Meteorológica,No informado,60 min,2022-03-18T07:00,Sí,fuentes/agromet/README.md
+Aeródromo Eulogio Sánchez,EXT-136,DMC,-33.45528,-70.54861,650,Temperatura,Meteorológica,No informado,60 min,2021-03-22T14:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Dirección del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Humedad,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Intensidad del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Precipitación,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Presión,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Radiación solar,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Ráfaga del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Quinta Normal,EXT-137,DMC,-33.445,-70.68278,534,Temperatura,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Dirección del viento,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Humedad,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Intensidad del viento,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Precipitación,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Presión,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Radiación solar,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Ráfaga del viento,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Pudahuel ,EXT-138,DMC,-33.39194,-70.79444,482,Temperatura,Meteorológica,No informado,60 min,2019-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Dirección del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Humedad,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Intensidad del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Precipitación,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Presión,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Ráfaga del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Santo Domingo,EXT-139,DMC,-33.655,-71.61417,75,Temperatura,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Dirección del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Humedad,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Intensidad del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Precipitación,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Presión,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Radiación solar,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Ráfaga del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Juan Fernández,EXT-140,DMC,-33.63583,-78.83306,40,Temperatura,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Chorombo Hacienda,EXT-141,DMC,-33.52944,-71.22917,145,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Cerro San Francisco,EXT-142,MMA-DMC,-33.45806,-70.94861,1068,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Guayacán,EXT-143,MMA-DMC,-33.61528,-70.35056,928,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+El Paico,EXT-144,MMA-DMC,-33.70639,-71.00806,275,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,No,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+San Pablo-DASA,EXT-145,MMA-DMC,-33.44222,-70.74667,490,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Lo Pinto,EXT-149,MMA-DMC,-33.26806,-70.73222,512,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Humedad,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Precipitación,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Presión,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo Curacaví,EXT-150,DMC,-33.41111,-71.16778,208,Temperatura,Meteorológica,No informado,60 min,2018-12-11T01:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Humedad,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Precipitación,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Presión,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Aeródromo La Independencia,EXT-153,DMC,-34.17222,-70.77611,482,Temperatura,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Humedad,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Precipitación,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Presión,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Quimávida,EXT-154,DMC,-34.215,-70.99694,316,Temperatura,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Humedad,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Precipitación,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Presión,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Nilahue - La Quebrada,EXT-155,DMC,-34.66083,-71.73528,81,Temperatura,Meteorológica,No informado,60 min,2018-12-11T03:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Dirección del viento,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Humedad,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Intensidad del viento,Meteorológica,No informado,60 min,2019-10-28T23:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Precipitación,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Presión,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Radiación solar,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Lo Zarate,EXT-167,DMC,-33.53056,-71.50611,103,Temperatura,Meteorológica,No informado,60 min,2018-12-11T02:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Dirección del viento,Meteorológica,No informado,60 min,2019-03-12T02:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Humedad,Meteorológica,No informado,60 min,2019-03-12T02:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Intensidad del viento,Meteorológica,No informado,60 min,2019-10-29T00:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Precipitación,Meteorológica,No informado,60 min,2019-03-12T02:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Presión,Meteorológica,No informado,60 min,2019-03-12T02:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Radiación solar,Meteorológica,No informado,60 min,2019-03-12T02:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Ráfaga del viento,Meteorológica,No informado,60 min,2019-03-12T02:00,Sí,fuentes/agromet/README.md
+Aeródromo Torquemada,EXT-175,MMA-DMC,-32.94944,-71.47611,141,Temperatura,Meteorológica,No informado,60 min,2019-03-12T02:00,Sí,fuentes/agromet/README.md
 Mejillones,EXT-177,DMC,-23.10917,-70.44333,31,Dirección del viento,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
 Mejillones,EXT-177,DMC,-23.10917,-70.44333,31,Humedad,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
 Mejillones,EXT-177,DMC,-23.10917,-70.44333,31,Intensidad del viento,Meteorológica,No informado,60 min,2019-10-28T23:00,Sí,fuentes/agromet/README.md
@@ -180,6 +526,22 @@ Mejillones,EXT-177,DMC,-23.10917,-70.44333,31,Presión,Meteorológica,No informa
 Mejillones,EXT-177,DMC,-23.10917,-70.44333,31,Radiación solar,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
 Mejillones,EXT-177,DMC,-23.10917,-70.44333,31,Ráfaga del viento,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
 Mejillones,EXT-177,DMC,-23.10917,-70.44333,31,Temperatura,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Dirección del viento,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Humedad,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Intensidad del viento,Meteorológica,No informado,60 min,2019-10-28T23:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Precipitación,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Presión,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Radiación solar,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Ráfaga del viento,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Regimiento de Colina,EXT-179,DMC,-33.16222,-70.64306,726,Temperatura,Meteorológica,No informado,60 min,2019-04-03T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Dirección del viento,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Humedad,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Intensidad del viento,Meteorológica,No informado,60 min,2019-10-28T23:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Precipitación,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Presión,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Radiación solar,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Ráfaga del viento,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/agromet/README.md
+Escuela Agrícola San Felipe,EXT-192,DMC,-32.75528,-70.70694,662,Temperatura,Meteorológica,No informado,60 min,2019-08-01T00:00,Sí,fuentes/agromet/README.md
 Cerro Paranal,EXT-202,DMC,-24.6275,-70.40472,2648,Dirección del viento,Meteorológica,No informado,60 min,2020-04-27T23:00,Sí,fuentes/agromet/README.md
 Cerro Paranal,EXT-202,DMC,-24.6275,-70.40472,2648,Humedad,Meteorológica,No informado,60 min,2020-04-27T23:00,Sí,fuentes/agromet/README.md
 Cerro Paranal,EXT-202,DMC,-24.6275,-70.40472,2648,Intensidad del viento,Meteorológica,No informado,60 min,2020-04-27T23:00,Sí,fuentes/agromet/README.md
@@ -227,6 +589,14 @@ La Violeta Open,EXT-72,ANPROS,-18.513323,-70.218336,199,Presión,Meteorológica,
 La Violeta Open,EXT-72,ANPROS,-18.513323,-70.218336,199,Radiación solar,Meteorológica,No informado,60 min,2019-01-02T09:00,No,fuentes/agromet/README.md
 La Violeta Open,EXT-72,ANPROS,-18.513323,-70.218336,199,Ráfaga del viento,Meteorológica,No informado,60 min,2019-01-02T09:00,No,fuentes/agromet/README.md
 La Violeta Open,EXT-72,ANPROS,-18.513323,-70.218336,199,Temperatura,Meteorológica,No informado,60 min,2019-01-02T09:00,No,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Dirección del viento,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Humedad,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Intensidad del viento,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Precipitación,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Presión,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Radiación solar,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Ráfaga del viento,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
+Portezuelo-Codelco,EXT-78,MMA-DMC,-34.19833,-70.57917,1185,Temperatura,Meteorológica,No informado,60 min,2018-12-18T06:00,Sí,fuentes/agromet/README.md
 Casa Rosada,EXT-964,APECO-FDF,-27.84914,-70.0875,1292,Dirección del viento,Meteorológica,No informado,60 min,2022-06-01T00:00,Sí,fuentes/agromet/README.md
 Casa Rosada,EXT-964,APECO-FDF,-27.84914,-70.0875,1292,Humedad,Meteorológica,No informado,60 min,2022-06-01T00:00,Sí,fuentes/agromet/README.md
 Casa Rosada,EXT-964,APECO-FDF,-27.84914,-70.0875,1292,Intensidad del viento,Meteorológica,No informado,60 min,2022-06-01T00:00,Sí,fuentes/agromet/README.md
@@ -291,6 +661,37 @@ Altar de la Virgen,EXT-971,APECO-FDF,-27.99994,-69.98,1385,Presión,Meteorológi
 Altar de la Virgen,EXT-971,APECO-FDF,-27.99994,-69.98,1385,Radiación solar,Meteorológica,No informado,60 min,2022-06-01T00:00,Sí,fuentes/agromet/README.md
 Altar de la Virgen,EXT-971,APECO-FDF,-27.99994,-69.98,1385,Ráfaga del viento,Meteorológica,No informado,60 min,2022-06-01T00:00,Sí,fuentes/agromet/README.md
 Altar de la Virgen,EXT-971,APECO-FDF,-27.99994,-69.98,1385,Temperatura,Meteorológica,No informado,60 min,2022-06-01T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Dirección del viento,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Humedad,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Intensidad del viento,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Precipitación,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Presión,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Radiación solar,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Ráfaga del viento,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+Catemu,EXT-972,DMC,-32.75889,-70.94278,443,Temperatura,Meteorológica,No informado,60 min,2022-07-03T00:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Dirección del viento,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Humedad,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Intensidad del viento,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Precipitación,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Presión,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Radiación solar,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Ráfaga del viento,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+La Dormida,EXT-973,MMA-DMC,-33.04944,-71.00139,1450,Temperatura,Meteorológica,No informado,60 min,2022-09-15T11:00,Sí,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Dirección del viento,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Humedad,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Intensidad del viento,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Precipitación,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Presión,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Radiación solar,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Ráfaga del viento,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Polpaico,EXT-978,DMC,-33.12389,-70.82805,547,Temperatura,Meteorológica,No informado,60 min,2022-07-03T00:00,No,fuentes/agromet/README.md
+Aeródromo Peldehue,EXT-980,DMC,-33.11389,-70.68583,683,Dirección del viento,Meteorológica,No informado,60 min,2020-01-07T10:00,Sí,fuentes/agromet/README.md
+Aeródromo Peldehue,EXT-980,DMC,-33.11389,-70.68583,683,Humedad,Meteorológica,No informado,60 min,2020-01-07T10:00,Sí,fuentes/agromet/README.md
+Aeródromo Peldehue,EXT-980,DMC,-33.11389,-70.68583,683,Intensidad del viento,Meteorológica,No informado,60 min,2020-01-07T10:00,Sí,fuentes/agromet/README.md
+Aeródromo Peldehue,EXT-980,DMC,-33.11389,-70.68583,683,Precipitación,Meteorológica,No informado,60 min,2020-01-07T10:00,Sí,fuentes/agromet/README.md
+Aeródromo Peldehue,EXT-980,DMC,-33.11389,-70.68583,683,Presión,Meteorológica,No informado,60 min,2020-01-07T10:00,Sí,fuentes/agromet/README.md
+Aeródromo Peldehue,EXT-980,DMC,-33.11389,-70.68583,683,Ráfaga del viento,Meteorológica,No informado,60 min,2020-01-07T10:00,Sí,fuentes/agromet/README.md
+Aeródromo Peldehue,EXT-980,DMC,-33.11389,-70.68583,683,Temperatura,Meteorológica,No informado,60 min,2020-01-07T10:00,Sí,fuentes/agromet/README.md
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Dirección del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Humedad,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Intensidad del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
@@ -299,6 +700,22 @@ Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Presión,Meteorológi
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Radiación solar,Meteorológica,No informado,60 min,2018-10-23T14:00,Sí,fuentes/agromet/README.md
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Ráfaga del viento,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
 Aeropuerto Diego Aracena,EXT-99,DMC,-20.53972,-70.17861,52,Temperatura,Meteorológica,No informado,60 min,2018-01-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Dirección del viento,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Humedad,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Intensidad del viento,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Precipitación,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Presión,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Radiación solar,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Ráfaga del viento,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Antonio de Naltahua,INIA-100,INIA,-33.732181,-71.039443,249,Temperatura,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Dirección del viento,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Humedad,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Intensidad del viento,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Precipitación,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Presión,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Radiación solar,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Ráfaga del viento,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
+San Pedro de Melipilla,INIA-101,INIA,-33.897935,-71.452881,145,Temperatura,Meteorológica,No informado,60 min,2013-04-01T00:00,Sí,fuentes/agromet/README.md
 Putre,INIA-134,INIA,-18.196949,-69.55374,3577,Dirección del viento,Meteorológica,No informado,60 min,2014-06-04T00:00,Sí,fuentes/agromet/README.md
 Putre,INIA-134,INIA,-18.196949,-69.55374,3577,Humedad,Meteorológica,No informado,60 min,2014-06-04T00:00,Sí,fuentes/agromet/README.md
 Putre,INIA-134,INIA,-18.196949,-69.55374,3577,Intensidad del viento,Meteorológica,No informado,60 min,2014-06-04T00:00,Sí,fuentes/agromet/README.md
@@ -347,6 +764,37 @@ Belén,INIA-156,INIA,-18.468208,-69.523279,3208,Presión,Meteorológica,No infor
 Belén,INIA-156,INIA,-18.468208,-69.523279,3208,Radiación solar,Meteorológica,No informado,60 min,2015-03-01T00:00,Sí,fuentes/agromet/README.md
 Belén,INIA-156,INIA,-18.468208,-69.523279,3208,Ráfaga del viento,Meteorológica,No informado,60 min,2015-03-01T00:00,Sí,fuentes/agromet/README.md
 Belén,INIA-156,INIA,-18.468208,-69.523279,3208,Temperatura,Meteorológica,No informado,60 min,2015-03-01T00:00,Sí,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Dirección del viento,Meteorológica,No informado,60 min,2016-04-01T00:00,No,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Humedad,Meteorológica,No informado,60 min,2016-04-01T00:00,No,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Intensidad del viento,Meteorológica,No informado,60 min,2016-04-01T00:00,No,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Precipitación,Meteorológica,No informado,60 min,2016-04-01T00:00,No,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Presión,Meteorológica,No informado,60 min,2018-01-30T10:00,No,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Radiación solar,Meteorológica,No informado,60 min,2016-04-01T00:00,No,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Ráfaga del viento,Meteorológica,No informado,60 min,2016-04-01T00:00,No,fuentes/agromet/README.md
+Rinconada - U de Chile,INIA-162,INIA,-33.497093,-70.845436,462,Temperatura,Meteorológica,No informado,60 min,2016-04-01T00:00,No,fuentes/agromet/README.md
+El Arenal,INIA-163,INIA,-34.35575,-70.991278,266,Dirección del viento,Meteorológica,No informado,60 min,2016-10-01T00:00,Sí,fuentes/agromet/README.md
+El Arenal,INIA-163,INIA,-34.35575,-70.991278,266,Humedad,Meteorológica,No informado,60 min,2016-10-01T00:00,Sí,fuentes/agromet/README.md
+El Arenal,INIA-163,INIA,-34.35575,-70.991278,266,Intensidad del viento,Meteorológica,No informado,60 min,2016-10-01T00:00,Sí,fuentes/agromet/README.md
+El Arenal,INIA-163,INIA,-34.35575,-70.991278,266,Precipitación,Meteorológica,No informado,60 min,2016-10-01T00:00,Sí,fuentes/agromet/README.md
+El Arenal,INIA-163,INIA,-34.35575,-70.991278,266,Radiación solar,Meteorológica,No informado,60 min,2016-10-01T00:00,Sí,fuentes/agromet/README.md
+El Arenal,INIA-163,INIA,-34.35575,-70.991278,266,Ráfaga del viento,Meteorológica,No informado,60 min,2016-10-01T00:00,Sí,fuentes/agromet/README.md
+El Arenal,INIA-163,INIA,-34.35575,-70.991278,266,Temperatura,Meteorológica,No informado,60 min,2016-10-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Dirección del viento,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Humedad,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Intensidad del viento,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Precipitación,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Presión,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Radiación solar,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Ráfaga del viento,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+El Maqui,INIA-165,INIA,-32.754967,-71.343432,179,Temperatura,Meteorológica,No informado,60 min,2017-01-01T00:00,Sí,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Dirección del viento,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Humedad,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Intensidad del viento,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Precipitación,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Presión,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Radiación solar,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Ráfaga del viento,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
+Cuncumén,INIA-167,INIA,-33.736215,-71.421579,215,Temperatura,Meteorológica,No informado,60 min,2017-07-07T00:00,No,fuentes/agromet/README.md
 Pica,INIA-202,INIA,-20.501476,-69.342572,1325,Dirección del viento,Meteorológica,No informado,60 min,2017-08-15T00:00,Sí,fuentes/agromet/README.md
 Pica,INIA-202,INIA,-20.501476,-69.342572,1325,Humedad,Meteorológica,No informado,60 min,2017-08-15T00:00,Sí,fuentes/agromet/README.md
 Pica,INIA-202,INIA,-20.501476,-69.342572,1325,Intensidad del viento,Meteorológica,No informado,60 min,2017-08-15T00:00,Sí,fuentes/agromet/README.md
@@ -363,14 +811,38 @@ Cuya,INIA-204,INIA,-19.161922,-70.180968,97,Presión,Meteorológica,No informado
 Cuya,INIA-204,INIA,-19.161922,-70.180968,97,Radiación solar,Meteorológica,No informado,60 min,2017-07-20T00:00,No,fuentes/agromet/README.md
 Cuya,INIA-204,INIA,-19.161922,-70.180968,97,Ráfaga del viento,Meteorológica,No informado,60 min,2017-07-20T00:00,No,fuentes/agromet/README.md
 Cuya,INIA-204,INIA,-19.161922,-70.180968,97,Temperatura,Meteorológica,No informado,60 min,2017-07-20T00:00,No,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Dirección del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Humedad,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Intensidad del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Precipitación,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Presión,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Radiación solar,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Ráfaga del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
-Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Temperatura,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Dirección del viento,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Humedad,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Intensidad del viento,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Precipitación,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Presión,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Radiación solar,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Ráfaga del viento,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+El Asiento,INIA-210,INIA,-34.029282,-70.995098,351,Temperatura,Meteorológica,No informado,60 min,2017-08-01T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Dirección del viento,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Humedad,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Intensidad del viento,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Precipitación,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Presión,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Radiación solar,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Ráfaga del viento,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Colliguay,INIA-213,INIA,-33.167397,-71.15596,580,Temperatura,Meteorológica,No informado,60 min,2017-08-06T00:00,Sí,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Dirección del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Humedad,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Intensidad del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Precipitación,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Presión,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Radiación solar,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Ráfaga del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Camar,INIA-216,INIA,-23.407102,-67.963735,2694,Temperatura,Meteorológica,No informado,60 min,2017-08-09T00:00,No,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Dirección del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Humedad,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Intensidad del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Precipitación,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Presión,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Radiación solar,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Ráfaga del viento,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
+Puente Negro,INIA-217,INIA,-34.386351,-71.98571,10,Temperatura,Meteorológica,No informado,60 min,2017-08-09T00:00,Sí,fuentes/agromet/README.md
 Altos la Portada,INIA-218,INIA,-23.504087,-70.403095,119,Dirección del viento,Meteorológica,No informado,60 min,2017-08-11T00:00,Sí,fuentes/agromet/README.md
 Altos la Portada,INIA-218,INIA,-23.504087,-70.403095,119,Humedad,Meteorológica,No informado,60 min,2017-08-11T00:00,Sí,fuentes/agromet/README.md
 Altos la Portada,INIA-218,INIA,-23.504087,-70.403095,119,Intensidad del viento,Meteorológica,No informado,60 min,2017-08-11T00:00,Sí,fuentes/agromet/README.md
@@ -403,6 +875,14 @@ La Cachina,INIA-225,INIA,-25.433987,-70.453243,213,Presión,Meteorológica,No in
 La Cachina,INIA-225,INIA,-25.433987,-70.453243,213,Radiación solar,Meteorológica,No informado,60 min,2017-10-05T00:00,Sí,fuentes/agromet/README.md
 La Cachina,INIA-225,INIA,-25.433987,-70.453243,213,Ráfaga del viento,Meteorológica,No informado,60 min,2017-10-05T00:00,Sí,fuentes/agromet/README.md
 La Cachina,INIA-225,INIA,-25.433987,-70.453243,213,Temperatura,Meteorológica,No informado,60 min,2017-10-05T00:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Dirección del viento,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Humedad,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Intensidad del viento,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Precipitación,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Presión,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Radiación solar,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Ráfaga del viento,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
+Liceo Jean Buchanan,INIA-228,INIA,-34.3972892,-71.1646719,185,Temperatura,Meteorológica,No informado,60 min,2017-11-15T14:00,Sí,fuentes/agromet/README.md
 Pampa Concordia,INIA-302,INIA,-18.362922,-70.302033,65,Dirección del viento,Meteorológica,No informado,60 min,2018-05-17T19:00,Sí,fuentes/agromet/README.md
 Pampa Concordia,INIA-302,INIA,-18.362922,-70.302033,65,Humedad,Meteorológica,No informado,60 min,2018-05-17T19:00,Sí,fuentes/agromet/README.md
 Pampa Concordia,INIA-302,INIA,-18.362922,-70.302033,65,Intensidad del viento,Meteorológica,No informado,60 min,2018-05-17T19:00,Sí,fuentes/agromet/README.md
@@ -410,6 +890,113 @@ Pampa Concordia,INIA-302,INIA,-18.362922,-70.302033,65,Precipitación,Meteoroló
 Pampa Concordia,INIA-302,INIA,-18.362922,-70.302033,65,Radiación solar,Meteorológica,No informado,60 min,2018-05-17T19:00,Sí,fuentes/agromet/README.md
 Pampa Concordia,INIA-302,INIA,-18.362922,-70.302033,65,Ráfaga del viento,Meteorológica,No informado,60 min,2018-05-17T19:00,Sí,fuentes/agromet/README.md
 Pampa Concordia,INIA-302,INIA,-18.362922,-70.302033,65,Temperatura,Meteorológica,No informado,60 min,2018-05-17T19:00,Sí,fuentes/agromet/README.md
+Rayentué,INIA-303,INIA,-34.321704,-70.833901,376,Dirección del viento,Meteorológica,No informado,60 min,2018-06-01T00:00,Sí,fuentes/agromet/README.md
+Rayentué,INIA-303,INIA,-34.321704,-70.833901,376,Humedad,Meteorológica,No informado,60 min,2018-06-01T00:00,Sí,fuentes/agromet/README.md
+Rayentué,INIA-303,INIA,-34.321704,-70.833901,376,Intensidad del viento,Meteorológica,No informado,60 min,2018-06-01T00:00,Sí,fuentes/agromet/README.md
+Rayentué,INIA-303,INIA,-34.321704,-70.833901,376,Precipitación,Meteorológica,No informado,60 min,2018-06-01T00:00,Sí,fuentes/agromet/README.md
+Rayentué,INIA-303,INIA,-34.321704,-70.833901,376,Radiación solar,Meteorológica,No informado,60 min,2018-06-01T00:00,Sí,fuentes/agromet/README.md
+Rayentué,INIA-303,INIA,-34.321704,-70.833901,376,Ráfaga del viento,Meteorológica,No informado,60 min,2018-06-01T00:00,Sí,fuentes/agromet/README.md
+Rayentué,INIA-303,INIA,-34.321704,-70.833901,376,Temperatura,Meteorológica,No informado,60 min,2018-06-01T00:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Dirección del viento,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Humedad,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Intensidad del viento,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Precipitación,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Presión,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Radiación solar,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Ráfaga del viento,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+Licancheu,INIA-307,INIA,-33.9297485,-71.8010025,24,Temperatura,Meteorológica,No informado,60 min,2019-09-11T14:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Dirección del viento,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Humedad,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Intensidad del viento,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Precipitación,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Presión,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Radiación solar,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Ráfaga del viento,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+El Oasis,INIA-311,INIA,-33.286187,-70.837279,485,Temperatura,Meteorológica,No informado,60 min,2020-11-04T00:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Dirección del viento,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Humedad,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Intensidad del viento,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Precipitación,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Presión,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Radiación solar,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Ráfaga del viento,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chacabuco,INIA-313,INIA,-33.2488,-70.72322,519,Temperatura,Meteorológica,No informado,60 min,2021-03-02T14:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Dirección del viento,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Humedad,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Intensidad del viento,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Precipitación,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Presión,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Radiación solar,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Ráfaga del viento,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+Chorrillos,INIA-314,INIA,-33.34368,-70.8185,485,Temperatura,Meteorológica,No informado,60 min,2021-03-24T11:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Dirección del viento,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Humedad,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Intensidad del viento,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Precipitación,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Presión,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Radiación solar,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Ráfaga del viento,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+El Villorrio,INIA-315,INIA,-33.562443,-70.875305,406,Temperatura,Meteorológica,No informado,60 min,2021-05-28T15:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Dirección del viento,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Humedad,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Intensidad del viento,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Precipitación,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Presión,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Radiación solar,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Ráfaga del viento,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Santa Amelia,INIA-316,INIA,-33.674938,-70.919914,360,Temperatura,Meteorológica,No informado,60 min,2021-06-23T12:00,Sí,fuentes/agromet/README.md
+Peor es Nada,INIA-317,INIA,-34.783248,-71.043411,283,Dirección del viento,Meteorológica,No informado,60 min,2021-06-24T14:00,Sí,fuentes/agromet/README.md
+Peor es Nada,INIA-317,INIA,-34.783248,-71.043411,283,Humedad,Meteorológica,No informado,60 min,2021-06-24T14:00,Sí,fuentes/agromet/README.md
+Peor es Nada,INIA-317,INIA,-34.783248,-71.043411,283,Intensidad del viento,Meteorológica,No informado,60 min,2021-06-24T14:00,Sí,fuentes/agromet/README.md
+Peor es Nada,INIA-317,INIA,-34.783248,-71.043411,283,Precipitación,Meteorológica,No informado,60 min,2021-06-24T14:00,Sí,fuentes/agromet/README.md
+Peor es Nada,INIA-317,INIA,-34.783248,-71.043411,283,Radiación solar,Meteorológica,No informado,60 min,2021-06-24T14:00,Sí,fuentes/agromet/README.md
+Peor es Nada,INIA-317,INIA,-34.783248,-71.043411,283,Ráfaga del viento,Meteorológica,No informado,60 min,2021-06-24T14:00,Sí,fuentes/agromet/README.md
+Peor es Nada,INIA-317,INIA,-34.783248,-71.043411,283,Temperatura,Meteorológica,No informado,60 min,2021-06-24T14:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Dirección del viento,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Humedad,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Intensidad del viento,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Precipitación,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Presión,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Radiación solar,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Ráfaga del viento,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+La Aurora,INIA-318,INIA,-33.429661,-71.029152,205,Temperatura,Meteorológica,No informado,60 min,2021-08-10T15:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Dirección del viento,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Humedad,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Intensidad del viento,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Precipitación,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Presión,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Radiación solar,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Ráfaga del viento,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+El Parrón,INIA-320,INIA,-33.508555,-71.084029,166,Temperatura,Meteorológica,No informado,60 min,2022-01-26T00:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Dirección del viento,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Humedad,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Intensidad del viento,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Precipitación,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Presión,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Radiación solar,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Ráfaga del viento,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Valdivia de Paine,INIA-321,INIA,-33.7986592,-70.8413394,360,Temperatura,Meteorológica,No informado,60 min,2022-03-24T15:00,Sí,fuentes/agromet/README.md
+Los Lingues,INIA-329,VDCH,-34.502129,-70.894723,317,Dirección del viento,Meteorológica,No informado,60 min,2024-08-20T13:00,Sí,fuentes/agromet/README.md
+Los Lingues,INIA-329,VDCH,-34.502129,-70.894723,317,Humedad,Meteorológica,No informado,60 min,2024-08-20T13:00,Sí,fuentes/agromet/README.md
+Los Lingues,INIA-329,VDCH,-34.502129,-70.894723,317,Intensidad del viento,Meteorológica,No informado,60 min,2024-08-20T13:00,Sí,fuentes/agromet/README.md
+Los Lingues,INIA-329,VDCH,-34.502129,-70.894723,317,Precipitación,Meteorológica,No informado,60 min,2024-08-20T13:00,Sí,fuentes/agromet/README.md
+Los Lingues,INIA-329,VDCH,-34.502129,-70.894723,317,Radiación solar,Meteorológica,No informado,60 min,2024-08-20T13:00,Sí,fuentes/agromet/README.md
+Los Lingues,INIA-329,VDCH,-34.502129,-70.894723,317,Ráfaga del viento,Meteorológica,No informado,60 min,2024-08-20T13:00,Sí,fuentes/agromet/README.md
+Los Lingues,INIA-329,VDCH,-34.502129,-70.894723,317,Temperatura,Meteorológica,No informado,60 min,2024-08-20T13:00,Sí,fuentes/agromet/README.md
+Altair,INIA-332,VDCH,-34.353423,-70.715616,480,Dirección del viento,Meteorológica,No informado,60 min,2024-08-21T14:00,Sí,fuentes/agromet/README.md
+Altair,INIA-332,VDCH,-34.353423,-70.715616,480,Humedad,Meteorológica,No informado,60 min,2024-08-21T14:00,Sí,fuentes/agromet/README.md
+Altair,INIA-332,VDCH,-34.353423,-70.715616,480,Intensidad del viento,Meteorológica,No informado,60 min,2024-08-21T14:00,Sí,fuentes/agromet/README.md
+Altair,INIA-332,VDCH,-34.353423,-70.715616,480,Precipitación,Meteorológica,No informado,60 min,2024-08-21T14:00,Sí,fuentes/agromet/README.md
+Altair,INIA-332,VDCH,-34.353423,-70.715616,480,Radiación solar,Meteorológica,No informado,60 min,2024-08-21T14:00,Sí,fuentes/agromet/README.md
+Altair,INIA-332,VDCH,-34.353423,-70.715616,480,Ráfaga del viento,Meteorológica,No informado,60 min,2024-08-21T14:00,Sí,fuentes/agromet/README.md
+Altair,INIA-332,VDCH,-34.353423,-70.715616,480,Temperatura,Meteorológica,No informado,60 min,2024-08-21T14:00,Sí,fuentes/agromet/README.md
+Calleuque,INIA-334,VDCH,-34.3903,-71.444431,140,Dirección del viento,Meteorológica,No informado,60 min,2024-08-21T00:00,Sí,fuentes/agromet/README.md
+Calleuque,INIA-334,VDCH,-34.3903,-71.444431,140,Humedad,Meteorológica,No informado,60 min,2024-08-21T00:00,Sí,fuentes/agromet/README.md
+Calleuque,INIA-334,VDCH,-34.3903,-71.444431,140,Intensidad del viento,Meteorológica,No informado,60 min,2024-08-21T00:00,Sí,fuentes/agromet/README.md
+Calleuque,INIA-334,VDCH,-34.3903,-71.444431,140,Precipitación,Meteorológica,No informado,60 min,2024-08-21T00:00,Sí,fuentes/agromet/README.md
+Calleuque,INIA-334,VDCH,-34.3903,-71.444431,140,Radiación solar,Meteorológica,No informado,60 min,2024-08-21T00:00,Sí,fuentes/agromet/README.md
+Calleuque,INIA-334,VDCH,-34.3903,-71.444431,140,Ráfaga del viento,Meteorológica,No informado,60 min,2024-08-21T00:00,Sí,fuentes/agromet/README.md
+Calleuque,INIA-334,VDCH,-34.3903,-71.444431,140,Temperatura,Meteorológica,No informado,60 min,2024-08-21T00:00,Sí,fuentes/agromet/README.md
 Lluta Bajo,INIA-34,INIA,-18.409467,-70.233833,222,Dirección del viento,Meteorológica,No informado,60 min,2010-01-01T00:00,Sí,fuentes/agromet/README.md
 Lluta Bajo,INIA-34,INIA,-18.409467,-70.233833,222,Humedad,Meteorológica,No informado,60 min,2010-01-01T00:00,Sí,fuentes/agromet/README.md
 Lluta Bajo,INIA-34,INIA,-18.409467,-70.233833,222,Intensidad del viento,Meteorológica,No informado,60 min,2010-01-01T00:00,Sí,fuentes/agromet/README.md
@@ -449,6 +1036,11 @@ Alto del Carmen,INIA-356,INIA,-28.762106,-70.486991,820,Precipitación,Meteorol�
 Alto del Carmen,INIA-356,INIA,-28.762106,-70.486991,820,Radiación solar,Meteorológica,No informado,60 min,2026-06-11T15:00,Sí,fuentes/agromet/README.md
 Alto del Carmen,INIA-356,INIA,-28.762106,-70.486991,820,Ráfaga del viento,Meteorológica,No informado,60 min,2026-06-11T15:00,Sí,fuentes/agromet/README.md
 Alto del Carmen,INIA-356,INIA,-28.762106,-70.486991,820,Temperatura,Meteorológica,No informado,60 min,2026-06-11T15:00,Sí,fuentes/agromet/README.md
+Liceo Los Guindos,INIA-358,CORPORACIONBUIN,-33.712138,-70.721517,506,Humedad,Meteorológica,No informado,60 min,2026-10-01T15:00,Sí,fuentes/agromet/README.md
+Liceo Los Guindos,INIA-358,CORPORACIONBUIN,-33.712138,-70.721517,506,Precipitación,Meteorológica,No informado,60 min,2026-10-01T15:00,Sí,fuentes/agromet/README.md
+Liceo Los Guindos,INIA-358,CORPORACIONBUIN,-33.712138,-70.721517,506,Presión,Meteorológica,No informado,60 min,2026-10-01T15:00,Sí,fuentes/agromet/README.md
+Liceo Los Guindos,INIA-358,CORPORACIONBUIN,-33.712138,-70.721517,506,Radiación solar,Meteorológica,No informado,60 min,2026-10-01T15:00,Sí,fuentes/agromet/README.md
+Liceo Los Guindos,INIA-358,CORPORACIONBUIN,-33.712138,-70.721517,506,Temperatura,Meteorológica,No informado,60 min,2026-10-01T15:00,Sí,fuentes/agromet/README.md
 Lluta Medio,INIA-38,INIA,-18.452168,-70.067102,532,Dirección del viento,Meteorológica,No informado,60 min,2009-11-14T00:00,Sí,fuentes/agromet/README.md
 Lluta Medio,INIA-38,INIA,-18.452168,-70.067102,532,Humedad,Meteorológica,No informado,60 min,2009-11-14T00:00,Sí,fuentes/agromet/README.md
 Lluta Medio,INIA-38,INIA,-18.452168,-70.067102,532,Intensidad del viento,Meteorológica,No informado,60 min,2009-11-14T00:00,Sí,fuentes/agromet/README.md
@@ -465,6 +1057,14 @@ Azapa Medio,INIA-39,INIA,-18.547728,-70.124646,393,Presión,Meteorológica,No in
 Azapa Medio,INIA-39,INIA,-18.547728,-70.124646,393,Radiación solar,Meteorológica,No informado,60 min,2009-11-14T00:00,No,fuentes/agromet/README.md
 Azapa Medio,INIA-39,INIA,-18.547728,-70.124646,393,Ráfaga del viento,Meteorológica,No informado,60 min,2009-11-14T00:00,Sí,fuentes/agromet/README.md
 Azapa Medio,INIA-39,INIA,-18.547728,-70.124646,393,Temperatura,Meteorológica,No informado,60 min,2009-11-14T00:00,No,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Dirección del viento,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Humedad,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Intensidad del viento,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Precipitación,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Presión,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Radiación solar,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Ráfaga del viento,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
+La Platina,INIA-4,INIA,-33.56987082,-70.62797303,630,Temperatura,Meteorológica,No informado,60 min,2011-11-19T00:00,Sí,fuentes/agromet/README.md
 Socoroma,INIA-43,INIA,-18.263889,-69.607675,3077,Dirección del viento,Meteorológica,No informado,60 min,2009-12-01T00:00,Sí,fuentes/agromet/README.md
 Socoroma,INIA-43,INIA,-18.263889,-69.607675,3077,Humedad,Meteorológica,No informado,60 min,2009-12-01T00:00,Sí,fuentes/agromet/README.md
 Socoroma,INIA-43,INIA,-18.263889,-69.607675,3077,Intensidad del viento,Meteorológica,No informado,60 min,2009-12-01T00:00,Sí,fuentes/agromet/README.md
@@ -473,6 +1073,30 @@ Socoroma,INIA-43,INIA,-18.263889,-69.607675,3077,Presión,Meteorológica,No info
 Socoroma,INIA-43,INIA,-18.263889,-69.607675,3077,Radiación solar,Meteorológica,No informado,60 min,2009-12-01T00:00,Sí,fuentes/agromet/README.md
 Socoroma,INIA-43,INIA,-18.263889,-69.607675,3077,Ráfaga del viento,Meteorológica,No informado,60 min,2009-12-01T00:00,Sí,fuentes/agromet/README.md
 Socoroma,INIA-43,INIA,-18.263889,-69.607675,3077,Temperatura,Meteorológica,No informado,60 min,2009-12-01T00:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Dirección del viento,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Humedad,Meteorológica,No informado,60 min,2010-06-02T12:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Intensidad del viento,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Precipitación,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Presión,Meteorológica,No informado,60 min,2013-10-14T04:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Radiación solar,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Ráfaga del viento,Meteorológica,No informado,60 min,2013-10-14T04:00,Sí,fuentes/agromet/README.md
+La Cruz,INIA-51,INIA,-32.822,-71.2304,181,Temperatura,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Dirección del viento,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Humedad,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Intensidad del viento,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Precipitación,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Presión,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Radiación solar,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Ráfaga del viento,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+El Tambo,INIA-52,INIA,-34.470992321899,-70.986951436879,250,Temperatura,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Dirección del viento,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Humedad,Meteorológica,No informado,60 min,2010-06-01T15:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Intensidad del viento,Meteorológica,No informado,60 min,2013-02-13T00:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Precipitación,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Presión,Meteorológica,No informado,60 min,2012-09-06T11:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Radiación solar,Meteorológica,No informado,60 min,2012-09-06T00:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Ráfaga del viento,Meteorológica,No informado,60 min,2013-02-13T00:00,Sí,fuentes/agromet/README.md
+Hidango,INIA-55,INIA,-34.112466,-71.797339,296,Temperatura,Meteorológica,No informado,60 min,2010-06-01T00:00,Sí,fuentes/agromet/README.md
 Caspana,INIA-56,INIA,-22.338547,-68.211284,3577,Dirección del viento,Meteorológica,No informado,60 min,2012-12-01T00:00,Sí,fuentes/agromet/README.md
 Caspana,INIA-56,INIA,-22.338547,-68.211284,3577,Humedad,Meteorológica,No informado,60 min,2012-12-01T00:00,Sí,fuentes/agromet/README.md
 Caspana,INIA-56,INIA,-22.338547,-68.211284,3577,Intensidad del viento,Meteorológica,No informado,60 min,2012-12-01T00:00,Sí,fuentes/agromet/README.md
@@ -505,6 +1129,14 @@ San Pedro de Atacama,INIA-59,INIA,-22.9322,-68.213458,2416,Presión,Meteorológi
 San Pedro de Atacama,INIA-59,INIA,-22.9322,-68.213458,2416,Radiación solar,Meteorológica,No informado,60 min,2010-11-18T00:00,Sí,fuentes/agromet/README.md
 San Pedro de Atacama,INIA-59,INIA,-22.9322,-68.213458,2416,Ráfaga del viento,Meteorológica,No informado,60 min,2010-11-18T00:00,Sí,fuentes/agromet/README.md
 San Pedro de Atacama,INIA-59,INIA,-22.9322,-68.213458,2416,Temperatura,Meteorológica,No informado,60 min,2010-11-18T00:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Dirección del viento,Meteorológica,No informado,60 min,2013-06-11T00:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Humedad,Meteorológica,No informado,60 min,2013-06-11T00:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Intensidad del viento,Meteorológica,No informado,60 min,2013-06-11T00:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Precipitación,Meteorológica,No informado,60 min,2013-06-11T00:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Presión,Meteorológica,No informado,60 min,2013-06-11T00:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Radiación solar,Meteorológica,No informado,60 min,2013-10-08T09:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Ráfaga del viento,Meteorológica,No informado,60 min,2013-06-11T00:00,Sí,fuentes/agromet/README.md
+Los Tilos,INIA-6,INIA,-33.70726005,-70.70165517,530,Temperatura,Meteorológica,No informado,60 min,2013-06-11T00:00,Sí,fuentes/agromet/README.md
 Calama Rural,INIA-61,INIA,-22.471688,-68.94979,2244,Dirección del viento,Meteorológica,No informado,60 min,2010-09-11T00:00,Sí,fuentes/agromet/README.md
 Calama Rural,INIA-61,INIA,-22.471688,-68.94979,2244,Humedad,Meteorológica,No informado,60 min,2010-09-11T00:00,Sí,fuentes/agromet/README.md
 Calama Rural,INIA-61,INIA,-22.471688,-68.94979,2244,Intensidad del viento,Meteorológica,No informado,60 min,2010-09-11T00:00,Sí,fuentes/agromet/README.md
