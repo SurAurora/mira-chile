@@ -202,9 +202,9 @@ class FilterTests(unittest.TestCase):
         self.page.locator("#stationTable tbody tr[data-key]").click()
         rows = self.page.locator("#detailContent tbody tr").all_text_contents()
         precipitation = [row for row in rows if "Precipitación" in row]
-        self.assertEqual(len(precipitation), 3)
+        self.assertEqual(len(precipitation), 4)
         combined = "\n".join(precipitation)
-        for expected in ["15 min", "360 min", "1440 min", "1950-04-01T06:00", "1975-12-30"]:
+        for expected in ["1 min", "15 min", "360 min", "1440 min", "1950-04-01T06:00", "1975-12-30"]:
             self.assertIn(expected, combined)
 
     def test_year_is_inclusive_per_series_and_excludes_unknown_dates(self):
@@ -239,6 +239,35 @@ class FilterTests(unittest.TestCase):
         expect(self.page.locator("#stationTable .empty")).to_be_visible()
         self.page.locator("#resetFilters").click()
         self.counts(1, 4)
+
+    def test_drawn_area_filters_every_result_and_can_be_cleared(self):
+        self.load()
+        total_stations = len(CATALOG["stations"])
+        total_series = len(CATALOG["series"])
+        self.page.locator("#startAreaDraw").click()
+        expect(self.page.locator("#finishAreaDraw")).to_be_visible()
+        map_element = self.page.locator("#map")
+        box = map_element.bounding_box()
+        points = [
+            (0.08, 0.08), (0.56, 0.08), (0.56, 0.92), (0.08, 0.92),
+        ]
+        for index, (x_ratio, y_ratio) in enumerate(points, 1):
+            map_element.click(position={"x": box["width"] * x_ratio, "y": box["height"] * y_ratio})
+            expect(self.page.locator("#areaFilterStatus")).to_contain_text(f"{index} vértice")
+        self.page.locator("#finishAreaDraw").click()
+        expect(self.page.locator("#areaFilterStatus")).to_contain_text("Área aplicada")
+        expect(self.page.locator("#filterCount")).to_have_text("1 activo")
+        filtered_stations = int(self.page.locator("#metricStations").inner_text().replace(".", ""))
+        filtered_series = int(self.page.locator("#metricSeries").inner_text().replace(".", ""))
+        self.assertGreater(filtered_stations, 0)
+        self.assertLess(filtered_stations, total_stations)
+        self.assertGreater(filtered_series, 0)
+        self.assertLess(filtered_series, total_series)
+        expect(self.page.locator("#stationTable tbody tr[data-key]")).to_have_count(filtered_stations)
+        self.page.locator("#clearAreaDraw").click()
+        self.counts(total_stations, total_series)
+        expect(self.page.locator("#areaFilterStatus")).to_have_text("Sin área dibujada.")
+        expect(self.page.locator("#filterCount")).to_have_text("0 activos")
 
     def test_search_communes_keyboard_and_mobile_layout(self):
         self.load()

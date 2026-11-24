@@ -10,7 +10,9 @@ Libertador General Bernardo O'Higgins.
 
 El sitio estático se encuentra en [`dashboard/dist`](dashboard/dist). Permite
 filtrar estaciones, variables, alturas, frecuencias, redes e instituciones, y
-mostrar opcionalmente comunas, regiones y red vial.
+mostrar opcionalmente comunas, regiones y red vial. También permite dibujar un
+polígono para obtener el catastro de estaciones dentro de un área definida por
+la persona usuaria.
 
 Para verlo localmente:
 

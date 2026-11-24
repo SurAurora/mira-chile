@@ -72,6 +72,16 @@ main { max-width: 1480px; margin: 0 auto; padding: 24px 28px 48px; }
 .multi-select-no-options { padding: 8px; color: var(--muted); font-size: .78rem; }
 .multi-select-no-options[hidden] { display: none; }
 .pill { padding: 5px 8px; border-radius: 999px; background: #e6f0ed; color: var(--teal); font-size: .72rem; font-weight: 800; white-space: nowrap; }
+.area-filter { margin: 0 18px 14px; padding: 14px; border: 1px solid #d5ddd6; border-radius: 10px; background: #fffaf0; }
+.area-filter h3 { margin-bottom: 4px; color: var(--ink); font-size: .9rem; }
+.area-filter p { margin-bottom: 10px; color: var(--muted); font-size: .76rem; line-height: 1.42; }
+.area-actions { display: flex; flex-wrap: wrap; gap: 7px; }
+.area-button { min-height: 34px; padding: 7px 10px; border: 1px solid #c8d1ca; border-radius: 7px; background: white; color: var(--ink); font-size: .76rem; font-weight: 750; }
+.area-button:hover:not(:disabled) { border-color: var(--teal); color: var(--teal); }
+.area-button-primary { border-color: var(--teal); background: var(--teal); color: white; }
+.area-button-primary:hover:not(:disabled) { background: #105c58; color: white; }
+.area-button:disabled { cursor: not-allowed; opacity: .48; }
+.area-status { min-height: 1.2em; margin: 9px 0 0 !important; color: #76542d !important; font-weight: 700; }
 .layer-box { margin: 0 18px 18px; padding: 14px; border-radius: 10px; background: #eef3ef; }
 .layer-group { margin: 0; padding: 0; border: 0; }
 .layer-group + .layer-group { margin-top: 14px; padding-top: 12px; border-top: 1px solid #d3dcd5; }
@@ -82,6 +92,7 @@ main { max-width: 1480px; margin: 0 auto; padding: 24px 28px 48px; }
 .map-card { min-height: 720px; display: flex; flex-direction: column; position: relative; z-index: 0; }
 .map-heading { flex-wrap: wrap; }
 #map { flex: 1; min-height: 580px; background: #e8e5d9; }
+#map.is-drawing, #map.is-drawing .leaflet-interactive { cursor: crosshair; }
 .map-note { padding: 9px 16px; color: var(--muted); font-size: .76rem; border-top: 1px solid var(--line); }
 .legend { display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end; font-size: .72rem; }
 .legend span { display: flex; align-items: center; gap: 5px; }

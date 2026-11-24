@@ -48,6 +48,11 @@
   });
   let roadsLayer = null;
   const stationLayer = L.layerGroup().addTo(map);
+  const areaLayer = L.layerGroup().addTo(map);
+  const areaDraftLayer = L.layerGroup().addTo(map);
+  let areaPolygon = null;
+  let areaDraft = [];
+  let areaDrawing = false;
   regionLayer.addTo(map);
 
   function selectBaseLayer(name) {
@@ -83,6 +88,33 @@
 
   function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" }[char]));
+  }
+
+  function pointOnSegment(point, start, end) {
+    const [x, y] = point;
+    const [x1, y1] = start;
+    const [x2, y2] = end;
+    const cross = (x - x1) * (y2 - y1) - (y - y1) * (x2 - x1);
+    if (Math.abs(cross) > 1e-9) return false;
+    return x >= Math.min(x1, x2) - 1e-9 && x <= Math.max(x1, x2) + 1e-9 &&
+      y >= Math.min(y1, y2) - 1e-9 && y <= Math.max(y1, y2) + 1e-9;
+  }
+
+  function pointInPolygon(latitude, longitude, polygon) {
+    if (!polygon || polygon.length < 3) return true;
+    const point = [longitude, latitude];
+    let inside = false;
+    for (let index = 0, previous = polygon.length - 1; index < polygon.length; previous = index++) {
+      const currentPoint = [polygon[index].lng, polygon[index].lat];
+      const previousPoint = [polygon[previous].lng, polygon[previous].lat];
+      if (pointOnSegment(point, previousPoint, currentPoint)) return true;
+      const [x, y] = point;
+      const [xi, yi] = currentPoint;
+      const [xj, yj] = previousPoint;
+      const intersects = (yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi;
+      if (intersects) inside = !inside;
+    }
+    return inside;
   }
 
   class MultiSelect {
@@ -207,6 +239,8 @@
   function getFiltered() {
     const query = searchInput.value.trim().toLocaleLowerCase("es");
     const filteredStations = stations.filter((station) => {
+      if (areaPolygon && (!Number.isFinite(station.latitud) || !Number.isFinite(station.longitud) ||
+        !pointInPolygon(station.latitud, station.longitud, areaPolygon))) return false;
       if (!filters.region.matches(station.region)) return false;
       if (!filters.commune.matches(station.comuna)) return false;
       if (!filters.network.matches(station.red)) return false;
@@ -238,7 +272,7 @@
     document.getElementById("metricSeries").textContent = filteredSeries.length.toLocaleString("es-CL");
     document.getElementById("metricNetworks").textContent = unique(filteredStations.map((s) => s.red)).length;
     document.getElementById("metricCurrent").textContent = filteredSeries.filter((s) => s.datos_disponibles_actualmente === "Sí").length.toLocaleString("es-CL");
-    const active = filterIds.filter((name) => filters[name].active).length + (startYearInput.value ? 1 : 0) + (searchInput.value.trim() ? 1 : 0);
+    const active = filterIds.filter((name) => filters[name].active).length + (startYearInput.value ? 1 : 0) + (searchInput.value.trim() ? 1 : 0) + (areaPolygon ? 1 : 0);
     document.getElementById("filterCount").textContent = `${active} activo${active === 1 ? "" : "s"}`;
   }
 
@@ -253,11 +287,77 @@
       if (!Number.isFinite(station.latitud) || !Number.isFinite(station.longitud)) return;
       const marker = L.circleMarker([station.latitud, station.longitud], {
         radius: 5.7, color: "#fffdf8", weight: 1.4, fillColor: colors[station.red] || "#444", fillOpacity: 0.92,
+        bubblingMouseEvents: false,
       });
       marker.bindTooltip(`<b>${escapeHtml(station.nombre_estacion)}</b><br>${escapeHtml(station.red)} · ${escapeHtml(station.id)}`);
-      marker.on("click", () => openDetail(station.station_key));
+      marker.on("click", (event) => areaDrawing ? addAreaVertex(event.latlng) : openDetail(station.station_key));
       marker.addTo(stationLayer);
     });
+  }
+
+  function drawAreaDraft() {
+    areaDraftLayer.clearLayers();
+    if (!areaDraft.length) return;
+    L.polyline(areaDraft, { color: "#c65336", weight: 2.5, dashArray: "7 6" }).addTo(areaDraftLayer);
+    areaDraft.forEach((latlng, index) => {
+      L.circleMarker(latlng, {
+        radius: 4.5, color: "#fffdf8", weight: 1.5, fillColor: "#c65336", fillOpacity: 1,
+        interactive: false,
+      }).bindTooltip(`Vértice ${index + 1}`, { permanent: false }).addTo(areaDraftLayer);
+    });
+    document.getElementById("finishAreaDraw").disabled = areaDraft.length < 3;
+    document.getElementById("areaFilterStatus").textContent = `${areaDraft.length} vértice${areaDraft.length === 1 ? "" : "s"}. Marca al menos tres.`;
+  }
+
+  function addAreaVertex(latlng) {
+    if (!areaDrawing) return;
+    areaDraft.push(L.latLng(latlng.lat, latlng.lng));
+    drawAreaDraft();
+  }
+
+  function setAreaDrawing(active) {
+    areaDrawing = active;
+    document.getElementById("map").classList.toggle("is-drawing", active);
+    document.getElementById("startAreaDraw").hidden = active;
+    document.getElementById("finishAreaDraw").hidden = !active;
+    document.getElementById("cancelAreaDraw").hidden = !active;
+    if (active) {
+      closeFilterMenus();
+      closeDetail();
+      areaDraft = [];
+      map.doubleClickZoom.disable();
+      document.getElementById("finishAreaDraw").disabled = true;
+      document.getElementById("areaFilterStatus").textContent = "Haz clic en el mapa para marcar los vértices del polígono.";
+    } else {
+      areaDraft = [];
+      areaDraftLayer.clearLayers();
+      map.doubleClickZoom.enable();
+    }
+  }
+
+  function finishAreaDrawing() {
+    if (areaDraft.length < 3) return;
+    areaPolygon = areaDraft.map((latlng) => L.latLng(latlng.lat, latlng.lng));
+    areaLayer.clearLayers();
+    L.polygon(areaPolygon, {
+      color: "#c65336", weight: 2.5, fillColor: "#d89a2b", fillOpacity: 0.16,
+    }).addTo(areaLayer);
+    setAreaDrawing(false);
+    document.getElementById("clearAreaDraw").disabled = false;
+    closeDetail();
+    render();
+  }
+
+  function clearAreaDrawing() {
+    areaPolygon = null;
+    areaLayer.clearLayers();
+    document.getElementById("clearAreaDraw").disabled = true;
+    document.getElementById("areaFilterStatus").textContent = "Sin área dibujada.";
+  }
+
+  function updateAreaStatus(filteredStations) {
+    if (!areaPolygon || areaDrawing) return;
+    document.getElementById("areaFilterStatus").textContent = `Área aplicada: ${filteredStations.length.toLocaleString("es-CL")} estaciones cumplen todos los filtros.`;
   }
 
   function renderTable(filteredStations, filteredSeries) {
@@ -378,6 +478,7 @@
 
   function render() {
     const { filteredStations, filteredSeries } = getFiltered();
+    updateAreaStatus(filteredStations);
     renderMetrics(filteredStations, filteredSeries);
     renderMap(filteredStations, filteredSeries);
     renderTable(filteredStations, filteredSeries);
@@ -393,6 +494,19 @@
     Object.values(filters).forEach((filter) => filter.reset());
     startYearInput.value = "";
     searchInput.value = "";
+    setAreaDrawing(false);
+    clearAreaDrawing();
+    closeDetail();
+    render();
+  });
+  document.getElementById("startAreaDraw").addEventListener("click", () => setAreaDrawing(true));
+  document.getElementById("finishAreaDraw").addEventListener("click", finishAreaDrawing);
+  document.getElementById("cancelAreaDraw").addEventListener("click", () => {
+    setAreaDrawing(false);
+    document.getElementById("areaFilterStatus").textContent = areaPolygon ? "Se mantuvo el área anterior." : "Sin área dibujada.";
+  });
+  document.getElementById("clearAreaDraw").addEventListener("click", () => {
+    clearAreaDrawing();
     closeDetail();
     render();
   });
@@ -406,6 +520,12 @@
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
+      if (areaDrawing) {
+        setAreaDrawing(false);
+        document.getElementById("areaFilterStatus").textContent = areaPolygon ? "Se mantuvo el área anterior." : "Sin área dibujada.";
+        document.getElementById("startAreaDraw").focus();
+        return;
+      }
       const open = Object.values(filters).find((filter) => filter.element.open);
       closeFilterMenus();
       if (open) open.element.querySelector("summary").focus(); else closeDetail();
@@ -419,5 +539,6 @@
   document.getElementById("layerRoads").addEventListener("change", async (event) => {
     if (event.target.checked) (await addRoads()).addTo(map); else if (roadsLayer) roadsLayer.remove();
   });
+  map.on("click", (event) => addAreaVertex(event.latlng));
   render();
 })();

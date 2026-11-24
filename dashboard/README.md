@@ -46,6 +46,9 @@ tipo `https://usuario.github.io/repositorio/`.
   opciones en las listas extensas;
 - filtro «Desde qué año»: muestra las series cuya primera observación
   comprobada es de ese año o anterior;
+- filtro espacial mediante un polígono dibujado en el mapa; la selección se
+  combina con los demás filtros y se aplica al mapa, contadores, tabla, matriz,
+  detalle y descarga CSV;
 - detalle de las series seleccionadas de cada estación;
 - tabla de estaciones y matriz red × variable;
 - descarga CSV de las series filtradas, codificada en UTF-8 con BOM y separada
