@@ -10,19 +10,29 @@ a{color:#18736f}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#fffd
 
 Portal distribuidor: **Dirección Meteorológica de Chile (DMC)**. Portal:
 &lt;https://climatologia.meteochile.gob.cl/&gt;. Consultas efectuadas el 31 de
-octubre de 2026; revisión de las estaciones ESO el **1 de noviembre de 2026**
-y revisión específica de `AguaCaida` el **2 de noviembre de 2026**.
+octubre de 2026; revisión de las estaciones ESO el **1 de noviembre de 2026**,
+revisión específica de `AguaCaida` el **2 de noviembre de 2026** y ampliación
+a Valparaíso, Metropolitana de Santiago y O&#x27;Higgins el **24 de noviembre de
+2026**.
 
 Este catálogo incluye estaciones publicadas por DMC/SACLIM con valores
 comprobados, conservando su `Propietario` como `fuente_institucion`. La red del
 dashboard es **DMC / SACLIM**, incluso cuando la institución sea ESO. El
-archivo aportado para el inventario se conserva en
+archivo aportado para el inventario norte se conserva en
 `datos_originales/dmc/CatastrodeEstacionesdelSistemaSACLIM_2026-10-31_15_25.xls`.
 Aunque termina en `.xls`, su contenido es HTML UTF-8. En las cuatro regiones
 hay 143 estaciones SACLIM: 29 de propiedad DMC y otras de DGA, INIA, FDF, ESO,
 DIRECTEMAR o USACH. La primera revisión se limitó a las 29 de propiedad DMC;
 se corrigió esa exclusión para las dos estaciones ESO con datos verificados.
 Esto no acredita una revisión completa de las 143 estaciones por este portal.
+
+Para la zona central se utilizó además el catastro nacional oficial RE7001 y
+la ficha oficial individual de cada estación. El inventario contiene 239
+estaciones de propiedad DMC: 91 en Valparaíso, 77 en Metropolitana y 71 en
+O&#x27;Higgins. Se crean filas únicamente para las 43 estaciones en que fue posible
+abrir un archivo EMA o SACLIM y comprobar valores de las variables solicitadas;
+las otras 196 quedan auditadas en el inventario, pero no se presentan como
+series disponibles.
 
 ## Productos oficiales revisados
 
@@ -196,6 +206,40 @@ resultado se aplica sólo a las filas de 1 minuto; no se transfiere al producto
 de 15 minutos. No se agregan radiación ni precipitación sin valores comprobados
 en los productos examinados de estas dos estaciones.
 
+## Ampliación a la zona central
+
+Se revisaron Valparaíso, Metropolitana de Santiago y Libertador General
+Bernardo O&#x27;Higgins. El servicio público `getEstacionesRedEma` identificó 42
+estaciones EMA activas dentro del inventario DMC (19, 18 y 5,
+respectivamente). Para cada una se abrieron los ZIP mensuales desde enero de
+2019 hasta octubre de 2026 y se exigió por lo menos un valor físicamente
+admisible. El resultado aporta 263 series minutarias: temperatura (incluidas
+las alturas publicadas cuando la columna existe), humedad, presión, radiación,
+dirección, intensidad y ráfaga del viento.
+
+El sondeo SACLIM revisó además 1.673 combinaciones estación-producto, año por
+año desde la fecha de creación publicada en la ficha. Encontró 100 series con
+valores en 16 estaciones. Estas series históricas incluyen temperatura,
+humedad, presión, viento y precipitación de 6 horas o total diario. Como varias
+coinciden con las estaciones EMA, la ampliación central genera finalmente 363
+filas en 43 estaciones: 170 filas en 20 estaciones de Valparaíso, 156 en 18 de
+Metropolitana y 37 en 5 de O&#x27;Higgins. Una estación histórica de Valparaíso no
+pertenece a la red EMA activa, pero sí entregó valores SACLIM verificables.
+
+La disponibilidad actual de las series minutarias se comprobó el 24 de
+noviembre de 2026 con `getEmaResumenDiarioGeo`. Se validaron los campos
+numéricos y, para precipitación, también un recuento positivo de observaciones;
+el cero se conservó como valor válido. Las frecuencias antiguas de SACLIM
+mantienen `No determinado`, pues un valor reciente no prueba que continúe el
+mismo intervalo histórico.
+
+El inventario de elementos de la ficha puede declarar observaciones diarias en
+otras estaciones históricas. No se crearon filas a partir de esa tabla: cuando
+los productos públicos examinados no entregaron un archivo con valores, la
+serie quedó fuera del catálogo. La API EMA histórica de 15 minutos continúa
+requiriendo usuario y token y sería necesaria para ampliar, por ejemplo, la
+primera fecha de `aguaCaidaDelMinuto` más allá de los archivos ya descargados.
+
 ## Reproducción
 
 ```bash
@@ -208,6 +252,17 @@ python scripts/dmc_analizar_archivos_existentes.py
 python scripts/dmc_sondear_ema_minuto_publico.py --end 2026-01
 python scripts/dmc_validar_actual_api.py --as-of 2026-10-31
 python scripts/dmc_verificar_eso.py --as-of 2026-11-01
+python scripts/dmc_ampliar_inventario_centro.py
+python scripts/dmc_sondear_ema_minuto_publico.py \
+  --inventory datos_originales/dmc/inventario_dmc_centro.csv --active-only \
+  --include-completed --start 2019-01 --end 2026-10 --workers 8 \
+  --output datos_originales/dmc/sondeo_ema_minuto_publico_centro.csv \
+  --attempts-output datos_originales/dmc/sondeo_ema_minuto_publico_centro_intentos.csv
+python scripts/dmc_sondear_saclim.py \
+  --inventory datos_originales/dmc/inventario_dmc_centro.csv \
+  --output datos_originales/dmc/sondeo_saclim_centro.csv \
+  --end-year 2018 --workers 24
+python scripts/dmc_validar_actual_publico_centro.py
 python scripts/construir_catalogo_dmc.py
 python scripts/construir_catalogo_general.py
 ```
@@ -216,6 +271,7 @@ Archivos de auditoría principales:
 
 - `datos_originales/dmc/inventario_saclim_regiones.csv`
 - `datos_originales/dmc/inventario_dmc.csv`
+- `datos_originales/dmc/inventario_dmc_centro.csv`
 - `datos_originales/dmc/disponibilidad_actual.csv`
 - `datos_originales/dmc/disponibilidad_actual_api_15min.csv`
 - `datos_originales/dmc/sondeo_saclim_horario.csv`
@@ -225,6 +281,10 @@ Archivos de auditoría principales:
 - `datos_originales/dmc/sondeo_ema_minuto_publico_intentos.csv`
 - `datos_originales/dmc/sondeo_ema_minuto_publico_eso.csv`
 - `datos_originales/dmc/disponibilidad_actual_eso_minuto.csv`
+- `datos_originales/dmc/disponibilidad_actual_centro.csv`
+- `datos_originales/dmc/sondeo_ema_minuto_publico_centro.csv`
+- `datos_originales/dmc/sondeo_ema_minuto_publico_centro_intentos.csv`
+- `datos_originales/dmc/sondeo_saclim_centro.csv`
 - `datos_originales/dmc/revision_eso_2026-11-01/` (fichas, intentos y ZIP recientes)
 
 ## Limitaciones

@@ -113,10 +113,13 @@ def inspect(content: bytes, group: str) -> tuple[list[dict[str, object]], str] |
     return list(found.values()), members[0].filename
 
 
-def probe(task: tuple[dict[str, str], str], end: datetime, pause: float, timeout: float) -> tuple[list[dict], list[dict]]:
+def probe(
+    task: tuple[dict[str, str], str], start_floor: datetime, end: datetime,
+    pause: float, timeout: float,
+) -> tuple[list[dict], list[dict]]:
     station, group = task
     code = station["codigo_nacional"]
-    start = datetime.strptime(station["fecha_creacion"], "%d-%m-%Y")
+    start = max(datetime.strptime(station["fecha_creacion"], "%d-%m-%Y"), start_floor)
     attempts = []
     for month in months(start, end):
         filename = f"{code}_{month}_{group}.csv.zip"
@@ -179,24 +182,40 @@ def write(path: Path, fields: tuple[str, ...], rows: list[dict]) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--end", default="2026-01")
+    parser.add_argument("--start", default="1900-01")
     parser.add_argument("--workers", type=int, default=2)
     parser.add_argument("--pause", type=float, default=0.12)
     parser.add_argument("--timeout", type=float, default=60)
     parser.add_argument("--station", action="append")
+    parser.add_argument("--inventory", type=Path, default=RAW / "inventario_dmc.csv")
+    parser.add_argument("--output", type=Path, default=RAW / "sondeo_ema_minuto_publico_pendientes.csv")
+    parser.add_argument("--attempts-output", type=Path, default=RAW / "sondeo_ema_minuto_publico_intentos.csv")
+    parser.add_argument("--include-completed", action="store_true")
+    parser.add_argument("--active-only", action="store_true")
     args = parser.parse_args()
+    start = datetime.strptime(args.start, "%Y-%m")
     end = datetime.strptime(args.end, "%Y-%m")
-    with (RAW / "inventario_dmc.csv").open(encoding="utf-8", newline="") as handle:
+    with args.inventory.open(encoding="utf-8", newline="") as handle:
         stations = list(csv.DictReader(handle))
-    with (ROOT / "catalogo_dmc.csv").open(encoding="utf-8", newline="") as handle:
-        completed = {row["id"] for row in csv.DictReader(handle)}
-    stations = [row for row in stations if row["codigo_nacional"] not in completed]
+    if not args.include_completed:
+        with (ROOT / "catalogo_dmc.csv").open(encoding="utf-8", newline="") as handle:
+            completed = {row["id"] for row in csv.DictReader(handle)}
+        stations = [row for row in stations if row["codigo_nacional"] not in completed]
+    if args.active_only:
+        response = session().get(
+            "https://climatologia.meteochile.gob.cl/application/servicios/getEstacionesRedEma",
+            timeout=args.timeout,
+        )
+        response.raise_for_status()
+        active = {str(row["codigoNacional"]) for row in response.json()["datosEstacion"]}
+        stations = [row for row in stations if row["codigo_nacional"] in active]
     if args.station:
         stations = [row for row in stations if row["codigo_nacional"] in set(args.station)]
     tasks = [(station, group) for station in stations for group in DEFINITIONS]
     series_rows: list[dict] = []
     attempt_rows: list[dict] = []
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = [pool.submit(probe, task, end, args.pause, args.timeout) for task in tasks]
+        futures = [pool.submit(probe, task, start, end, args.pause, args.timeout) for task in tasks]
         for future in as_completed(futures):
             series, attempts = future.result()
             series_rows.extend(series)
@@ -208,9 +227,9 @@ def main() -> int:
         "campo_original", "grupo_ema", "url_evidencia", "archivo_evidencia", "miembro_csv",
     )
     attempt_fields = ("codigo_nacional", "grupo_ema", "mes", "estado", "http_status", "bytes", "url")
-    write(RAW / "sondeo_ema_minuto_publico_pendientes.csv", series_fields,
+    write(args.output, series_fields,
           sorted(series_rows, key=lambda row: (row["codigo_nacional"], row["variable"], row["altura_sensor_suelo_m"])))
-    write(RAW / "sondeo_ema_minuto_publico_intentos.csv", attempt_fields,
+    write(args.attempts_output, attempt_fields,
           sorted(attempt_rows, key=lambda row: (row["codigo_nacional"], row["grupo_ema"], row["mes"])))
     print(f"estaciones_pendientes={len(stations)} tareas={len(tasks)} series={len(series_rows)} solicitudes={len(attempt_rows)}")
     return 0

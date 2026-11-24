@@ -86,6 +86,10 @@ def inspect_zip(
     deltas = [int((b[0] - a[0]).total_seconds() // 60) for a, b in zip(valid, valid[1:]) if b[0] > a[0]]
     positive = [delta for delta in deltas if delta > 0]
     nominal = min(positive) if positive else 0
+    # Una separación de varios días sólo indica lagunas entre observaciones,
+    # no una frecuencia de muestreo defendible para este catálogo.
+    if nominal > 1440:
+        nominal = 0
     if all("%H" not in fmt for fmt in formats):
         first_stamp = valid[0][0].date().isoformat()
     else:
@@ -112,6 +116,12 @@ def probe(task: tuple[dict[str, str], str], end_year: int, pause: float, timeout
         for retry in range(3):
             try:
                 time.sleep(pause + random.uniform(0, pause))
+                # Los recursos ausentes responden con una página HTML de más
+                # de 100 kB. HEAD permite descartarlos sin transferirla; sólo
+                # se descarga el cuerpo cuando el servidor anuncia un ZIP.
+                head = session().head(url, timeout=timeout, allow_redirects=True)
+                if "application/octet-stream" not in head.headers.get("content-type", ""):
+                    break
                 response = session().get(url, timeout=timeout)
                 if response.status_code in {429, 500, 502, 503, 504} and retry < 2:
                     time.sleep(2 ** retry)

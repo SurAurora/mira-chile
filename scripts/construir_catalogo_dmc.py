@@ -37,9 +37,13 @@ def main() -> int:
     # El inventario permite atribuir cada serie a su propietario sin excluirla
     # de la red/portal DMC. Sólo la evidencia con valores genera filas.
     stations = {row["codigo_nacional"]: row for row in read(RAW / "inventario_saclim_regiones.csv")}
+    availability_rows = read(RAW / "disponibilidad_actual.csv")
+    central_availability = RAW / "disponibilidad_actual_centro.csv"
+    if central_availability.exists():
+        availability_rows.extend(read(central_availability))
     availability = {
         (row["codigo_nacional"], row["variable"]): row["datos_disponibles_actualmente"]
-        for row in read(RAW / "disponibilidad_actual.csv")
+        for row in availability_rows
     }
     api_availability_path = RAW / "disponibilidad_actual_api_15min.csv"
     api_availability = {}
@@ -54,6 +58,9 @@ def main() -> int:
     public_pending = RAW / "sondeo_ema_minuto_publico_pendientes.csv"
     if public_pending.exists():
         evidence.extend(read(public_pending))
+    central_public = RAW / "sondeo_ema_minuto_publico_centro.csv"
+    if central_public.exists():
+        evidence.extend(read(central_public))
     eso_public = RAW / "sondeo_ema_minuto_publico_eso.csv"
     if eso_public.exists():
         evidence.extend(read(eso_public))
@@ -66,7 +73,11 @@ def main() -> int:
                 row["datos_disponibles_actualmente"]
             for row in read(eso_current_path)
         }
-    for row in read(RAW / "sondeo_saclim_horario.csv"):
+    saclim_rows = read(RAW / "sondeo_saclim_horario.csv")
+    central_saclim = RAW / "sondeo_saclim_centro.csv"
+    if central_saclim.exists():
+        saclim_rows.extend(read(central_saclim))
+    for row in saclim_rows:
         if row["estado"] != "con_datos" or not row["frecuencia_observada_min"].isdigit():
             continue
         evidence.append({
